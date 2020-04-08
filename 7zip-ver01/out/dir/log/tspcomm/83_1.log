@@ -1,0 +1,111 @@
+[1980-01-06 08:00:21]
+[1980-01-06 08:00:21]*****************************
+[1980-01-06 08:00:21]           startup          
+[1980-01-06 08:00:21] build: Oct 31 2019 14:33:06 
+[1980-01-06 08:00:21]*****************************
+[1980-01-06 08:00:21]
+[1980-01-06 08:00:21]OPEN CONF FILE: /etc/qbtsp.conf 
+[1980-01-06 08:00:21]set file conf gateway server addr!
+[1980-01-06 08:00:21]tbox version: DFSK000100020026000000040000 
+[1980-01-06 08:00:22]Service has registered!
+[1980-01-06 08:00:22]Vin changed, Redo login!
+[1980-01-06 08:00:22]Service is available! power-service
+[1980-01-06 08:00:22]TSPClient::startup is running...
+[1980-01-06 08:00:22]get pdid...
+[1980-01-06 08:00:22]use asys conf pdid: DFSK0001000200261910160001000010
+[1980-01-06 08:00:22]get iccid...
+[1980-01-06 08:00:22]use asys conf iccid: 89860918700009221026
+[1980-01-06 08:00:22]TSPClient::gval_thread is running...
+[1980-01-06 08:00:22]TSPClient::data_upload is running...
+[1980-01-06 08:00:22]TSPClient::waiting is running...
+[1980-01-06 08:00:22]TSPClient::recieve is running...
+[1980-01-06 08:00:22]SEND MSG, MSGID: 1, MSGTYPE: LOGOUT_REQ,
+[1980-01-06 08:00:22]subscribePwrService success:  0 1
+[1980-01-06 08:00:22]getPwrMode success:  0 1 1
+[1980-01-06 08:00:22]BROADCAST RECV: POWER RUNNING
+[1980-01-06 08:00:22]sqlite init fail, ret -1, thread safe 1, db path /data/db/tspcomm.db
+[1980-01-06 08:00:22]start to running...
+[1980-01-06 08:00:22]replyPwrMode success:  0 1
+[1980-01-06 08:00:22]Service is available! fota-service
+[1980-01-06 08:00:22]processConneted success:  0 0
+[1980-01-06 08:00:22]Service is available! rescue-service
+[1980-01-06 08:00:22]Service is available! remote-service
+[1980-01-06 08:00:22]Service is available! data-service
+[1980-01-06 08:00:22]Service is available! alarm-service
+[1980-01-06 08:00:22]CREATE MQTT OBJECT SUCC, ret 0
+[1980-01-06 08:00:22]SERVER URL: ssl://prod.fgservice.cn:9995 
+[1980-01-06 08:00:22]CLIENT ID : DFSK0001000200261910160001000010 
+[1980-01-06 08:00:22]Init level 2 addr, level 1 - gateway addr, level 2 - vehicle addr
+[1980-01-06 08:00:22]connect server, url: ssl://prod.fgservice.cn:9995 
+[1980-01-06 08:00:22]connect server: fail, ret -1
+[1980-01-06 08:00:22]disconnect mqtt server, -3
+[1980-01-06 08:00:23]connect server, url: ssl://prod.fgservice.cn:9995 
+[1980-01-06 08:00:23]connect server: fail, ret -1
+[1980-01-06 08:00:23]disconnect mqtt server, -3
+[1980-01-06 08:00:25]connect server, url: ssl://prod.fgservice.cn:9995 
+[1980-01-06 08:00:25]connect server: fail, ret -1
+[1980-01-06 08:00:25]disconnect mqtt server, -3
+[1980-01-06 08:00:28]connect server, url: ssl://prod.fgservice.cn:9995 
+[1980-01-06 08:00:28]connect server: fail, ret -1
+[1980-01-06 08:00:28]disconnect mqtt server, -3
+[1980-01-06 08:00:32]connect server, url: ssl://prod.fgservice.cn:9995 
+[1980-01-06 08:00:32]connect server: fail, ret -1
+[1980-01-06 08:00:32]disconnect mqtt server, -3
+[1980-01-06 08:00:37]connect server, url: ssl://prod.fgservice.cn:9995 
+[1980-01-06 08:00:37]connect server: fail, ret -1
+[1980-01-06 08:00:37]disconnect mqtt server, -3
+[1980-01-06 08:00:43]connect server, url: ssl://prod.fgservice.cn:9995 
+[1980-01-06 08:00:43]connect server: fail, ret -1
+[1980-01-06 08:00:43]disconnect mqtt server, -3
+[1980-01-06 08:00:50]connect server, url: ssl://prod.fgservice.cn:9995 
+[1980-01-06 08:00:50]connect server: fail, ret -1
+[1980-01-06 08:00:50]disconnect mqtt server, -3
+[1980-01-06 08:00:58]connect server, url: ssl://prod.fgservice.cn:9995 
+[1980-01-06 08:00:58]connect server: fail, ret -1
+[1980-01-06 08:00:58]disconnect mqtt server, -3
+[2019-11-07 17:05:58]connect server, url: ssl://prod.fgservice.cn:9995 
+[2019-11-07 17:05:58]connect server: fail, ret -1
+[2019-11-07 17:05:58]disconnect mqtt server, -3
+[2019-11-07 17:06:08]connect server, url: ssl://prod.fgservice.cn:9995 
+[2019-11-07 17:06:08]connect server: fail, ret -1
+[2019-11-07 17:06:08]disconnect mqtt server, -3
+[2019-11-07 17:06:13]method GetVehicleStatus succ
+[2019-11-07 17:06:13]method GetACStatus succ
+[2019-11-07 17:06:13]method GetTyreData succ
+[2019-11-07 17:06:13]method getChargeStorStatus succ
+[2019-11-07 17:06:13]method GetVCUStatus succ
+[2019-11-07 17:06:13]method getChgeData succ
+[2019-11-07 17:06:13]record count 3
+[2019-11-07 17:06:13]save msg, index 3, level 0, msgid 2, msgtype VEHICLE_STATUS
+[2019-11-07 17:06:19]connect server, url: ssl://prod.fgservice.cn:9995 
+[2019-11-07 17:06:19]connect server: fail, ret -1
+[2019-11-07 17:06:19]disconnect mqtt server, -3
+[2019-11-07 17:06:31]connect server, url: ssl://prod.fgservice.cn:9995 
+[2019-11-07 17:06:31]connect server: fail, ret -1
+[2019-11-07 17:06:31]disconnect mqtt server, -3
+[2019-11-07 17:06:44]connect server, url: ssl://prod.fgservice.cn:9995 
+[2019-11-07 17:06:44]connect server: fail, ret -1
+[2019-11-07 17:06:44]disconnect mqtt server, -3
+[2019-11-07 17:06:58]connect server, url: ssl://prod.fgservice.cn:9995 
+[2019-11-07 17:06:58]connect server: fail, ret -1
+[2019-11-07 17:06:58]disconnect mqtt server, -3
+[2019-11-07 17:07:13]method GetVehicleStatus succ
+[2019-11-07 17:07:13]method GetACStatus succ
+[2019-11-07 17:07:13]method GetTyreData succ
+[2019-11-07 17:07:13]method getChargeStorStatus succ
+[2019-11-07 17:07:13]method GetVCUStatus succ
+[2019-11-07 17:07:13]method getChgeData succ
+[2019-11-07 17:07:13]record count 4
+[2019-11-07 17:07:13]save msg, index 4, level 0, msgid 3, msgtype VEHICLE_STATUS
+[2019-11-07 17:07:13]connect server, url: ssl://prod.fgservice.cn:9995 
+[2019-11-07 17:07:13]connect server: fail, ret -1
+[2019-11-07 17:07:13]disconnect mqtt server, -3
+[2019-11-07 17:07:29]connect server, url: ssl://prod.fgservice.cn:9995 
+[2019-11-07 17:07:29]connect server: fail, ret -1
+[2019-11-07 17:07:29]disconnect mqtt server, -3
+[2019-11-07 17:07:46]connect server, url: ssl://prod.fgservice.cn:9995 
+[2019-11-07 17:07:46]connect server: fail, ret -1
+[2019-11-07 17:07:46]disconnect mqtt server, -3
+[2019-11-07 17:08:04]connect server, url: ssl://prod.fgservice.cn:9995 
+[2019-11-07 17:08:04]connect server: fail, ret -1
+[2019-11-07 17:08:04]disconnect mqtt server, -3

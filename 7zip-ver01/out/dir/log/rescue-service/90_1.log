@@ -1,0 +1,11 @@
+[1980-01-06 08:00:21]===========================================================
+[1980-01-06 08:00:21]* rescue-service V2.0(20191031 14:27:09).
+[1980-01-06 08:00:21]===========================================================
+[1980-01-06 08:00:21]init config1----ecall:yes, bcall:yes, icall:yes.
+[1980-01-06 08:00:21]init config2----voice:lineout, volume:55, collision:yes, gsersor:yes, airbag:yes, autoAnswer:no.
+[2019-11-07 17:04:21]dataListener----dataType:11, airBag:false.
+[2019-11-07 17:16:50]dataListener----dataType:11, airBag:false.
+[2019-11-07 17:17:00]dataListener----dataType:11, airBag:false.
+[2019-11-07 17:17:35]dataListener----dataType:11, airBag:false.
+[2019-11-07 17:17:39]dataListener----dataType:11, airBag:false.
+[2019-11-07 17:18:31]dataListener----dataType:11, airBag:false.

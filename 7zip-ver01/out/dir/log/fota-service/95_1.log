@@ -1,0 +1,22 @@
+[1980-01-06 08:00:21]fota-service:Oct 31 2019 14:27:43
+[1980-01-06 08:00:21]init ipc sucess
+[1980-01-06 08:00:21]loop:0
+[1980-01-06 08:00:21]subscribePwrService success:  0 1
+[1980-01-06 08:00:21]getPwrMode success:  0 1 1
+[1980-01-06 08:00:21]pwrmode_handler->seq:1 mode:1
+[1980-01-06 08:00:21]replyPwrMode success:  0 1
+[1980-01-06 08:00:21]getCarMode success:  0 1
+[1980-01-06 08:00:21]init power sucess
+[1980-01-06 08:00:21]ipc ota sucess
+[1980-01-06 08:00:21]start_fota 
+[1980-01-06 08:00:21]No File:/data/cache/updatesource.tmp[1980-01-06 08:00:21]check_last_ota source 0
+[1980-01-06 08:00:21]No File:/data/cache/otaresult.tmp[1980-01-06 08:00:21]requsetkeepPwr PWRMSG_KEEPPOR_OFF success:  0 1
+[1980-01-06 08:00:21]download_error_thread 
+[1980-01-06 08:00:21]processConneted,source:4
+[1980-01-06 08:00:23]wkup_handler->wkup:0x00000001
+[1980-01-06 08:00:26]processConneted,source:2
+[2019-11-08 10:49:43]wkup_handler->wkup:0x00000000
+[2019-11-08 10:53:05]carmode_handler->mode:2
+[2019-11-08 10:53:05]acc on car mode
+[2019-11-08 10:55:20]carmode_handler->mode:1
+[2019-11-08 10:55:20]acc off car mode

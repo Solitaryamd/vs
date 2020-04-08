@@ -1,0 +1,61 @@
+[1980-01-06 08:00:16]gnss-service:Oct 31 2019 14:37:18
+[1980-01-06 08:00:16]----------------ini_info_t start ------------------
+[1980-01-06 08:00:16]start: 1
+[1980-01-06 08:00:16]----------------ini_info_t end  ------------------
+[1980-01-06 08:00:16]init_state:KEY_GNSS_ENABLE: gnss_enable:1
+[1980-01-06 08:00:16]ipc gnss sucess
+[1980-01-06 08:00:16]gps_init start 
+[1980-01-06 08:00:16]gps_init end 
+[1980-01-06 08:00:16]gnss_enable:1
+[1980-01-06 08:00:16]gps_start start 
+[1980-01-06 08:00:16]start_gnss_service start 
+[1980-01-06 08:00:19]start_gnss_service end 
+[1980-01-06 08:00:19]gps_set_indications start 
+[1980-01-06 08:00:19]gps_set_indications end 
+[1980-01-06 08:00:19]set_position_mode start 
+[1980-01-06 08:00:19]set_position_mode end 
+[1980-01-06 08:00:19]start_navigation start 
+[1980-01-06 08:00:19]start_navigation end 
+[1980-01-06 08:00:19]gps_start end 
+[1980-01-06 08:00:19]hw gnss sucess
+[1980-01-06 08:00:19]loop:0
+[1980-01-06 08:00:19]pwrmode_handler->seq:1 mode:1
+[1980-01-06 08:00:19]init power sucess
+[1980-01-06 08:00:19]num:0
+[1980-01-06 08:00:19]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[1980-01-06 08:00:22]wkup_handler->wkup:0x00000041
+[2019-11-07 14:15:03]wkup_handler->wkup:0x00000040
+[2019-11-07 14:15:04]num:0
+[2019-11-07 14:15:04]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[2019-11-07 14:15:34]num:8
+[2019-11-07 14:15:34]valid:1,latitude:22576480,longitude:113917331,altitude:219000000,accuracy:14000000,bearing:0,speed:0,timestamp:1573117780000
+[2019-11-07 14:16:04]num:9
+[2019-11-07 14:16:04]valid:1,latitude:22576384,longitude:113917373,altitude:158000000,accuracy:11000000,bearing:0,speed:0,timestamp:1573117810000
+[2019-11-07 14:16:34]num:9
+[2019-11-07 14:16:34]valid:1,latitude:22576335,longitude:113917264,altitude:133000000,accuracy:12000000,bearing:0,speed:0,timestamp:1573117840000
+[2019-11-07 14:16:34]carmode_handler->mode:1
+[2019-11-07 14:16:35]wkup_handler->wkup:0x00000000
+[2019-11-07 14:17:04]num:8
+[2019-11-07 14:17:04]valid:1,latitude:22576339,longitude:113917267,altitude:133000000,accuracy:13000000,bearing:0,speed:0,timestamp:1573117870000
+[2019-11-07 14:17:34]num:8
+[2019-11-07 14:17:34]valid:1,latitude:22576400,longitude:113917144,altitude:109000000,accuracy:11000000,bearing:0,speed:0,timestamp:1573117900000
+[2019-11-07 14:18:04]num:7
+[2019-11-07 14:18:04]valid:1,latitude:22576379,longitude:113917105,altitude:118000000,accuracy:15000000,bearing:0,speed:0,timestamp:1573117930000
+[2019-11-07 14:18:34]num:8
+[2019-11-07 14:18:34]valid:1,latitude:22576320,longitude:113917021,altitude:135000000,accuracy:15000000,bearing:0,speed:0,timestamp:1573117960000
+[2019-11-07 14:19:02]num:9
+[2019-11-07 14:19:02]valid:1,latitude:22576531,longitude:113916779,altitude:105000000,accuracy:9000000,bearing:0,speed:0,timestamp:1573117990000
+[2019-11-07 14:19:32]num:9
+[2019-11-07 14:19:32]valid:1,latitude:22576629,longitude:113916746,altitude:117000000,accuracy:13000000,bearing:0,speed:0,timestamp:1573118020000
+[2019-11-07 14:20:02]num:9
+[2019-11-07 14:20:02]valid:1,latitude:22576636,longitude:113916759,altitude:119000000,accuracy:15000000,bearing:0,speed:0,timestamp:1573118050000
+[2019-11-07 14:20:32]num:8
+[2019-11-07 14:20:32]valid:1,latitude:22576725,longitude:113916792,altitude:120000000,accuracy:17000000,bearing:0,speed:0,timestamp:1573118080000
+[2019-11-07 14:21:02]num:8
+[2019-11-07 14:21:02]valid:1,latitude:22576752,longitude:113916794,altitude:120000000,accuracy:13000000,bearing:0,speed:0,timestamp:1573118110000
+[2019-11-07 14:21:32]num:8
+[2019-11-07 14:21:32]valid:1,latitude:22576757,longitude:113916803,altitude:123000000,accuracy:12000000,bearing:0,speed:0,timestamp:1573118140000
+[2019-11-07 14:22:18]num:8
+[2019-11-07 14:22:18]valid:1,latitude:22576759,longitude:113916831,altitude:128000000,accuracy:15000000,bearing:0,speed:0,timestamp:1573118170000
+[2019-11-07 14:22:48]num:8
+[2019-11-07 14:22:48]valid:1,latitude:22576699,longitude:113916799,altitude:135000000,accuracy:14000000,bearing:0,speed:0,timestamp:1573118200000

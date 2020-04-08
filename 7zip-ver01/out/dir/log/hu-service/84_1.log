@@ -1,0 +1,32 @@
+[1980-01-06 08:00:21]=============================================
+[1980-01-06 08:00:21]* hu-service V2.0(20191031 14:25:45).
+[1980-01-06 08:00:21]=============================================
+[2019-11-07 14:40:28]client11 accept---ip:192.168.225.53, port:37528.
+[2019-11-07 14:40:28]client12 accept---ip:192.168.225.53, port:59068.
+[2019-11-07 14:40:28]client11 disconnect.
+[2019-11-07 14:40:31][callStatusListener................callType:3, callState:4]
+[2019-11-07 14:40:34][callStatusListener................callType:3, callState:5]
+[2019-11-07 14:40:42][callStatusListener................callType:3, callState:2]
+[2019-11-07 14:40:52][callStatusListener................callType:3, callState:3]
+[2019-11-07 14:40:56][callStatusListener................callType:3, callState:4]
+[2019-11-07 14:40:59][callStatusListener................callType:3, callState:5]
+[2019-11-07 14:41:04][callStatusListener................callType:3, callState:2]
+[2019-11-07 14:41:13][callStatusListener................callType:3, callState:3]
+[2019-11-07 14:41:19][callStatusListener................callType:3, callState:4]
+[2019-11-07 14:41:22][callStatusListener................callType:3, callState:5]
+[2019-11-07 14:41:27][callStatusListener................callType:3, callState:2]
+[2019-11-07 14:41:38][callStatusListener................callType:3, callState:3]
+[2019-11-07 14:41:42][callStatusListener................callType:3, callState:4]
+[2019-11-07 14:41:44][callStatusListener................callType:3, callState:5]
+[2019-11-07 14:42:00][callStatusListener................callType:3, callState:3]
+[2019-11-07 14:42:06][callStatusListener................callType:3, callState:4]
+[2019-11-07 14:42:09][callStatusListener................callType:3, callState:5]
+[2019-11-07 14:42:14][callStatusListener................callType:3, callState:2]
+[2019-11-07 14:42:22][callStatusListener................callType:3, callState:3]
+[2019-11-07 14:42:32][callStatusListener................callType:3, callState:4]
+[2019-11-07 14:42:35][callStatusListener................callType:3, callState:5]
+[2019-11-07 14:42:48][callStatusListener................callType:3, callState:2]
+[2019-11-07 14:42:54][callStatusListener................callType:3, callState:3]
+[2019-11-07 14:45:04]client12 disconnect.
+[2019-11-07 14:48:05][callStatusListener................callType:1, callState:4]
+[2019-11-07 14:48:08][callStatusListener................callType:1, callState:5]

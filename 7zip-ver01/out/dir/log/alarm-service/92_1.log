@@ -1,0 +1,17 @@
+[1980-01-06 08:00:16]===========================================================
+[1980-01-06 08:00:16]* alarm-service v2.0(20191031 14:28:16).
+[1980-01-06 08:00:16]===========================================================
+[1980-01-06 08:00:16]init config1----rollover:yes, unusual:yes, collision:yes.
+[1980-01-06 08:00:16]init config2----antiTheft:yes, airbag:yes, windows:yes.
+[2019-11-08 07:38:36]statusListener----dataType:11, airBag:false.
+[2019-11-08 07:38:36]sensorListener----gsersor:0, x:-20000,y:-20000,z:-20000,g:0.000000.
+[2019-11-08 07:38:39]statusListener----dataType:11, airBag:false.
+[2019-11-08 07:38:39]sensorListener----gsersor:0, x:249,y:374,z:-999,g:1707.000000.
+[2019-11-08 07:40:02]sensorListener----gsersor:0, x:-20000,y:-20000,z:-20000,g:0.000000.
+[2019-11-08 07:40:02]statusListener----dataType:11, airBag:false.
+[2019-11-08 07:40:05]sensorListener----gsersor:0, x:-624,y:-124,z:-874,g:1954.000000.
+[2019-11-08 07:40:05]statusListener----dataType:11, airBag:false.
+[2019-11-08 07:43:00]statusListener----peps state:2.
+[2019-11-08 07:43:01]statusListener----peps state:1.
+[2019-11-08 07:43:19]statusListener----peps state:3.
+[2019-11-08 07:43:48]statusListener----peps state:1.

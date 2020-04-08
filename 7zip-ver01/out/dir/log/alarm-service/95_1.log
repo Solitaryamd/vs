@@ -1,0 +1,18 @@
+[1980-01-06 08:00:17]===========================================================
+[1980-01-06 08:00:17]* alarm-service v2.0(20191031 14:28:16).
+[1980-01-06 08:00:17]===========================================================
+[1980-01-06 08:00:17]init config1----rollover:yes, unusual:yes, collision:yes.
+[1980-01-06 08:00:17]init config2----antiTheft:yes, airbag:yes, windows:yes.
+[1980-01-06 08:00:20]statusListener----peps state:3.
+[1980-01-06 08:00:20]statusListener----peps state:4.
+[1980-01-06 08:00:21]statusListener----peps state:3.
+[2019-11-08 10:52:58]statusListener----peps state:2.
+[2019-11-08 10:52:58]statusListener----peps state:1.
+[2019-11-08 10:53:32]statusListener----peps state:3.
+[2019-11-08 10:54:13]statusListener----peps state:1.
+[2019-11-08 10:55:32]statusListener----peps state:3.
+[2019-11-08 10:56:02]statusListener----peps state:1.
+[2019-11-08 10:57:57]statusListener----peps state:3.
+[2019-11-08 10:58:28]statusListener----peps state:1.
+[2019-11-08 11:05:28]statusListener----peps state:3.
+[2019-11-08 11:06:10]statusListener----peps state:1.

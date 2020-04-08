@@ -1,0 +1,243 @@
+[1980-01-06 08:00:17]====================================================
+[1980-01-06 08:00:17]* remote-service v2.0(20191031 14:27:53).
+[1980-01-06 08:00:17]=====================================================
+[1980-01-06 08:00:17]init config:engine:yes, airCtrl:yes, lock:yes, findCar:yes, charge:yes, disEngine:yes.
+[1980-01-06 08:00:17]            windows:yes, trumpet:yes, flicker:yes, reardoor:yes, seatHot:yes, skyWindow:yes.
+[2019-11-07 17:04:21]mcu response diag result(2):ff 9 .
+[2019-11-07 17:04:21]init config:engine:yes, airCtrl:yes, lock:yes, findCar:yes, charge:yes, disEngine:yes.
+[2019-11-07 17:04:21]            windows:yes, trumpet:yes, flicker:yes, reardoor:yes, seatHot:yes, skyWindow:yes.
+[2019-11-07 17:04:51]remoteDiag id[104], taskId:task-157312794339625909 from source0, running........................
+[2019-11-07 17:04:51]remoteDiag id[104] from source0, busy now!
+[2019-11-07 17:04:51]remoteDiag id[104], taskId:task-157312794339625909 to source0 reponse----result:flase, errCode(2):53
+[2019-11-07 17:05:26]mcu response diag result(139):0 86 1 1 86 1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2f 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 6 0 0 7 0 0 8 0 0 9 0 0 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:05:26]maxLen:134, maxNum:1, curNum:1, curLen:134.
+[2019-11-07 17:05:26]convertDtcs(134):1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2f 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 6 0 0 7 0 0 8 0 0 9 0 0 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:05:26]ecu id:1, dtcNum:3.
+[2019-11-07 17:05:26]ecu id:2, dtcNum:5.
+[2019-11-07 17:05:26]ecu id:3, dtcNum:0.
+[2019-11-07 17:05:26]ecu id:4, dtcNum:5.
+[2019-11-07 17:05:26]ecu id:5, dtcNum:9.
+[2019-11-07 17:05:26]ecu id:6, dtcNum:0.
+[2019-11-07 17:05:26]ecu id:7, dtcNum:0.
+[2019-11-07 17:05:26]ecu id:8, dtcNum:0.
+[2019-11-07 17:05:26]ecu id:9, dtcNum:0.
+[2019-11-07 17:05:26]ecu id:10, dtcNum:0.
+[2019-11-07 17:05:26]ecu id:11, dtcNum:0.
+[2019-11-07 17:05:26]ecu id:12, dtcNum:0.
+[2019-11-07 17:05:26]ecu id:13, dtcNum:3.
+[2019-11-07 17:05:26]remoteDiag id[104], taskId:task-157312794339625909 to source0 reponse----result:true
+diagData(200):0 0 7 2 c1 86 87 8 0 0 7 2 c1 64 87 8 0 0 7 2 c2 64 87 9 0 0 7 1 c1 35 87 2f 0 0 7 1 90 1e 96 2f 0 0 7 1 93 10 96 2f 0 0 7 1 94 10 96 2f 0 0 7 1 95 10 96 2f 0 0 7 26 58 50 12 8 0 0 7 26 58 51 11 9 0 0 7 26 58 72 13 8 0 0 7 26 58 73 14 8 0 0 7 26 c1 22 87 9 0 0 7 25 da 30 87 9 0 0 7 25 c2 64 87 9 0 0 7 25 d1 59 87 9 0 0 7 25 c1 22 87 9 0 0 7 25 c1 1 87 8 0 0 7 25 c1 0 87 8 0 0 7 25 c1 40 87 8 0 0 7 25 c4 94 87 9 0 0 7 25 c0 73 0 8 0 0 7 28 c1 3 87 9 0 0 7 28 d1 59 87 9 0 0 7 28 c2 64 87 9 
+[2019-11-07 17:05:27]mcu response diag result(2):ff 9 .
+[2019-11-07 17:07:16]controlCmd setEngine_switch : open
+[2019-11-07 17:07:16]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:07:16]remoteCtrl id[11], taskId:task-157312809006399879 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:07:19]remoteCtrl id[11], taskId:task-157312809006399879 to source0 reponse----result:true, errCode:0
+[2019-11-07 17:07:22]remoteDiag id[0], taskId: from source0, running........................
+[2019-11-07 17:07:25]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:07:25]remoteCtrl id[11], taskId:task-157312809881397810 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:07:25]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:07:25]remoteCtrl id[11], taskId:task-157312809881397810 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:07:42]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:07:42]remoteCtrl id[11], taskId:task-157312811546858363 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:07:42]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:07:42]remoteCtrl id[11], taskId:task-157312811546858363 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:07:49]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:07:49]remoteCtrl id[11], taskId:task-157312812301875691 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:07:49]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:07:49]remoteCtrl id[11], taskId:task-157312812301875691 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:07:55]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:07:55]remoteCtrl id[11], taskId:task-157312812924155476 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:07:55]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:07:55]remoteCtrl id[11], taskId:task-157312812924155476 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:07:57]mcu response diag result(139):0 86 1 1 86 1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2f 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 6 0 0 7 0 0 8 0 0 9 0 0 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:07:57]maxLen:134, maxNum:1, curNum:1, curLen:134.
+[2019-11-07 17:07:57]convertDtcs(134):1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2f 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 6 0 0 7 0 0 8 0 0 9 0 0 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:07:57]ecu id:1, dtcNum:3.
+[2019-11-07 17:07:57]ecu id:2, dtcNum:5.
+[2019-11-07 17:07:57]ecu id:3, dtcNum:0.
+[2019-11-07 17:07:57]ecu id:4, dtcNum:5.
+[2019-11-07 17:07:57]ecu id:5, dtcNum:9.
+[2019-11-07 17:07:57]ecu id:6, dtcNum:0.
+[2019-11-07 17:07:57]ecu id:7, dtcNum:0.
+[2019-11-07 17:07:57]ecu id:8, dtcNum:0.
+[2019-11-07 17:07:57]ecu id:9, dtcNum:0.
+[2019-11-07 17:07:57]ecu id:10, dtcNum:0.
+[2019-11-07 17:07:57]ecu id:11, dtcNum:0.
+[2019-11-07 17:07:57]ecu id:12, dtcNum:0.
+[2019-11-07 17:07:57]ecu id:13, dtcNum:3.
+[2019-11-07 17:07:57]remoteDiag id[0], taskId: to source0 reponse----result:true
+diagData(200):0 0 7 2 c1 86 87 8 0 0 7 2 c1 64 87 8 0 0 7 2 c2 64 87 9 0 0 7 1 c1 35 87 2f 0 0 7 1 90 1e 96 2f 0 0 7 1 93 10 96 2f 0 0 7 1 94 10 96 2f 0 0 7 1 95 10 96 2f 0 0 7 26 58 50 12 8 0 0 7 26 58 51 11 9 0 0 7 26 58 72 13 8 0 0 7 26 58 73 14 8 0 0 7 26 c1 22 87 9 0 0 7 25 da 30 87 9 0 0 7 25 c2 64 87 9 0 0 7 25 d1 59 87 9 0 0 7 25 c1 22 87 9 0 0 7 25 c1 1 87 8 0 0 7 25 c1 0 87 8 0 0 7 25 c1 40 87 8 0 0 7 25 c4 94 87 9 0 0 7 25 c0 73 0 8 0 0 7 28 c1 3 87 9 0 0 7 28 d1 59 87 9 0 0 7 28 c2 64 87 9 
+[2019-11-07 17:08:02]controlCmd setEngine_switch : close
+[2019-11-07 17:08:02]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:08:02]remoteCtrl id[11], taskId:task-157312813592311707 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:08:03]remoteCtrl id[11], taskId:task-157312813592311707 to source0 reponse----result:true, errCode:0
+[2019-11-07 17:08:11]controlCmd setEngine_switch : open
+[2019-11-07 17:08:11]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:08:11]remoteCtrl id[11], taskId:task-157312814476916431 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:08:13]remoteCtrl id[11], taskId:task-157312814476916431 to source0 reponse----result:true, errCode:0
+[2019-11-07 17:08:30]controlCmd setEngine_switch : close
+[2019-11-07 17:08:30]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:08:30]remoteCtrl id[11], taskId:task-157312816384263935 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:08:31]remoteCtrl id[11], taskId:task-157312816384263935 to source0 reponse----result:true, errCode:0
+[2019-11-07 17:08:35]controlCmd setEngine_switch : open
+[2019-11-07 17:08:35]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:08:35]remoteCtrl id[11], taskId:task-157312816876577460 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:08:36]remoteCtrl id[11], taskId:task-157312816876577460 to source0 reponse----result:true, errCode:0
+[2019-11-07 17:08:41]controlCmd setEngine_switch : close
+[2019-11-07 17:08:41]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:08:41]remoteCtrl id[11], taskId:task-157312817447619118 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:08:41]remoteCtrl id[11], taskId:task-157312817447619118 to source0 reponse----result:true, errCode:0
+[2019-11-07 17:08:59]remoteDiag id[104], taskId:task-157312819320961691 from source0, running........................
+[2019-11-07 17:08:59]remoteDiag id[104] from source0, busy now!
+[2019-11-07 17:08:59]remoteDiag id[104], taskId:task-157312819320961691 to source0 reponse----result:flase, errCode(2):53
+[2019-11-07 17:09:32]mcu response diag result(2):ff 5 .
+[2019-11-07 17:09:32]remoteDiag id[104], taskId:task-157312819320961691 to source0 reponse----result:flase, errCode(1):5
+[2019-11-07 17:09:33]mcu response diag result(125):0 78 1 1 78 1 0 0 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2e 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 7 0 0 8 0 0 9 0 0 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:09:33]maxLen:120, maxNum:1, curNum:1, curLen:120.
+[2019-11-07 17:09:33]convertDtcs(120):1 0 0 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2e 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 7 0 0 8 0 0 9 0 0 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:09:33]ecu id:1, dtcNum:0.
+[2019-11-07 17:09:33]ecu id:2, dtcNum:5.
+[2019-11-07 17:09:33]ecu id:3, dtcNum:0.
+[2019-11-07 17:09:33]ecu id:4, dtcNum:5.
+[2019-11-07 17:09:33]ecu id:5, dtcNum:9.
+[2019-11-07 17:09:33]ecu id:7, dtcNum:0.
+[2019-11-07 17:09:33]ecu id:8, dtcNum:0.
+[2019-11-07 17:09:33]ecu id:9, dtcNum:0.
+[2019-11-07 17:09:33]ecu id:10, dtcNum:0.
+[2019-11-07 17:09:33]ecu id:11, dtcNum:0.
+[2019-11-07 17:09:33]ecu id:12, dtcNum:0.
+[2019-11-07 17:09:33]ecu id:13, dtcNum:3.
+[2019-11-07 17:09:42]mcu response diag result(2):ff 3 .
+[2019-11-07 17:10:19]remoteDiag id[104], taskId:task-157312829170615673 from source0, running........................
+[2019-11-07 17:10:19]remoteDiag id[104] from source0, busy now!
+[2019-11-07 17:10:19]remoteDiag id[104], taskId:task-157312829170615673 to source0 reponse----result:flase, errCode(2):53
+[2019-11-07 17:10:49]mcu response diag result(136):0 83 1 1 83 1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2c 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 7 0 0 8 0 0 9 0 0 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:10:49]maxLen:131, maxNum:1, curNum:1, curLen:131.
+[2019-11-07 17:10:49]convertDtcs(131):1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2c 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 7 0 0 8 0 0 9 0 0 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:10:49]ecu id:1, dtcNum:3.
+[2019-11-07 17:10:49]ecu id:2, dtcNum:5.
+[2019-11-07 17:10:49]ecu id:3, dtcNum:0.
+[2019-11-07 17:10:49]ecu id:4, dtcNum:5.
+[2019-11-07 17:10:49]ecu id:5, dtcNum:9.
+[2019-11-07 17:10:49]ecu id:7, dtcNum:0.
+[2019-11-07 17:10:49]ecu id:8, dtcNum:0.
+[2019-11-07 17:10:49]ecu id:9, dtcNum:0.
+[2019-11-07 17:10:49]ecu id:10, dtcNum:0.
+[2019-11-07 17:10:49]ecu id:11, dtcNum:0.
+[2019-11-07 17:10:49]ecu id:12, dtcNum:0.
+[2019-11-07 17:10:49]ecu id:13, dtcNum:3.
+[2019-11-07 17:10:49]remoteDiag id[104], taskId:task-157312829170615673 to source0 reponse----result:true
+diagData(200):0 0 7 2 c1 86 87 8 0 0 7 2 c1 64 87 8 0 0 7 2 c2 64 87 9 0 0 7 1 c1 35 87 2f 0 0 7 1 90 1e 96 2f 0 0 7 1 93 10 96 2c 0 0 7 1 94 10 96 2f 0 0 7 1 95 10 96 2f 0 0 7 26 58 50 12 8 0 0 7 26 58 51 11 9 0 0 7 26 58 72 13 8 0 0 7 26 58 73 14 8 0 0 7 26 c1 22 87 9 0 0 7 25 da 30 87 9 0 0 7 25 c2 64 87 9 0 0 7 25 d1 59 87 9 0 0 7 25 c1 22 87 9 0 0 7 25 c1 1 87 8 0 0 7 25 c1 0 87 8 0 0 7 25 c1 40 87 8 0 0 7 25 c4 94 87 9 0 0 7 25 c0 73 0 8 0 0 7 28 c1 3 87 9 0 0 7 28 d1 59 87 9 0 0 7 28 c2 64 87 9 
+[2019-11-07 17:10:50]mcu response diag result(2):ff 9 .
+[2019-11-07 17:11:11]remoteDiag id[104], taskId:task-157312834355332466 from source0, running........................
+[2019-11-07 17:11:11]remoteDiag id[104] from source0, busy now!
+[2019-11-07 17:11:11]remoteDiag id[104], taskId:task-157312834355332466 to source0 reponse----result:flase, errCode(2):53
+[2019-11-07 17:11:34]mcu response diag result(121):0 74 1 1 74 1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2c 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:11:34]maxLen:116, maxNum:1, curNum:1, curLen:116.
+[2019-11-07 17:11:34]convertDtcs(116):1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2c 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:11:34]ecu id:1, dtcNum:3.
+[2019-11-07 17:11:34]ecu id:2, dtcNum:5.
+[2019-11-07 17:11:34]ecu id:3, dtcNum:0.
+[2019-11-07 17:11:34]ecu id:4, dtcNum:5.
+[2019-11-07 17:11:34]ecu id:5, dtcNum:9.
+[2019-11-07 17:11:34]ecu id:12, dtcNum:0.
+[2019-11-07 17:11:34]ecu id:13, dtcNum:3.
+[2019-11-07 17:11:34]remoteDiag id[104], taskId:task-157312834355332466 to source0 reponse----result:true
+diagData(200):0 0 7 2 c1 86 87 8 0 0 7 2 c1 64 87 8 0 0 7 2 c2 64 87 9 0 0 7 1 c1 35 87 2f 0 0 7 1 90 1e 96 2f 0 0 7 1 93 10 96 2c 0 0 7 1 94 10 96 2f 0 0 7 1 95 10 96 2f 0 0 7 26 58 50 12 8 0 0 7 26 58 51 11 9 0 0 7 26 58 72 13 8 0 0 7 26 58 73 14 8 0 0 7 26 c1 22 87 9 0 0 7 25 da 30 87 9 0 0 7 25 c2 64 87 9 0 0 7 25 d1 59 87 9 0 0 7 25 c1 22 87 9 0 0 7 25 c1 1 87 8 0 0 7 25 c1 0 87 8 0 0 7 25 c1 40 87 8 0 0 7 25 c4 94 87 9 0 0 7 25 c0 73 0 8 0 0 7 28 c1 3 87 9 0 0 7 28 d1 59 87 9 0 0 7 28 c2 64 87 9 
+[2019-11-07 17:11:34]mcu response diag result(2):ff 9 .
+[2019-11-07 17:12:47]remoteDiag id[104], taskId:task-157312843898614952 from source0, running........................
+[2019-11-07 17:12:47]remoteDiag id[104] from source0, busy now!
+[2019-11-07 17:12:47]remoteDiag id[104], taskId:task-157312843898614952 to source0 reponse----result:flase, errCode(2):53
+[2019-11-07 17:13:15]mcu response diag result(127):0 7a 1 1 7a 1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2f 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:13:15]maxLen:122, maxNum:1, curNum:1, curLen:122.
+[2019-11-07 17:13:15]convertDtcs(122):1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2f 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:13:15]ecu id:1, dtcNum:3.
+[2019-11-07 17:13:15]ecu id:2, dtcNum:5.
+[2019-11-07 17:13:15]ecu id:3, dtcNum:0.
+[2019-11-07 17:13:15]ecu id:4, dtcNum:5.
+[2019-11-07 17:13:15]ecu id:5, dtcNum:9.
+[2019-11-07 17:13:15]ecu id:10, dtcNum:0.
+[2019-11-07 17:13:15]ecu id:11, dtcNum:0.
+[2019-11-07 17:13:15]ecu id:12, dtcNum:0.
+[2019-11-07 17:13:15]ecu id:13, dtcNum:3.
+[2019-11-07 17:13:15]remoteDiag id[104], taskId:task-157312843898614952 to source0 reponse----result:true
+diagData(200):0 0 7 2 c1 86 87 8 0 0 7 2 c1 64 87 8 0 0 7 2 c2 64 87 9 0 0 7 1 c1 35 87 2f 0 0 7 1 90 1e 96 2f 0 0 7 1 93 10 96 2f 0 0 7 1 94 10 96 2f 0 0 7 1 95 10 96 2f 0 0 7 26 58 50 12 8 0 0 7 26 58 51 11 9 0 0 7 26 58 72 13 8 0 0 7 26 58 73 14 8 0 0 7 26 c1 22 87 9 0 0 7 25 da 30 87 9 0 0 7 25 c2 64 87 9 0 0 7 25 d1 59 87 9 0 0 7 25 c1 22 87 9 0 0 7 25 c1 1 87 8 0 0 7 25 c1 0 87 8 0 0 7 25 c1 40 87 8 0 0 7 25 c4 94 87 9 0 0 7 25 c0 73 0 8 0 0 7 28 c1 3 87 9 0 0 7 28 d1 59 87 9 0 0 7 28 c2 64 87 9 
+[2019-11-07 17:13:16]mcu response diag result(2):ff 9 .
+[2019-11-07 17:13:41]remoteDiag id[104], taskId:task-157312849294478097 from source0, running........................
+[2019-11-07 17:13:41]remoteDiag id[104] from source0, busy now!
+[2019-11-07 17:13:41]remoteDiag id[104], taskId:task-157312849294478097 to source0 reponse----result:flase, errCode(2):53
+[2019-11-07 17:14:15]mcu response diag result(117):0 70 1 1 70 1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 6 0 0 7 0 0 8 0 0 9 0 0 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:14:15]maxLen:112, maxNum:1, curNum:1, curLen:112.
+[2019-11-07 17:14:15]convertDtcs(112):1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 6 0 0 7 0 0 8 0 0 9 0 0 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:14:15]ecu id:1, dtcNum:3.
+[2019-11-07 17:14:15]ecu id:3, dtcNum:0.
+[2019-11-07 17:14:15]ecu id:4, dtcNum:5.
+[2019-11-07 17:14:15]ecu id:5, dtcNum:9.
+[2019-11-07 17:14:15]ecu id:6, dtcNum:0.
+[2019-11-07 17:14:15]ecu id:7, dtcNum:0.
+[2019-11-07 17:14:15]ecu id:8, dtcNum:0.
+[2019-11-07 17:14:15]ecu id:9, dtcNum:0.
+[2019-11-07 17:14:15]ecu id:10, dtcNum:0.
+[2019-11-07 17:14:15]ecu id:11, dtcNum:0.
+[2019-11-07 17:14:15]ecu id:12, dtcNum:0.
+[2019-11-07 17:14:15]ecu id:13, dtcNum:3.
+[2019-11-07 17:14:15]remoteDiag id[104], taskId:task-157312849294478097 to source0 reponse----result:true
+diagData(160):0 0 7 2 c1 86 87 8 0 0 7 2 c1 64 87 8 0 0 7 2 c2 64 87 9 0 0 7 26 58 50 12 8 0 0 7 26 58 51 11 9 0 0 7 26 58 72 13 8 0 0 7 26 58 73 14 8 0 0 7 26 c1 22 87 9 0 0 7 25 da 30 87 9 0 0 7 25 c2 64 87 9 0 0 7 25 d1 59 87 9 0 0 7 25 c1 22 87 9 0 0 7 25 c1 1 87 8 0 0 7 25 c1 0 87 8 0 0 7 25 c1 40 87 8 0 0 7 25 c4 94 87 9 0 0 7 25 c0 73 0 8 0 0 7 28 c1 3 87 9 0 0 7 28 d1 59 87 9 0 0 7 28 c2 64 87 9 
+[2019-11-07 17:14:15]mcu response diag result(2):ff 9 .
+[2019-11-07 17:16:50]init config:engine:yes, airCtrl:yes, lock:yes, findCar:yes, charge:yes, disEngine:yes.
+[2019-11-07 17:16:50]            windows:yes, trumpet:yes, flicker:yes, reardoor:yes, seatHot:yes, skyWindow:yes.
+[2019-11-07 17:17:00]init config:engine:yes, airCtrl:yes, lock:yes, findCar:yes, charge:yes, disEngine:yes.
+[2019-11-07 17:17:00]            windows:yes, trumpet:yes, flicker:yes, reardoor:yes, seatHot:yes, skyWindow:yes.
+[2019-11-07 17:17:35]init config:engine:yes, airCtrl:yes, lock:yes, findCar:yes, charge:yes, disEngine:yes.
+[2019-11-07 17:17:35]            windows:yes, trumpet:yes, flicker:yes, reardoor:yes, seatHot:yes, skyWindow:yes.
+[2019-11-07 17:17:39]init config:engine:yes, airCtrl:yes, lock:yes, findCar:yes, charge:yes, disEngine:yes.
+[2019-11-07 17:17:39]            windows:yes, trumpet:yes, flicker:yes, reardoor:yes, seatHot:yes, skyWindow:yes.
+[2019-11-07 17:18:31]init config:engine:yes, airCtrl:yes, lock:yes, findCar:yes, charge:yes, disEngine:yes.
+[2019-11-07 17:18:31]            windows:yes, trumpet:yes, flicker:yes, reardoor:yes, seatHot:yes, skyWindow:yes.
+[2019-11-07 17:19:22]remoteDiag id[104], taskId:task-157312881618448322 from source0, running........................
+[2019-11-07 17:19:22]remoteDiag id[104] from source0, busy now!
+[2019-11-07 17:19:22]remoteDiag id[104], taskId:task-157312881618448322 to source0 reponse----result:flase, errCode(2):53
+[2019-11-07 17:19:43]mcu response diag result(139):0 86 1 1 86 1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2c 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 8 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 8 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 6 0 0 7 0 0 8 0 0 9 0 0 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:19:43]maxLen:134, maxNum:1, curNum:1, curLen:134.
+[2019-11-07 17:19:43]convertDtcs(134):1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2c 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 8 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 8 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 6 0 0 7 0 0 8 0 0 9 0 0 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:19:43]ecu id:1, dtcNum:3.
+[2019-11-07 17:19:43]ecu id:2, dtcNum:5.
+[2019-11-07 17:19:43]ecu id:3, dtcNum:0.
+[2019-11-07 17:19:43]ecu id:4, dtcNum:5.
+[2019-11-07 17:19:43]ecu id:5, dtcNum:9.
+[2019-11-07 17:19:43]ecu id:6, dtcNum:0.
+[2019-11-07 17:19:43]ecu id:7, dtcNum:0.
+[2019-11-07 17:19:43]ecu id:8, dtcNum:0.
+[2019-11-07 17:19:43]ecu id:9, dtcNum:0.
+[2019-11-07 17:19:43]ecu id:10, dtcNum:0.
+[2019-11-07 17:19:43]ecu id:11, dtcNum:0.
+[2019-11-07 17:19:43]ecu id:12, dtcNum:0.
+[2019-11-07 17:19:43]ecu id:13, dtcNum:3.
+[2019-11-07 17:19:43]remoteDiag id[104], taskId:task-157312881618448322 to source0 reponse----result:true
+diagData(200):0 0 7 2 c1 86 87 8 0 0 7 2 c1 64 87 8 0 0 7 2 c2 64 87 9 0 0 7 1 c1 35 87 2f 0 0 7 1 90 1e 96 2f 0 0 7 1 93 10 96 2c 0 0 7 1 94 10 96 2f 0 0 7 1 95 10 96 2f 0 0 7 26 58 50 12 8 0 0 7 26 58 51 11 9 0 0 7 26 58 72 13 8 0 0 7 26 58 73 14 8 0 0 7 26 c1 22 87 8 0 0 7 25 da 30 87 9 0 0 7 25 c2 64 87 9 0 0 7 25 d1 59 87 9 0 0 7 25 c1 22 87 8 0 0 7 25 c1 1 87 8 0 0 7 25 c1 0 87 8 0 0 7 25 c1 40 87 8 0 0 7 25 c4 94 87 9 0 0 7 25 c0 73 0 8 0 0 7 28 c1 3 87 9 0 0 7 28 d1 59 87 9 0 0 7 28 c2 64 87 9 
+[2019-11-07 17:19:46]remoteDiag id[104], taskId:task-157312884179637097 from source0, running........................
+[2019-11-07 17:19:46]remoteDiag id[104] from source0, busy now!
+[2019-11-07 17:19:46]remoteDiag id[104], taskId:task-157312884179637097 to source0 reponse----result:flase, errCode(2):53
+[2019-11-07 17:20:13]mcu response diag result(127):0 7a 1 1 7a 1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2c 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:20:13]maxLen:122, maxNum:1, curNum:1, curLen:122.
+[2019-11-07 17:20:13]convertDtcs(122):1 3 c1 86 87 8 c1 64 87 8 c2 64 87 9 2 5 c1 35 87 2f 90 1e 96 2f 93 10 96 2c 94 10 96 2f 95 10 96 2f 3 0 0 4 5 58 50 12 8 58 51 11 9 58 72 13 8 58 73 14 8 c1 22 87 9 5 9 da 30 87 9 c2 64 87 9 d1 59 87 9 c1 22 87 9 c1 1 87 8 c1 0 87 8 c1 40 87 8 c4 94 87 9 c0 73 0 8 a 0 0 b 0 0 c 0 0 d 3 c1 3 87 9 d1 59 87 9 c2 64 87 9 .
+[2019-11-07 17:20:13]ecu id:1, dtcNum:3.
+[2019-11-07 17:20:13]ecu id:2, dtcNum:5.
+[2019-11-07 17:20:13]ecu id:3, dtcNum:0.
+[2019-11-07 17:20:13]ecu id:4, dtcNum:5.
+[2019-11-07 17:20:13]ecu id:5, dtcNum:9.
+[2019-11-07 17:20:13]ecu id:10, dtcNum:0.
+[2019-11-07 17:20:13]ecu id:11, dtcNum:0.
+[2019-11-07 17:20:13]ecu id:12, dtcNum:0.
+[2019-11-07 17:20:13]ecu id:13, dtcNum:3.
+[2019-11-07 17:20:13]remoteDiag id[104], taskId:task-157312884179637097 to source0 reponse----result:true
+diagData(200):0 0 7 2 c1 86 87 8 0 0 7 2 c1 64 87 8 0 0 7 2 c2 64 87 9 0 0 7 1 c1 35 87 2f 0 0 7 1 90 1e 96 2f 0 0 7 1 93 10 96 2c 0 0 7 1 94 10 96 2f 0 0 7 1 95 10 96 2f 0 0 7 26 58 50 12 8 0 0 7 26 58 51 11 9 0 0 7 26 58 72 13 8 0 0 7 26 58 73 14 8 0 0 7 26 c1 22 87 9 0 0 7 25 da 30 87 9 0 0 7 25 c2 64 87 9 0 0 7 25 d1 59 87 9 0 0 7 25 c1 22 87 9 0 0 7 25 c1 1 87 8 0 0 7 25 c1 0 87 8 0 0 7 25 c1 40 87 8 0 0 7 25 c4 94 87 9 0 0 7 25 c0 73 0 8 0 0 7 28 c1 3 87 9 0 0 7 28 d1 59 87 9 0 0 7 28 c2 64 87 9 
+[2019-11-07 17:20:22]mcu response diag result(2):ff 9 .
+[2019-11-07 17:21:30]controlCmd setEngine_switch : open
+[2019-11-07 17:21:30]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:21:30]remoteCtrl id[11], taskId:task-157312894483662751 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:21:34]remoteCtrl id[11], taskId:task-157312894483662751 to source0 reponse----result:true, errCode:0
+[2019-11-07 17:21:55]controlCmd setEngine_switch : close
+[2019-11-07 17:21:55]remoteCtrl id[11] from source0, busy now!
+[2019-11-07 17:21:55]remoteCtrl id[11], taskId:task-157312897008513420 to source0 reponse----result:false, errCode:53
+[2019-11-07 17:21:57]remoteCtrl id[11], taskId:task-157312897008513420 to source0 reponse----result:true, errCode:0

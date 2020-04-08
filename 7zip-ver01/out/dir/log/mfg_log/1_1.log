@@ -1,0 +1,18 @@
+[1980-01-06 08:00:17]               /\  /\                
+[1980-01-06 08:00:17]***************  \/  *****************
+[1980-01-06 08:00:17]                                      
+[1980-01-06 08:00:17] mfg-service start!!!!               
+[1980-01-06 08:00:17] build: Oct 31 2019 14:25:11 
+[1980-01-06 08:00:17] build: 02 19 2019 14:13:18           
+[1980-01-06 08:00:17]                                      
+[1980-01-06 08:00:17]**************************************
+[1980-01-06 08:00:17]autolink_mcu_parse_data_thread -> start
+[1980-01-06 08:00:17]MCU SERVICE IS AVAILABLE!
+[1980-01-06 08:00:18]USB_STATE=DISCONNECTED
+[1980-01-06 08:00:19]USB_STATE=CONNECTED
+[1980-01-06 08:00:19]USB_STATE=DISCONNECTED
+[1980-01-06 08:00:20]USB_STATE=CONNECTED
+[1980-01-06 08:00:20]USB_STATE=CONFIGURED
+[1980-01-06 08:00:45]new VDDataModelCtrl()
+[1980-01-06 08:00:45]VDDataModelCtrl is constructed
+[2019-11-06 17:30:53]USB_STATE=DISCONNECTED

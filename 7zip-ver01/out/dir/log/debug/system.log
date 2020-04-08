@@ -1,0 +1,1016 @@
+01-06 08:00:15.730 I/system-service( 1634): system-service:Oct 31 2019 14:27:00
+01-06 08:00:15.920 I/system-service( 1634): mcu version:mcu_L_DFSK_F516-19_1.0.1_191031
+01-06 08:00:15.930 I/system-service( 1634): device version:DFSK000100020026
+01-06 08:00:15.940 I/system-service( 1634): project version:0000
+01-06 08:00:15.950 I/system-service( 1634): software version:00000004
+01-06 08:00:15.950 I/system-service( 1634): hardware version:0003
+01-06 08:00:15.980 I/system-service( 1634): ----------------manage_info_t start ------------------
+01-06 08:00:15.980 I/system-service( 1634): ntp:  200.20.186.76
+01-06 08:00:15.990 I/system-service( 1634): ntp:  223.65.211.46
+01-06 08:00:15.990 I/system-service( 1634): ntp:  118.24.4.66
+01-06 08:00:15.990 I/system-service( 1634): ntp:  202.108.6.95
+01-06 08:00:15.990 I/system-service( 1634): 
+01-06 08:00:15.990 I/system-service( 1634): 
+01-06 08:00:15.990 I/system-service( 1634): 
+01-06 08:00:15.990 I/system-service( 1634): 
+01-06 08:00:15.990 I/system-service( 1634): name:     /dev/ubi16_0
+01-06 08:00:15.990 I/system-service( 1634): threshold:90
+01-06 08:00:15.990 I/system-service( 1634): dir:      db
+01-06 08:00:15.990 I/system-service( 1634): dir:      log
+01-06 08:00:15.990 I/system-service( 1634): dir:      logs
+01-06 08:00:15.990 I/system-service( 1634): dir:      configs
+01-06 08:00:15.990 I/system-service( 1634): dir:      mcm-core
+01-06 08:00:15.990 I/system-service( 1634): dir:      psm
+01-06 08:00:16.000 I/system-service( 1634): file:     netmgr_log.txt
+01-06 08:00:16.000 I/system-service( 1634): file:     .rnd
+01-06 08:00:16.000 I/system-service( 1634): 
+01-06 08:00:16.000 I/system-service( 1634): 
+01-06 08:00:16.000 I/system-service( 1634): 
+01-06 08:00:16.000 I/system-service( 1634): 
+01-06 08:00:16.000 I/system-service( 1634): name:     /dev/mmcblk0p1
+01-06 08:00:16.000 I/system-service( 1634): threshold:95
+01-06 08:00:16.000 I/system-service( 1634): dir:      db
+01-06 08:00:16.000 I/system-service( 1634): dir:      log
+01-06 08:00:16.000 I/system-service( 1634): 
+01-06 08:00:16.000 I/system-service( 1634): 
+01-06 08:00:16.000 I/system-service( 1634): 
+01-06 08:00:16.000 I/system-service( 1634): 
+01-06 08:00:16.000 I/system-service( 1634): name:     tsp
+01-06 08:00:16.000 I/system-service( 1634): source:   0
+01-06 08:00:16.000 I/system-service( 1634): priority: 99
+01-06 08:00:16.000 I/system-service( 1634): type:     0
+01-06 08:00:16.010 I/system-service( 1634): threshold:0
+01-06 08:00:16.010 I/system-service( 1634): time:     0
+01-06 08:00:16.010 I/system-service( 1634): gtimes:   0
+01-06 08:00:16.010 I/system-service( 1634): stimes:   0
+01-06 08:00:16.010 I/system-service( 1634): 
+01-06 08:00:16.010 I/system-service( 1634): 
+01-06 08:00:16.010 I/system-service( 1634): 
+01-06 08:00:16.010 I/system-service( 1634): 
+01-06 08:00:16.010 I/system-service( 1634): name:     gb
+01-06 08:00:16.010 I/system-service( 1634): source:   1
+01-06 08:00:16.010 I/system-service( 1634): priority: 98
+01-06 08:00:16.010 I/system-service( 1634): type:     0
+01-06 08:00:16.010 I/system-service( 1634): threshold:0
+01-06 08:00:16.010 I/system-service( 1634): time:     0
+01-06 08:00:16.010 I/system-service( 1634): gtimes:   0
+01-06 08:00:16.010 I/system-service( 1634): stimes:   0
+01-06 08:00:16.030 I/system-service( 1634): 
+01-06 08:00:16.030 I/system-service( 1634): 
+01-06 08:00:16.030 I/system-service( 1634): 
+01-06 08:00:16.030 I/system-service( 1634): 
+01-06 08:00:16.030 I/system-service( 1634): name:     gnss
+01-06 08:00:16.030 I/system-service( 1634): source:   2
+01-06 08:00:16.030 I/system-service( 1634): priority: 97
+01-06 08:00:16.030 I/system-service( 1634): type:     1
+01-06 08:00:16.030 I/system-service( 1634): threshold:10
+01-06 08:00:16.030 I/system-service( 1634): time:     0
+01-06 08:00:16.030 I/system-service( 1634): gtimes:   0
+01-06 08:00:16.030 I/system-service( 1634): stimes:   0
+01-06 08:00:16.030 I/system-service( 1634): 
+01-06 08:00:16.030 I/system-service( 1634): 
+01-06 08:00:16.030 I/system-service( 1634): 
+01-06 08:00:16.030 I/system-service( 1634): 
+01-06 08:00:16.030 I/system-service( 1634): name:     ntp
+01-06 08:00:16.030 I/system-service( 1634): source:   3
+01-06 08:00:16.030 I/system-service( 1634): priority: 96
+01-06 08:00:16.030 I/system-service( 1634): type:     1
+01-06 08:00:16.030 I/system-service( 1634): threshold:0
+01-06 08:00:16.030 I/system-service( 1634): time:     0
+01-06 08:00:16.030 I/system-service( 1634): gtimes:   0
+01-06 08:00:16.030 I/system-service( 1634): stimes:   0
+01-06 08:00:16.030 I/system-service( 1634): ----------------manage_info_t end  ------------------
+01-06 08:00:16.030 I/system-service( 1634): 
+01-06 08:00:16.030 I/system-service( 1634): 
+01-06 08:00:16.320 D/system-service( 1634): vdProxy loop:0
+01-06 08:00:16.330 D/system-service( 1634): method handshake_handler 0
+01-06 08:00:16.340 D/system-service( 1634): handshake sucess
+01-06 08:00:16.340 D/system-service( 1634): handshake times:1
+01-06 08:00:16.340 I/system-service( 1634): ipc system sucess
+01-06 08:00:16.400 I/system-service( 1634): power loop:0
+01-06 08:00:16.480 D/system-service( 1634): subscribePwrService success:  0 1
+01-06 08:00:16.490 D/system-service( 1634): getPwrMode success:  0 1 1
+01-06 08:00:16.490 I/system-service( 1634): pwrmode_handler->seq:1 mode:1
+01-06 08:00:16.540 D/system-service( 1634): replyPwrMode success:  0 1
+01-06 08:00:16.560 D/system-service( 1634): getCarMode success:  0 1
+01-06 08:00:16.560 I/system-service( 1634): init power sucess
+01-06 08:00:16.560 I/system-service( 1634): init_sleep_timer
+01-06 08:00:16.560 I/system-service( 1634): set sleep time 0
+01-06 08:00:16.560 I/system-service( 1634): Caught signal 34
+01-06 08:00:23.590 I/system-service( 1634): wkup_handler->wkup:0x00000001
+01-06 08:00:29.220 I/system-service( 1634): setTime->source:0:time:1573181364
+01-06 08:00:29.220 I/system-service( 1634): start tsp 1:1980-01-06 08:00:29----315964829:234753:0:0
+11-08 10:49:24.000 I/system-service( 1634): end tsp 1:2019-11-08 10:49:24----1573181364:1409:0:0
+11-08 10:49:24.179 D/system-service( 1634): set time sync valid
+11-08 10:49:24.179 I/system-service( 1634): get time:2019-11-08 10:49:24
+11-08 10:49:24.179 D/system-service( 1634): send mcu time:a0 8d 07 e3 0b 08 0a 31 18 
+11-08 10:49:24.189 D/system-service( 1634): writeUartToMcu sucess
+11-08 10:49:28.059 I/system-service( 1634): setTime->source:0:time:1573181368
+11-08 10:49:28.000 I/system-service( 1634): end tsp 2:2019-11-08 10:49:28----1573181368:54:0:0
+11-08 10:49:28.059 I/system-service( 1634): start tsp 2:2019-11-08 10:49:28----1573181368:65695:0:0
+11-08 10:49:28.119 I/system-service( 1634): get time:2019-11-08 10:49:28
+11-08 10:49:28.119 D/system-service( 1634): send mcu time:a0 8d 07 e3 0b 08 0a 31 1c 
+11-08 10:49:28.119 D/system-service( 1634): writeUartToMcu sucess
+11-08 10:49:43.439 I/system-service( 1634): wkup_handler->wkup:0x00000000
+11-08 10:53:05.589 I/system-service( 1634): carmode_handler->mode:2
+11-08 10:53:05.589 D/system-service( 1634): acc on car mode
+11-08 10:55:20.189 I/system-service( 1634): carmode_handler->mode:1
+11-08 10:55:20.189 D/system-service( 1634): acc off car mode
+11-08 10:59:19.509 I/system-service( 1634): get time:2019-11-08 10:59:19
+11-08 10:59:19.509 D/system-service( 1634): send mcu time:a0 8d 07 e3 0b 08 0a 3b 13 
+11-08 10:59:19.509 D/system-service( 1634): writeUartToMcu sucess
+01-06 08:00:16.109 I/system-service( 1582): system-service:Oct 31 2019 14:27:00
+01-06 08:00:16.129 I/system-service( 1582): mcu version:mcu_L_DFSK_F516-19_1.0.1_191031
+01-06 08:00:16.129 I/system-service( 1582): device version:DFSK000100020026
+01-06 08:00:16.139 I/system-service( 1582): project version:0000
+01-06 08:00:16.139 I/system-service( 1582): software version:00000004
+01-06 08:00:16.139 I/system-service( 1582): hardware version:0003
+01-06 08:00:16.139 I/system-service( 1582): ----------------manage_info_t start ------------------
+01-06 08:00:16.139 I/system-service( 1582): ntp:  200.20.186.76
+01-06 08:00:16.139 I/system-service( 1582): ntp:  223.65.211.46
+01-06 08:00:16.139 I/system-service( 1582): ntp:  118.24.4.66
+01-06 08:00:16.139 I/system-service( 1582): ntp:  202.108.6.95
+01-06 08:00:16.139 I/system-service( 1582): 
+01-06 08:00:16.139 I/system-service( 1582): 
+01-06 08:00:16.139 I/system-service( 1582): 
+01-06 08:00:16.139 I/system-service( 1582): 
+01-06 08:00:16.139 I/system-service( 1582): name:     /dev/ubi16_0
+01-06 08:00:16.149 I/system-service( 1582): threshold:90
+01-06 08:00:16.149 I/system-service( 1582): dir:      db
+01-06 08:00:16.149 I/system-service( 1582): dir:      log
+01-06 08:00:16.149 I/system-service( 1582): dir:      logs
+01-06 08:00:16.149 I/system-service( 1582): dir:      configs
+01-06 08:00:16.149 I/system-service( 1582): dir:      mcm-core
+01-06 08:00:16.149 I/system-service( 1582): dir:      psm
+01-06 08:00:16.149 I/system-service( 1582): file:     netmgr_log.txt
+01-06 08:00:16.149 I/system-service( 1582): file:     .rnd
+01-06 08:00:16.149 I/system-service( 1582): 
+01-06 08:00:16.149 I/system-service( 1582): 
+01-06 08:00:16.149 I/system-service( 1582): 
+01-06 08:00:16.149 I/system-service( 1582): 
+01-06 08:00:16.149 I/system-service( 1582): name:     /dev/mmcblk0p1
+01-06 08:00:16.149 I/system-service( 1582): threshold:95
+01-06 08:00:16.149 I/system-service( 1582): dir:      db
+01-06 08:00:16.149 I/system-service( 1582): dir:      log
+01-06 08:00:16.149 I/system-service( 1582): 
+01-06 08:00:16.149 I/system-service( 1582): 
+01-06 08:00:16.149 I/system-service( 1582): 
+01-06 08:00:16.149 I/system-service( 1582): 
+01-06 08:00:16.149 I/system-service( 1582): name:     tsp
+01-06 08:00:16.149 I/system-service( 1582): source:   0
+01-06 08:00:16.149 I/system-service( 1582): priority: 99
+01-06 08:00:16.149 I/system-service( 1582): type:     0
+01-06 08:00:16.149 I/system-service( 1582): threshold:0
+01-06 08:00:16.149 I/system-service( 1582): time:     0
+01-06 08:00:16.149 I/system-service( 1582): gtimes:   0
+01-06 08:00:16.149 I/system-service( 1582): stimes:   0
+01-06 08:00:16.149 I/system-service( 1582): 
+01-06 08:00:16.149 I/system-service( 1582): 
+01-06 08:00:16.149 I/system-service( 1582): 
+01-06 08:00:16.149 I/system-service( 1582): 
+01-06 08:00:16.159 I/system-service( 1582): name:     gb
+01-06 08:00:16.159 I/system-service( 1582): source:   1
+01-06 08:00:16.159 I/system-service( 1582): priority: 98
+01-06 08:00:16.159 I/system-service( 1582): type:     0
+01-06 08:00:16.159 I/system-service( 1582): threshold:0
+01-06 08:00:16.159 I/system-service( 1582): time:     0
+01-06 08:00:16.159 I/system-service( 1582): gtimes:   0
+01-06 08:00:16.159 I/system-service( 1582): stimes:   0
+01-06 08:00:16.159 I/system-service( 1582): 
+01-06 08:00:16.159 I/system-service( 1582): 
+01-06 08:00:16.159 I/system-service( 1582): 
+01-06 08:00:16.159 I/system-service( 1582): 
+01-06 08:00:16.159 I/system-service( 1582): name:     gnss
+01-06 08:00:16.159 I/system-service( 1582): source:   2
+01-06 08:00:16.159 I/system-service( 1582): priority: 97
+01-06 08:00:16.159 I/system-service( 1582): type:     1
+01-06 08:00:16.159 I/system-service( 1582): threshold:10
+01-06 08:00:16.159 I/system-service( 1582): time:     0
+01-06 08:00:16.159 I/system-service( 1582): gtimes:   0
+01-06 08:00:16.159 I/system-service( 1582): stimes:   0
+01-06 08:00:16.159 I/system-service( 1582): 
+01-06 08:00:16.159 I/system-service( 1582): 
+01-06 08:00:16.159 I/system-service( 1582): 
+01-06 08:00:16.159 I/system-service( 1582): 
+01-06 08:00:16.159 I/system-service( 1582): name:     ntp
+01-06 08:00:16.159 I/system-service( 1582): source:   3
+01-06 08:00:16.169 I/system-service( 1582): priority: 96
+01-06 08:00:16.169 I/system-service( 1582): type:     1
+01-06 08:00:16.169 I/system-service( 1582): threshold:0
+01-06 08:00:16.169 I/system-service( 1582): time:     0
+01-06 08:00:16.169 I/system-service( 1582): gtimes:   0
+01-06 08:00:16.169 I/system-service( 1582): stimes:   0
+01-06 08:00:16.169 I/system-service( 1582): ----------------manage_info_t end  ------------------
+01-06 08:00:16.169 I/system-service( 1582): 
+01-06 08:00:16.169 I/system-service( 1582): 
+01-06 08:00:16.259 D/system-service( 1582): vdProxy loop:0
+01-06 08:00:16.259 D/system-service( 1582): method handshake_handler 0
+01-06 08:00:16.269 D/system-service( 1582): handshake sucess
+01-06 08:00:16.269 D/system-service( 1582): handshake times:1
+01-06 08:00:16.269 I/system-service( 1582): ipc system sucess
+01-06 08:00:16.279 I/system-service( 1582): power loop:0
+01-06 08:00:16.329 D/system-service( 1582): subscribePwrService success:  0 1
+01-06 08:00:16.339 D/system-service( 1582): getPwrMode success:  0 1 1
+01-06 08:00:16.339 I/system-service( 1582): pwrmode_handler->seq:1 mode:1
+01-06 08:00:16.379 D/system-service( 1582): replyPwrMode success:  0 1
+01-06 08:00:16.389 D/system-service( 1582): getCarMode success:  0 1
+01-06 08:00:16.389 I/system-service( 1582): init power sucess
+01-06 08:00:16.389 I/system-service( 1582): init_sleep_timer
+01-06 08:00:16.389 I/system-service( 1582): set sleep time 0
+01-06 08:00:16.399 I/system-service( 1582): Caught signal 34
+01-06 08:00:22.879 I/system-service( 1582): wkup_handler->wkup:0x00000041
+01-06 08:00:31.149 I/system-service( 1582): setTime->source:0:time:1573182483
+01-06 08:00:31.149 I/system-service( 1582): start tsp 1:1980-01-06 08:00:31----315964831:164561:0:0
+11-08 11:08:03.000 I/system-service( 1582): end tsp 1:2019-11-08 11:08:03----1573182483:1571:0:0
+11-08 11:08:03.019 D/system-service( 1582): set time sync valid
+11-08 11:08:03.019 I/system-service( 1582): get time:2019-11-08 11:08:03
+11-08 11:08:03.019 D/system-service( 1582): send mcu time:a0 8d 07 e3 0b 08 0b 08 03 
+11-08 11:08:03.029 D/system-service( 1582): writeUartToMcu sucess
+11-08 11:08:07.059 I/system-service( 1582): setTime->source:0:time:1573171909
+11-08 08:11:49.000 I/system-service( 1582): end tsp 2:2019-11-08 08:11:49----1573171909:54:0:0
+11-08 11:08:07.059 I/system-service( 1582): start tsp 2:2019-11-08 11:08:07----1573182487:72842:0:0
+11-08 08:11:49.019 I/system-service( 1582): setTime->source:0:time:1573171891
+11-08 08:11:31.000 I/system-service( 1582): end tsp 3:2019-11-08 08:11:31----1573171891:49:0:0
+11-08 08:11:49.019 I/system-service( 1582): start tsp 3:2019-11-08 08:11:49----1573171909:23050:0:0
+11-08 08:11:31.939 I/system-service( 1582): get time:2019-11-08 08:11:31
+11-08 08:11:31.939 D/system-service( 1582): send mcu time:a0 8d 07 e3 0b 08 08 0b 1f 
+11-08 08:11:31.939 D/system-service( 1582): writeUartToMcu sucess
+11-08 08:11:43.779 I/system-service( 1582): wkup_handler->wkup:0x00000040
+11-08 08:15:19.099 I/system-service( 1582): setTime->source:0:time:1573172134
+11-08 08:15:19.099 I/system-service( 1582): start tsp 4:2019-11-08 08:15:19----1573172119:111902:0:0
+11-08 08:15:34.000 I/system-service( 1582): end tsp 4:2019-11-08 08:15:34----1573172134:52:0:0
+11-08 08:15:34.009 I/system-service( 1582): setTime->source:0:time:1573172117
+11-08 08:15:17.000 I/system-service( 1582): end tsp 5:2019-11-08 08:15:17----1573172117:78:0:0
+11-08 08:15:34.009 I/system-service( 1582): start tsp 5:2019-11-08 08:15:34----1573172134:24639:0:0
+11-08 08:15:17.349 I/system-service( 1582): get time:2019-11-08 08:15:17
+11-08 08:15:17.349 D/system-service( 1582): send mcu time:a0 8d 07 e3 0b 08 08 0f 11 
+11-08 08:15:17.349 D/system-service( 1582): writeUartToMcu sucess
+01-06 08:00:16.133 I/system-service( 1587): system-service:Oct 31 2019 14:27:00
+01-06 08:00:16.163 I/system-service( 1587): mcu version:mcu_L_DFSK_F516-19_1.0.1_191031
+01-06 08:00:16.163 I/system-service( 1587): device version:DFSK000100020026
+01-06 08:00:16.163 I/system-service( 1587): project version:0000
+01-06 08:00:16.163 I/system-service( 1587): software version:00000004
+01-06 08:00:16.163 I/system-service( 1587): hardware version:0003
+01-06 08:00:16.173 I/system-service( 1587): ----------------manage_info_t start ------------------
+01-06 08:00:16.173 I/system-service( 1587): ntp:  200.20.186.76
+01-06 08:00:16.173 I/system-service( 1587): ntp:  223.65.211.46
+01-06 08:00:16.173 I/system-service( 1587): ntp:  118.24.4.66
+01-06 08:00:16.173 I/system-service( 1587): ntp:  202.108.6.95
+01-06 08:00:16.173 I/system-service( 1587): 
+01-06 08:00:16.173 I/system-service( 1587): 
+01-06 08:00:16.173 I/system-service( 1587): 
+01-06 08:00:16.173 I/system-service( 1587): 
+01-06 08:00:16.173 I/system-service( 1587): name:     /dev/ubi16_0
+01-06 08:00:16.173 I/system-service( 1587): threshold:90
+01-06 08:00:16.173 I/system-service( 1587): dir:      db
+01-06 08:00:16.173 I/system-service( 1587): dir:      log
+01-06 08:00:16.173 I/system-service( 1587): dir:      logs
+01-06 08:00:16.173 I/system-service( 1587): dir:      configs
+01-06 08:00:16.173 I/system-service( 1587): dir:      mcm-core
+01-06 08:00:16.173 I/system-service( 1587): dir:      psm
+01-06 08:00:16.173 I/system-service( 1587): file:     netmgr_log.txt
+01-06 08:00:16.173 I/system-service( 1587): file:     .rnd
+01-06 08:00:16.173 I/system-service( 1587): 
+01-06 08:00:16.173 I/system-service( 1587): 
+01-06 08:00:16.173 I/system-service( 1587): 
+01-06 08:00:16.173 I/system-service( 1587): 
+01-06 08:00:16.173 I/system-service( 1587): name:     /dev/mmcblk0p1
+01-06 08:00:16.173 I/system-service( 1587): threshold:95
+01-06 08:00:16.173 I/system-service( 1587): dir:      db
+01-06 08:00:16.173 I/system-service( 1587): dir:      log
+01-06 08:00:16.173 I/system-service( 1587): 
+01-06 08:00:16.173 I/system-service( 1587): 
+01-06 08:00:16.173 I/system-service( 1587): 
+01-06 08:00:16.173 I/system-service( 1587): 
+01-06 08:00:16.173 I/system-service( 1587): name:     tsp
+01-06 08:00:16.183 I/system-service( 1587): source:   0
+01-06 08:00:16.183 I/system-service( 1587): priority: 99
+01-06 08:00:16.183 I/system-service( 1587): type:     0
+01-06 08:00:16.183 I/system-service( 1587): threshold:0
+01-06 08:00:16.183 I/system-service( 1587): time:     0
+01-06 08:00:16.183 I/system-service( 1587): gtimes:   0
+01-06 08:00:16.183 I/system-service( 1587): stimes:   0
+01-06 08:00:16.183 I/system-service( 1587): 
+01-06 08:00:16.183 I/system-service( 1587): 
+01-06 08:00:16.183 I/system-service( 1587): 
+01-06 08:00:16.183 I/system-service( 1587): 
+01-06 08:00:16.183 I/system-service( 1587): name:     gb
+01-06 08:00:16.183 I/system-service( 1587): source:   1
+01-06 08:00:16.183 I/system-service( 1587): priority: 98
+01-06 08:00:16.183 I/system-service( 1587): type:     0
+01-06 08:00:16.183 I/system-service( 1587): threshold:0
+01-06 08:00:16.183 I/system-service( 1587): time:     0
+01-06 08:00:16.183 I/system-service( 1587): gtimes:   0
+01-06 08:00:16.183 I/system-service( 1587): stimes:   0
+01-06 08:00:16.183 I/system-service( 1587): 
+01-06 08:00:16.183 I/system-service( 1587): 
+01-06 08:00:16.183 I/system-service( 1587): 
+01-06 08:00:16.183 I/system-service( 1587): 
+01-06 08:00:16.183 I/system-service( 1587): name:     gnss
+01-06 08:00:16.183 I/system-service( 1587): source:   2
+01-06 08:00:16.183 I/system-service( 1587): priority: 97
+01-06 08:00:16.183 I/system-service( 1587): type:     1
+01-06 08:00:16.193 I/system-service( 1587): threshold:10
+01-06 08:00:16.193 I/system-service( 1587): time:     0
+01-06 08:00:16.193 I/system-service( 1587): gtimes:   0
+01-06 08:00:16.193 I/system-service( 1587): stimes:   0
+01-06 08:00:16.193 I/system-service( 1587): 
+01-06 08:00:16.193 I/system-service( 1587): 
+01-06 08:00:16.193 I/system-service( 1587): 
+01-06 08:00:16.193 I/system-service( 1587): 
+01-06 08:00:16.193 I/system-service( 1587): name:     ntp
+01-06 08:00:16.193 I/system-service( 1587): source:   3
+01-06 08:00:16.193 I/system-service( 1587): priority: 96
+01-06 08:00:16.193 I/system-service( 1587): type:     1
+01-06 08:00:16.193 I/system-service( 1587): threshold:0
+01-06 08:00:16.193 I/system-service( 1587): time:     0
+01-06 08:00:16.193 I/system-service( 1587): gtimes:   0
+01-06 08:00:16.193 I/system-service( 1587): stimes:   0
+01-06 08:00:16.193 I/system-service( 1587): ----------------manage_info_t end  ------------------
+01-06 08:00:16.193 I/system-service( 1587): 
+01-06 08:00:16.193 I/system-service( 1587): 
+01-06 08:00:16.283 D/system-service( 1587): vdProxy loop:0
+01-06 08:00:16.293 D/system-service( 1587): method handshake_handler 0
+01-06 08:00:16.293 D/system-service( 1587): handshake sucess
+01-06 08:00:16.293 D/system-service( 1587): handshake times:1
+01-06 08:00:16.293 I/system-service( 1587): ipc system sucess
+01-06 08:00:16.303 I/system-service( 1587): power loop:0
+01-06 08:00:16.363 D/system-service( 1587): subscribePwrService success:  0 1
+01-06 08:00:16.363 D/system-service( 1587): getPwrMode success:  0 1 1
+01-06 08:00:16.363 I/system-service( 1587): pwrmode_handler->seq:1 mode:1
+01-06 08:00:16.413 D/system-service( 1587): replyPwrMode success:  0 1
+01-06 08:00:16.413 D/system-service( 1587): getCarMode success:  0 1
+01-06 08:00:16.413 I/system-service( 1587): init power sucess
+01-06 08:00:16.413 I/system-service( 1587): init_sleep_timer
+01-06 08:00:16.413 I/system-service( 1587): set sleep time 0
+01-06 08:00:16.413 I/system-service( 1587): Caught signal 34
+01-06 08:00:22.873 I/system-service( 1587): wkup_handler->wkup:0x00000001
+01-06 08:00:31.133 I/system-service( 1587): setTime->source:0:time:1573172359
+01-06 08:00:31.133 I/system-service( 1587): start tsp 1:1980-01-06 08:00:31----315964831:142134:0:0
+11-08 08:19:19.000 I/system-service( 1587): end tsp 1:2019-11-08 08:19:19----1573172359:1224:0:0
+11-08 08:19:19.049 I/system-service( 1587): setTime->source:0:time:1573172342
+11-08 08:19:02.000 I/system-service( 1587): end tsp 2:2019-11-08 08:19:02----1573172342:49:0:0
+11-08 08:19:19.049 I/system-service( 1587): start tsp 2:2019-11-08 08:19:19----1573172359:60994:0:0
+11-08 08:19:02.109 D/system-service( 1587): set time sync valid
+11-08 08:19:02.109 I/system-service( 1587): get time:2019-11-08 08:19:02
+11-08 08:19:02.109 D/system-service( 1587): send mcu time:a0 8d 07 e3 0b 08 08 13 02 
+11-08 08:19:02.119 D/system-service( 1587): writeUartToMcu sucess
+11-08 08:19:19.409 I/system-service( 1587): wkup_handler->wkup:0x00000000
+11-08 08:19:48.039 I/system-service( 1587): setTime->source:0:time:1573172406
+11-08 08:19:48.039 I/system-service( 1587): start tsp 3:2019-11-08 08:19:48----1573172388:48664:0:0
+11-08 08:20:06.000 I/system-service( 1587): end tsp 3:2019-11-08 08:20:06----1573172406:53:0:0
+11-08 08:20:06.009 I/system-service( 1587): setTime->source:0:time:1573172389
+11-08 08:19:49.000 I/system-service( 1587): end tsp 4:2019-11-08 08:19:49----1573172389:55:0:0
+11-08 08:20:06.009 I/system-service( 1587): start tsp 4:2019-11-08 08:20:06----1573172406:15879:0:0
+11-08 08:19:49.469 I/system-service( 1587): get time:2019-11-08 08:19:49
+11-08 08:19:49.469 D/system-service( 1587): send mcu time:a0 8d 07 e3 0b 08 08 13 31 
+11-08 08:19:49.479 D/system-service( 1587): writeUartToMcu sucess
+11-08 08:20:47.499 I/system-service( 1587): pwrmode_handler->seq:2 mode:2
+11-08 08:20:48.169 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:20:48.499 I/system-service( 1587): goto standby
+11-08 08:20:48.529 D/system-service( 1587): replyPwrMode success:  0 1
+11-08 08:20:49.169 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:20:49.869 I/system-service( 1587): pwrmode_handler->seq:3 mode:3
+11-08 08:20:50.169 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:20:50.199 D/system-service( 1587): replyPwrMode success:  0 1
+11-08 08:20:51.169 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:20:52.169 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:20:53.169 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:20:54.169 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:20:55.169 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:20:56.169 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:20:57.169 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:20:58.169 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:00.162 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:01.162 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:02.162 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:03.162 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:04.162 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:05.162 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:06.162 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:07.162 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:08.172 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:10.042 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:11.042 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:12.042 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:13.042 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:14.042 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:15.042 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:16.042 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:17.042 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:18.042 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:19.289 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:20.289 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:21.289 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:22.289 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:23.289 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:24.289 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:25.289 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:26.289 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:27.289 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:29.658 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:30.658 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:31.658 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:32.658 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:33.658 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:34.658 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:35.658 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:36.658 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:37.658 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:38.658 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:39.724 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:40.724 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:41.724 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:42.724 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:43.724 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:44.724 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:45.724 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:46.724 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:47.724 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:57.584 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:58.584 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:21:59.584 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:00.584 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:01.584 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:02.584 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:03.584 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:04.584 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:05.584 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:10.043 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:11.043 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:12.053 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:13.053 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:14.053 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:15.053 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:16.053 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:17.053 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:18.053 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:22.653 D/system-service( 1587): handshake sucess
+11-08 08:22:22.653 D/system-service( 1587): handshake times:2
+11-08 08:22:22.893 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:23.893 D/system-service( 1587): Going to standby mode, waiting...
+11-08 08:22:24.843 I/system-service( 1587): pwrmode_handler->seq:4 mode:1
+11-08 08:22:24.843 I/system-service( 1587): goto wakeup
+11-08 08:22:24.893 I/system-service( 1587): get time:2019-11-08 08:22:24
+11-08 08:22:24.893 D/system-service( 1587): send mcu time:a0 8d 07 e3 0b 08 08 16 18 
+11-08 08:22:25.073 D/system-service( 1587): replyPwrMode success:  0 1
+11-08 08:22:25.083 D/system-service( 1587): writeUartToMcu sucess
+11-08 08:22:25.683 D/system-service( 1587): handshake sucess
+11-08 08:22:25.683 D/system-service( 1587): handshake times:3
+11-08 08:22:26.083 I/system-service( 1587): get time:2019-11-08 08:22:26
+11-08 08:22:26.083 D/system-service( 1587): send mcu time:a0 8d 07 e3 0b 08 08 16 1a 
+11-08 08:22:26.083 D/system-service( 1587): writeUartToMcu sucess
+11-08 08:22:27.533 I/system-service( 1587): setTime->source:0:time:1573172564
+11-08 08:22:27.533 I/system-service( 1587): start tsp 1:2019-11-08 08:22:27----1573172547:538415:0:0
+11-08 08:22:44.000 I/system-service( 1587): end tsp 1:2019-11-08 08:22:44----1573172564:55:0:0
+11-08 08:22:44.019 I/system-service( 1587): setTime->source:0:time:1573172547
+11-08 08:22:27.000 I/system-service( 1587): end tsp 2:2019-11-08 08:22:27----1573172547:51:0:0
+11-08 08:22:44.019 I/system-service( 1587): start tsp 2:2019-11-08 08:22:44----1573172564:33671:0:0
+11-08 08:22:27.509 I/system-service( 1587): get time:2019-11-08 08:22:27
+11-08 08:22:27.509 D/system-service( 1587): send mcu time:a0 8d 07 e3 0b 08 08 16 1b 
+11-08 08:22:27.519 D/system-service( 1587): writeUartToMcu sucess
+01-06 08:00:16.041 I/system-service( 1583): system-service:Oct 31 2019 14:27:00
+01-06 08:00:16.071 I/system-service( 1583): mcu version:mcu_L_DFSK_F516-19_1.0.1_191031
+01-06 08:00:16.071 I/system-service( 1583): device version:DFSK000100020026
+01-06 08:00:16.071 I/system-service( 1583): project version:0000
+01-06 08:00:16.071 I/system-service( 1583): software version:00000004
+01-06 08:00:16.071 I/system-service( 1583): hardware version:0003
+01-06 08:00:16.081 I/system-service( 1583): ----------------manage_info_t start ------------------
+01-06 08:00:16.081 I/system-service( 1583): ntp:  200.20.186.76
+01-06 08:00:16.081 I/system-service( 1583): ntp:  223.65.211.46
+01-06 08:00:16.081 I/system-service( 1583): ntp:  118.24.4.66
+01-06 08:00:16.081 I/system-service( 1583): ntp:  202.108.6.95
+01-06 08:00:16.081 I/system-service( 1583): 
+01-06 08:00:16.081 I/system-service( 1583): 
+01-06 08:00:16.081 I/system-service( 1583): 
+01-06 08:00:16.081 I/system-service( 1583): 
+01-06 08:00:16.081 I/system-service( 1583): name:     /dev/ubi16_0
+01-06 08:00:16.081 I/system-service( 1583): threshold:90
+01-06 08:00:16.081 I/system-service( 1583): dir:      db
+01-06 08:00:16.081 I/system-service( 1583): dir:      log
+01-06 08:00:16.081 I/system-service( 1583): dir:      logs
+01-06 08:00:16.081 I/system-service( 1583): dir:      configs
+01-06 08:00:16.081 I/system-service( 1583): dir:      mcm-core
+01-06 08:00:16.081 I/system-service( 1583): dir:      psm
+01-06 08:00:16.081 I/system-service( 1583): file:     netmgr_log.txt
+01-06 08:00:16.081 I/system-service( 1583): file:     .rnd
+01-06 08:00:16.081 I/system-service( 1583): 
+01-06 08:00:16.081 I/system-service( 1583): 
+01-06 08:00:16.081 I/system-service( 1583): 
+01-06 08:00:16.081 I/system-service( 1583): 
+01-06 08:00:16.081 I/system-service( 1583): name:     /dev/mmcblk0p1
+01-06 08:00:16.081 I/system-service( 1583): threshold:95
+01-06 08:00:16.081 I/system-service( 1583): dir:      db
+01-06 08:00:16.081 I/system-service( 1583): dir:      log
+01-06 08:00:16.081 I/system-service( 1583): 
+01-06 08:00:16.081 I/system-service( 1583): 
+01-06 08:00:16.081 I/system-service( 1583): 
+01-06 08:00:16.081 I/system-service( 1583): 
+01-06 08:00:16.081 I/system-service( 1583): name:     tsp
+01-06 08:00:16.091 I/system-service( 1583): source:   0
+01-06 08:00:16.091 I/system-service( 1583): priority: 99
+01-06 08:00:16.091 I/system-service( 1583): type:     0
+01-06 08:00:16.091 I/system-service( 1583): threshold:0
+01-06 08:00:16.091 I/system-service( 1583): time:     0
+01-06 08:00:16.091 I/system-service( 1583): gtimes:   0
+01-06 08:00:16.091 I/system-service( 1583): stimes:   0
+01-06 08:00:16.091 I/system-service( 1583): 
+01-06 08:00:16.091 I/system-service( 1583): 
+01-06 08:00:16.091 I/system-service( 1583): 
+01-06 08:00:16.091 I/system-service( 1583): 
+01-06 08:00:16.091 I/system-service( 1583): name:     gb
+01-06 08:00:16.091 I/system-service( 1583): source:   1
+01-06 08:00:16.091 I/system-service( 1583): priority: 98
+01-06 08:00:16.091 I/system-service( 1583): type:     0
+01-06 08:00:16.091 I/system-service( 1583): threshold:0
+01-06 08:00:16.091 I/system-service( 1583): time:     0
+01-06 08:00:16.091 I/system-service( 1583): gtimes:   0
+01-06 08:00:16.091 I/system-service( 1583): stimes:   0
+01-06 08:00:16.091 I/system-service( 1583): 
+01-06 08:00:16.091 I/system-service( 1583): 
+01-06 08:00:16.091 I/system-service( 1583): 
+01-06 08:00:16.091 I/system-service( 1583): 
+01-06 08:00:16.091 I/system-service( 1583): name:     gnss
+01-06 08:00:16.091 I/system-service( 1583): source:   2
+01-06 08:00:16.091 I/system-service( 1583): priority: 97
+01-06 08:00:16.101 I/system-service( 1583): type:     1
+01-06 08:00:16.101 I/system-service( 1583): threshold:10
+01-06 08:00:16.101 I/system-service( 1583): time:     0
+01-06 08:00:16.101 I/system-service( 1583): gtimes:   0
+01-06 08:00:16.101 I/system-service( 1583): stimes:   0
+01-06 08:00:16.101 I/system-service( 1583): 
+01-06 08:00:16.101 I/system-service( 1583): 
+01-06 08:00:16.101 I/system-service( 1583): 
+01-06 08:00:16.101 I/system-service( 1583): 
+01-06 08:00:16.101 I/system-service( 1583): name:     ntp
+01-06 08:00:16.101 I/system-service( 1583): source:   3
+01-06 08:00:16.101 I/system-service( 1583): priority: 96
+01-06 08:00:16.101 I/system-service( 1583): type:     1
+01-06 08:00:16.101 I/system-service( 1583): threshold:0
+01-06 08:00:16.101 I/system-service( 1583): time:     0
+01-06 08:00:16.101 I/system-service( 1583): gtimes:   0
+01-06 08:00:16.101 I/system-service( 1583): stimes:   0
+01-06 08:00:16.101 I/system-service( 1583): ----------------manage_info_t end  ------------------
+01-06 08:00:16.101 I/system-service( 1583): 
+01-06 08:00:16.101 I/system-service( 1583): 
+01-06 08:00:16.191 D/system-service( 1583): vdProxy loop:0
+01-06 08:00:16.201 D/system-service( 1583): method handshake_handler 0
+01-06 08:00:16.201 D/system-service( 1583): handshake sucess
+01-06 08:00:16.201 D/system-service( 1583): handshake times:1
+01-06 08:00:16.201 I/system-service( 1583): ipc system sucess
+01-06 08:00:16.211 I/system-service( 1583): power loop:0
+01-06 08:00:16.271 D/system-service( 1583): subscribePwrService success:  0 1
+01-06 08:00:16.271 D/system-service( 1583): getPwrMode success:  0 1 1
+01-06 08:00:16.271 I/system-service( 1583): pwrmode_handler->seq:1 mode:1
+01-06 08:00:16.321 D/system-service( 1583): replyPwrMode success:  0 1
+01-06 08:00:16.321 D/system-service( 1583): getCarMode success:  0 2
+01-06 08:00:16.321 I/system-service( 1583): init power sucess
+01-06 08:00:16.321 I/system-service( 1583): init_sleep_timer
+01-06 08:00:16.321 I/system-service( 1583): set sleep time 0
+01-06 08:00:16.321 I/system-service( 1583): Caught signal 34
+01-06 08:00:22.731 I/system-service( 1583): wkup_handler->wkup:0x00000001
+01-06 08:00:31.041 I/system-service( 1583): setTime->source:0:time:1573174496
+01-06 08:00:31.041 I/system-service( 1583): start tsp 1:1980-01-06 08:00:31----315964831:46513:0:0
+11-08 08:54:56.000 I/system-service( 1583): end tsp 1:2019-11-08 08:54:56----1573174496:1243:0:0
+11-08 08:54:56.009 I/system-service( 1583): setTime->source:0:time:1573174479
+11-08 08:54:39.000 I/system-service( 1583): end tsp 2:2019-11-08 08:54:39----1573174479:50:0:0
+11-08 08:54:56.009 I/system-service( 1583): start tsp 2:2019-11-08 08:54:56----1573174496:21891:0:0
+11-08 08:54:39.049 D/system-service( 1583): set time sync valid
+11-08 08:54:39.059 I/system-service( 1583): get time:2019-11-08 08:54:39
+11-08 08:54:39.059 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 08 36 27 
+11-08 08:54:39.059 D/system-service( 1583): writeUartToMcu sucess
+11-08 08:54:55.649 I/system-service( 1583): wkup_handler->wkup:0x00000000
+11-08 08:55:25.029 I/system-service( 1583): setTime->source:0:time:1573174542
+11-08 08:55:25.029 I/system-service( 1583): start tsp 3:2019-11-08 08:55:25----1573174525:40636:0:0
+11-08 08:55:42.000 I/system-service( 1583): end tsp 3:2019-11-08 08:55:42----1573174542:55:0:0
+11-08 08:55:42.009 I/system-service( 1583): setTime->source:0:time:1573174525
+11-08 08:55:25.000 I/system-service( 1583): end tsp 4:2019-11-08 08:55:25----1573174525:52:0:0
+11-08 08:55:42.009 I/system-service( 1583): start tsp 4:2019-11-08 08:55:42----1573174542:20729:0:0
+11-08 08:55:25.369 I/system-service( 1583): get time:2019-11-08 08:55:25
+11-08 08:55:25.369 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 08 37 19 
+11-08 08:55:25.369 D/system-service( 1583): writeUartToMcu sucess
+01-06 08:00:16.159 I/system-service( 1583): system-service:Oct 31 2019 14:27:00
+01-06 08:00:16.169 I/system-service( 1583): mcu version:mcu_L_DFSK_F516-19_1.0.1_191031
+01-06 08:00:16.179 I/system-service( 1583): device version:DFSK000100020026
+01-06 08:00:16.179 I/system-service( 1583): project version:0000
+01-06 08:00:16.189 I/system-service( 1583): software version:00000004
+01-06 08:00:16.189 I/system-service( 1583): hardware version:0003
+01-06 08:00:16.209 I/system-service( 1583): ----------------manage_info_t start ------------------
+01-06 08:00:16.219 I/system-service( 1583): ntp:  200.20.186.76
+01-06 08:00:16.219 I/system-service( 1583): ntp:  223.65.211.46
+01-06 08:00:16.219 I/system-service( 1583): ntp:  118.24.4.66
+01-06 08:00:16.219 I/system-service( 1583): ntp:  202.108.6.95
+01-06 08:00:16.219 I/system-service( 1583): 
+01-06 08:00:16.219 I/system-service( 1583): 
+01-06 08:00:16.219 I/system-service( 1583): 
+01-06 08:00:16.219 I/system-service( 1583): 
+01-06 08:00:16.219 I/system-service( 1583): name:     /dev/ubi16_0
+01-06 08:00:16.219 I/system-service( 1583): threshold:90
+01-06 08:00:16.219 I/system-service( 1583): dir:      db
+01-06 08:00:16.229 I/system-service( 1583): dir:      log
+01-06 08:00:16.229 I/system-service( 1583): dir:      logs
+01-06 08:00:16.229 I/system-service( 1583): dir:      configs
+01-06 08:00:16.229 I/system-service( 1583): dir:      mcm-core
+01-06 08:00:16.229 I/system-service( 1583): dir:      psm
+01-06 08:00:16.229 I/system-service( 1583): file:     netmgr_log.txt
+01-06 08:00:16.229 I/system-service( 1583): file:     .rnd
+01-06 08:00:16.229 I/system-service( 1583): 
+01-06 08:00:16.229 I/system-service( 1583): 
+01-06 08:00:16.229 I/system-service( 1583): 
+01-06 08:00:16.229 I/system-service( 1583): 
+01-06 08:00:16.239 I/system-service( 1583): name:     /dev/mmcblk0p1
+01-06 08:00:16.239 I/system-service( 1583): threshold:95
+01-06 08:00:16.239 I/system-service( 1583): dir:      db
+01-06 08:00:16.239 I/system-service( 1583): dir:      log
+01-06 08:00:16.239 I/system-service( 1583): 
+01-06 08:00:16.239 I/system-service( 1583): 
+01-06 08:00:16.239 I/system-service( 1583): 
+01-06 08:00:16.239 I/system-service( 1583): 
+01-06 08:00:16.239 I/system-service( 1583): name:     tsp
+01-06 08:00:16.239 I/system-service( 1583): source:   0
+01-06 08:00:16.239 I/system-service( 1583): priority: 99
+01-06 08:00:16.239 I/system-service( 1583): type:     0
+01-06 08:00:16.239 I/system-service( 1583): threshold:0
+01-06 08:00:16.239 I/system-service( 1583): time:     0
+01-06 08:00:16.239 I/system-service( 1583): gtimes:   0
+01-06 08:00:16.249 I/system-service( 1583): stimes:   0
+01-06 08:00:16.249 I/system-service( 1583): 
+01-06 08:00:16.249 I/system-service( 1583): 
+01-06 08:00:16.249 I/system-service( 1583): 
+01-06 08:00:16.249 I/system-service( 1583): 
+01-06 08:00:16.249 I/system-service( 1583): name:     gb
+01-06 08:00:16.249 I/system-service( 1583): source:   1
+01-06 08:00:16.249 I/system-service( 1583): priority: 98
+01-06 08:00:16.249 I/system-service( 1583): type:     0
+01-06 08:00:16.249 I/system-service( 1583): threshold:0
+01-06 08:00:16.249 I/system-service( 1583): time:     0
+01-06 08:00:16.249 I/system-service( 1583): gtimes:   0
+01-06 08:00:16.249 I/system-service( 1583): stimes:   0
+01-06 08:00:16.259 I/system-service( 1583): 
+01-06 08:00:16.259 I/system-service( 1583): 
+01-06 08:00:16.259 I/system-service( 1583): 
+01-06 08:00:16.259 I/system-service( 1583): 
+01-06 08:00:16.259 I/system-service( 1583): name:     gnss
+01-06 08:00:16.259 I/system-service( 1583): source:   2
+01-06 08:00:16.259 I/system-service( 1583): priority: 97
+01-06 08:00:16.259 I/system-service( 1583): type:     1
+01-06 08:00:16.259 I/system-service( 1583): threshold:10
+01-06 08:00:16.259 I/system-service( 1583): time:     0
+01-06 08:00:16.259 I/system-service( 1583): gtimes:   0
+01-06 08:00:16.259 I/system-service( 1583): stimes:   0
+01-06 08:00:16.259 I/system-service( 1583): 
+01-06 08:00:16.259 I/system-service( 1583): 
+01-06 08:00:16.259 I/system-service( 1583): 
+01-06 08:00:16.259 I/system-service( 1583): 
+01-06 08:00:16.259 I/system-service( 1583): name:     ntp
+01-06 08:00:16.259 I/system-service( 1583): source:   3
+01-06 08:00:16.269 I/system-service( 1583): priority: 96
+01-06 08:00:16.269 I/system-service( 1583): type:     1
+01-06 08:00:16.269 I/system-service( 1583): threshold:0
+01-06 08:00:16.269 I/system-service( 1583): time:     0
+01-06 08:00:16.269 I/system-service( 1583): gtimes:   0
+01-06 08:00:16.269 I/system-service( 1583): stimes:   0
+01-06 08:00:16.269 I/system-service( 1583): ----------------manage_info_t end  ------------------
+01-06 08:00:16.269 I/system-service( 1583): 
+01-06 08:00:16.269 I/system-service( 1583): 
+01-06 08:00:16.409 D/system-service( 1583): vdProxy loop:0
+01-06 08:00:16.419 D/system-service( 1583): method handshake_handler 0
+01-06 08:00:16.429 D/system-service( 1583): handshake sucess
+01-06 08:00:16.429 D/system-service( 1583): handshake times:1
+01-06 08:00:16.429 I/system-service( 1583): ipc system sucess
+01-06 08:00:16.459 I/system-service( 1583): power loop:0
+01-06 08:00:16.559 D/system-service( 1583): subscribePwrService success:  0 1
+01-06 08:00:16.569 D/system-service( 1583): getPwrMode success:  0 1 1
+01-06 08:00:16.569 I/system-service( 1583): pwrmode_handler->seq:1 mode:1
+01-06 08:00:16.689 D/system-service( 1583): replyPwrMode success:  0 1
+01-06 08:00:16.699 D/system-service( 1583): getCarMode success:  0 2
+01-06 08:00:16.699 I/system-service( 1583): init power sucess
+01-06 08:00:16.709 I/system-service( 1583): init_sleep_timer
+01-06 08:00:16.709 I/system-service( 1583): set sleep time 0
+01-06 08:00:16.709 I/system-service( 1583): Caught signal 34
+01-06 08:00:24.409 I/system-service( 1583): wkup_handler->wkup:0x00000001
+01-06 08:00:30.549 I/system-service( 1583): setTime->source:0:time:1573174647
+01-06 08:00:30.549 I/system-service( 1583): start tsp 1:1980-01-06 08:00:30----315964830:553401:0:0
+11-08 08:57:27.000 I/system-service( 1583): end tsp 1:2019-11-08 08:57:27----1573174647:1399:0:0
+11-08 08:57:27.019 I/system-service( 1583): setTime->source:0:time:1573174664
+11-08 08:57:27.019 I/system-service( 1583): start tsp 2:2019-11-08 08:57:27----1573174647:28001:0:0
+11-08 08:57:44.000 I/system-service( 1583): end tsp 2:2019-11-08 08:57:44----1573174664:51:0:0
+11-08 08:57:44.379 D/system-service( 1583): set time sync valid
+11-08 08:57:44.379 I/system-service( 1583): get time:2019-11-08 08:57:44
+11-08 08:57:44.379 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 08 39 2c 
+11-08 08:57:44.389 D/system-service( 1583): writeUartToMcu sucess
+11-08 08:57:51.609 I/system-service( 1583): setTime->source:0:time:1573174672
+11-08 08:57:51.609 I/system-service( 1583): start tsp 3:2019-11-08 08:57:51----1573174671:622123:0:0
+11-08 08:57:52.000 I/system-service( 1583): end tsp 3:2019-11-08 08:57:52----1573174672:53:0:0
+11-08 08:57:52.009 I/system-service( 1583): setTime->source:0:time:1573174655
+11-08 08:57:35.000 I/system-service( 1583): end tsp 4:2019-11-08 08:57:35----1573174655:50:0:0
+11-08 08:57:52.009 I/system-service( 1583): start tsp 4:2019-11-08 08:57:52----1573174672:18352:0:0
+11-08 08:57:35.749 I/system-service( 1583): get time:2019-11-08 08:57:35
+11-08 08:57:35.749 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 08 39 23 
+11-08 08:57:35.759 D/system-service( 1583): writeUartToMcu sucess
+11-08 08:57:45.339 I/system-service( 1583): wkup_handler->wkup:0x00000000
+11-08 09:07:21.959 I/system-service( 1583): get time:2019-11-08 09:07:21
+11-08 09:07:21.959 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 09 07 15 
+11-08 09:07:21.969 D/system-service( 1583): writeUartToMcu sucess
+11-08 09:17:28.149 I/system-service( 1583): get time:2019-11-08 09:17:28
+11-08 09:17:28.149 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 09 11 1c 
+11-08 09:17:28.149 D/system-service( 1583): writeUartToMcu sucess
+11-08 09:27:34.729 I/system-service( 1583): get time:2019-11-08 09:27:34
+11-08 09:27:34.729 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 09 1b 22 
+11-08 09:27:34.729 D/system-service( 1583): writeUartToMcu sucess
+11-08 09:37:40.899 I/system-service( 1583): get time:2019-11-08 09:37:40
+11-08 09:37:40.899 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 09 25 28 
+11-08 09:37:40.909 D/system-service( 1583): writeUartToMcu sucess
+11-08 09:47:47.229 I/system-service( 1583): get time:2019-11-08 09:47:47
+11-08 09:47:47.229 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 09 2f 2f 
+11-08 09:47:47.229 D/system-service( 1583): writeUartToMcu sucess
+11-08 09:57:53.749 I/system-service( 1583): get time:2019-11-08 09:57:53
+11-08 09:57:53.749 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 09 39 35 
+11-08 09:57:53.759 D/system-service( 1583): writeUartToMcu sucess
+11-08 10:08:00.109 I/system-service( 1583): get time:2019-11-08 10:08:00
+11-08 10:08:00.109 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 0a 08 00 
+11-08 10:08:00.119 D/system-service( 1583): writeUartToMcu sucess
+11-08 10:18:06.399 I/system-service( 1583): get time:2019-11-08 10:18:06
+11-08 10:18:06.399 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 0a 12 06 
+11-08 10:18:06.409 D/system-service( 1583): writeUartToMcu sucess
+11-08 10:28:12.749 I/system-service( 1583): get time:2019-11-08 10:28:12
+11-08 10:28:12.749 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 0a 1c 0c 
+11-08 10:28:12.759 D/system-service( 1583): writeUartToMcu sucess
+11-08 10:38:19.419 I/system-service( 1583): get time:2019-11-08 10:38:19
+11-08 10:38:19.419 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 0a 26 13 
+11-08 10:38:19.419 D/system-service( 1583): writeUartToMcu sucess
+11-08 10:48:25.939 I/system-service( 1583): get time:2019-11-08 10:48:25
+11-08 10:48:25.939 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 0a 30 19 
+11-08 10:48:25.949 D/system-service( 1583): writeUartToMcu sucess
+11-08 10:58:32.439 I/system-service( 1583): get time:2019-11-08 10:58:32
+11-08 10:58:32.439 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 0a 3a 20 
+11-08 10:58:32.439 D/system-service( 1583): writeUartToMcu sucess
+11-08 11:08:38.859 I/system-service( 1583): get time:2019-11-08 11:08:38
+11-08 11:08:38.859 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 0b 08 26 
+11-08 11:08:38.859 D/system-service( 1583): writeUartToMcu sucess
+11-08 11:18:45.009 I/system-service( 1583): get time:2019-11-08 11:18:45
+11-08 11:18:45.019 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 0b 12 2d 
+11-08 11:18:45.019 D/system-service( 1583): writeUartToMcu sucess
+11-08 11:28:51.519 I/system-service( 1583): get time:2019-11-08 11:28:51
+11-08 11:28:51.519 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 0b 1c 33 
+11-08 11:28:51.519 D/system-service( 1583): writeUartToMcu sucess
+11-08 11:36:02.019 I/system-service( 1583): wkup_handler->wkup:0x00000002
+11-08 11:38:57.779 I/system-service( 1583): get time:2019-11-08 11:38:57
+11-08 11:38:57.779 D/system-service( 1583): send mcu time:a0 8d 07 e3 0b 08 0b 26 39 
+11-08 11:38:57.779 D/system-service( 1583): writeUartToMcu sucess
+11-08 11:39:30.039 I/system-service( 1583): wkup_handler->wkup:0x00000000
+01-06 08:00:16.055 I/system-service( 1584): system-service:Oct 31 2019 14:27:00
+01-06 08:00:16.075 I/system-service( 1584): mcu version:mcu_L_DFSK_F516-19_1.0.1_191031
+01-06 08:00:16.075 I/system-service( 1584): device version:DFSK000100020026
+01-06 08:00:16.085 I/system-service( 1584): project version:0000
+01-06 08:00:16.085 I/system-service( 1584): software version:00000004
+01-06 08:00:16.085 I/system-service( 1584): hardware version:0003
+01-06 08:00:16.085 I/system-service( 1584): ----------------manage_info_t start ------------------
+01-06 08:00:16.085 I/system-service( 1584): ntp:  200.20.186.76
+01-06 08:00:16.085 I/system-service( 1584): ntp:  223.65.211.46
+01-06 08:00:16.085 I/system-service( 1584): ntp:  118.24.4.66
+01-06 08:00:16.085 I/system-service( 1584): ntp:  202.108.6.95
+01-06 08:00:16.085 I/system-service( 1584): 
+01-06 08:00:16.085 I/system-service( 1584): 
+01-06 08:00:16.085 I/system-service( 1584): 
+01-06 08:00:16.085 I/system-service( 1584): 
+01-06 08:00:16.085 I/system-service( 1584): name:     /dev/ubi16_0
+01-06 08:00:16.095 I/system-service( 1584): threshold:90
+01-06 08:00:16.095 I/system-service( 1584): dir:      db
+01-06 08:00:16.095 I/system-service( 1584): dir:      log
+01-06 08:00:16.095 I/system-service( 1584): dir:      logs
+01-06 08:00:16.095 I/system-service( 1584): dir:      configs
+01-06 08:00:16.095 I/system-service( 1584): dir:      mcm-core
+01-06 08:00:16.095 I/system-service( 1584): dir:      psm
+01-06 08:00:16.095 I/system-service( 1584): file:     netmgr_log.txt
+01-06 08:00:16.095 I/system-service( 1584): file:     .rnd
+01-06 08:00:16.095 I/system-service( 1584): 
+01-06 08:00:16.095 I/system-service( 1584): 
+01-06 08:00:16.095 I/system-service( 1584): 
+01-06 08:00:16.095 I/system-service( 1584): 
+01-06 08:00:16.095 I/system-service( 1584): name:     /dev/mmcblk0p1
+01-06 08:00:16.095 I/system-service( 1584): threshold:95
+01-06 08:00:16.095 I/system-service( 1584): dir:      db
+01-06 08:00:16.095 I/system-service( 1584): dir:      log
+01-06 08:00:16.095 I/system-service( 1584): 
+01-06 08:00:16.095 I/system-service( 1584): 
+01-06 08:00:16.095 I/system-service( 1584): 
+01-06 08:00:16.095 I/system-service( 1584): 
+01-06 08:00:16.095 I/system-service( 1584): name:     tsp
+01-06 08:00:16.095 I/system-service( 1584): source:   0
+01-06 08:00:16.095 I/system-service( 1584): priority: 99
+01-06 08:00:16.095 I/system-service( 1584): type:     0
+01-06 08:00:16.095 I/system-service( 1584): threshold:0
+01-06 08:00:16.095 I/system-service( 1584): time:     0
+01-06 08:00:16.095 I/system-service( 1584): gtimes:   0
+01-06 08:00:16.095 I/system-service( 1584): stimes:   0
+01-06 08:00:16.095 I/system-service( 1584): 
+01-06 08:00:16.095 I/system-service( 1584): 
+01-06 08:00:16.095 I/system-service( 1584): 
+01-06 08:00:16.095 I/system-service( 1584): 
+01-06 08:00:16.095 I/system-service( 1584): name:     gb
+01-06 08:00:16.105 I/system-service( 1584): source:   1
+01-06 08:00:16.105 I/system-service( 1584): priority: 98
+01-06 08:00:16.105 I/system-service( 1584): type:     0
+01-06 08:00:16.105 I/system-service( 1584): threshold:0
+01-06 08:00:16.105 I/system-service( 1584): time:     0
+01-06 08:00:16.105 I/system-service( 1584): gtimes:   0
+01-06 08:00:16.105 I/system-service( 1584): stimes:   0
+01-06 08:00:16.105 I/system-service( 1584): 
+01-06 08:00:16.105 I/system-service( 1584): 
+01-06 08:00:16.105 I/system-service( 1584): 
+01-06 08:00:16.105 I/system-service( 1584): 
+01-06 08:00:16.105 I/system-service( 1584): name:     gnss
+01-06 08:00:16.105 I/system-service( 1584): source:   2
+01-06 08:00:16.105 I/system-service( 1584): priority: 97
+01-06 08:00:16.105 I/system-service( 1584): type:     1
+01-06 08:00:16.105 I/system-service( 1584): threshold:10
+01-06 08:00:16.105 I/system-service( 1584): time:     0
+01-06 08:00:16.105 I/system-service( 1584): gtimes:   0
+01-06 08:00:16.105 I/system-service( 1584): stimes:   0
+01-06 08:00:16.105 I/system-service( 1584): 
+01-06 08:00:16.105 I/system-service( 1584): 
+01-06 08:00:16.105 I/system-service( 1584): 
+01-06 08:00:16.105 I/system-service( 1584): 
+01-06 08:00:16.105 I/system-service( 1584): name:     ntp
+01-06 08:00:16.115 I/system-service( 1584): source:   3
+01-06 08:00:16.115 I/system-service( 1584): priority: 96
+01-06 08:00:16.115 I/system-service( 1584): type:     1
+01-06 08:00:16.115 I/system-service( 1584): threshold:0
+01-06 08:00:16.115 I/system-service( 1584): time:     0
+01-06 08:00:16.115 I/system-service( 1584): gtimes:   0
+01-06 08:00:16.115 I/system-service( 1584): stimes:   0
+01-06 08:00:16.115 I/system-service( 1584): ----------------manage_info_t end  ------------------
+01-06 08:00:16.115 I/system-service( 1584): 
+01-06 08:00:16.115 I/system-service( 1584): 
+01-06 08:00:16.205 D/system-service( 1584): vdProxy loop:0
+01-06 08:00:16.205 D/system-service( 1584): method handshake_handler 0
+01-06 08:00:16.205 D/system-service( 1584): handshake sucess
+01-06 08:00:16.215 D/system-service( 1584): handshake times:1
+01-06 08:00:16.215 I/system-service( 1584): ipc system sucess
+01-06 08:00:16.225 I/system-service( 1584): power loop:0
+01-06 08:00:16.275 D/system-service( 1584): subscribePwrService success:  0 1
+01-06 08:00:16.285 D/system-service( 1584): getPwrMode success:  0 1 1
+01-06 08:00:16.285 I/system-service( 1584): pwrmode_handler->seq:1 mode:1
+01-06 08:00:16.325 D/system-service( 1584): replyPwrMode success:  0 1
+01-06 08:00:16.335 D/system-service( 1584): getCarMode success:  0 2
+01-06 08:00:16.335 I/system-service( 1584): init power sucess
+01-06 08:00:16.335 I/system-service( 1584): init_sleep_timer
+01-06 08:00:16.335 I/system-service( 1584): set sleep time 0
+01-06 08:00:16.335 I/system-service( 1584): Caught signal 34
+01-06 08:00:23.865 I/system-service( 1584): wkup_handler->wkup:0x00000001
+01-06 08:00:31.085 I/system-service( 1584): setTime->source:0:time:1573184733
+01-06 08:00:31.085 I/system-service( 1584): start tsp 1:1980-01-06 08:00:31----315964831:92804:0:0
+11-08 11:45:33.000 I/system-service( 1584): end tsp 1:2019-11-08 11:45:33----1573184733:1304:0:0
+11-08 11:45:33.019 I/system-service( 1584): setTime->source:0:time:1573184750
+11-08 11:45:33.019 I/system-service( 1584): start tsp 2:2019-11-08 11:45:33----1573184733:29475:0:0
+11-08 11:45:50.000 I/system-service( 1584): end tsp 2:2019-11-08 11:45:50----1573184750:53:0:0
+11-08 11:45:50.029 D/system-service( 1584): set time sync valid
+11-08 11:45:50.029 I/system-service( 1584): get time:2019-11-08 11:45:50
+11-08 11:45:50.029 D/system-service( 1584): send mcu time:a0 8d 07 e3 0b 08 0b 2d 32 
+11-08 11:45:50.039 D/system-service( 1584): writeUartToMcu sucess
+11-08 11:46:00.019 I/system-service( 1584): setTime->source:0:time:1573184743
+11-08 11:45:43.000 I/system-service( 1584): end tsp 3:2019-11-08 11:45:43----1573184743:54:0:0
+11-08 11:46:00.019 I/system-service( 1584): start tsp 3:2019-11-08 11:46:00----1573184760:28962:0:0
+11-08 11:45:43.000 I/system-service( 1584): setTime->source:0:time:1573184760
+11-08 11:45:43.000 I/system-service( 1584): start tsp 4:2019-11-08 11:45:43----1573184743:14961:0:0
+11-08 11:46:00.000 I/system-service( 1584): end tsp 4:2019-11-08 11:46:00----1573184760:52:0:0
+11-08 11:46:00.089 I/system-service( 1584): get time:2019-11-08 11:46:00
+11-08 11:46:00.089 D/system-service( 1584): send mcu time:a0 8d 07 e3 0b 08 0b 2e 00 
+11-08 11:46:00.099 D/system-service( 1584): writeUartToMcu sucess
+11-08 11:46:06.659 I/system-service( 1584): wkup_handler->wkup:0x00000000
+11-08 11:46:26.459 I/system-service( 1584): wkup_handler->wkup:0x00000002
+01-06 08:00:15.340 I/system-service( 1598): system-service:Oct 31 2019 14:27:00
+01-06 08:00:15.370 I/system-service( 1598): mcu version:mcu_L_DFSK_F516-19_1.0.1_191031
+01-06 08:00:15.370 I/system-service( 1598): device version:DFSK000100020026
+01-06 08:00:15.370 I/system-service( 1598): project version:0000
+01-06 08:00:15.370 I/system-service( 1598): software version:00000004
+01-06 08:00:15.370 I/system-service( 1598): hardware version:0003
+01-06 08:00:15.380 I/system-service( 1598): ----------------manage_info_t start ------------------
+01-06 08:00:15.380 I/system-service( 1598): ntp:  200.20.186.76
+01-06 08:00:15.380 I/system-service( 1598): ntp:  223.65.211.46
+01-06 08:00:15.380 I/system-service( 1598): ntp:  118.24.4.66
+01-06 08:00:15.380 I/system-service( 1598): ntp:  202.108.6.95
+01-06 08:00:15.380 I/system-service( 1598): 
+01-06 08:00:15.380 I/system-service( 1598): 
+01-06 08:00:15.380 I/system-service( 1598): 
+01-06 08:00:15.380 I/system-service( 1598): 
+01-06 08:00:15.380 I/system-service( 1598): name:     /dev/ubi16_0
+01-06 08:00:15.380 I/system-service( 1598): threshold:90
+01-06 08:00:15.380 I/system-service( 1598): dir:      db
+01-06 08:00:15.380 I/system-service( 1598): dir:      log
+01-06 08:00:15.380 I/system-service( 1598): dir:      logs
+01-06 08:00:15.380 I/system-service( 1598): dir:      configs
+01-06 08:00:15.380 I/system-service( 1598): dir:      mcm-core
+01-06 08:00:15.380 I/system-service( 1598): dir:      psm
+01-06 08:00:15.380 I/system-service( 1598): file:     netmgr_log.txt
+01-06 08:00:15.380 I/system-service( 1598): file:     .rnd
+01-06 08:00:15.380 I/system-service( 1598): 
+01-06 08:00:15.380 I/system-service( 1598): 
+01-06 08:00:15.380 I/system-service( 1598): 
+01-06 08:00:15.380 I/system-service( 1598): 
+01-06 08:00:15.380 I/system-service( 1598): name:     /dev/mmcblk0p1
+01-06 08:00:15.380 I/system-service( 1598): threshold:95
+01-06 08:00:15.390 I/system-service( 1598): dir:      db
+01-06 08:00:15.390 I/system-service( 1598): dir:      log
+01-06 08:00:15.390 I/system-service( 1598): 
+01-06 08:00:15.390 I/system-service( 1598): 
+01-06 08:00:15.390 I/system-service( 1598): 
+01-06 08:00:15.390 I/system-service( 1598): 
+01-06 08:00:15.390 I/system-service( 1598): name:     tsp
+01-06 08:00:15.390 I/system-service( 1598): source:   0
+01-06 08:00:15.390 I/system-service( 1598): priority: 99
+01-06 08:00:15.390 I/system-service( 1598): type:     0
+01-06 08:00:15.390 I/system-service( 1598): threshold:0
+01-06 08:00:15.390 I/system-service( 1598): time:     0
+01-06 08:00:15.390 I/system-service( 1598): gtimes:   0
+01-06 08:00:15.390 I/system-service( 1598): stimes:   0
+01-06 08:00:15.390 I/system-service( 1598): 
+01-06 08:00:15.390 I/system-service( 1598): 
+01-06 08:00:15.390 I/system-service( 1598): 
+01-06 08:00:15.390 I/system-service( 1598): 
+01-06 08:00:15.390 I/system-service( 1598): name:     gb
+01-06 08:00:15.390 I/system-service( 1598): source:   1
+01-06 08:00:15.390 I/system-service( 1598): priority: 98
+01-06 08:00:15.390 I/system-service( 1598): type:     0
+01-06 08:00:15.390 I/system-service( 1598): threshold:0
+01-06 08:00:15.400 I/system-service( 1598): time:     0
+01-06 08:00:15.400 I/system-service( 1598): gtimes:   0
+01-06 08:00:15.400 I/system-service( 1598): stimes:   0
+01-06 08:00:15.400 I/system-service( 1598): 
+01-06 08:00:15.400 I/system-service( 1598): 
+01-06 08:00:15.400 I/system-service( 1598): 
+01-06 08:00:15.400 I/system-service( 1598): 
+01-06 08:00:15.400 I/system-service( 1598): name:     gnss
+01-06 08:00:15.400 I/system-service( 1598): source:   2
+01-06 08:00:15.400 I/system-service( 1598): priority: 97
+01-06 08:00:15.400 I/system-service( 1598): type:     1
+01-06 08:00:15.400 I/system-service( 1598): threshold:10
+01-06 08:00:15.400 I/system-service( 1598): time:     0
+01-06 08:00:15.400 I/system-service( 1598): gtimes:   0
+01-06 08:00:15.400 I/system-service( 1598): stimes:   0
+01-06 08:00:15.400 I/system-service( 1598): 
+01-06 08:00:15.400 I/system-service( 1598): 
+01-06 08:00:15.400 I/system-service( 1598): 
+01-06 08:00:15.400 I/system-service( 1598): 
+01-06 08:00:15.400 I/system-service( 1598): name:     ntp
+01-06 08:00:15.400 I/system-service( 1598): source:   3
+01-06 08:00:15.400 I/system-service( 1598): priority: 96
+01-06 08:00:15.400 I/system-service( 1598): type:     1
+01-06 08:00:15.410 I/system-service( 1598): threshold:0
+01-06 08:00:15.410 I/system-service( 1598): time:     0
+01-06 08:00:15.410 I/system-service( 1598): gtimes:   0
+01-06 08:00:15.410 I/system-service( 1598): stimes:   0
+01-06 08:00:15.410 I/system-service( 1598): ----------------manage_info_t end  ------------------
+01-06 08:00:15.410 I/system-service( 1598): 
+01-06 08:00:15.410 I/system-service( 1598): 
+01-06 08:00:15.510 D/system-service( 1598): vdProxy loop:0
+01-06 08:00:15.520 D/system-service( 1598): method handshake_handler 0
+01-06 08:00:15.520 D/system-service( 1598): handshake sucess
+01-06 08:00:15.520 D/system-service( 1598): handshake times:1
+01-06 08:00:15.520 I/system-service( 1598): ipc system sucess
+01-06 08:00:15.540 I/system-service( 1598): power loop:0
+01-06 08:00:15.610 D/system-service( 1598): subscribePwrService success:  0 1
+01-06 08:00:15.610 D/system-service( 1598): getPwrMode success:  0 1 1
+01-06 08:00:15.620 I/system-service( 1598): pwrmode_handler->seq:1 mode:1
+01-06 08:00:15.670 D/system-service( 1598): replyPwrMode success:  0 1
+01-06 08:00:15.680 D/system-service( 1598): getCarMode success:  0 1
+01-06 08:00:15.680 I/system-service( 1598): init power sucess
+01-06 08:00:15.680 I/system-service( 1598): init_sleep_timer
+01-06 08:00:15.680 I/system-service( 1598): set sleep time 0
+01-06 08:00:15.690 I/system-service( 1598): Caught signal 34
+01-06 08:00:22.140 I/system-service( 1598): wkup_handler->wkup:0x00000001
+01-06 08:00:29.740 I/system-service( 1598): carmode_handler->mode:2
+01-06 08:00:29.740 D/system-service( 1598): acc on car mode
+01-06 08:00:30.560 I/system-service( 1598): setTime->source:0:time:1573185059
+01-06 08:00:30.560 I/system-service( 1598): start tsp 1:1980-01-06 08:00:30----315964830:574082:0:0
+11-08 11:50:59.000 I/system-service( 1598): end tsp 1:2019-11-08 11:50:59----1573185059:1408:0:0
+11-08 11:50:59.049 I/system-service( 1598): setTime->source:0:time:1573185042
+11-08 11:50:42.000 I/system-service( 1598): end tsp 2:2019-11-08 11:50:42----1573185042:53:0:0
+11-08 11:50:59.049 I/system-service( 1598): start tsp 2:2019-11-08 11:50:59----1573185059:56721:0:0
+11-08 11:50:42.459 I/system-service( 1598): carmode_handler->mode:1
+11-08 11:50:42.459 D/system-service( 1598): acc off car mode
+11-08 11:50:42.919 D/system-service( 1598): set time sync valid
+11-08 11:50:42.919 I/system-service( 1598): get time:2019-11-08 11:50:42
+11-08 11:50:42.919 D/system-service( 1598): send mcu time:a0 8d 07 e3 0b 08 0b 32 2a 
+11-08 11:50:42.929 D/system-service( 1598): writeUartToMcu sucess
+11-08 11:50:43.779 I/system-service( 1598): wkup_handler->wkup:0x00000000
+11-08 11:50:43.789 I/system-service( 1598): carmode_handler->mode:2
+11-08 11:50:43.789 D/system-service( 1598): acc on car mode
+11-08 11:51:28.049 I/system-service( 1598): setTime->source:0:time:1573185088
+11-08 11:51:28.000 I/system-service( 1598): end tsp 3:2019-11-08 11:51:28----1573185088:56:0:0
+11-08 11:51:28.049 I/system-service( 1598): start tsp 3:2019-11-08 11:51:28----1573185088:65904:0:0
+11-08 11:51:28.009 I/system-service( 1598): setTime->source:0:time:1573185105
+11-08 11:51:28.009 I/system-service( 1598): start tsp 4:2019-11-08 11:51:28----1573185088:16867:0:0
+11-08 11:51:45.000 I/system-service( 1598): end tsp 4:2019-11-08 11:51:45----1573185105:56:0:0
+11-08 11:51:45.259 I/system-service( 1598): get time:2019-11-08 11:51:45
+11-08 11:51:45.259 D/system-service( 1598): send mcu time:a0 8d 07 e3 0b 08 0b 33 2d 
+11-08 11:51:45.269 D/system-service( 1598): writeUartToMcu sucess
+11-08 11:59:27.689 I/system-service( 1598): carmode_handler->mode:1
+11-08 11:59:27.689 D/system-service( 1598): acc off car mode
+11-08 12:00:53.079 I/system-service( 1598): get time:2019-11-08 12:00:53
+11-08 12:00:53.079 D/system-service( 1598): send mcu time:a0 8d 07 e3 0b 08 0c 00 35 
+11-08 12:00:53.089 D/system-service( 1598): writeUartToMcu sucess
+11-08 12:10:59.349 I/system-service( 1598): get time:2019-11-08 12:10:59
+11-08 12:10:59.349 D/system-service( 1598): send mcu time:a0 8d 07 e3 0b 08 0c 0a 3b 
+11-08 12:10:59.359 D/system-service( 1598): writeUartToMcu sucess

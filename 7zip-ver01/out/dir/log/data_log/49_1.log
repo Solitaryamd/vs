@@ -1,0 +1,93 @@
+[1980-01-06 08:00:09]               /\  /\                
+[1980-01-06 08:00:09]***************  \/  *****************
+[1980-01-06 08:00:09]                                      
+[1980-01-06 08:00:09] data-service start!!!!               
+[1980-01-06 08:00:09] build: Oct 13 2019 15:30:17 
+[1980-01-06 08:00:09] build: 05 14 2019 10:50:18           
+[1980-01-06 08:00:09]                                      
+[1980-01-06 08:00:09]**************************************
+[1980-01-06 08:00:09]class VehicleDataServiceStubImpl construction
+[1980-01-06 08:00:09]VehicleDataService registerService Done
+[1980-01-06 08:00:09]new VDDataModel()
+[1980-01-06 08:00:09]VDDataModel is constructed
+[1980-01-06 08:00:09]initACStatus done
+[1980-01-06 08:00:09]initVehicleData done
+[1980-01-06 08:00:09]initCrashData done
+[1980-01-06 08:00:09]initTyrePressData done
+[1980-01-06 08:00:09]initGValData done
+[1980-01-06 08:00:09]initRadarData done
+[1980-01-06 08:00:09]initBigData1 done
+[1980-01-06 08:00:09]initBigData2 done
+[1980-01-06 08:00:09]initNomalFaultData done
+[1980-01-06 08:00:09]initElecChgeData done
+[1980-01-06 08:00:09]initVehicleData1 done
+[1980-01-06 08:00:09]initCarCFGData done
+[1980-01-06 08:00:09]registerVehicleDataChangeCb Done
+[1980-01-06 08:00:09]registerVehicleData1ChangeCb Done
+[1980-01-06 08:00:09]registerHvacDataChangeCb Done
+[1980-01-06 08:00:09]registerCrashChangeCb Done
+[1980-01-06 08:00:09]registerPhoneCallChangeCb Done
+[1980-01-06 08:00:09]registerCtrlResultChangeCb Done
+[1980-01-06 08:00:09]new VDDataModelElec()
+[1980-01-06 08:00:09]VDDataModelElec is constructed
+[1980-01-06 08:00:09]initVcuData done
+[1980-01-06 08:00:09]initMotorData done
+[1980-01-06 08:00:09]initExtremumData done
+[1980-01-06 08:00:09]initFaultData done
+[1980-01-06 08:00:09]initChargeStorData done
+[1980-01-06 08:00:09]initN1DTCData done
+[1980-01-06 08:00:09]initN2DTCData done
+[1980-01-06 08:00:09]initChargeStorTempData done
+[1980-01-06 08:00:09]initCellSysNumData done
+[1980-01-06 08:00:09]initDefineData done
+[1980-01-06 08:00:09]registerVcuChangeCb Done
+[1980-01-06 08:00:09]registerMotorChangeCb Done
+[1980-01-06 08:00:09]registerExtremumChangeCb Done
+[1980-01-06 08:00:09]registerFaultChangeCb Done
+[1980-01-06 08:00:09]registerChargeStorChangeCb Done
+[1980-01-06 08:00:09]registerTyreChangeCb Done
+[1980-01-06 08:00:09]registerDTCChangeCb Done
+[1980-01-06 08:00:09]registerGValChangeCb Done
+[1980-01-06 08:00:09]registerRadarChangeCb Done
+[1980-01-06 08:00:09]registerBigData1Cb Done
+[1980-01-06 08:00:09]registerBigData2Cb Done
+[1980-01-06 08:00:09]registerNomalFaultCb Done
+[1980-01-06 08:00:09]registerCarCfgDataCb Done
+[1980-01-06 08:00:09]autolinkMcuParseDataPThread -> start
+[1980-01-06 08:00:09]MCU SERVICE IS AVAILABLE!
+[1980-01-06 08:00:09]notify mcu service handshake sucessful
+[2019-10-30 11:25:05]G:: D0 01 00 00 00 
+[2019-10-30 11:25:05]G:: D0 02 00 0F FF 00 00 80 00 00 00 
+[2019-10-30 11:25:05]G:: D0 03 FF 64 FF 64 FF 64 FF 64 FF 64 
+[2019-10-30 11:25:05]G:: D0 05 FF FF FF 03 00 
+[2019-10-30 11:25:05]G:: D0 06 02 
+[2019-10-30 11:25:05]G:: D0 07 00 
+[2019-10-30 11:25:05]G:: D0 08 00 00 00 00 00 00 00 00 00 00 
+[2019-10-30 11:25:05]G:: D0 09 FF FF 00 00 00 00 
+[2019-10-30 11:25:05]G:: D0 0A 00 00 00 00 FF FF FF FF 00 FF FF 00 00 
+[2019-10-30 11:25:05]G:: D0 0B FF FF FF FF FF FF 00 00 
+[2019-10-30 11:25:05]G:: D0 0C FF 00 00 
+[2019-10-30 11:25:05]G:: D0 0D 0F 
+[2019-10-30 11:25:05]G:: D0 0E FF 
+[2019-10-30 11:25:05]G:: D0 0F 00 00 
+[2019-10-30 11:25:05]G:: D0 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[2019-10-30 11:25:05]G:: D0 12 00 
+[2019-10-30 11:25:05]G:: 50 1C 44 46 53 4B 30 30 30 31 30 30 30 32 30 30 32 36 31 39 31 30 31 36 30 30 30 31 30 30 30 30 31 30 
+[2019-10-30 11:25:05]G:: D0 14 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[2019-10-30 11:25:05]G:: D0 15 00 
+[2019-10-30 11:25:05]G:: D0 16 00 
+[2019-10-30 11:25:05]G:: D0 1B 00 FF 
+[2019-10-30 11:25:05]G:: 50 06 31 32 33 34 35 54 30 37 30 33 54 30 30 30 31 31 30 
+[2019-10-30 11:25:05]G:: 50 0C 83 E0 E5 E7 FF 00 D3 3D 
+[2019-10-30 11:25:05]G:: D0 19 FF 
+[2019-10-30 11:25:05]G:: D0 1D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[2019-10-30 11:25:05]G:: D0 13 02 
+[2019-10-30 11:25:05]G:: D0 1E 00 
+[2019-10-30 11:25:05]G:: D0 1F 00 
+[2019-10-30 11:25:05]G:: D0 2A 00 00 00 00 00 00 00 00 00 00 
+[2019-10-30 11:25:05]ecall invalid
+[2019-10-30 11:25:05]bcall invalid
+[2019-10-30 11:25:05]icall invalid
+[2019-10-30 11:25:05]return ctrl default
+[2019-10-30 11:25:05]result: default
+[2019-10-30 11:25:05]car cfg CAR_CFG_PEPS

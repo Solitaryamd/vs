@@ -1,0 +1,8 @@
+[1980-01-06 08:00:17]====================================================
+[1980-01-06 08:00:17]* remote-service v2.0(20191031 14:27:53).
+[1980-01-06 08:00:17]=====================================================
+[1980-01-06 08:00:17]init config:engine:yes, airCtrl:yes, lock:yes, findCar:yes, charge:yes, disEngine:yes.
+[1980-01-06 08:00:17]            windows:yes, trumpet:yes, flicker:yes, reardoor:yes, seatHot:yes, skyWindow:yes.
+[2019-11-07 16:51:13]remoteDiag id[0], taskId: from source0, running........................
+[2019-11-07 16:51:13]mcu response diag result(2):ff 6 .
+[2019-11-07 16:51:13]remoteDiag id[0], taskId: to source0 reponse----result:flase, errCode(1):6

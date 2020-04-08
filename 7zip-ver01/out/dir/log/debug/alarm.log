@@ -1,0 +1,136 @@
+01-06 08:00:17.590 I/alarm-service( 1762): ===========================================================
+01-06 08:00:17.830 I/alarm-service( 1762): * alarm-service v2.0(20191031 14:28:16).
+01-06 08:00:17.840 D/alarm-service( 1762): * first version(20180415).
+01-06 08:00:17.840 D/alarm-service( 1762): * add windows not close alarm(20180531).
+01-06 08:00:17.840 I/alarm-service( 1762): ===========================================================
+01-06 08:00:17.840 I/alarm-service( 1762): init config1----rollover:yes, unusual:yes, collision:yes.
+01-06 08:00:17.840 I/alarm-service( 1762): init config2----antiTheft:yes, airbag:yes, windows:yes.
+01-06 08:00:17.840 D/alarm-service( 1762): msgTimer is running.
+01-06 08:00:17.970 D/alarm-service( 1762): alarm service start successfully.
+01-06 08:00:18.250 D/alarm-service( 1762): data client is available.
+01-06 08:00:18.360 D/alarm-service( 1762): power client is available.
+01-06 08:00:18.460 D/alarm-service( 1762): registerPowerService ok.
+01-06 08:00:19.990 I/alarm-service( 1762): statusListener----peps state:3.
+01-06 08:00:20.650 I/alarm-service( 1762): statusListener----peps state:4.
+01-06 08:00:21.950 I/alarm-service( 1762): statusListener----peps state:3.
+11-08 10:52:58.519 I/alarm-service( 1762): statusListener----peps state:2.
+11-08 10:52:58.839 I/alarm-service( 1762): statusListener----peps state:1.
+11-08 10:53:32.219 I/alarm-service( 1762): statusListener----peps state:3.
+11-08 10:54:13.259 I/alarm-service( 1762): statusListener----peps state:1.
+11-08 10:55:32.279 I/alarm-service( 1762): statusListener----peps state:3.
+11-08 10:56:02.709 I/alarm-service( 1762): statusListener----peps state:1.
+11-08 10:57:57.939 I/alarm-service( 1762): statusListener----peps state:3.
+11-08 10:58:28.049 I/alarm-service( 1762): statusListener----peps state:1.
+11-08 11:05:28.379 I/alarm-service( 1762): statusListener----peps state:3.
+11-08 11:06:10.559 I/alarm-service( 1762): statusListener----peps state:1.
+01-06 08:00:17.329 I/alarm-service( 1601): ===========================================================
+01-06 08:00:17.569 I/alarm-service( 1601): * alarm-service v2.0(20191031 14:28:16).
+01-06 08:00:17.579 D/alarm-service( 1601): * first version(20180415).
+01-06 08:00:17.579 D/alarm-service( 1601): * add windows not close alarm(20180531).
+01-06 08:00:17.579 I/alarm-service( 1601): ===========================================================
+01-06 08:00:17.579 I/alarm-service( 1601): init config1----rollover:yes, unusual:yes, collision:yes.
+01-06 08:00:17.579 I/alarm-service( 1601): init config2----antiTheft:yes, airbag:yes, windows:yes.
+01-06 08:00:17.579 D/alarm-service( 1601): msgTimer is running.
+01-06 08:00:17.729 D/alarm-service( 1601): alarm service start successfully.
+01-06 08:00:17.969 D/alarm-service( 1601): data client is available.
+01-06 08:00:18.029 D/alarm-service( 1601): power client is available.
+01-06 08:00:18.139 D/alarm-service( 1601): registerPowerService ok.
+11-08 08:12:49.939 I/alarm-service( 1601): statusListener----peps state:3.
+11-08 08:13:27.779 I/alarm-service( 1601): statusListener----peps state:1.
+11-08 08:16:14.119 I/alarm-service( 1601): statusListener----peps state:2.
+11-08 08:16:15.679 I/alarm-service( 1601): statusListener----peps state:3.
+01-06 08:00:17.373 I/alarm-service( 1606): ===========================================================
+01-06 08:00:17.583 I/alarm-service( 1606): * alarm-service v2.0(20191031 14:28:16).
+01-06 08:00:17.593 D/alarm-service( 1606): * first version(20180415).
+01-06 08:00:17.593 D/alarm-service( 1606): * add windows not close alarm(20180531).
+01-06 08:00:17.593 I/alarm-service( 1606): ===========================================================
+01-06 08:00:17.593 I/alarm-service( 1606): init config1----rollover:yes, unusual:yes, collision:yes.
+01-06 08:00:17.603 I/alarm-service( 1606): init config2----antiTheft:yes, airbag:yes, windows:yes.
+01-06 08:00:17.603 D/alarm-service( 1606): msgTimer is running.
+01-06 08:00:17.753 D/alarm-service( 1606): alarm service start successfully.
+01-06 08:00:18.983 D/alarm-service( 1606): data client is available.
+01-06 08:00:18.993 D/alarm-service( 1606): power client is available.
+01-06 08:00:19.063 D/alarm-service( 1606): registerPowerService ok.
+11-08 08:20:47.509 D/alarm-service( 1606): powerListener----seq:2 mode:2
+11-08 08:20:47.779 D/alarm-service( 1606): replyPoweMode 2 ok.
+11-08 08:20:49.869 D/alarm-service( 1606): powerListener----seq:3 mode:3
+11-08 08:20:50.069 D/alarm-service( 1606): replyPoweMode 3 ok.
+11-08 08:22:22.693 D/alarm-service( 1606): sensorListener----item:1.
+11-08 08:22:22.693 D/alarm-service( 1606): sensorListener----collision:0.
+11-08 08:22:22.723 D/alarm-service( 1606): sensorListener----item:4.
+11-08 08:22:22.733 D/alarm-service( 1606): sensorListener----item:2.
+11-08 08:22:22.733 I/alarm-service( 1606): sensorListener----gsersor:0, x:-20000,y:-20000,z:-20000,g:0.000000.
+11-08 08:22:22.763 I/alarm-service( 1606): statusListener----dataType:11, airBag:false.
+11-08 08:22:24.843 D/alarm-service( 1606): powerListener----seq:4 mode:1
+11-08 08:22:24.993 D/alarm-service( 1606): replyPoweMode 4 ok.
+11-08 08:22:25.663 D/alarm-service( 1606): sensorListener----item:1.
+11-08 08:22:25.663 D/alarm-service( 1606): sensorListener----collision:0.
+11-08 08:22:25.703 D/alarm-service( 1606): sensorListener----item:4.
+11-08 08:22:25.713 D/alarm-service( 1606): sensorListener----item:2.
+11-08 08:22:25.713 I/alarm-service( 1606): sensorListener----gsersor:0, x:-749,y:124,z:-749,g:1946.000000.
+11-08 08:22:25.743 I/alarm-service( 1606): statusListener----dataType:11, airBag:false.
+01-06 08:00:17.301 I/alarm-service( 1602): ===========================================================
+01-06 08:00:17.531 I/alarm-service( 1602): * alarm-service v2.0(20191031 14:28:16).
+01-06 08:00:17.541 D/alarm-service( 1602): * first version(20180415).
+01-06 08:00:17.541 D/alarm-service( 1602): * add windows not close alarm(20180531).
+01-06 08:00:17.541 I/alarm-service( 1602): ===========================================================
+01-06 08:00:17.541 I/alarm-service( 1602): init config1----rollover:yes, unusual:yes, collision:yes.
+01-06 08:00:17.551 I/alarm-service( 1602): init config2----antiTheft:yes, airbag:yes, windows:yes.
+01-06 08:00:17.551 D/alarm-service( 1602): msgTimer is running.
+01-06 08:00:17.671 D/alarm-service( 1602): alarm service start successfully.
+01-06 08:00:18.901 D/alarm-service( 1602): data client is available.
+01-06 08:00:18.921 D/alarm-service( 1602): power client is available.
+01-06 08:00:18.961 D/alarm-service( 1602): registerPowerService ok.
+01-06 08:00:17.949 I/alarm-service( 1602): ===========================================================
+01-06 08:00:17.969 I/alarm-service( 1602): * alarm-service v2.0(20191031 14:28:16).
+01-06 08:00:17.989 D/alarm-service( 1602): * first version(20180415).
+01-06 08:00:17.989 D/alarm-service( 1602): * add windows not close alarm(20180531).
+01-06 08:00:17.989 I/alarm-service( 1602): ===========================================================
+01-06 08:00:17.999 I/alarm-service( 1602): init config1----rollover:yes, unusual:yes, collision:yes.
+01-06 08:00:17.999 I/alarm-service( 1602): init config2----antiTheft:yes, airbag:yes, windows:yes.
+01-06 08:00:17.999 D/alarm-service( 1602): msgTimer is running.
+01-06 08:00:18.219 D/alarm-service( 1602): alarm service start successfully.
+01-06 08:00:19.539 D/alarm-service( 1602): data client is available.
+01-06 08:00:19.569 D/alarm-service( 1602): power client is available.
+01-06 08:00:19.619 D/alarm-service( 1602): registerPowerService ok.
+01-06 08:00:17.295 I/alarm-service( 1603): ===========================================================
+01-06 08:00:17.515 I/alarm-service( 1603): * alarm-service v2.0(20191031 14:28:16).
+01-06 08:00:17.535 D/alarm-service( 1603): * first version(20180415).
+01-06 08:00:17.535 D/alarm-service( 1603): * add windows not close alarm(20180531).
+01-06 08:00:17.535 I/alarm-service( 1603): ===========================================================
+01-06 08:00:17.535 I/alarm-service( 1603): init config1----rollover:yes, unusual:yes, collision:yes.
+01-06 08:00:17.535 I/alarm-service( 1603): init config2----antiTheft:yes, airbag:yes, windows:yes.
+01-06 08:00:17.535 D/alarm-service( 1603): msgTimer is running.
+01-06 08:00:17.665 D/alarm-service( 1603): alarm service start successfully.
+01-06 08:00:17.935 D/alarm-service( 1603): data client is available.
+01-06 08:00:17.995 D/alarm-service( 1603): power client is available.
+01-06 08:00:18.085 D/alarm-service( 1603): registerPowerService ok.
+01-06 08:00:16.760 I/alarm-service( 1617): ===========================================================
+01-06 08:00:17.010 I/alarm-service( 1617): * alarm-service v2.0(20191031 14:28:16).
+01-06 08:00:17.030 D/alarm-service( 1617): * first version(20180415).
+01-06 08:00:17.030 D/alarm-service( 1617): * add windows not close alarm(20180531).
+01-06 08:00:17.040 I/alarm-service( 1617): ===========================================================
+01-06 08:00:17.040 I/alarm-service( 1617): init config1----rollover:yes, unusual:yes, collision:yes.
+01-06 08:00:17.040 I/alarm-service( 1617): init config2----antiTheft:yes, airbag:yes, windows:yes.
+01-06 08:00:17.040 D/alarm-service( 1617): msgTimer is running.
+01-06 08:00:17.200 D/alarm-service( 1617): alarm service start successfully.
+01-06 08:00:18.420 D/alarm-service( 1617): data client is available.
+01-06 08:00:18.440 D/alarm-service( 1617): power client is available.
+01-06 08:00:18.490 D/alarm-service( 1617): registerPowerService ok.
+01-06 08:00:29.560 I/alarm-service( 1617): statusListener----peps state:3.
+01-06 08:00:30.100 I/alarm-service( 1617): statusListener----peps state:4.
+11-08 11:50:43.009 I/alarm-service( 1617): statusListener----peps state:3.
+11-08 11:58:15.269 I/alarm-service( 1617): statusListener----peps state:2.
+11-08 11:58:15.469 I/alarm-service( 1617): statusListener----peps state:1.
+11-08 11:58:44.699 I/alarm-service( 1617): statusListener----peps state:3.
+11-08 11:58:57.229 I/alarm-service( 1617): statusListener----peps state:1.
+11-08 12:00:24.499 I/alarm-service( 1617): statusListener----peps state:3.
+11-08 12:00:47.809 I/alarm-service( 1617): statusListener----peps state:1.
+11-08 12:02:36.609 I/alarm-service( 1617): statusListener----peps state:3.
+11-08 12:03:00.779 I/alarm-service( 1617): statusListener----peps state:1.
+11-08 12:05:03.449 I/alarm-service( 1617): statusListener----peps state:3.
+11-08 12:05:23.549 I/alarm-service( 1617): statusListener----peps state:1.
+11-08 12:06:10.359 I/alarm-service( 1617): statusListener----peps state:3.
+11-08 12:06:21.109 I/alarm-service( 1617): statusListener----peps state:1.
+11-08 12:07:13.419 I/alarm-service( 1617): statusListener----peps state:3.
+11-08 12:07:27.919 I/alarm-service( 1617): statusListener----peps state:1.

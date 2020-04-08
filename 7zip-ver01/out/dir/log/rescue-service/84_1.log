@@ -1,0 +1,98 @@
+[1980-01-06 08:00:20]===========================================================
+[1980-01-06 08:00:20]* rescue-service V2.0(20191031 14:27:09).
+[1980-01-06 08:00:20]===========================================================
+[1980-01-06 08:00:20]init config1----ecall:yes, bcall:yes, icall:yes.
+[1980-01-06 08:00:20]init config2----voice:lineout, volume:55, collision:yes, gsersor:yes, airbag:yes, autoAnswer:no.
+[2019-11-07 14:38:52]dataListener----dataType:11, airBag:false.
+[2019-11-07 14:40:31][calling[0]......................callType:ICALL, callSwitch:Dialing]
+[2019-11-07 14:40:31][callChanged----callId:1, number:17818326300, state:1, direction:0]
+[2019-11-07 14:40:31]notifyCallStatus ok.......................callType:3, callStatus:4
+[2019-11-07 14:40:31]notifyMcuCallStatus ok....................callType:3, callStatus:4.
+[2019-11-07 14:40:34][callChanged----callId:1, number:17818326300, state:2, direction:0]
+[2019-11-07 14:40:34]notifyCallStatus ok.......................callType:3, callStatus:5
+[2019-11-07 14:40:34]notifyMcuCallStatus ok....................callType:3, callStatus:5.
+[2019-11-07 14:40:42][callChanged----callId:1, number:17818326300, state:3, direction:0]
+[2019-11-07 14:40:42]notifyCallStatus ok.......................callType:3, callStatus:2
+[2019-11-07 14:40:42]notifyMcuCallStatus ok....................callType:3, callStatus:2.
+[2019-11-07 14:40:52][callChanged----callId:1, number:17818326300, state:3, direction:0]
+[2019-11-07 14:40:52][callChanged----callId:1, number:17818326300, state:5, direction:0]
+[2019-11-07 14:40:52]notifyCallStatus ok.......................callType:3, callStatus:3
+[2019-11-07 14:40:52]notifyMcuCallStatus ok....................callType:3, callStatus:3.
+[2019-11-07 14:40:56][calling[0]......................callType:ICALL, callSwitch:Dialing]
+[2019-11-07 14:40:56][callChanged----callId:1, number:17818326300, state:1, direction:0]
+[2019-11-07 14:40:56]notifyCallStatus ok.......................callType:3, callStatus:4
+[2019-11-07 14:40:56]notifyMcuCallStatus ok....................callType:3, callStatus:4.
+[2019-11-07 14:40:59][callChanged----callId:1, number:17818326300, state:2, direction:0]
+[2019-11-07 14:40:59]notifyCallStatus ok.......................callType:3, callStatus:5
+[2019-11-07 14:40:59]notifyMcuCallStatus ok....................callType:3, callStatus:5.
+[2019-11-07 14:41:04][callChanged----callId:1, number:17818326300, state:3, direction:0]
+[2019-11-07 14:41:04]notifyCallStatus ok.......................callType:3, callStatus:2
+[2019-11-07 14:41:04]notifyMcuCallStatus ok....................callType:3, callStatus:2.
+[2019-11-07 14:41:13][calling[3]......................callType:ICALL, callSwitch:Hangup]
+[2019-11-07 14:41:13][callChanged----callId:1, number:17818326300, state:3, direction:0]
+[2019-11-07 14:41:13][callChanged----callId:1, number:17818326300, state:5, direction:0]
+[2019-11-07 14:41:13]notifyCallStatus ok.......................callType:3, callStatus:3
+[2019-11-07 14:41:13]notifyMcuCallStatus ok....................callType:3, callStatus:3.
+[2019-11-07 14:41:19][calling[0]......................callType:ICALL, callSwitch:Dialing]
+[2019-11-07 14:41:19][callChanged----callId:1, number:17818326300, state:1, direction:0]
+[2019-11-07 14:41:19]notifyCallStatus ok.......................callType:3, callStatus:4
+[2019-11-07 14:41:19]notifyMcuCallStatus ok....................callType:3, callStatus:4.
+[2019-11-07 14:41:22][callChanged----callId:1, number:17818326300, state:2, direction:0]
+[2019-11-07 14:41:22]notifyCallStatus ok.......................callType:3, callStatus:5
+[2019-11-07 14:41:22]notifyMcuCallStatus ok....................callType:3, callStatus:5.
+[2019-11-07 14:41:27][callChanged----callId:1, number:17818326300, state:3, direction:0]
+[2019-11-07 14:41:27]notifyCallStatus ok.......................callType:3, callStatus:2
+[2019-11-07 14:41:27]notifyMcuCallStatus ok....................callType:3, callStatus:2.
+[2019-11-07 14:41:37][calling[3]......................callType:ICALL, callSwitch:Hangup]
+[2019-11-07 14:41:37][callChanged----callId:1, number:17818326300, state:3, direction:0]
+[2019-11-07 14:41:38][callChanged----callId:1, number:17818326300, state:5, direction:0]
+[2019-11-07 14:41:38]notifyCallStatus ok.......................callType:3, callStatus:3
+[2019-11-07 14:41:38]notifyMcuCallStatus ok....................callType:3, callStatus:3.
+[2019-11-07 14:41:41][calling[0]......................callType:ICALL, callSwitch:Dialing]
+[2019-11-07 14:41:42][callChanged----callId:1, number:17818326300, state:1, direction:0]
+[2019-11-07 14:41:42]notifyCallStatus ok.......................callType:3, callStatus:4
+[2019-11-07 14:41:42]notifyMcuCallStatus ok....................callType:3, callStatus:4.
+[2019-11-07 14:41:44][callChanged----callId:1, number:17818326300, state:2, direction:0]
+[2019-11-07 14:41:44]notifyCallStatus ok.......................callType:3, callStatus:5
+[2019-11-07 14:41:44]notifyMcuCallStatus ok....................callType:3, callStatus:5.
+[2019-11-07 14:42:00][calling[3]......................callType:ICALL, callSwitch:Hangup]
+[2019-11-07 14:42:00][callChanged----callId:1, number:17818326300, state:2, direction:0]
+[2019-11-07 14:42:00][callChanged----callId:1, number:17818326300, state:5, direction:0]
+[2019-11-07 14:42:00]notifyCallStatus ok.......................callType:3, callStatus:3
+[2019-11-07 14:42:00]notifyMcuCallStatus ok....................callType:3, callStatus:3.
+[2019-11-07 14:42:06][calling[0]......................callType:ICALL, callSwitch:Dialing]
+[2019-11-07 14:42:06][callChanged----callId:1, number:17818326300, state:1, direction:0]
+[2019-11-07 14:42:06]notifyCallStatus ok.......................callType:3, callStatus:4
+[2019-11-07 14:42:06]notifyMcuCallStatus ok....................callType:3, callStatus:4.
+[2019-11-07 14:42:09][callChanged----callId:1, number:17818326300, state:2, direction:0]
+[2019-11-07 14:42:09]notifyCallStatus ok.......................callType:3, callStatus:5
+[2019-11-07 14:42:09]notifyMcuCallStatus ok....................callType:3, callStatus:5.
+[2019-11-07 14:42:14][callChanged----callId:1, number:17818326300, state:3, direction:0]
+[2019-11-07 14:42:14]notifyCallStatus ok.......................callType:3, callStatus:2
+[2019-11-07 14:42:14]notifyMcuCallStatus ok....................callType:3, callStatus:2.
+[2019-11-07 14:42:22][callChanged----callId:1, number:17818326300, state:3, direction:0]
+[2019-11-07 14:42:22][callChanged----callId:1, number:17818326300, state:5, direction:0]
+[2019-11-07 14:42:22]notifyCallStatus ok.......................callType:3, callStatus:3
+[2019-11-07 14:42:22]notifyMcuCallStatus ok....................callType:3, callStatus:3.
+[2019-11-07 14:42:32][calling[0]......................callType:ICALL, callSwitch:Dialing]
+[2019-11-07 14:42:32][callChanged----callId:1, number:17818326300, state:1, direction:0]
+[2019-11-07 14:42:32]notifyCallStatus ok.......................callType:3, callStatus:4
+[2019-11-07 14:42:32]notifyMcuCallStatus ok....................callType:3, callStatus:4.
+[2019-11-07 14:42:35][callChanged----callId:1, number:17818326300, state:2, direction:0]
+[2019-11-07 14:42:35]notifyCallStatus ok.......................callType:3, callStatus:5
+[2019-11-07 14:42:35]notifyMcuCallStatus ok....................callType:3, callStatus:5.
+[2019-11-07 14:42:48][callChanged----callId:1, number:17818326300, state:3, direction:0]
+[2019-11-07 14:42:48]notifyCallStatus ok.......................callType:3, callStatus:2
+[2019-11-07 14:42:48]notifyMcuCallStatus ok....................callType:3, callStatus:2.
+[2019-11-07 14:42:53][calling[3]......................callType:ICALL, callSwitch:Hangup]
+[2019-11-07 14:42:54][callChanged----callId:1, number:17818326300, state:3, direction:0]
+[2019-11-07 14:42:54][callChanged----callId:1, number:17818326300, state:5, direction:0]
+[2019-11-07 14:42:54]notifyCallStatus ok.......................callType:3, callStatus:3
+[2019-11-07 14:42:54]notifyMcuCallStatus ok....................callType:3, callStatus:3.
+[2019-11-07 14:48:05][calling[0]......................callType:ECALL, callSwitch:Dialing]
+[2019-11-07 14:48:05][callChanged----callId:1, number:17818326300, state:1, direction:0]
+[2019-11-07 14:48:05]notifyCallStatus ok.......................callType:1, callStatus:4
+[2019-11-07 14:48:05]notifyMcuCallStatus ok....................callType:1, callStatus:4.
+[2019-11-07 14:48:08][callChanged----callId:1, number:17818326300, state:2, direction:0]
+[2019-11-07 14:48:08]notifyCallStatus ok.......................callType:1, callStatus:5
+[2019-11-07 14:48:08]notifyMcuCallStatus ok....................callType:1, callStatus:5.

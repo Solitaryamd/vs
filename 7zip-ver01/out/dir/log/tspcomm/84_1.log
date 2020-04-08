@@ -1,0 +1,505 @@
+[1980-01-06 08:00:21]
+[1980-01-06 08:00:21]*****************************
+[1980-01-06 08:00:21]           startup          
+[1980-01-06 08:00:21] build: Oct 31 2019 14:33:06 
+[1980-01-06 08:00:21]*****************************
+[1980-01-06 08:00:21]
+[1980-01-06 08:00:21]OPEN CONF FILE: /etc/qbtsp.conf 
+[1980-01-06 08:00:21]set file conf gateway server addr!
+[1980-01-06 08:00:21]tbox version: DFSK000100020026000000040000 
+[1980-01-06 08:00:21]Service has registered!
+[1980-01-06 08:00:22]Vin changed, Redo login!
+[1980-01-06 08:00:22]Service is available! power-service
+[1980-01-06 08:00:22]TSPClient::startup is running...
+[1980-01-06 08:00:22]get pdid...
+[1980-01-06 08:00:22]use asys conf pdid: DFSK0001000200261910160001000010
+[1980-01-06 08:00:22]get iccid...
+[1980-01-06 08:00:22]use asys conf iccid: 89860918700009221026
+[1980-01-06 08:00:22]TSPClient::gval_thread is running...
+[1980-01-06 08:00:22]TSPClient::data_upload is running...
+[1980-01-06 08:00:22]TSPClient::waiting is running...
+[1980-01-06 08:00:22]TSPClient::recieve is running...
+[1980-01-06 08:00:22]SEND MSG, MSGID: 1, MSGTYPE: LOGOUT_REQ,
+[1980-01-06 08:00:22]subscribePwrService success:  0 1
+[1980-01-06 08:00:22]getPwrMode success:  0 1 1
+[1980-01-06 08:00:22]BROADCAST RECV: POWER RUNNING
+[1980-01-06 08:00:22]sqlite init fail, ret -1, thread safe 1, db path /data/db/tspcomm.db
+[1980-01-06 08:00:22]start to running...
+[1980-01-06 08:00:22]replyPwrMode success:  0 1
+[1980-01-06 08:00:22]Service is available! fota-service
+[1980-01-06 08:00:22]processConneted success:  0 0
+[1980-01-06 08:00:22]Service is available! rescue-service
+[1980-01-06 08:00:22]Service is available! remote-service
+[1980-01-06 08:00:22]Service is available! data-service
+[1980-01-06 08:00:22]Service is available! alarm-service
+[1980-01-06 08:00:22]CREATE MQTT OBJECT SUCC, ret 0
+[1980-01-06 08:00:22]SERVER URL: ssl://prod.fgservice.cn:8888 
+[1980-01-06 08:00:22]CLIENT ID : DFSK0001000200261910160001000010 
+[1980-01-06 08:00:22]Init level 1 addr, level 1 - gateway addr, level 2 - vehicle addr
+[1980-01-06 08:00:22]connect server, url: ssl://prod.fgservice.cn:8888 
+[1980-01-06 08:00:22]connect server: fail, ret -1
+[1980-01-06 08:00:22]disconnect mqtt server, -3
+[1980-01-06 08:00:23]connect server, url: ssl://prod.fgservice.cn:8888 
+[1980-01-06 08:00:23]connect server: fail, ret -1
+[1980-01-06 08:00:23]disconnect mqtt server, -3
+[1980-01-06 08:00:25]connect server, url: ssl://prod.fgservice.cn:8888 
+[1980-01-06 08:00:25]connect server: fail, ret -1
+[1980-01-06 08:00:25]disconnect mqtt server, -3
+[1980-01-06 08:00:28]connect server, url: ssl://prod.fgservice.cn:8888 
+[1980-01-06 08:00:28]connect server: succ, ret 0
+[1980-01-06 08:00:29]subscribe topic: gate/per/device/DFSK0001000200261910160001000010/order 
+[1980-01-06 08:00:29]subscribe topic: succ, ret 0
+[1980-01-06 08:00:29]get vin...
+[1980-01-06 08:00:29]use asys conf vin: 12345T0703T000110
+[1980-01-06 08:00:29]PDID : DFSK0001000200261910160001000010
+[1980-01-06 08:00:29]ICCID: 89860918700009221026
+[1980-01-06 08:00:29]VIN  : 12345T0703T000110
+[1980-01-06 08:00:29]VERSION: DFSK000100020026000000040000_R
+[1980-01-06 08:00:29]SEND MSG, MSGID: 2, MSGTYPE: LOGIN_REQ,
+[1980-01-06 08:00:29]WAITING FOR LOGIN RESPONSE
+[1980-01-06 08:00:31]RECV MSG: LOGIN_RESP, MSGID: 2
+[2019-11-07 17:08:49]waiting login return timein
+[2019-11-07 17:08:49]setTime success: 0 1
+[2019-11-07 17:08:49]LOGIN SUCCESS! GET TOKEN: 0000
+[2019-11-07 17:08:49]method SetTspLoginSta succ, result true
+[2019-11-07 17:08:49]RECV MSG: GATEWAY_RESP, MSGID: 2
+[2019-11-07 17:08:49]Gateway response, Ack: true, Url: ssl://222.178.193.138:9994
+[2019-11-07 17:08:49]Gateway set success, Reinit client
+[2019-11-07 17:08:49]disconnect mqtt server, 0
+[2019-11-07 17:08:49]mqtt recieve failed, rc = -3
+[2019-11-07 17:08:49]disconnect mqtt server, -3
+[2019-11-07 17:08:50]delete mqtt object, -3, -3, 0
+[2019-11-07 17:08:51]CREATE MQTT OBJECT SUCC, ret 0
+[2019-11-07 17:08:51]SERVER URL: ssl://222.178.193.138:9994 
+[2019-11-07 17:08:51]CLIENT ID : DFSK0001000200261910160001000010 
+[2019-11-07 17:08:51]Init level 2 addr, level 1 - gateway addr, level 2 - vehicle addr
+[2019-11-07 17:08:52]connect server, url: ssl://222.178.193.138:9994 
+[2019-11-07 17:08:52]connect server: succ, ret 0
+[2019-11-07 17:08:52]subscribe topic: gate/per/device/DFSK0001000200261910160001000010/order 
+[2019-11-07 17:08:52]subscribe topic: succ, ret 0
+[2019-11-07 17:08:52]get vin...
+[2019-11-07 17:08:52]use asys conf vin: 12345T0703T000110
+[2019-11-07 17:08:52]PDID : DFSK0001000200261910160001000010
+[2019-11-07 17:08:52]ICCID: 89860918700009221026
+[2019-11-07 17:08:52]VIN  : 12345T0703T000110
+[2019-11-07 17:08:52]VERSION: DFSK000100020026000000040000_R
+[2019-11-07 17:08:52]SEND MSG, MSGID: 3, MSGTYPE: LOGIN_REQ,
+[2019-11-07 17:08:52]WAITING FOR LOGIN RESPONSE
+[2019-11-07 17:08:53]RECV MSG: LOGIN_RESP, MSGID: 3
+[2019-11-07 14:15:07]waiting login return timein
+[2019-11-07 14:15:07]setTime success: 0 1
+[2019-11-07 14:15:07]LOGIN SUCCESS! GET TOKEN: 8009e566-0c13-4e77-9d32-8d470a959cec
+[2019-11-07 14:15:07]method SetTspLoginSta succ, result true
+[2019-11-07 14:15:07]RECV MSG: LOGIN_RESP, MSGID: 3
+[2019-11-07 14:14:50]setTime success: 0 1
+[2019-11-07 14:14:50]LOGIN SUCCESS! GET TOKEN: 7ce4143e-3305-4851-bfff-82fb45fd6bf3
+[2019-11-07 14:14:50]method SetTspLoginSta succ, result true
+[2019-11-07 14:14:50]BROADCAST RECV: motorfire mode 1
+[2019-11-07 14:14:50]BROADCAST RECV: motorfire mode 0
+[2019-11-07 14:14:50]read(and delete) from MsgData, MyIndex 0, MyLevel 0, data len: 781
+[2019-11-07 14:14:50]SEND MSG, MSGID: 4, MSGTYPE: VEHICLE_STATUS,
+[2019-11-07 14:14:51]read(and delete) from MsgData, MyIndex 1, MyLevel 0, data len: 808
+[2019-11-07 14:14:51]SEND MSG, MSGID: 5, MSGTYPE: VEHICLE_STATUS,
+[2019-11-07 14:14:52]read(and delete) from MsgData, MyIndex 2, MyLevel 0, data len: 808
+[2019-11-07 14:14:52]SEND MSG, MSGID: 6, MSGTYPE: VEHICLE_STATUS,
+[2019-11-07 14:14:53]CALL METHOD: remoteDiagnosisRequest, callStatus 0, ret 0
+[2019-11-07 14:14:53]IGNITION ID: 9
+[2019-11-07 14:14:53]method GetVehicleStatus succ
+[2019-11-07 14:14:53]method getChgeData succ
+[2019-11-07 14:14:53]read(and delete) from MsgData, MyIndex 3, MyLevel 0, data len: 961
+[2019-11-07 14:14:53]SEND MSG, MSGID: 8, MSGTYPE: VEHICLE_STATUS,
+[2019-11-07 14:14:55]read(and delete) from MsgData, MyIndex 4, MyLevel 0, data len: 1228
+[2019-11-07 14:14:55]SEND MSG, MSGID: 9, MSGTYPE: VEHICLE_STATUS,
+[2019-11-07 14:15:05]GPS longitude: 0, latitude: 0, valid: 0
+[2019-11-07 14:15:05]SEND MSG, MSGID: 7, MSGTYPE: MOTOR_FIRE_REPORT,
+[2019-11-07 14:15:06]FLAMEOUT ID: 9
+[2019-11-07 14:15:06]method GetVehicleStatus succ
+[2019-11-07 14:15:06]method getChgeData succ
+[2019-11-07 14:15:06]GPS longitude: 0, latitude: 0
+[2019-11-07 14:15:06]SEND MSG, MSGID: 10, MSGTYPE: MOTOR_FIRE_REPORT,
+[2019-11-07 14:15:16]BROADCAST RECV: motorfire mode 1
+[2019-11-07 14:15:18]BROADCAST RECV: remote diagnosis result, source 0, id: 0 
+[2019-11-07 14:15:18]method GetVehicleStatus succ
+[2019-11-07 14:15:18]method GetTyreData succ
+[2019-11-07 14:15:18]diagnosis result success, buffer len: 216
+[2019-11-07 14:15:18]ECUID: 0x702
+[2019-11-07 14:15:18]DTCS: c1868708
+[2019-11-07 14:15:18]ECUID: 0x702
+[2019-11-07 14:15:18]DTCS: c1648708
+[2019-11-07 14:15:18]ECUID: 0x702
+[2019-11-07 14:15:18]DTCS: c2648709
+[2019-11-07 14:15:18]ECUID: 0x701
+[2019-11-07 14:15:18]DTCS: c135872f
+[2019-11-07 14:15:18]ECUID: 0x701
+[2019-11-07 14:15:18]DTCS: 901e962f
+[2019-11-07 14:15:18]ECUID: 0x701
+[2019-11-07 14:15:18]DTCS: 9310962e
+[2019-11-07 14:15:18]ECUID: 0x701
+[2019-11-07 14:15:18]DTCS: 9410962f
+[2019-11-07 14:15:18]ECUID: 0x701
+[2019-11-07 14:15:18]DTCS: 9510962f
+[2019-11-07 14:15:18]ECUID: 0x726
+[2019-11-07 14:15:18]DTCS: 58501208
+[2019-11-07 14:15:18]ECUID: 0x726
+[2019-11-07 14:15:18]DTCS: 58511108
+[2019-11-07 14:15:18]ECUID: 0x726
+[2019-11-07 14:15:18]DTCS: 58721309
+[2019-11-07 14:15:18]ECUID: 0x726
+[2019-11-07 14:15:18]DTCS: 58731408
+[2019-11-07 14:15:18]ECUID: 0x726
+[2019-11-07 14:15:18]DTCS: c1228708
+[2019-11-07 14:15:18]ECUID: 0x725
+[2019-11-07 14:15:18]DTCS: da308709
+[2019-11-07 14:15:18]ECUID: 0x725
+[2019-11-07 14:15:18]DTCS: c2648709
+[2019-11-07 14:15:18]ECUID: 0x725
+[2019-11-07 14:15:18]DTCS: d1598709
+[2019-11-07 14:15:18]ECUID: 0x725
+[2019-11-07 14:15:18]DTCS: c1228708
+[2019-11-07 14:15:18]ECUID: 0x725
+[2019-11-07 14:15:18]DTCS: c1018708
+[2019-11-07 14:15:18]ECUID: 0x725
+[2019-11-07 14:15:18]DTCS: c1008708
+[2019-11-07 14:15:18]ECUID: 0x725
+[2019-11-07 14:15:18]DTCS: c1408708
+[2019-11-07 14:15:18]ECUID: 0x725
+[2019-11-07 14:15:18]DTCS: c4948709
+[2019-11-07 14:15:18]ECUID: 0x725
+[2019-11-07 14:15:18]DTCS: c0730008
+[2019-11-07 14:15:18]ECUID: 0x728
+[2019-11-07 14:15:18]DTCS: c1008709
+[2019-11-07 14:15:18]ECUID: 0x728
+[2019-11-07 14:15:18]DTCS: c1018709
+[2019-11-07 14:15:18]ECUID: 0x728
+[2019-11-07 14:15:18]DTCS: c1038709
+[2019-11-07 14:15:18]ECUID: 0x728
+[2019-11-07 14:15:18]DTCS: d1598709
+[2019-11-07 14:15:18]ECUID: 0x728
+[2019-11-07 14:15:18]DTCS: c2648709
+[2019-11-07 14:15:18]SEND MSG, MSGID: 0, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-07 14:15:20]FLAMEOUT ID: 9
+[2019-11-07 14:15:20]method GetVehicleStatus succ
+[2019-11-07 14:15:20]method getChgeData succ
+[2019-11-07 14:15:20]GPS longitude: 113917497, latitude: 22576398
+[2019-11-07 14:15:20]SEND MSG, MSGID: 12, MSGTYPE: MOTOR_FIRE_REPORT,
+[2019-11-07 14:15:25]RECV MSG: CONTROL_CMD, MSGID: 11
+[2019-11-07 14:15:25]remote control, start engine
+[2019-11-07 14:15:25]CALL METHOD: remoteControlRequest, callStatus: 0, ret: 0
+[2019-11-07 14:15:25]RECV MSG: CONTROL_CMD, MSGID: 11
+[2019-11-07 14:15:25]remote control, start engine
+[2019-11-07 14:15:25]BROADCAST RECV: remote control   result, source 0, id: 11 
+[2019-11-07 14:15:25]REMOTE CONTROL RESULT: failed, err code: 53
+[2019-11-07 14:15:25]CALL METHOD: remoteControlRequest, callStatus: 0, ret: 0
+[2019-11-07 14:15:26]method GetVehicleStatus succ
+[2019-11-07 14:15:26]method GetACStatus succ
+[2019-11-07 14:15:26]method GetTyreData succ
+[2019-11-07 14:15:26]method getChargeStorStatus succ
+[2019-11-07 14:15:26]method GetVCUStatus succ
+[2019-11-07 14:15:26]method getChgeData succ
+[2019-11-07 14:15:26]SEND MSG, MSGID: 11, MSGTYPE: CONTROL_RESP,
+[2019-11-07 14:15:27]BROADCAST RECV: motorfire mode 0
+[2019-11-07 14:15:27]BROADCAST RECV: remote control   result, source 0, id: 11 
+[2019-11-07 14:15:27]REMOTE CONTROL RESULT: sucess, err code: 0
+[2019-11-07 14:15:27]method GetVehicleStatus succ
+[2019-11-07 14:15:27]method GetACStatus succ
+[2019-11-07 14:15:27]method GetTyreData succ
+[2019-11-07 14:15:27]method getChargeStorStatus succ
+[2019-11-07 14:15:27]method GetVCUStatus succ
+[2019-11-07 14:15:27]method getChgeData succ
+[2019-11-07 14:15:27]SEND MSG, MSGID: 11, MSGTYPE: CONTROL_RESP,
+[2019-11-07 14:15:30]IGNITION ID: 10
+[2019-11-07 14:15:30]method GetVehicleStatus succ
+[2019-11-07 14:15:30]method getChgeData succ
+[2019-11-07 14:15:31]GPS longitude: 113917347, latitude: 22576478, valid: 1
+[2019-11-07 14:15:31]SEND MSG, MSGID: 13, MSGTYPE: MOTOR_FIRE_REPORT,
+[2019-11-07 14:15:32]RECV MSG: CONTROL_CMD, MSGID: 11
+[2019-11-07 14:15:32]remote control, stop engine
+[2019-11-07 14:15:32]CALL METHOD: remoteControlRequest, callStatus: 0, ret: 0
+[2019-11-07 14:15:32]RECV MSG: CONTROL_CMD, MSGID: 11
+[2019-11-07 14:15:32]remote control, stop engine
+[2019-11-07 14:15:32]BROADCAST RECV: remote control   result, source 0, id: 11 
+[2019-11-07 14:15:32]REMOTE CONTROL RESULT: failed, err code: 53
+[2019-11-07 14:15:32]CALL METHOD: remoteControlRequest, callStatus: 0, ret: 0
+[2019-11-07 14:15:33]method GetVehicleStatus succ
+[2019-11-07 14:15:33]method GetACStatus succ
+[2019-11-07 14:15:33]method GetTyreData succ
+[2019-11-07 14:15:33]method getChargeStorStatus succ
+[2019-11-07 14:15:33]method GetVCUStatus succ
+[2019-11-07 14:15:33]method getChgeData succ
+[2019-11-07 14:15:33]SEND MSG, MSGID: 11, MSGTYPE: CONTROL_RESP,
+[2019-11-07 14:15:33]BROADCAST RECV: motorfire mode 1
+[2019-11-07 14:15:33]BROADCAST RECV: remote control   result, source 0, id: 11 
+[2019-11-07 14:15:33]REMOTE CONTROL RESULT: sucess, err code: 0
+[2019-11-07 14:15:34]method GetVehicleStatus succ
+[2019-11-07 14:15:34]method GetACStatus succ
+[2019-11-07 14:15:34]method GetTyreData succ
+[2019-11-07 14:15:34]method getChargeStorStatus succ
+[2019-11-07 14:15:34]method GetVCUStatus succ
+[2019-11-07 14:15:34]method getChgeData succ
+[2019-11-07 14:15:34]SEND MSG, MSGID: 11, MSGTYPE: CONTROL_RESP,
+[2019-11-07 14:15:37]method GetVehicleStatus succ
+[2019-11-07 14:15:37]method GetACStatus succ
+[2019-11-07 14:15:37]method GetTyreData succ
+[2019-11-07 14:15:37]method getChargeStorStatus succ
+[2019-11-07 14:15:37]method GetVCUStatus succ
+[2019-11-07 14:15:37]method getChgeData succ
+[2019-11-07 14:15:37]SEND MSG, MSGID: 14, MSGTYPE: VEHICLE_STATUS,
+[2019-11-07 14:15:38]FLAMEOUT ID: 10
+[2019-11-07 14:15:38]method GetVehicleStatus succ
+[2019-11-07 14:15:38]method getChgeData succ
+[2019-11-07 14:15:38]GPS longitude: 113917326, latitude: 22576479
+[2019-11-07 14:15:38]SEND MSG, MSGID: 15, MSGTYPE: MOTOR_FIRE_REPORT,
+[2019-11-07 14:15:40]RECV MSG: DIAGNOSIS_REQ, MSGID: 104
+[2019-11-07 14:15:40]CALL METHOD: remoteDiagnosisRequest, callStatus: 0, ret: 0
+[2019-11-07 14:15:40]RECV MSG: DIAGNOSIS_REQ, MSGID: 104
+[2019-11-07 14:15:40]BROADCAST RECV: remote diagnosis result, source 0, id: 104 
+[2019-11-07 14:15:40]method GetVehicleStatus succ
+[2019-11-07 14:15:40]CALL METHOD: remoteDiagnosisRequest, callStatus: 0, ret: 0
+[2019-11-07 14:15:40]method GetTyreData succ
+[2019-11-07 14:15:40]diagnosis result failed, buffer len: 2
+[2019-11-07 14:15:40]diagnosis err code: 53
+[2019-11-07 14:15:40]SEND MSG, MSGID: 104, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-07 14:15:51]RECV MSG: DIAGNOSIS_REQ, MSGID: 104
+[2019-11-07 14:15:51]BROADCAST RECV: remote diagnosis result, source 0, id: 104 
+[2019-11-07 14:15:51]method GetVehicleStatus succ
+[2019-11-07 14:15:51]CALL METHOD: remoteDiagnosisRequest, callStatus: 0, ret: 0
+[2019-11-07 14:15:51]method GetTyreData succ
+[2019-11-07 14:15:51]diagnosis result failed, buffer len: 2
+[2019-11-07 14:15:51]diagnosis err code: 53
+[2019-11-07 14:15:51]SEND MSG, MSGID: 104, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-07 14:15:51]RECV MSG: DIAGNOSIS_REQ, MSGID: 104
+[2019-11-07 14:15:51]BROADCAST RECV: remote diagnosis result, source 0, id: 104 
+[2019-11-07 14:15:51]method GetVehicleStatus succ
+[2019-11-07 14:15:51]CALL METHOD: remoteDiagnosisRequest, callStatus: 0, ret: 0
+[2019-11-07 14:15:51]method GetTyreData succ
+[2019-11-07 14:15:51]diagnosis result failed, buffer len: 2
+[2019-11-07 14:15:51]diagnosis err code: 53
+[2019-11-07 14:15:51]SEND MSG, MSGID: 104, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-07 14:15:55]BROADCAST RECV: remote diagnosis result, source 0, id: 104 
+[2019-11-07 14:15:55]method GetVehicleStatus succ
+[2019-11-07 14:15:55]method GetTyreData succ
+[2019-11-07 14:15:55]diagnosis result success, buffer len: 200
+[2019-11-07 14:15:55]ECUID: 0x702
+[2019-11-07 14:15:55]DTCS: c1868708
+[2019-11-07 14:15:55]ECUID: 0x702
+[2019-11-07 14:15:55]DTCS: c1648708
+[2019-11-07 14:15:55]ECUID: 0x702
+[2019-11-07 14:15:55]DTCS: c2648709
+[2019-11-07 14:15:55]ECUID: 0x701
+[2019-11-07 14:15:55]DTCS: c135872f
+[2019-11-07 14:15:55]ECUID: 0x701
+[2019-11-07 14:15:55]DTCS: 901e962f
+[2019-11-07 14:15:55]ECUID: 0x701
+[2019-11-07 14:15:55]DTCS: 9310962e
+[2019-11-07 14:15:55]ECUID: 0x701
+[2019-11-07 14:15:55]DTCS: 9410962f
+[2019-11-07 14:15:55]ECUID: 0x701
+[2019-11-07 14:15:55]DTCS: 9510962f
+[2019-11-07 14:15:55]ECUID: 0x726
+[2019-11-07 14:15:55]DTCS: 58501208
+[2019-11-07 14:15:55]ECUID: 0x726
+[2019-11-07 14:15:55]DTCS: 58511108
+[2019-11-07 14:15:55]ECUID: 0x726
+[2019-11-07 14:15:55]DTCS: 58721309
+[2019-11-07 14:15:55]ECUID: 0x726
+[2019-11-07 14:15:55]DTCS: 58731408
+[2019-11-07 14:15:55]ECUID: 0x726
+[2019-11-07 14:15:55]DTCS: c1228708
+[2019-11-07 14:15:55]ECUID: 0x725
+[2019-11-07 14:15:55]DTCS: da308709
+[2019-11-07 14:15:55]ECUID: 0x725
+[2019-11-07 14:15:55]DTCS: c2648709
+[2019-11-07 14:15:55]ECUID: 0x725
+[2019-11-07 14:15:55]DTCS: d1598709
+[2019-11-07 14:15:55]ECUID: 0x725
+[2019-11-07 14:15:55]DTCS: c1228709
+[2019-11-07 14:15:55]ECUID: 0x725
+[2019-11-07 14:15:55]DTCS: c1018708
+[2019-11-07 14:15:55]ECUID: 0x725
+[2019-11-07 14:15:55]DTCS: c1008708
+[2019-11-07 14:15:55]ECUID: 0x725
+[2019-11-07 14:15:55]DTCS: c1408708
+[2019-11-07 14:15:55]ECUID: 0x725
+[2019-11-07 14:15:55]DTCS: c4948709
+[2019-11-07 14:15:55]ECUID: 0x725
+[2019-11-07 14:15:55]DTCS: c0730008
+[2019-11-07 14:15:55]ECUID: 0x728
+[2019-11-07 14:15:55]DTCS: c1038709
+[2019-11-07 14:15:55]ECUID: 0x728
+[2019-11-07 14:15:55]DTCS: d1598709
+[2019-11-07 14:15:55]ECUID: 0x728
+[2019-11-07 14:15:55]DTCS: c2648709
+[2019-11-07 14:15:55]SEND MSG, MSGID: 104, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-07 14:16:37]method GetVehicleStatus succ
+[2019-11-07 14:16:37]method GetACStatus succ
+[2019-11-07 14:16:37]method GetTyreData succ
+[2019-11-07 14:16:37]method getChargeStorStatus succ
+[2019-11-07 14:16:37]method GetVCUStatus succ
+[2019-11-07 14:16:37]method getChgeData succ
+[2019-11-07 14:16:37]SEND MSG, MSGID: 16, MSGTYPE: VEHICLE_STATUS,
+[2019-11-07 14:16:38]RECV MSG: DIAGNOSIS_REQ, MSGID: 104
+[2019-11-07 14:16:38]CALL METHOD: remoteDiagnosisRequest, callStatus: 0, ret: 0
+[2019-11-07 14:16:38]RECV MSG: DIAGNOSIS_REQ, MSGID: 104
+[2019-11-07 14:16:38]BROADCAST RECV: remote diagnosis result, source 0, id: 104 
+[2019-11-07 14:16:38]CALL METHOD: remoteDiagnosisRequest, callStatus: 0, ret: 0
+[2019-11-07 14:16:38]method GetVehicleStatus succ
+[2019-11-07 14:16:38]method GetTyreData succ
+[2019-11-07 14:16:38]diagnosis result failed, buffer len: 2
+[2019-11-07 14:16:38]diagnosis err code: 53
+[2019-11-07 14:16:38]SEND MSG, MSGID: 104, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-07 14:16:38]BROADCAST RECV: remote diagnosis result, source 0, id: 104 
+[2019-11-07 14:16:38]method GetVehicleStatus succ
+[2019-11-07 14:16:38]method GetTyreData succ
+[2019-11-07 14:16:38]diagnosis result failed, buffer len: 1
+[2019-11-07 14:16:38]diagnosis err code: 3
+[2019-11-07 14:16:38]SEND MSG, MSGID: 104, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-07 14:16:50]RECV MSG: DIAGNOSIS_REQ, MSGID: 104
+[2019-11-07 14:16:50]CALL METHOD: remoteDiagnosisRequest, callStatus: 0, ret: 0
+[2019-11-07 14:16:50]RECV MSG: DIAGNOSIS_REQ, MSGID: 104
+[2019-11-07 14:16:50]BROADCAST RECV: remote diagnosis result, source 0, id: 104 
+[2019-11-07 14:16:50]CALL METHOD: remoteDiagnosisRequest, callStatus: 0, ret: 0
+[2019-11-07 14:16:50]method GetVehicleStatus succ
+[2019-11-07 14:16:50]method GetTyreData succ
+[2019-11-07 14:16:50]diagnosis result failed, buffer len: 2
+[2019-11-07 14:16:50]diagnosis err code: 53
+[2019-11-07 14:16:50]SEND MSG, MSGID: 104, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-07 14:16:50]BROADCAST RECV: remote diagnosis result, source 0, id: 104 
+[2019-11-07 14:16:50]method GetVehicleStatus succ
+[2019-11-07 14:16:50]method GetTyreData succ
+[2019-11-07 14:16:50]diagnosis result failed, buffer len: 1
+[2019-11-07 14:16:50]diagnosis err code: 3
+[2019-11-07 14:16:50]SEND MSG, MSGID: 104, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-07 14:17:00]RECV MSG: DIAGNOSIS_REQ, MSGID: 104
+[2019-11-07 14:17:00]CALL METHOD: remoteDiagnosisRequest, callStatus: 0, ret: 0
+[2019-11-07 14:17:00]BROADCAST RECV: remote diagnosis result, source 0, id: 104 
+[2019-11-07 14:17:00]RECV MSG: DIAGNOSIS_REQ, MSGID: 104
+[2019-11-07 14:17:00]method GetVehicleStatus succ
+[2019-11-07 14:17:00]method GetTyreData succ
+[2019-11-07 14:17:00]diagnosis result failed, buffer len: 1
+[2019-11-07 14:17:00]diagnosis err code: 3
+[2019-11-07 14:17:00]SEND MSG, MSGID: 104, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-07 14:17:00]CALL METHOD: remoteDiagnosisRequest, callStatus: 0, ret: 0
+[2019-11-07 14:17:00]BROADCAST RECV: remote diagnosis result, source 0, id: 104 
+[2019-11-07 14:17:00]method GetVehicleStatus succ
+[2019-11-07 14:17:00]method GetTyreData succ
+[2019-11-07 14:17:00]diagnosis result failed, buffer len: 1
+[2019-11-07 14:17:00]diagnosis err code: 3
+[2019-11-07 14:17:00]SEND MSG, MSGID: 104, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-07 14:17:09]RECV MSG: DIAGNOSIS_REQ, MSGID: 104
+[2019-11-07 14:17:09]CALL METHOD: remoteDiagnosisRequest, callStatus: 0, ret: 0
+[2019-11-07 14:17:09]RECV MSG: DIAGNOSIS_REQ, MSGID: 104
+[2019-11-07 14:17:09]BROADCAST RECV: remote diagnosis result, source 0, id: 104 
+[2019-11-07 14:17:09]CALL METHOD: remoteDiagnosisRequest, callStatus: 0, ret: 0
+[2019-11-07 14:17:09]method GetVehicleStatus succ
+[2019-11-07 14:17:09]method GetTyreData succ
+[2019-11-07 14:17:09]diagnosis result failed, buffer len: 2
+[2019-11-07 14:17:09]diagnosis err code: 53
+[2019-11-07 14:17:09]SEND MSG, MSGID: 104, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-07 14:17:09]BROADCAST RECV: remote diagnosis result, source 0, id: 104 
+[2019-11-07 14:17:09]method GetVehicleStatus succ
+[2019-11-07 14:17:09]method GetTyreData succ
+[2019-11-07 14:17:09]diagnosis result failed, buffer len: 1
+[2019-11-07 14:17:09]diagnosis err code: 3
+[2019-11-07 14:17:09]SEND MSG, MSGID: 104, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-07 14:17:37]method GetVehicleStatus succ
+[2019-11-07 14:17:37]method GetACStatus succ
+[2019-11-07 14:17:37]method GetTyreData succ
+[2019-11-07 14:17:37]method getChargeStorStatus succ
+[2019-11-07 14:17:37]method GetVCUStatus succ
+[2019-11-07 14:17:37]method getChgeData succ
+[2019-11-07 14:17:37]SEND MSG, MSGID: 17, MSGTYPE: VEHICLE_STATUS,
+[2019-11-07 14:18:34]mqtt recieve failed, rc = -1
+[2019-11-07 14:18:34]disconnect mqtt server, -3
+[2019-11-07 14:18:35]connect server, url: ssl://222.178.193.138:9994 
+[2019-11-07 14:18:35]connect server: succ, ret 0
+[2019-11-07 14:18:35]subscribe topic: gate/per/device/DFSK0001000200261910160001000010/order 
+[2019-11-07 14:18:35]subscribe topic: succ, ret 0
+[2019-11-07 14:18:35]get vin...
+[2019-11-07 14:18:35]use asys conf vin: 12345T0703T000110
+[2019-11-07 14:18:35]PDID : DFSK0001000200261910160001000010
+[2019-11-07 14:18:35]ICCID: 89860918700009221026
+[2019-11-07 14:18:35]VIN  : 12345T0703T000110
+[2019-11-07 14:18:35]VERSION: DFSK000100020026000000040000_R
+[2019-11-07 14:18:35]SEND MSG, MSGID: 18, MSGTYPE: LOGIN_REQ,
+[2019-11-07 14:18:37]method GetVehicleStatus succ
+[2019-11-07 14:18:37]method GetACStatus succ
+[2019-11-07 14:18:37]method GetTyreData succ
+[2019-11-07 14:18:37]method getChargeStorStatus succ
+[2019-11-07 14:18:37]method GetVCUStatus succ
+[2019-11-07 14:18:37]method getChgeData succ
+[2019-11-07 14:18:37]record count 0
+[2019-11-07 14:18:37]save msg, index 0, level 0, msgid 19, msgtype VEHICLE_STATUS
+[2019-11-07 14:18:38]RECV MSG: LOGIN_RESP, MSGID: 18
+[2019-11-07 14:18:53]setTime success: 0 1
+[2019-11-07 14:18:53]LOGIN SUCCESS! GET TOKEN: 701bc9a2-b7d0-47ec-af6b-dcc1c62b557f
+[2019-11-07 14:18:53]method SetTspLoginSta succ, result true
+[2019-11-07 14:18:53]RECV MSG: LOGIN_RESP, MSGID: 18
+[2019-11-07 14:18:36]setTime success: 0 1
+[2019-11-07 14:18:36]LOGIN SUCCESS! GET TOKEN: 1f377489-8576-4952-ab85-7e5ed6672afa
+[2019-11-07 14:18:36]method SetTspLoginSta succ, result true
+[2019-11-07 14:18:36]read(and delete) from MsgData, MyIndex 0, MyLevel 0, data len: 1170
+[2019-11-07 14:18:36]SEND MSG, MSGID: 20, MSGTYPE: VEHICLE_STATUS,
+[2019-11-07 14:19:16]BROADCAST RECV: alarm signal type 1
+[2019-11-07 14:19:16]method GetVehicleStatus succ
+[2019-11-07 14:19:16]SEND MSG, MSGID: 21, MSGTYPE: ALARM_REPORT,
+[2019-11-07 14:19:16]RECV MSG: ALARM_RESP, MSGID: 21
+[2019-11-07 14:19:16]RECV MSG: ALARM_RESP, MSGID: 21
+[2019-11-07 14:19:17]BROADCAST RECV: alarm signal type 1
+[2019-11-07 14:19:17]method GetVehicleStatus succ
+[2019-11-07 14:19:17]SEND MSG, MSGID: 22, MSGTYPE: ALARM_REPORT,
+[2019-11-07 14:19:17]RECV MSG: ALARM_RESP, MSGID: 22
+[2019-11-07 14:19:17]RECV MSG: ALARM_RESP, MSGID: 22
+[2019-11-07 14:19:18]BROADCAST RECV: alarm signal type 1
+[2019-11-07 14:19:18]method GetVehicleStatus succ
+[2019-11-07 14:19:18]SEND MSG, MSGID: 23, MSGTYPE: ALARM_REPORT,
+[2019-11-07 14:19:18]RECV MSG: ALARM_RESP, MSGID: 23
+[2019-11-07 14:19:18]RECV MSG: ALARM_RESP, MSGID: 23
+[2019-11-07 14:19:35]method GetVehicleStatus succ
+[2019-11-07 14:19:35]method GetACStatus succ
+[2019-11-07 14:19:35]method GetTyreData succ
+[2019-11-07 14:19:35]method getChargeStorStatus succ
+[2019-11-07 14:19:35]method GetVCUStatus succ
+[2019-11-07 14:19:35]method getChgeData succ
+[2019-11-07 14:19:35]SEND MSG, MSGID: 24, MSGTYPE: VEHICLE_STATUS,
+[2019-11-07 14:20:35]method GetVehicleStatus succ
+[2019-11-07 14:20:35]method GetACStatus succ
+[2019-11-07 14:20:35]method GetTyreData succ
+[2019-11-07 14:20:35]method getChargeStorStatus succ
+[2019-11-07 14:20:35]method GetVCUStatus succ
+[2019-11-07 14:20:35]method getChgeData succ
+[2019-11-07 14:20:35]SEND MSG, MSGID: 25, MSGTYPE: VEHICLE_STATUS,
+[2019-11-07 14:21:28]mqtt recieve failed, rc = -1
+[2019-11-07 14:21:28]disconnect mqtt server, -3
+[2019-11-07 14:21:29]connect server, url: ssl://222.178.193.138:9994 
+[2019-11-07 14:21:29]connect server: succ, ret 0
+[2019-11-07 14:21:29]subscribe topic: gate/per/device/DFSK0001000200261910160001000010/order 
+[2019-11-07 14:21:29]subscribe topic: succ, ret 0
+[2019-11-07 14:21:29]get vin...
+[2019-11-07 14:21:29]use asys conf vin: 12345T0703T000110
+[2019-11-07 14:21:29]PDID : DFSK0001000200261910160001000010
+[2019-11-07 14:21:29]ICCID: 89860918700009221026
+[2019-11-07 14:21:29]VIN  : 12345T0703T000110
+[2019-11-07 14:21:29]VERSION: DFSK000100020026000000040000_R
+[2019-11-07 14:21:29]SEND MSG, MSGID: 26, MSGTYPE: LOGIN_REQ,
+[2019-11-07 14:21:32]RECV MSG: LOGIN_RESP, MSGID: 26
+[2019-11-07 14:21:32]setTime success: 0 1
+[2019-11-07 14:21:32]LOGIN SUCCESS! GET TOKEN: c862f437-1873-4dcc-a5cd-2b68eecc2827
+[2019-11-07 14:21:32]method SetTspLoginSta succ, result true
+[2019-11-07 14:21:32]RECV MSG: LOGIN_RESP, MSGID: 26
+[2019-11-07 14:21:49]setTime success: 0 1
+[2019-11-07 14:21:49]LOGIN SUCCESS! GET TOKEN: a72324eb-f20d-467b-9f38-19290795bddc
+[2019-11-07 14:21:49]method SetTspLoginSta succ, result true
+[2019-11-07 14:21:52]method GetVehicleStatus succ
+[2019-11-07 14:21:52]method GetACStatus succ
+[2019-11-07 14:21:52]method GetTyreData succ
+[2019-11-07 14:21:52]method getChargeStorStatus succ
+[2019-11-07 14:21:52]method GetVCUStatus succ
+[2019-11-07 14:21:52]method getChgeData succ
+[2019-11-07 14:21:52]SEND MSG, MSGID: 27, MSGTYPE: VEHICLE_STATUS,
+[2019-11-07 14:22:52]method GetVehicleStatus succ
+[2019-11-07 14:22:52]method GetACStatus succ
+[2019-11-07 14:22:52]method GetTyreData succ
+[2019-11-07 14:22:52]method getChargeStorStatus succ
+[2019-11-07 14:22:52]method GetVCUStatus succ
+[2019-11-07 14:22:52]method getChgeData succ
+[2019-11-07 14:22:52]SEND MSG, MSGID: 28, MSGTYPE: VEHICLE_STATUS,

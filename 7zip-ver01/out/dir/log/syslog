@@ -1,0 +1,2106 @@
+Jan  6 08:11:46 mdm9607 user.info thermal-engine: [SS-CPU]
+Jan  6 08:11:46 mdm9607 user.info thermal-engine: #algo_type ss
+Jan  6 08:11:46 mdm9607 user.info thermal-engine: sampling 65 sensor cpu0 device cpu
+Jan  6 08:11:46 mdm9607 user.info thermal-engine: set_point 95000 set_point_clr 90000 time_constant 0
+Jan  6 08:11:46 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: MODEM req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:11:46 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: ADSP req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:11:46 mdm9607 user.err time_daemon_mdm:[468]: genoff_modem_qmi_init: qmi_client_get_service_list returned 0num_services 1
+Jan  6 08:11:46 mdm9607 user.err time_daemon_mdm:[468]: genoff_modem_qmi_init: Sending initial transaction to read time
+Jan  6 08:11:46 mdm9607 user.err time_daemon_mdm:[468]: Daemon:genoff_modem_qmi_init:Time received 315964802716
+Jan  6 08:11:46 mdm9607 user.err time_daemon_mdm:[468]: genoff_opr: Base = 1, val = 315964802716, operation = 0
+Jan  6 08:11:46 mdm9607 user.err time_daemon_mdm:[468]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Jan  6 08:11:46 mdm9607 user.err time_daemon_mdm:[468]: Value read from RTC seconds = 723000
+Jan  6 08:11:46 mdm9607 user.err time_daemon_mdm:[468]: new time 315964802716 
+Jan  6 08:11:46 mdm9607 user.err time_daemon_mdm:[468]: delta 315964079716 genoff 315964079716 
+Jan  6 08:11:46 mdm9607 user.err time_daemon_mdm:[468]: genoff_persistent_update: Writing genoff = 315964079716 to memory
+Jan  6 08:11:46 mdm9607 user.err time_daemon_mdm:[468]: Opening File: /data/time/ats_1
+Jan  6 08:11:46 mdm9607 user.err time_daemon_mdm:[468]: time_persistent_memory_opr:Genoff write operation 
+Jan  6 08:11:46 mdm9607 user.err time_daemon_mdm:[468]: Daemon:genoff_modem_qmi_init: offset 1 updated
+Jan  6 08:11:46 mdm9607 user.err time_daemon_mdm:[468]: genoff_modem_qmi_init: Updating system time to sec=315964802, usec=716000
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[468]: genoff_modem_qmi_init: Local Genoff update for base = 1 , rc = 0
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[468]:  starting with pid (468)
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: MODEM thermal mitigation available.
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: pa mitigation succeeded for level 0.
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: Mitigation:Modem:0
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cpuv_restriction_cold mitigation succeeded for level 0.
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cpuv_restriction_cold]:0
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cx_vdd_limit mitigation succeeded for level 0.
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cx_vdd_limit]:0
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: modem mitigation succeeded for level 0.
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-modem]:0
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/ramdump
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable RPM log
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable qdss ramdump
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq[1048]: started, version 2.73 cachesize 150
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq[1048]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[1048]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[1048]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[1048]: DHCP, sockets bound exclusively to interface bridge0
+Jan  6 08:00:05 mdm9607 daemon.warn dnsmasq[1048]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq[1048]: read /etc/hosts - 2 addresses
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[1048]: read /etc/dhcp_hosts
+Jan  6 08:00:06 mdm9607 daemon.err avahi-dnsconfd[1264]: connect(): No such file or directory
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1264]: Failed to connect to the daemon. This probably means that you
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1264]: didn't start avahi-daemon before avahi-dnsconfd.
+Sun Jan 6 08:00:07 CST 1980: mcmlocserver pid:1163
+Sun Jan 6 08:00:07 CST 1980: mcm_data_srv pid:1161
+Sun Jan 6 08:00:07 CST 1980: mcm_ril_service pid:802
+Sun Jan 6 08:00:07 CST 1980: MCM_atcop_svc pid:1162
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[1048]: reading /etc/resolv.conf
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[1048]: using nameserver 8.8.8.8#53
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[1048]: using nameserver 114.114.114.114#53
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[1048]: using nameserver 114.114.115.115#53
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[1048]: using nameserver 114.114.114.119#53
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[1048]: using nameserver 114.114.115.119#53
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[1048]: using nameserver 123.125.81.6#53
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[1048]: using nameserver 223.5.5.5#53
+Sun Jan 6 08:00:21 CST 1980: iptables -F FORWARD
+Jan  6 08:00:25 mdm9607 daemon.warn dnsmasq[1048]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1048]: reading /etc/resolv.conf
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1048]: using nameserver 116.116.116.116#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1048]: using nameserver 221.5.88.88#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1048]: using nameserver 8.8.8.8#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1048]: using nameserver 114.114.114.114#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1048]: using nameserver 114.114.115.115#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1048]: using nameserver 114.114.114.119#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1048]: using nameserver 114.114.115.119#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1048]: using nameserver 123.125.81.6#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1048]: using nameserver 223.5.5.5#53
+Oct 31 17:23:13 mdm9607 syslog.info syslogd started: BusyBox v1.23.1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 0
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: ats_rtc_init: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Value read from RTC seconds = 812000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_init_config: ATS_RTC initialized
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_1 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_2 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_3 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_4 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_5 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_6 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_7 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_8 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_9 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_10 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_11 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_init_config: Other bases initilized, exiting genoff_init
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_opr: Base = 1, val = 198994424758283, operation = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff get for 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Value read from RTC seconds = 812000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Value read from RTC seconds = 812000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Final Time = 315964891716
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_boot_tod_init: Updating system time to sec=315964891, usec=716000
+Jan  6 08:01:31 mdm9607 user.err time_daemon_mdm:[469]: genoff_modem_qmi_init: Initiallizing QMI 
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: Thermal daemon started
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: No target config file, falling back to '/etc/thermal-engine.conf'
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: devices_manager_init: Init
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: Unable to open /sys/class/kgsl
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: Number of gpus :0
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: Number of cpus :1
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: update_cpu_topology: Cluster info node not found/sys/module/msm_thermal/cluster_info
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: tmd_init_cluster_devs: No clusters found
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: vdd_rstr_init: Init KTM VDD RSTR enabled: 0
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: cpr_band_init: Could not read /sys/module/msm_thermal/cpr_band/curr_cpr_band
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: sensors_manager_init: Init
+Jan  6 08:01:38 mdm9607 user.err thermal-engine: bcl_setup: Unexpected node error
+Jan  6 08:01:38 mdm9607 user.err thermal-engine: add_tgt_sensors_set: Error adding bcl
+Jan  6 08:01:38 mdm9607 user.err thermal-engine: sensors_init: Error adding BCL TS
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: Loading configuration file /etc/thermal-engine.conf
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: Parsing section global
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: [PEAK_POWER_MONITOR]
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds 110000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds_clr 105000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: actions cpu
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: action_info 400000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: [MODEM_MONITOR]
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds 122000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds_clr 120000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: actions modem
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: action_info 2
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: [PA_MONITOR]
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds 120000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds_clr 118000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: actions modem
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: [CX_MODEM_MONITOR]
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds 125000 126000 128000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds_clr 123000 124000 126000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: actions modem_cx modem_cx modem_cx
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: action_info 1 2 3
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS4]
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor4
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: descending
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS3]
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor3
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: descending
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS2]
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: descending
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS1]
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor1
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: descending
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS0]
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor0
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: descending
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: [SS-CPU]
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: #algo_type ss
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: sampling 65 sensor cpu0 device cpu
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: set_point 95000 set_point_clr 90000 time_constant 0
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: MODEM req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: ADSP req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: MODEM thermal mitigation available.
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: pa mitigation succeeded for level 0.
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: Mitigation:Modem:0
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cpuv_restriction_cold mitigation succeeded for level 0.
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cpuv_restriction_cold]:0
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cx_vdd_limit mitigation succeeded for level 0.
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cx_vdd_limit]:0
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: modem mitigation succeeded for level 0.
+Jan  6 08:01:38 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-modem]:0
+Jan  6 08:01:38 mdm9607 user.err time_daemon_mdm:[469]: genoff_modem_qmi_init: qmi_client_get_service_list returned 0num_services 1
+Jan  6 08:01:38 mdm9607 user.err time_daemon_mdm:[469]: genoff_modem_qmi_init: Sending initial transaction to read time
+Jan  6 08:01:38 mdm9607 user.err time_daemon_mdm:[469]: Daemon:genoff_modem_qmi_init:Time received 315964802718
+Jan  6 08:01:38 mdm9607 user.err time_daemon_mdm:[469]: genoff_opr: Base = 1, val = 315964802718, operation = 0
+Jan  6 08:01:38 mdm9607 user.err time_daemon_mdm:[469]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Jan  6 08:01:38 mdm9607 user.err time_daemon_mdm:[469]: Value read from RTC seconds = 819000
+Jan  6 08:01:38 mdm9607 user.err time_daemon_mdm:[469]: new time 315964802718 
+Jan  6 08:01:38 mdm9607 user.err time_daemon_mdm:[469]: delta 315963983718 genoff 315963983718 
+Jan  6 08:01:38 mdm9607 user.err time_daemon_mdm:[469]: genoff_persistent_update: Writing genoff = 315963983718 to memory
+Jan  6 08:01:38 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_1
+Jan  6 08:01:38 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff write operation 
+Jan  6 08:01:38 mdm9607 user.err time_daemon_mdm:[469]: Daemon:genoff_modem_qmi_init: offset 1 updated
+Jan  6 08:01:38 mdm9607 user.err time_daemon_mdm:[469]: genoff_modem_qmi_init: Updating system time to sec=315964802, usec=718000
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[469]: genoff_modem_qmi_init: Local Genoff update for base = 1 , rc = 0
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[469]:  starting with pid (469)
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable RPM log
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable qdss ramdump
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[961]: started, version 2.73 cachesize 150
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[961]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[961]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[961]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[961]: DHCP, sockets bound exclusively to interface bridge0
+Jan  6 08:00:04 mdm9607 daemon.warn dnsmasq[961]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq[961]: read /etc/hosts - 2 addresses
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[961]: read /etc/dhcp_hosts
+Jan  6 08:00:07 mdm9607 daemon.err avahi-dnsconfd[1279]: connect(): No such file or directory
+Jan  6 08:00:07 mdm9607 daemon.info avahi-dnsconfd[1279]: Failed to connect to the daemon. This probably means that you
+Jan  6 08:00:07 mdm9607 daemon.info avahi-dnsconfd[1279]: didn't start avahi-daemon before avahi-dnsconfd.
+Sun Jan 6 08:00:07 CST 1980: mcmlocserver pid:1148
+Sun Jan 6 08:00:07 CST 1980: mcm_data_srv pid:1139
+Sun Jan 6 08:00:08 CST 1980: mcm_ril_service pid:803
+Sun Jan 6 08:00:08 CST 1980: MCM_atcop_svc pid:1140
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[961]: reading /etc/resolv.conf
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[961]: using nameserver 8.8.8.8#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[961]: using nameserver 114.114.114.114#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[961]: using nameserver 114.114.115.115#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[961]: using nameserver 114.114.114.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[961]: using nameserver 114.114.115.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[961]: using nameserver 123.125.81.6#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[961]: using nameserver 223.5.5.5#53
+Sun Jan 6 08:00:21 CST 1980: iptables -F FORWARD
+Jan  6 08:00:25 mdm9607 daemon.warn dnsmasq[961]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[961]: reading /etc/resolv.conf
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[961]: using nameserver 116.116.116.116#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[961]: using nameserver 221.5.88.88#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[961]: using nameserver 8.8.8.8#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[961]: using nameserver 114.114.114.114#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[961]: using nameserver 114.114.115.115#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[961]: using nameserver 114.114.114.119#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[961]: using nameserver 114.114.115.119#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[961]: using nameserver 123.125.81.6#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[961]: using nameserver 223.5.5.5#53
+Oct 31 17:23:13 mdm9607 syslog.info syslogd started: BusyBox v1.23.1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 0
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: ats_rtc_init: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Value read from RTC seconds = 902000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_init_config: ATS_RTC initialized
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_1 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_2 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_3 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_4 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_5 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_6 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_7 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_8 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_9 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_10 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_pre_init::Base = 11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]:  Storage Name: ats_11 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_init_config: Other bases initilized, exiting genoff_init
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_opr: Base = 1, val = 198994424758283, operation = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff get for 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Value read from RTC seconds = 902000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Value read from RTC seconds = 902000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: Final Time = 315964885718
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[469]: genoff_boot_tod_init: Updating system time to sec=315964885, usec=718000
+Jan  6 08:01:25 mdm9607 user.err time_daemon_mdm:[469]: genoff_modem_qmi_init: Initiallizing QMI 
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: Thermal daemon started
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: No target config file, falling back to '/etc/thermal-engine.conf'
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: devices_manager_init: Init
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: Unable to open /sys/class/kgsl
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: Number of gpus :0
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: Number of cpus :1
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: update_cpu_topology: Cluster info node not found/sys/module/msm_thermal/cluster_info
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: tmd_init_cluster_devs: No clusters found
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: vdd_rstr_init: Init KTM VDD RSTR enabled: 0
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: cpr_band_init: Could not read /sys/module/msm_thermal/cpr_band/curr_cpr_band
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: sensors_manager_init: Init
+Jan  6 08:01:32 mdm9607 user.err thermal-engine: bcl_setup: Unexpected node error
+Jan  6 08:01:32 mdm9607 user.err thermal-engine: add_tgt_sensors_set: Error adding bcl
+Jan  6 08:01:32 mdm9607 user.err thermal-engine: sensors_init: Error adding BCL TS
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: Loading configuration file /etc/thermal-engine.conf
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: Parsing section global
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: [PEAK_POWER_MONITOR]
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds 110000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds_clr 105000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: actions cpu
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: action_info 400000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: [MODEM_MONITOR]
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds 122000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds_clr 120000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: actions modem
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: action_info 2
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: [PA_MONITOR]
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds 120000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds_clr 118000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: actions modem
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: [CX_MODEM_MONITOR]
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds 125000 126000 128000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds_clr 123000 124000 126000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: actions modem_cx modem_cx modem_cx
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: action_info 1 2 3
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS4]
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor4
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: descending
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS3]
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor3
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: descending
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS2]
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: descending
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS1]
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor1
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: descending
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS0]
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor0
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: descending
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: [SS-CPU]
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: #algo_type ss
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: sampling 65 sensor cpu0 device cpu
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: set_point 95000 set_point_clr 90000 time_constant 0
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: MODEM req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: ADSP req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: MODEM thermal mitigation available.
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: pa mitigation succeeded for level 0.
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: Mitigation:Modem:0
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cpuv_restriction_cold mitigation succeeded for level 0.
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cpuv_restriction_cold]:0
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cx_vdd_limit mitigation succeeded for level 0.
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cx_vdd_limit]:0
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: modem mitigation succeeded for level 0.
+Jan  6 08:01:32 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-modem]:0
+Jan  6 08:01:32 mdm9607 user.err time_daemon_mdm:[469]: genoff_modem_qmi_init: qmi_client_get_service_list returned 0num_services 1
+Jan  6 08:01:32 mdm9607 user.err time_daemon_mdm:[469]: genoff_modem_qmi_init: Sending initial transaction to read time
+Jan  6 08:01:32 mdm9607 user.err time_daemon_mdm:[469]: Daemon:genoff_modem_qmi_init:Time received 315964802851
+Jan  6 08:01:32 mdm9607 user.err time_daemon_mdm:[469]: genoff_opr: Base = 1, val = 315964802851, operation = 0
+Jan  6 08:01:32 mdm9607 user.err time_daemon_mdm:[469]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Jan  6 08:01:32 mdm9607 user.err time_daemon_mdm:[469]: Value read from RTC seconds = 909000
+Jan  6 08:01:32 mdm9607 user.err time_daemon_mdm:[469]: new time 315964802851 
+Jan  6 08:01:32 mdm9607 user.err time_daemon_mdm:[469]: delta 315963893851 genoff 315963893851 
+Jan  6 08:01:32 mdm9607 user.err time_daemon_mdm:[469]: genoff_persistent_update: Writing genoff = 315963893851 to memory
+Jan  6 08:01:32 mdm9607 user.err time_daemon_mdm:[469]: Opening File: /data/time/ats_1
+Jan  6 08:01:32 mdm9607 user.err time_daemon_mdm:[469]: time_persistent_memory_opr:Genoff write operation 
+Jan  6 08:01:32 mdm9607 user.err time_daemon_mdm:[469]: Daemon:genoff_modem_qmi_init: offset 1 updated
+Jan  6 08:01:32 mdm9607 user.err time_daemon_mdm:[469]: genoff_modem_qmi_init: Updating system time to sec=315964802, usec=851000
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[469]: genoff_modem_qmi_init: Local Genoff update for base = 1 , rc = 0
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[469]:  starting with pid (469)
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable RPM log
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable qdss ramdump
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq[1049]: started, version 2.73 cachesize 150
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq[1049]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[1049]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[1049]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[1049]: DHCP, sockets bound exclusively to interface bridge0
+Jan  6 08:00:05 mdm9607 daemon.warn dnsmasq[1049]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq[1049]: read /etc/hosts - 2 addresses
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[1049]: read /etc/dhcp_hosts
+Jan  6 08:00:06 mdm9607 daemon.err avahi-dnsconfd[1295]: connect(): No such file or directory
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1295]: Failed to connect to the daemon. This probably means that you
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1295]: didn't start avahi-daemon before avahi-dnsconfd.
+Sun Jan 6 08:00:07 CST 1980: mcmlocserver pid:1188
+Sun Jan 6 08:00:07 CST 1980: mcm_data_srv pid:1182
+Sun Jan 6 08:00:07 CST 1980: mcm_ril_service pid:830
+Sun Jan 6 08:00:07 CST 1980: MCM_atcop_svc pid:1183
+Jan  6 08:00:16 mdm9607 daemon.info dnsmasq[1049]: read /etc/hosts - 2 addresses
+Jan  6 08:00:16 mdm9607 daemon.info dnsmasq-dhcp[1049]: read /etc/dhcp_hosts
+Jan  6 08:00:17 mdm9607 daemon.info dnsmasq[1755]: started, version 2.73 cachesize 150
+Jan  6 08:00:17 mdm9607 daemon.info dnsmasq[1755]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Jan  6 08:00:17 mdm9607 daemon.info dnsmasq-dhcp[1755]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Jan  6 08:00:17 mdm9607 daemon.info dnsmasq-dhcp[1755]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Jan  6 08:00:17 mdm9607 daemon.info dnsmasq-dhcp[1755]: DHCP, sockets bound exclusively to interface bridge0
+Jan  6 08:00:17 mdm9607 daemon.warn dnsmasq[1755]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:17 mdm9607 daemon.info dnsmasq[1755]: read /etc/hosts - 2 addresses
+Jan  6 08:00:17 mdm9607 daemon.info dnsmasq-dhcp[1755]: read /etc/dhcp_hosts
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1755]: reading /etc/resolv.conf
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1755]: using nameserver 8.8.8.8#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1755]: using nameserver 114.114.114.114#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1755]: using nameserver 114.114.115.115#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1755]: using nameserver 114.114.114.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1755]: using nameserver 114.114.115.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1755]: using nameserver 123.125.81.6#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1755]: using nameserver 223.5.5.5#53
+Sun Jan 6 08:00:23 CST 1980: iptables -F FORWARD
+Jan  6 08:00:26 mdm9607 daemon.warn dnsmasq[1755]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1755]: reading /etc/resolv.conf
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1755]: using nameserver 116.116.116.116#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1755]: using nameserver 221.5.88.88#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1755]: using nameserver 8.8.8.8#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1755]: using nameserver 114.114.114.114#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1755]: using nameserver 114.114.115.115#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1755]: using nameserver 114.114.114.119#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1755]: using nameserver 114.114.115.119#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1755]: using nameserver 123.125.81.6#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1755]: using nameserver 223.5.5.5#53
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[1755]: read /etc/hosts - 2 addresses
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq-dhcp[1755]: read /etc/dhcp_hosts
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[6888]: started, version 2.73 cachesize 150
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[6888]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq-dhcp[6888]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq-dhcp[6888]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq-dhcp[6888]: DHCP, sockets bound exclusively to interface bridge0
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[6888]: reading /etc/resolv.conf
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[6888]: using nameserver 116.116.116.116#53
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[6888]: using nameserver 221.5.88.88#53
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[6888]: using nameserver 8.8.8.8#53
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[6888]: using nameserver 114.114.114.114#53
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[6888]: using nameserver 114.114.115.115#53
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[6888]: using nameserver 114.114.114.119#53
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[6888]: using nameserver 114.114.115.119#53
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[6888]: using nameserver 123.125.81.6#53
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[6888]: using nameserver 223.5.5.5#53
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq[6888]: read /etc/hosts - 2 addresses
+Nov  8 10:54:54 mdm9607 daemon.info dnsmasq-dhcp[6888]: read /etc/dhcp_hosts
+Fri Nov 8 10:55:05 CST 2019: iptables -F FORWARD
+Nov  8 10:55:08 mdm9607 daemon.info dnsmasq-dhcp[6888]: DHCPREQUEST(bridge0) 192.168.225.24 3e:ed:d1:63:ab:40 
+Nov  8 10:55:08 mdm9607 daemon.info dnsmasq-dhcp[6888]: DHCPACK(bridge0) 192.168.225.24 3e:ed:d1:63:ab:40 DESKTOP-OBNGQ89
+Fri Nov 8 11:03:19 CST 2019: logcat service start
+Fri Nov 8 11:03:19 CST 2019: logcat service stopped
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[6888]: read /etc/hosts - 2 addresses
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq-dhcp[6888]: read /etc/dhcp_hosts
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[15992]: started, version 2.73 cachesize 150
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[15992]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq-dhcp[15992]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq-dhcp[15992]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq-dhcp[15992]: DHCP, sockets bound exclusively to interface bridge0
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[15992]: reading /etc/resolv.conf
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[15992]: using nameserver 116.116.116.116#53
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[15992]: using nameserver 221.5.88.88#53
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[15992]: using nameserver 8.8.8.8#53
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[15992]: using nameserver 114.114.114.114#53
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[15992]: using nameserver 114.114.115.115#53
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[15992]: using nameserver 114.114.114.119#53
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[15992]: using nameserver 114.114.115.119#53
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[15992]: using nameserver 123.125.81.6#53
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[15992]: using nameserver 223.5.5.5#53
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq[15992]: read /etc/hosts - 2 addresses
+Nov  8 11:06:31 mdm9607 daemon.info dnsmasq-dhcp[15992]: read /etc/dhcp_hosts
+Fri Nov 8 11:06:42 CST 2019: iptables -F FORWARD
+Oct 31 17:23:12 mdm9607 syslog.info syslogd started: BusyBox v1.23.1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 0
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: ats_rtc_init: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Value read from RTC seconds = 2021000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_init_config: ATS_RTC initialized
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_1 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_2 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_3 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_4 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_5 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_6 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_7 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_8 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_9 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_10 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_11 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_init_config: Other bases initilized, exiting genoff_init
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_opr: Base = 1, val = 198994424758283, operation = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff get for 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Value read from RTC seconds = 2021000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Value read from RTC seconds = 2021000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Final Time = 315965914851
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_boot_tod_init: Updating system time to sec=315965914, usec=851000
+Jan  6 08:18:34 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: Initiallizing QMI 
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: Thermal daemon started
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: No target config file, falling back to '/etc/thermal-engine.conf'
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: devices_manager_init: Init
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: Unable to open /sys/class/kgsl
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: Number of gpus :0
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: Number of cpus :1
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: update_cpu_topology: Cluster info node not found/sys/module/msm_thermal/cluster_info
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: tmd_init_cluster_devs: No clusters found
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: vdd_rstr_init: Init KTM VDD RSTR enabled: 0
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: cpr_band_init: Could not read /sys/module/msm_thermal/cpr_band/curr_cpr_band
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: sensors_manager_init: Init
+Jan  6 08:18:39 mdm9607 user.err thermal-engine: bcl_setup: Unexpected node error
+Jan  6 08:18:39 mdm9607 user.err thermal-engine: add_tgt_sensors_set: Error adding bcl
+Jan  6 08:18:39 mdm9607 user.err thermal-engine: sensors_init: Error adding BCL TS
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: Loading configuration file /etc/thermal-engine.conf
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: Parsing section global
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: [PEAK_POWER_MONITOR]
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds 110000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds_clr 105000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: actions cpu
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: action_info 400000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: [MODEM_MONITOR]
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds 122000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds_clr 120000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: actions modem
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: action_info 2
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: [PA_MONITOR]
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds 120000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds_clr 118000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: actions modem
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: [CX_MODEM_MONITOR]
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds 125000 126000 128000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds_clr 123000 124000 126000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: actions modem_cx modem_cx modem_cx
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: action_info 1 2 3
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS4]
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor4
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: descending
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS3]
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor3
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: descending
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS2]
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: descending
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS1]
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor1
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: descending
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS0]
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor0
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: descending
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: [SS-CPU]
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: #algo_type ss
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: sampling 65 sensor cpu0 device cpu
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: set_point 95000 set_point_clr 90000 time_constant 0
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: MODEM req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:18:39 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: ADSP req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:18:39 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: qmi_client_get_service_list returned 0num_services 1
+Jan  6 08:18:39 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: Sending initial transaction to read time
+Jan  6 08:18:39 mdm9607 user.err time_daemon_mdm:[466]: Daemon:genoff_modem_qmi_init:Time received 315964800880
+Jan  6 08:18:39 mdm9607 user.err time_daemon_mdm:[466]: genoff_opr: Base = 1, val = 315964800880, operation = 0
+Jan  6 08:18:39 mdm9607 user.err time_daemon_mdm:[466]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Jan  6 08:18:39 mdm9607 user.err time_daemon_mdm:[466]: Value read from RTC seconds = 2026000
+Jan  6 08:18:39 mdm9607 user.err time_daemon_mdm:[466]: new time 315964800880 
+Jan  6 08:18:39 mdm9607 user.err time_daemon_mdm:[466]: delta 315962774880 genoff 315962774880 
+Jan  6 08:18:39 mdm9607 user.err time_daemon_mdm:[466]: genoff_persistent_update: Writing genoff = 315962774880 to memory
+Jan  6 08:18:39 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_1
+Jan  6 08:18:39 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff write operation 
+Jan  6 08:18:39 mdm9607 user.err time_daemon_mdm:[466]: Daemon:genoff_modem_qmi_init: offset 1 updated
+Jan  6 08:18:39 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: Updating system time to sec=315964800, usec=880000
+Jan  6 08:00:00 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: Local Genoff update for base = 1 , rc = 0
+Jan  6 08:00:00 mdm9607 user.err time_daemon_mdm:[466]:  starting with pid (466)
+Jan  6 08:00:01 mdm9607 user.info thermal-engine: MODEM thermal mitigation available.
+Jan  6 08:00:01 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: pa mitigation succeeded for level 0.
+Jan  6 08:00:01 mdm9607 user.info thermal-engine: Mitigation:Modem:0
+Jan  6 08:00:01 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cpuv_restriction_cold mitigation succeeded for level 0.
+Jan  6 08:00:01 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cpuv_restriction_cold]:0
+Jan  6 08:00:01 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cx_vdd_limit mitigation succeeded for level 0.
+Jan  6 08:00:01 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cx_vdd_limit]:0
+Jan  6 08:00:01 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: modem mitigation succeeded for level 0.
+Jan  6 08:00:01 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-modem]:0
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable RPM log
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable qdss ramdump
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[975]: started, version 2.73 cachesize 150
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[975]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[975]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[975]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[975]: DHCP, sockets bound exclusively to interface bridge0
+Jan  6 08:00:04 mdm9607 daemon.warn dnsmasq[975]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[975]: read /etc/hosts - 2 addresses
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[975]: read /etc/dhcp_hosts
+Jan  6 08:00:07 mdm9607 daemon.err avahi-dnsconfd[1355]: connect(): No such file or directory
+Jan  6 08:00:07 mdm9607 daemon.info avahi-dnsconfd[1355]: Failed to connect to the daemon. This probably means that you
+Jan  6 08:00:07 mdm9607 daemon.info avahi-dnsconfd[1355]: didn't start avahi-daemon before avahi-dnsconfd.
+Sun Jan 6 08:00:07 CST 1980: mcmlocserver pid:1239
+Sun Jan 6 08:00:07 CST 1980: mcm_data_srv pid:1237
+Sun Jan 6 08:00:07 CST 1980: mcm_ril_service pid:896
+Sun Jan 6 08:00:07 CST 1980: MCM_atcop_svc pid:1238
+Sun Jan 6 08:00:09 CST 1980: logcat service start
+Sun Jan 6 08:00:09 CST 1980: logcat service stopped
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[975]: reading /etc/resolv.conf
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[975]: using nameserver 8.8.8.8#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[975]: using nameserver 114.114.114.114#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[975]: using nameserver 114.114.115.115#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[975]: using nameserver 114.114.114.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[975]: using nameserver 114.114.115.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[975]: using nameserver 123.125.81.6#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[975]: using nameserver 223.5.5.5#53
+Sun Jan 6 08:00:21 CST 1980: iptables -F FORWARD
+Jan  6 08:00:25 mdm9607 daemon.warn dnsmasq[975]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[975]: reading /etc/resolv.conf
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[975]: using nameserver 116.116.116.116#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[975]: using nameserver 221.5.88.88#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[975]: using nameserver 8.8.8.8#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[975]: using nameserver 114.114.114.114#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[975]: using nameserver 114.114.115.115#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[975]: using nameserver 114.114.114.119#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[975]: using nameserver 114.114.115.119#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[975]: using nameserver 123.125.81.6#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[975]: using nameserver 223.5.5.5#53
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[975]: read /etc/hosts - 2 addresses
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq-dhcp[975]: read /etc/dhcp_hosts
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[2954]: started, version 2.73 cachesize 150
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[2954]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq-dhcp[2954]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq-dhcp[2954]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq-dhcp[2954]: DHCP, sockets bound exclusively to interface bridge0
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[2954]: reading /etc/resolv.conf
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[2954]: using nameserver 116.116.116.116#53
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[2954]: using nameserver 221.5.88.88#53
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[2954]: using nameserver 8.8.8.8#53
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[2954]: using nameserver 114.114.114.114#53
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[2954]: using nameserver 114.114.115.115#53
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[2954]: using nameserver 114.114.114.119#53
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[2954]: using nameserver 114.114.115.119#53
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[2954]: using nameserver 123.125.81.6#53
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[2954]: using nameserver 223.5.5.5#53
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq[2954]: read /etc/hosts - 2 addresses
+Nov  8 08:11:57 mdm9607 daemon.info dnsmasq-dhcp[2954]: read /etc/dhcp_hosts
+Fri Nov 8 08:12:03 CST 2019: iptables -F FORWARD
+Nov  8 08:12:06 mdm9607 daemon.info dnsmasq-dhcp[2954]: DHCPREQUEST(bridge0) 192.168.225.24 fa:f3:56:dc:74:df 
+Nov  8 08:12:06 mdm9607 daemon.info dnsmasq-dhcp[2954]: DHCPACK(bridge0) 192.168.225.24 fa:f3:56:dc:74:df DESKTOP-OBNGQ89
+Oct 31 17:23:13 mdm9607 syslog.info syslogd started: BusyBox v1.23.1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_pre_init::Base = 0
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: ats_rtc_init: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Value read from RTC seconds = 12000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_init_config: ATS_RTC initialized
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_pre_init::Base = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]:  Storage Name: ats_1 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Opening File: /data/time/ats_1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_pre_init::Base = 2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]:  Storage Name: ats_2 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Opening File: /data/time/ats_2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_pre_init::Base = 3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]:  Storage Name: ats_3 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Opening File: /data/time/ats_3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_pre_init::Base = 4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]:  Storage Name: ats_4 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Opening File: /data/time/ats_4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_pre_init::Base = 5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]:  Storage Name: ats_5 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Opening File: /data/time/ats_5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_pre_init::Base = 6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]:  Storage Name: ats_6 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Opening File: /data/time/ats_6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_pre_init::Base = 7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]:  Storage Name: ats_7 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Opening File: /data/time/ats_7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_pre_init::Base = 8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]:  Storage Name: ats_8 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Opening File: /data/time/ats_8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_pre_init::Base = 9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]:  Storage Name: ats_9 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Opening File: /data/time/ats_9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_pre_init::Base = 10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]:  Storage Name: ats_10 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Opening File: /data/time/ats_10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_pre_init::Base = 11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]:  Storage Name: ats_11 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Opening File: /data/time/ats_11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_init_config: Other bases initilized, exiting genoff_init
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_opr: Base = 1, val = 198994424758283, operation = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff get for 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Value read from RTC seconds = 12000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Value read from RTC seconds = 12000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: Final Time = 315962786880
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[461]: genoff_boot_tod_init: Updating system time to sec=315962786, usec=880000
+Jan  6 07:26:26 mdm9607 user.err time_daemon_mdm:[461]: genoff_modem_qmi_init: Initiallizing QMI 
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: Thermal daemon started
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: No target config file, falling back to '/etc/thermal-engine.conf'
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: devices_manager_init: Init
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: Unable to open /sys/class/kgsl
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: Number of gpus :0
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: Number of cpus :1
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: update_cpu_topology: Cluster info node not found/sys/module/msm_thermal/cluster_info
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: tmd_init_cluster_devs: No clusters found
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: vdd_rstr_init: Init KTM VDD RSTR enabled: 0
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: cpr_band_init: Could not read /sys/module/msm_thermal/cpr_band/curr_cpr_band
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: sensors_manager_init: Init
+Jan  6 07:26:33 mdm9607 user.err thermal-engine: bcl_setup: Unexpected node error
+Jan  6 07:26:33 mdm9607 user.err thermal-engine: add_tgt_sensors_set: Error adding bcl
+Jan  6 07:26:33 mdm9607 user.err thermal-engine: sensors_init: Error adding BCL TS
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: Loading configuration file /etc/thermal-engine.conf
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: Parsing section global
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: [PEAK_POWER_MONITOR]
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds 110000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds_clr 105000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: actions cpu
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: action_info 400000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: [MODEM_MONITOR]
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds 122000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds_clr 120000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: actions modem
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: action_info 2
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: [PA_MONITOR]
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds 120000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds_clr 118000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: actions modem
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: [CX_MODEM_MONITOR]
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds 125000 126000 128000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds_clr 123000 124000 126000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: actions modem_cx modem_cx modem_cx
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: action_info 1 2 3
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS4]
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor4
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: descending
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS3]
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor3
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: descending
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS2]
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: descending
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS1]
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor1
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: descending
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS0]
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor0
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: descending
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: [SS-CPU]
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: #algo_type ss
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: sampling 65 sensor cpu0 device cpu
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: set_point 95000 set_point_clr 90000 time_constant 0
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: MODEM req level(0) is recorded and waiting for completing QMI registration
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: ADSP req level(0) is recorded and waiting for completing QMI registration
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: MODEM thermal mitigation available.
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: pa mitigation succeeded for level 0.
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: Mitigation:Modem:0
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cpuv_restriction_cold mitigation succeeded for level 0.
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cpuv_restriction_cold]:0
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cx_vdd_limit mitigation succeeded for level 0.
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cx_vdd_limit]:0
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: modem mitigation succeeded for level 0.
+Jan  6 07:26:33 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-modem]:0
+Jan  6 07:26:34 mdm9607 user.err time_daemon_mdm:[461]: genoff_modem_qmi_init: qmi_client_get_service_list returned 0num_services 1
+Jan  6 07:26:34 mdm9607 user.err time_daemon_mdm:[461]: genoff_modem_qmi_init: Sending initial transaction to read time
+Jan  6 07:26:34 mdm9607 user.err time_daemon_mdm:[461]: Daemon:genoff_modem_qmi_init:Time received 315964803034
+Jan  6 07:26:34 mdm9607 user.err time_daemon_mdm:[461]: genoff_opr: Base = 1, val = 315964803034, operation = 0
+Jan  6 07:26:34 mdm9607 user.err time_daemon_mdm:[461]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Jan  6 07:26:34 mdm9607 user.err time_daemon_mdm:[461]: Value read from RTC seconds = 19000
+Jan  6 07:26:34 mdm9607 user.err time_daemon_mdm:[461]: new time 315964803034 
+Jan  6 07:26:34 mdm9607 user.err time_daemon_mdm:[461]: delta 315964784034 genoff 315964784034 
+Jan  6 07:26:34 mdm9607 user.err time_daemon_mdm:[461]: genoff_persistent_update: Writing genoff = 315964784034 to memory
+Jan  6 07:26:34 mdm9607 user.err time_daemon_mdm:[461]: Opening File: /data/time/ats_1
+Jan  6 07:26:34 mdm9607 user.err time_daemon_mdm:[461]: time_persistent_memory_opr:Genoff write operation 
+Jan  6 07:26:34 mdm9607 user.err time_daemon_mdm:[461]: Daemon:genoff_modem_qmi_init: offset 1 updated
+Jan  6 07:26:34 mdm9607 user.err time_daemon_mdm:[461]: genoff_modem_qmi_init: Updating system time to sec=315964803, usec=34000
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[461]: genoff_modem_qmi_init: Local Genoff update for base = 1 , rc = 0
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[461]:  starting with pid (461)
+Jan  6 08:00:03 mdm9607 user.err ipacm_perf: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-3
+Jan  6 08:00:03 mdm9607 user.err QCMAP_ConnectionManager: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-3
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable RPM log
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable qdss ramdump
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[1002]: started, version 2.73 cachesize 150
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[1002]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[1002]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[1002]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[1002]: DHCP, sockets bound exclusively to interface bridge0
+Jan  6 08:00:04 mdm9607 daemon.warn dnsmasq[1002]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[1002]: read /etc/hosts - 2 addresses
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[1002]: read /etc/dhcp_hosts
+Jan  6 08:00:06 mdm9607 daemon.err avahi-dnsconfd[1334]: connect(): No such file or directory
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1334]: Failed to connect to the daemon. This probably means that you
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1334]: didn't start avahi-daemon before avahi-dnsconfd.
+Sun Jan 6 08:00:07 CST 1980: mcmlocserver pid:1210
+Jan  6 08:00:07 mdm9607 daemon.info dnsmasq-dhcp[1002]: DHCPREQUEST(bridge0) 192.168.225.24 26:34:0e:93:77:90 
+Jan  6 08:00:07 mdm9607 daemon.info dnsmasq-dhcp[1002]: DHCPACK(bridge0) 192.168.225.24 26:34:0e:93:77:90 DESKTOP-OBNGQ89
+Sun Jan 6 08:00:07 CST 1980: mcm_data_srv pid:1202
+Sun Jan 6 08:00:07 CST 1980: mcm_ril_service pid:836
+Sun Jan 6 08:00:07 CST 1980: MCM_atcop_svc pid:1208
+Sun Jan 6 08:00:09 CST 1980: logcat service start
+Sun Jan 6 08:00:09 CST 1980: logcat service stopped
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1002]: reading /etc/resolv.conf
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1002]: using nameserver 8.8.8.8#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1002]: using nameserver 114.114.114.114#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1002]: using nameserver 114.114.115.115#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1002]: using nameserver 114.114.114.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1002]: using nameserver 114.114.115.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1002]: using nameserver 123.125.81.6#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1002]: using nameserver 223.5.5.5#53
+Sun Jan 6 08:00:21 CST 1980: iptables -F FORWARD
+Jan  6 08:00:25 mdm9607 daemon.warn dnsmasq[1002]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1002]: reading /etc/resolv.conf
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1002]: using nameserver 116.116.116.116#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1002]: using nameserver 221.5.88.88#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1002]: using nameserver 8.8.8.8#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1002]: using nameserver 114.114.114.114#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1002]: using nameserver 114.114.115.115#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1002]: using nameserver 114.114.114.119#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1002]: using nameserver 114.114.115.119#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1002]: using nameserver 123.125.81.6#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1002]: using nameserver 223.5.5.5#53
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[1002]: read /etc/hosts - 2 addresses
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq-dhcp[1002]: read /etc/dhcp_hosts
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[3854]: started, version 2.73 cachesize 150
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[3854]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq-dhcp[3854]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq-dhcp[3854]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq-dhcp[3854]: DHCP, sockets bound exclusively to interface bridge0
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[3854]: reading /etc/resolv.conf
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[3854]: using nameserver 116.116.116.116#53
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[3854]: using nameserver 221.5.88.88#53
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[3854]: using nameserver 8.8.8.8#53
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[3854]: using nameserver 114.114.114.114#53
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[3854]: using nameserver 114.114.115.115#53
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[3854]: using nameserver 114.114.114.119#53
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[3854]: using nameserver 114.114.115.119#53
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[3854]: using nameserver 123.125.81.6#53
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[3854]: using nameserver 223.5.5.5#53
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq[3854]: read /etc/hosts - 2 addresses
+Nov  8 08:20:46 mdm9607 daemon.info dnsmasq-dhcp[3854]: read /etc/dhcp_hosts
+Oct 31 17:23:13 mdm9607 syslog.info syslogd started: BusyBox v1.23.1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 0
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: ats_rtc_init: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Value read from RTC seconds = 12000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_init_config: ATS_RTC initialized
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_1 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_2 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_3 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_4 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_5 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_6 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_7 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_8 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_9 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_10 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_11 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_init_config: Other bases initilized, exiting genoff_init
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_opr: Base = 1, val = 198994424758283, operation = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff get for 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Value read from RTC seconds = 12000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Value read from RTC seconds = 12000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Final Time = 315964796034
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_boot_tod_init: Updating system time to sec=315964796, usec=34000
+Jan  6 07:59:56 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: Initiallizing QMI 
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Thermal daemon started
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: No target config file, falling back to '/etc/thermal-engine.conf'
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: devices_manager_init: Init
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Unable to open /sys/class/kgsl
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Number of gpus :0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Number of cpus :1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: update_cpu_topology: Cluster info node not found/sys/module/msm_thermal/cluster_info
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: tmd_init_cluster_devs: No clusters found
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: vdd_rstr_init: Init KTM VDD RSTR enabled: 0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: cpr_band_init: Could not read /sys/module/msm_thermal/cpr_band/curr_cpr_band
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sensors_manager_init: Init
+Jan  6 08:00:02 mdm9607 user.err thermal-engine: bcl_setup: Unexpected node error
+Jan  6 08:00:02 mdm9607 user.err thermal-engine: add_tgt_sensors_set: Error adding bcl
+Jan  6 08:00:02 mdm9607 user.err thermal-engine: sensors_init: Error adding BCL TS
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Loading configuration file /etc/thermal-engine.conf
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Parsing section global
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [PEAK_POWER_MONITOR]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 110000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 105000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions cpu
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 400000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [MODEM_MONITOR]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 122000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 120000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions modem
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 2
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [PA_MONITOR]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 120000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 118000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions modem
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [CX_MODEM_MONITOR]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 125000 126000 128000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 123000 124000 126000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions modem_cx modem_cx modem_cx
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1 2 3
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS4]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor4
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: descending
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS3]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor3
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: descending
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS2]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: descending
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS1]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: descending
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS0]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: descending
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [SS-CPU]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type ss
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 65 sensor cpu0 device cpu
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: set_point 95000 set_point_clr 90000 time_constant 0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: MODEM req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: ADSP req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: MODEM thermal mitigation available.
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: pa mitigation succeeded for level 0.
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Mitigation:Modem:0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cpuv_restriction_cold mitigation succeeded for level 0.
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cpuv_restriction_cold]:0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cx_vdd_limit mitigation succeeded for level 0.
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cx_vdd_limit]:0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: modem mitigation succeeded for level 0.
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-modem]:0
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: qmi_client_get_service_list returned 0num_services 1
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: Sending initial transaction to read time
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[466]: Daemon:genoff_modem_qmi_init:Time received 315964802992
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[466]: genoff_opr: Base = 1, val = 315964802992, operation = 0
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[466]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[466]: Value read from RTC seconds = 19000
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[466]: new time 315964802992 
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[466]: delta 315964783992 genoff 315964783992 
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[466]: genoff_persistent_update: Writing genoff = 315964783992 to memory
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_1
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff write operation 
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[466]: Daemon:genoff_modem_qmi_init: offset 1 updated
+Jan  6 08:00:03 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: Updating system time to sec=315964802, usec=992000
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: Local Genoff update for base = 1 , rc = 0
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[466]:  starting with pid (466)
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/ramdump
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable RPM log
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable qdss ramdump
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[1035]: started, version 2.73 cachesize 150
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[1035]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[1035]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[1035]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[1035]: DHCP, sockets bound exclusively to interface bridge0
+Jan  6 08:00:04 mdm9607 daemon.warn dnsmasq[1035]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq[1035]: read /etc/hosts - 2 addresses
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[1035]: read /etc/dhcp_hosts
+Jan  6 08:00:06 mdm9607 daemon.err avahi-dnsconfd[1303]: connect(): No such file or directory
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1303]: Failed to connect to the daemon. This probably means that you
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1303]: didn't start avahi-daemon before avahi-dnsconfd.
+Sun Jan 6 08:00:07 CST 1980: mcmlocserver pid:1162
+Sun Jan 6 08:00:07 CST 1980: mcm_data_srv pid:1156
+Sun Jan 6 08:00:07 CST 1980: mcm_ril_service pid:812
+Sun Jan 6 08:00:07 CST 1980: MCM_atcop_svc pid:1157
+Sun Jan 6 08:00:09 CST 1980: logcat service start
+Sun Jan 6 08:00:09 CST 1980: logcat service stopped
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1035]: reading /etc/resolv.conf
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1035]: using nameserver 8.8.8.8#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1035]: using nameserver 114.114.114.114#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1035]: using nameserver 114.114.115.115#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1035]: using nameserver 114.114.114.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1035]: using nameserver 114.114.115.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1035]: using nameserver 123.125.81.6#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1035]: using nameserver 223.5.5.5#53
+Sun Jan 6 08:00:21 CST 1980: iptables -F FORWARD
+Jan  6 08:00:25 mdm9607 daemon.warn dnsmasq[1035]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1035]: reading /etc/resolv.conf
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1035]: using nameserver 116.116.116.116#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1035]: using nameserver 221.5.88.88#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1035]: using nameserver 8.8.8.8#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1035]: using nameserver 114.114.114.114#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1035]: using nameserver 114.114.115.115#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1035]: using nameserver 114.114.114.119#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1035]: using nameserver 114.114.115.119#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1035]: using nameserver 123.125.81.6#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1035]: using nameserver 223.5.5.5#53
+Oct 31 17:23:12 mdm9607 syslog.info syslogd started: BusyBox v1.23.1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_pre_init::Base = 0
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: ats_rtc_init: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Value read from RTC seconds = 181000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_init_config: ATS_RTC initialized
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_pre_init::Base = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]:  Storage Name: ats_1 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Opening File: /data/time/ats_1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_pre_init::Base = 2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]:  Storage Name: ats_2 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Opening File: /data/time/ats_2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_pre_init::Base = 3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]:  Storage Name: ats_3 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Opening File: /data/time/ats_3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_pre_init::Base = 4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]:  Storage Name: ats_4 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Opening File: /data/time/ats_4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_pre_init::Base = 5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]:  Storage Name: ats_5 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Opening File: /data/time/ats_5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_pre_init::Base = 6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]:  Storage Name: ats_6 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Opening File: /data/time/ats_6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_pre_init::Base = 7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]:  Storage Name: ats_7 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Opening File: /data/time/ats_7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_pre_init::Base = 8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]:  Storage Name: ats_8 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Opening File: /data/time/ats_8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_pre_init::Base = 9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]:  Storage Name: ats_9 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Opening File: /data/time/ats_9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_pre_init::Base = 10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]:  Storage Name: ats_10 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Opening File: /data/time/ats_10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_pre_init::Base = 11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]:  Storage Name: ats_11 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Opening File: /data/time/ats_11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_init_config: Other bases initilized, exiting genoff_init
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_opr: Base = 1, val = 198994424758283, operation = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff get for 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Value read from RTC seconds = 181000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Value read from RTC seconds = 181000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: Final Time = 315964964992
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[465]: genoff_boot_tod_init: Updating system time to sec=315964964, usec=992000
+Jan  6 08:02:44 mdm9607 user.err time_daemon_mdm:[465]: genoff_modem_qmi_init: Initiallizing QMI 
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: Thermal daemon started
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: No target config file, falling back to '/etc/thermal-engine.conf'
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: devices_manager_init: Init
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: Unable to open /sys/class/kgsl
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: Number of gpus :0
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: Number of cpus :1
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: update_cpu_topology: Cluster info node not found/sys/module/msm_thermal/cluster_info
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: tmd_init_cluster_devs: No clusters found
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: vdd_rstr_init: Init KTM VDD RSTR enabled: 0
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: cpr_band_init: Could not read /sys/module/msm_thermal/cpr_band/curr_cpr_band
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: sensors_manager_init: Init
+Jan  6 08:02:51 mdm9607 user.err thermal-engine: bcl_setup: Unexpected node error
+Jan  6 08:02:51 mdm9607 user.err thermal-engine: add_tgt_sensors_set: Error adding bcl
+Jan  6 08:02:51 mdm9607 user.err thermal-engine: sensors_init: Error adding BCL TS
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: Loading configuration file /etc/thermal-engine.conf
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: Parsing section global
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: [PEAK_POWER_MONITOR]
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds 110000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds_clr 105000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: actions cpu
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: action_info 400000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: [MODEM_MONITOR]
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds 122000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds_clr 120000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: actions modem
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: action_info 2
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: [PA_MONITOR]
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds 120000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds_clr 118000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: actions modem
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: [CX_MODEM_MONITOR]
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds 125000 126000 128000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds_clr 123000 124000 126000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: actions modem_cx modem_cx modem_cx
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: action_info 1 2 3
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS4]
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor4
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: descending
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS3]
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor3
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: descending
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS2]
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: descending
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS1]
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor1
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: descending
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS0]
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor0
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: descending
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: [SS-CPU]
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: #algo_type ss
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: sampling 65 sensor cpu0 device cpu
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: set_point 95000 set_point_clr 90000 time_constant 0
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: MODEM req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: ADSP req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: MODEM thermal mitigation available.
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: pa mitigation succeeded for level 0.
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: Mitigation:Modem:0
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cpuv_restriction_cold mitigation succeeded for level 0.
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cpuv_restriction_cold]:0
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cx_vdd_limit mitigation succeeded for level 0.
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cx_vdd_limit]:0
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: modem mitigation succeeded for level 0.
+Jan  6 08:02:51 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-modem]:0
+Jan  6 08:02:52 mdm9607 user.err time_daemon_mdm:[465]: genoff_modem_qmi_init: qmi_client_get_service_list returned 0num_services 1
+Jan  6 08:02:52 mdm9607 user.err time_daemon_mdm:[465]: genoff_modem_qmi_init: Sending initial transaction to read time
+Jan  6 08:02:52 mdm9607 user.err time_daemon_mdm:[465]: Daemon:genoff_modem_qmi_init:Time received 315964802870
+Jan  6 08:02:52 mdm9607 user.err time_daemon_mdm:[465]: genoff_opr: Base = 1, val = 315964802870, operation = 0
+Jan  6 08:02:52 mdm9607 user.err time_daemon_mdm:[465]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Jan  6 08:02:52 mdm9607 user.err time_daemon_mdm:[465]: Value read from RTC seconds = 188000
+Jan  6 08:02:52 mdm9607 user.err time_daemon_mdm:[465]: new time 315964802870 
+Jan  6 08:02:52 mdm9607 user.err time_daemon_mdm:[465]: delta 315964614870 genoff 315964614870 
+Jan  6 08:02:52 mdm9607 user.err time_daemon_mdm:[465]: genoff_persistent_update: Writing genoff = 315964614870 to memory
+Jan  6 08:02:52 mdm9607 user.err time_daemon_mdm:[465]: Opening File: /data/time/ats_1
+Jan  6 08:02:52 mdm9607 user.err time_daemon_mdm:[465]: time_persistent_memory_opr:Genoff write operation 
+Jan  6 08:02:52 mdm9607 user.err time_daemon_mdm:[465]: Daemon:genoff_modem_qmi_init: offset 1 updated
+Jan  6 08:02:52 mdm9607 user.err time_daemon_mdm:[465]: genoff_modem_qmi_init: Updating system time to sec=315964802, usec=870000
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[465]: genoff_modem_qmi_init: Local Genoff update for base = 1 , rc = 0
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[465]:  starting with pid (465)
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable RPM log
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable qdss ramdump
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[1024]: started, version 2.73 cachesize 150
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[1024]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[1024]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[1024]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[1024]: DHCP, sockets bound exclusively to interface bridge0
+Jan  6 08:00:04 mdm9607 daemon.warn dnsmasq[1024]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[1024]: read /etc/hosts - 2 addresses
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq-dhcp[1024]: read /etc/dhcp_hosts
+Jan  6 08:00:06 mdm9607 daemon.err avahi-dnsconfd[1307]: connect(): No such file or directory
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1307]: Failed to connect to the daemon. This probably means that you
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1307]: didn't start avahi-daemon before avahi-dnsconfd.
+Sun Jan 6 08:00:07 CST 1980: mcmlocserver pid:1152
+Sun Jan 6 08:00:07 CST 1980: mcm_data_srv pid:1150
+Sun Jan 6 08:00:07 CST 1980: mcm_ril_service pid:818
+Sun Jan 6 08:00:07 CST 1980: MCM_atcop_svc pid:1151
+Sun Jan 6 08:00:09 CST 1980: logcat service start
+Sun Jan 6 08:00:09 CST 1980: logcat service stopped
+Sun Jan 6 08:00:18 CST 1980: iptables -F FORWARD
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1024]: reading /etc/resolv.conf
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1024]: using nameserver 8.8.8.8#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1024]: using nameserver 114.114.114.114#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1024]: using nameserver 114.114.115.115#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1024]: using nameserver 114.114.114.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1024]: using nameserver 114.114.115.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1024]: using nameserver 123.125.81.6#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1024]: using nameserver 223.5.5.5#53
+Jan  6 08:00:25 mdm9607 daemon.warn dnsmasq[1024]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1024]: reading /etc/resolv.conf
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1024]: using nameserver 116.116.116.116#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1024]: using nameserver 221.5.88.88#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1024]: using nameserver 8.8.8.8#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1024]: using nameserver 114.114.114.114#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1024]: using nameserver 114.114.115.115#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1024]: using nameserver 114.114.114.119#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1024]: using nameserver 114.114.115.119#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1024]: using nameserver 123.125.81.6#53
+Jan  6 08:00:26 mdm9607 daemon.info dnsmasq[1024]: using nameserver 223.5.5.5#53
+Oct 31 17:23:13 mdm9607 syslog.info syslogd started: BusyBox v1.23.1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 0
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: ats_rtc_init: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Value read from RTC seconds = 12000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_init_config: ATS_RTC initialized
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_1 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_2 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_3 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_4 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_5 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_6 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_7 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_8 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_9 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_10 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_pre_init::Base = 11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]:  Storage Name: ats_11 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_init_config: Other bases initilized, exiting genoff_init
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_opr: Base = 1, val = 198994424758283, operation = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff get for 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Value read from RTC seconds = 12000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Value read from RTC seconds = 12000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: Final Time = 315964626870
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_boot_tod_init: Updating system time to sec=315964626, usec=870000
+Jan  6 07:57:06 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: Initiallizing QMI 
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: Thermal daemon started
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: No target config file, falling back to '/etc/thermal-engine.conf'
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: devices_manager_init: Init
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: Unable to open /sys/class/kgsl
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: Number of gpus :0
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: Number of cpus :1
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: update_cpu_topology: Cluster info node not found/sys/module/msm_thermal/cluster_info
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: tmd_init_cluster_devs: No clusters found
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: vdd_rstr_init: Init KTM VDD RSTR enabled: 0
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: cpr_band_init: Could not read /sys/module/msm_thermal/cpr_band/curr_cpr_band
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: sensors_manager_init: Init
+Jan  6 07:57:13 mdm9607 user.err thermal-engine: bcl_setup: Unexpected node error
+Jan  6 07:57:13 mdm9607 user.err thermal-engine: add_tgt_sensors_set: Error adding bcl
+Jan  6 07:57:13 mdm9607 user.err thermal-engine: sensors_init: Error adding BCL TS
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: Loading configuration file /etc/thermal-engine.conf
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: Parsing section global
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: [PEAK_POWER_MONITOR]
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds 110000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds_clr 105000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: actions cpu
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: action_info 400000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: [MODEM_MONITOR]
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds 122000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds_clr 120000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: actions modem
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: action_info 2
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: [PA_MONITOR]
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds 120000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds_clr 118000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: actions modem
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: [CX_MODEM_MONITOR]
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds 125000 126000 128000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds_clr 123000 124000 126000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: actions modem_cx modem_cx modem_cx
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: action_info 1 2 3
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS4]
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor4
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: descending
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS3]
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor3
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: descending
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS2]
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: descending
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS1]
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor1
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: descending
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS0]
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor0
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: descending
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: [SS-CPU]
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: #algo_type ss
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: sampling 65 sensor cpu0 device cpu
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: set_point 95000 set_point_clr 90000 time_constant 0
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: MODEM req level(0) is recorded and waiting for completing QMI registration
+Jan  6 07:57:13 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: ADSP req level(0) is recorded and waiting for completing QMI registration
+Jan  6 07:57:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: qmi_client_get_service_list returned 0num_services 1
+Jan  6 07:57:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: Sending initial transaction to read time
+Jan  6 07:57:13 mdm9607 user.err time_daemon_mdm:[466]: Daemon:genoff_modem_qmi_init:Time received 315964802896
+Jan  6 07:57:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_opr: Base = 1, val = 315964802896, operation = 0
+Jan  6 07:57:13 mdm9607 user.err time_daemon_mdm:[466]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Jan  6 07:57:13 mdm9607 user.err time_daemon_mdm:[466]: Value read from RTC seconds = 19000
+Jan  6 07:57:13 mdm9607 user.err time_daemon_mdm:[466]: new time 315964802896 
+Jan  6 07:57:13 mdm9607 user.err time_daemon_mdm:[466]: delta 315964783896 genoff 315964783896 
+Jan  6 07:57:13 mdm9607 user.err time_daemon_mdm:[466]: genoff_persistent_update: Writing genoff = 315964783896 to memory
+Jan  6 07:57:13 mdm9607 user.err time_daemon_mdm:[466]: Opening File: /data/time/ats_1
+Jan  6 07:57:13 mdm9607 user.err time_daemon_mdm:[466]: time_persistent_memory_opr:Genoff write operation 
+Jan  6 07:57:14 mdm9607 user.err time_daemon_mdm:[466]: Daemon:genoff_modem_qmi_init: offset 1 updated
+Jan  6 07:57:14 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: Updating system time to sec=315964802, usec=896000
+Jan  6 08:00:02 mdm9607 user.err fs-scrub-daemon: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-3
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[466]: genoff_modem_qmi_init: Local Genoff update for base = 1 , rc = 0
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[466]:  starting with pid (466)
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: MODEM thermal mitigation available.
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: pa mitigation succeeded for level 0.
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: Mitigation:Modem:0
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cpuv_restriction_cold mitigation succeeded for level 0.
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cpuv_restriction_cold]:0
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cx_vdd_limit mitigation succeeded for level 0.
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cx_vdd_limit]:0
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: modem mitigation succeeded for level 0.
+Jan  6 08:00:03 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-modem]:0
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/ramdump
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable RPM log
+Jan  6 08:00:03 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable qdss ramdump
+Jan  6 08:00:04 mdm9607 daemon.info dnsmasq[1040]: started, version 2.73 cachesize 150
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq[1040]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[1040]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[1040]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[1040]: DHCP, sockets bound exclusively to interface bridge0
+Jan  6 08:00:05 mdm9607 daemon.warn dnsmasq[1040]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq[1040]: read /etc/hosts - 2 addresses
+Jan  6 08:00:05 mdm9607 daemon.info dnsmasq-dhcp[1040]: read /etc/dhcp_hosts
+Jan  6 08:00:06 mdm9607 daemon.err avahi-dnsconfd[1293]: connect(): No such file or directory
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1293]: Failed to connect to the daemon. This probably means that you
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1293]: didn't start avahi-daemon before avahi-dnsconfd.
+Sun Jan 6 08:00:07 CST 1980: mcmlocserver pid:1167
+Sun Jan 6 08:00:07 CST 1980: mcm_data_srv pid:1152
+Sun Jan 6 08:00:07 CST 1980: mcm_ril_service pid:811
+Sun Jan 6 08:00:07 CST 1980: MCM_atcop_svc pid:1163
+Sun Jan 6 08:00:09 CST 1980: logcat service start
+Sun Jan 6 08:00:09 CST 1980: logcat service stopped
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1040]: reading /etc/resolv.conf
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1040]: using nameserver 8.8.8.8#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1040]: using nameserver 114.114.114.114#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1040]: using nameserver 114.114.115.115#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1040]: using nameserver 114.114.114.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1040]: using nameserver 114.114.115.119#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1040]: using nameserver 123.125.81.6#53
+Jan  6 08:00:20 mdm9607 daemon.info dnsmasq[1040]: using nameserver 223.5.5.5#53
+Sun Jan 6 08:00:21 CST 1980: iptables -F FORWARD
+Jan  6 08:00:25 mdm9607 daemon.warn dnsmasq[1040]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1040]: reading /etc/resolv.conf
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1040]: using nameserver 116.116.116.116#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1040]: using nameserver 221.5.88.88#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1040]: using nameserver 8.8.8.8#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1040]: using nameserver 114.114.114.114#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1040]: using nameserver 114.114.115.115#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1040]: using nameserver 114.114.114.119#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1040]: using nameserver 114.114.115.119#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1040]: using nameserver 123.125.81.6#53
+Jan  6 08:00:25 mdm9607 daemon.info dnsmasq[1040]: using nameserver 223.5.5.5#53
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[1040]: read /etc/hosts - 2 addresses
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq-dhcp[1040]: read /etc/dhcp_hosts
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[2952]: started, version 2.73 cachesize 150
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[2952]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq-dhcp[2952]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq-dhcp[2952]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq-dhcp[2952]: DHCP, sockets bound exclusively to interface bridge0
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[2952]: reading /etc/resolv.conf
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[2952]: using nameserver 116.116.116.116#53
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[2952]: using nameserver 221.5.88.88#53
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[2952]: using nameserver 8.8.8.8#53
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[2952]: using nameserver 114.114.114.114#53
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[2952]: using nameserver 114.114.115.115#53
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[2952]: using nameserver 114.114.114.119#53
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[2952]: using nameserver 114.114.115.119#53
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[2952]: using nameserver 123.125.81.6#53
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[2952]: using nameserver 223.5.5.5#53
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq[2952]: read /etc/hosts - 2 addresses
+Nov  8 11:46:18 mdm9607 daemon.info dnsmasq-dhcp[2952]: read /etc/dhcp_hosts
+Fri Nov 8 11:46:31 CST 2019: iptables -F FORWARD
+Nov  8 11:46:36 mdm9607 daemon.info dnsmasq-dhcp[2952]: DHCPDISCOVER(bridge0) 6e:27:d9:f9:61:8d 
+Nov  8 11:46:36 mdm9607 daemon.info dnsmasq-dhcp[2952]: DHCPOFFER(bridge0) 192.168.225.51 6e:27:d9:f9:61:8d 
+Nov  8 11:46:36 mdm9607 daemon.info dnsmasq-dhcp[2952]: DHCPDISCOVER(bridge0) 6e:27:d9:f9:61:8d 
+Nov  8 11:46:36 mdm9607 daemon.info dnsmasq-dhcp[2952]: DHCPOFFER(bridge0) 192.168.225.51 6e:27:d9:f9:61:8d 
+Nov  8 11:46:36 mdm9607 daemon.info dnsmasq-dhcp[2952]: DHCPREQUEST(bridge0) 192.168.225.51 6e:27:d9:f9:61:8d 
+Nov  8 11:46:36 mdm9607 daemon.info dnsmasq-dhcp[2952]: DHCPACK(bridge0) 192.168.225.51 6e:27:d9:f9:61:8d WIN-76VODEJ4495
+Nov  8 11:46:41 mdm9607 daemon.info dnsmasq-dhcp[2952]: DHCPINFORM(bridge0) 192.168.225.51 6e:27:d9:f9:61:8d 
+Nov  8 11:46:41 mdm9607 daemon.info dnsmasq-dhcp[2952]: DHCPACK(bridge0) 192.168.225.51 6e:27:d9:f9:61:8d WIN-76VODEJ4495
+Oct 31 17:23:12 mdm9607 syslog.info syslogd started: BusyBox v1.23.1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_pre_init::Base = 0
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: ats_rtc_init: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Value read from RTC seconds = 12000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_init_config: ATS_RTC initialized
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_pre_init::Base = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]:  Storage Name: ats_1 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Opening File: /data/time/ats_1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_pre_init::Base = 2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]:  Storage Name: ats_2 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Opening File: /data/time/ats_2
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_pre_init::Base = 3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]:  Storage Name: ats_3 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Opening File: /data/time/ats_3
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_pre_init::Base = 4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]:  Storage Name: ats_4 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Opening File: /data/time/ats_4
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_pre_init::Base = 5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]:  Storage Name: ats_5 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Opening File: /data/time/ats_5
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_pre_init::Base = 6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]:  Storage Name: ats_6 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Opening File: /data/time/ats_6
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_pre_init::Base = 7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]:  Storage Name: ats_7 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Opening File: /data/time/ats_7
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_pre_init::Base = 8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]:  Storage Name: ats_8 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Opening File: /data/time/ats_8
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_pre_init::Base = 9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]:  Storage Name: ats_9 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Opening File: /data/time/ats_9
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_pre_init::Base = 10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]:  Storage Name: ats_10 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Opening File: /data/time/ats_10
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_pre_init::Base = 11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]:  Storage Name: ats_11 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Opening File: /data/time/ats_11
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: time_persistent_memory_opr:Genoff Read operation 
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Unable to open filefor read
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_post_init:Error in accessing storage
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_init_config: Other bases initilized, exiting genoff_init
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_opr: Base = 1, val = 198994424758283, operation = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff get for 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Value read from RTC seconds = 12000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Value read from RTC seconds = 12000
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: Final Time = 315964795896
+Oct 31 17:23:13 mdm9607 user.err time_daemon_mdm:[457]: genoff_boot_tod_init: Updating system time to sec=315964795, usec=896000
+Jan  6 07:59:55 mdm9607 user.err time_daemon_mdm:[457]: genoff_modem_qmi_init: Initiallizing QMI 
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Thermal daemon started
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: No target config file, falling back to '/etc/thermal-engine.conf'
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: devices_manager_init: Init
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Unable to open /sys/class/kgsl
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Number of gpus :0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Number of cpus :1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: update_cpu_topology: Cluster info node not found/sys/module/msm_thermal/cluster_info
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: tmd_init_cluster_devs: No clusters found
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: vdd_rstr_init: Init KTM VDD RSTR enabled: 0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: cpr_band_init: Could not read /sys/module/msm_thermal/cpr_band/curr_cpr_band
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sensors_manager_init: Init
+Jan  6 08:00:02 mdm9607 user.err thermal-engine: bcl_setup: Unexpected node error
+Jan  6 08:00:02 mdm9607 user.err thermal-engine: add_tgt_sensors_set: Error adding bcl
+Jan  6 08:00:02 mdm9607 user.err thermal-engine: sensors_init: Error adding BCL TS
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Loading configuration file /etc/thermal-engine.conf
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Parsing section global
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [PEAK_POWER_MONITOR]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 110000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 105000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions cpu
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 400000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [MODEM_MONITOR]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 122000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 120000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions modem
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 2
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [PA_MONITOR]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 120000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 118000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions modem
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [CX_MODEM_MONITOR]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 125000 126000 128000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 123000 124000 126000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions modem_cx modem_cx modem_cx
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1 2 3
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS4]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor4
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: descending
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS3]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor3
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: descending
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS2]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor2
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: descending
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS1]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: descending
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [VDD_RSTR_MONITOR-TSENS0]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type monitor
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 1000 sensor tsens_tz_sensor0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds 5000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: thresholds_clr 10000
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: actions vdd_restriction
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: action_info 1
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: descending
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: [SS-CPU]
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: #algo_type ss
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: sampling 65 sensor cpu0 device cpu
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: set_point 95000 set_point_clr 90000 time_constant 0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: MODEM req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: vdd_restrict_qmi_request: ADSP req level(0) is recorded and waiting for completing QMI registration
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: MODEM thermal mitigation available.
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: pa mitigation succeeded for level 0.
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Mitigation:Modem:0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cpuv_restriction_cold mitigation succeeded for level 0.
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cpuv_restriction_cold]:0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: cx_vdd_limit mitigation succeeded for level 0.
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-cx_vdd_limit]:0
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: ACTION: MODEM - Pending request: modem mitigation succeeded for level 0.
+Jan  6 08:00:02 mdm9607 user.info thermal-engine: Mitigation:VDD[MODEM-modem]:0
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: genoff_modem_qmi_init: qmi_client_get_service_list returned 0num_services 1
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: genoff_modem_qmi_init: Sending initial transaction to read time
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: Daemon:genoff_modem_qmi_init:Time received 315964802841
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: genoff_opr: Base = 1, val = 315964802841, operation = 0
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: rtc_get: Time read from RTC -- year = 70, month = 0,day = 1
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: Value read from RTC seconds = 19000
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: new time 315964802841 
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: delta 315964783841 genoff 315964783841 
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: genoff_persistent_update: Writing genoff = 315964783841 to memory
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: Opening File: /data/time/ats_1
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: time_persistent_memory_opr:Genoff write operation 
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: Daemon:genoff_modem_qmi_init: offset 1 updated
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: genoff_modem_qmi_init: Updating system time to sec=315964802, usec=841000
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]: genoff_modem_qmi_init: Local Genoff update for base = 1 , rc = 0
+Jan  6 08:00:02 mdm9607 user.err time_daemon_mdm:[457]:  starting with pid (457)
+Jan  6 08:00:03 mdm9607 daemon.info dnsmasq[853]: started, version 2.73 cachesize 150
+Jan  6 08:00:03 mdm9607 daemon.info dnsmasq[853]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Jan  6 08:00:03 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCP, IP range 10.0.0.10 -- 10.0.0.200, lease time 2h
+Jan  6 08:00:03 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCP, IP range 192.168.225.20 -- 192.168.225.60, lease time 12h
+Jan  6 08:00:03 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCP, sockets bound exclusively to interface bridge0
+Jan  6 08:00:03 mdm9607 daemon.warn dnsmasq[853]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:03 mdm9607 daemon.info dnsmasq[853]: read /etc/hosts - 2 addresses
+Jan  6 08:00:03 mdm9607 daemon.info dnsmasq-dhcp[853]: read /etc/dhcp_hosts
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/ramdump
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable RPM log
+Jan  6 08:00:04 mdm9607 user.info subsystem_ramdump:  Using default 0: Disable qdss ramdump
+Jan  6 08:00:06 mdm9607 daemon.err avahi-dnsconfd[1251]: connect(): No such file or directory
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1251]: Failed to connect to the daemon. This probably means that you
+Jan  6 08:00:06 mdm9607 daemon.info avahi-dnsconfd[1251]: didn't start avahi-daemon before avahi-dnsconfd.
+Sun Jan 6 08:00:06 CST 1980: mcmlocserver pid:1160
+Sun Jan 6 08:00:06 CST 1980: mcm_data_srv pid:1158
+Sun Jan 6 08:00:06 CST 1980: mcm_ril_service pid:904
+Sun Jan 6 08:00:07 CST 1980: MCM_atcop_svc pid:1159
+Sun Jan 6 08:00:08 CST 1980: logcat service start
+Sun Jan 6 08:00:08 CST 1980: logcat service stopped
+Jan  6 08:00:11 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPREQUEST(bridge0) 192.168.225.51 96:87:52:3a:bc:0f 
+Jan  6 08:00:11 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPACK(bridge0) 192.168.225.51 96:87:52:3a:bc:0f WIN-76VODEJ4495
+Jan  6 08:00:11 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPREQUEST(bridge0) 192.168.225.51 96:87:52:3a:bc:0f 
+Jan  6 08:00:11 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPACK(bridge0) 192.168.225.51 96:87:52:3a:bc:0f WIN-76VODEJ4495
+Jan  6 08:00:18 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPINFORM(bridge0) 192.168.225.51 96:87:52:3a:bc:0f 
+Jan  6 08:00:18 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPACK(bridge0) 192.168.225.51 96:87:52:3a:bc:0f WIN-76VODEJ4495
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[853]: reading /etc/resolv.conf
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[853]: using nameserver 8.8.8.8#53
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[853]: using nameserver 114.114.114.114#53
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[853]: using nameserver 114.114.115.115#53
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[853]: using nameserver 114.114.114.119#53
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[853]: using nameserver 114.114.115.119#53
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[853]: using nameserver 123.125.81.6#53
+Jan  6 08:00:19 mdm9607 daemon.info dnsmasq[853]: using nameserver 223.5.5.5#53
+Sun Jan 6 08:00:20 CST 1980: iptables -F FORWARD
+Jan  6 08:00:24 mdm9607 daemon.warn dnsmasq[853]: no servers found in /etc/resolv.conf, will retry
+Jan  6 08:00:24 mdm9607 daemon.info dnsmasq[853]: reading /etc/resolv.conf
+Jan  6 08:00:24 mdm9607 daemon.info dnsmasq[853]: using nameserver 116.116.116.116#53
+Jan  6 08:00:24 mdm9607 daemon.info dnsmasq[853]: using nameserver 221.5.88.88#53
+Jan  6 08:00:24 mdm9607 daemon.info dnsmasq[853]: using nameserver 8.8.8.8#53
+Jan  6 08:00:24 mdm9607 daemon.info dnsmasq[853]: using nameserver 114.114.114.114#53
+Jan  6 08:00:24 mdm9607 daemon.info dnsmasq[853]: using nameserver 114.114.115.115#53
+Jan  6 08:00:24 mdm9607 daemon.info dnsmasq[853]: using nameserver 114.114.114.119#53
+Jan  6 08:00:24 mdm9607 daemon.info dnsmasq[853]: using nameserver 114.114.115.119#53
+Jan  6 08:00:24 mdm9607 daemon.info dnsmasq[853]: using nameserver 123.125.81.6#53
+Jan  6 08:00:24 mdm9607 daemon.info dnsmasq[853]: using nameserver 223.5.5.5#53
+Nov  8 11:52:13 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPINFORM(bridge0) 192.168.225.51 96:87:52:3a:bc:0f 
+Nov  8 11:52:13 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPACK(bridge0) 192.168.225.51 96:87:52:3a:bc:0f WIN-76VODEJ4495
+Nov  8 11:54:42 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPINFORM(bridge0) 192.168.225.51 96:87:52:3a:bc:0f 
+Nov  8 11:54:42 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPACK(bridge0) 192.168.225.51 96:87:52:3a:bc:0f WIN-76VODEJ4495
+Nov  8 11:56:04 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPINFORM(bridge0) 192.168.225.51 96:87:52:3a:bc:0f 
+Nov  8 11:56:04 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPACK(bridge0) 192.168.225.51 96:87:52:3a:bc:0f WIN-76VODEJ4495
+Nov  8 11:57:23 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPINFORM(bridge0) 192.168.225.51 96:87:52:3a:bc:0f 
+Nov  8 11:57:23 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPACK(bridge0) 192.168.225.51 96:87:52:3a:bc:0f WIN-76VODEJ4495
+Nov  8 12:00:15 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPINFORM(bridge0) 192.168.225.51 96:87:52:3a:bc:0f 
+Nov  8 12:00:15 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPACK(bridge0) 192.168.225.51 96:87:52:3a:bc:0f WIN-76VODEJ4495
+Nov  8 12:02:14 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPINFORM(bridge0) 192.168.225.51 96:87:52:3a:bc:0f 
+Nov  8 12:02:14 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPACK(bridge0) 192.168.225.51 96:87:52:3a:bc:0f WIN-76VODEJ4495
+Nov  8 12:06:04 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPINFORM(bridge0) 192.168.225.51 96:87:52:3a:bc:0f 
+Nov  8 12:06:04 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPACK(bridge0) 192.168.225.51 96:87:52:3a:bc:0f WIN-76VODEJ4495
+Nov  8 12:07:58 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPINFORM(bridge0) 192.168.225.51 96:87:52:3a:bc:0f 
+Nov  8 12:07:58 mdm9607 daemon.info dnsmasq-dhcp[853]: DHCPACK(bridge0) 192.168.225.51 96:87:52:3a:bc:0f WIN-76VODEJ4495

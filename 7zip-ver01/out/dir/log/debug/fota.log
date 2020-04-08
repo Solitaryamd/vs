@@ -1,0 +1,161 @@
+01-06 08:00:21.120 I/fota-service( 2067): fota-service:Oct 31 2019 14:27:43
+01-06 08:00:21.250 I/fota-service( 2067): init ipc sucess
+01-06 08:00:21.340 I/fota-service( 2067): loop:0
+01-06 08:00:21.400 I/fota-service( 2067): subscribePwrService success:  0 1
+01-06 08:00:21.400 I/fota-service( 2067): getPwrMode success:  0 1 1
+01-06 08:00:21.400 I/fota-service( 2067): pwrmode_handler->seq:1 mode:1
+01-06 08:00:21.460 I/fota-service( 2067): replyPwrMode success:  0 1
+01-06 08:00:21.460 I/fota-service( 2067): getCarMode success:  0 1
+01-06 08:00:21.460 I/fota-service( 2067): init power sucess
+01-06 08:00:21.500 I/fota-service( 2067): ipc ota sucess
+01-06 08:00:21.500 I/fota-service( 2067): start_fota 
+01-06 08:00:21.510 I/fota-service( 2067): No File:/data/cache/updatesource.tmp
+01-06 08:00:21.510 I/fota-service( 2067): check_last_ota source 0
+01-06 08:00:21.510 I/fota-service( 2067): No File:/data/cache/otaresult.tmp
+01-06 08:00:21.540 I/fota-service( 2067): requsetkeepPwr PWRMSG_KEEPPOR_OFF success:  0 1
+01-06 08:00:21.540 I/fota-service( 2067): download_error_thread 
+01-06 08:00:21.910 I/fota-service( 2067): processConneted,source:4
+01-06 08:00:23.590 I/fota-service( 2067): wkup_handler->wkup:0x00000001
+01-06 08:00:26.310 I/fota-service( 2067): processConneted,source:2
+11-08 10:49:43.429 I/fota-service( 2067): wkup_handler->wkup:0x00000000
+11-08 10:53:05.589 I/fota-service( 2067): carmode_handler->mode:2
+11-08 10:53:05.589 I/fota-service( 2067): acc on car mode
+11-08 10:55:20.179 I/fota-service( 2067): carmode_handler->mode:1
+11-08 10:55:20.189 I/fota-service( 2067): acc off car mode
+01-06 08:00:20.619 I/fota-service( 1721): fota-service:Oct 31 2019 14:27:43
+01-06 08:00:20.769 I/fota-service( 1721): init ipc sucess
+01-06 08:00:20.909 I/fota-service( 1721): loop:1
+01-06 08:00:20.949 I/fota-service( 1721): subscribePwrService success:  0 1
+01-06 08:00:20.969 I/fota-service( 1721): getPwrMode success:  0 1 1
+01-06 08:00:20.979 I/fota-service( 1721): pwrmode_handler->seq:1 mode:1
+01-06 08:00:21.079 I/fota-service( 1721): replyPwrMode success:  0 1
+01-06 08:00:21.099 I/fota-service( 1721): getCarMode success:  0 1
+01-06 08:00:21.099 I/fota-service( 1721): init power sucess
+01-06 08:00:21.159 I/fota-service( 1721): ipc ota sucess
+01-06 08:00:21.159 I/fota-service( 1721): start_fota 
+01-06 08:00:21.169 I/fota-service( 1721): No File:/data/cache/updatesource.tmp
+01-06 08:00:21.169 I/fota-service( 1721): check_last_ota source 0
+01-06 08:00:21.169 I/fota-service( 1721): No File:/data/cache/otaresult.tmp
+01-06 08:00:21.269 I/fota-service( 1721): requsetkeepPwr PWRMSG_KEEPPOR_OFF success:  0 1
+01-06 08:00:21.269 I/fota-service( 1721): download_error_thread 
+01-06 08:00:21.649 I/fota-service( 1721): processConneted,source:4
+01-06 08:00:22.249 I/fota-service( 1721): processConneted,source:2
+01-06 08:00:22.879 I/fota-service( 1721): wkup_handler->wkup:0x00000041
+11-08 08:11:43.779 I/fota-service( 1721): wkup_handler->wkup:0x00000040
+01-06 08:00:20.563 I/fota-service( 1723): fota-service:Oct 31 2019 14:27:43
+01-06 08:00:20.703 I/fota-service( 1723): init ipc sucess
+01-06 08:00:20.853 I/fota-service( 1723): loop:1
+01-06 08:00:20.893 I/fota-service( 1723): subscribePwrService success:  0 1
+01-06 08:00:20.933 I/fota-service( 1723): getPwrMode success:  0 1 1
+01-06 08:00:20.933 I/fota-service( 1723): pwrmode_handler->seq:1 mode:1
+01-06 08:00:21.033 I/fota-service( 1723): replyPwrMode success:  0 1
+01-06 08:00:21.043 I/fota-service( 1723): getCarMode success:  0 1
+01-06 08:00:21.043 I/fota-service( 1723): init power sucess
+01-06 08:00:21.093 I/fota-service( 1723): ipc ota sucess
+01-06 08:00:21.093 I/fota-service( 1723): start_fota 
+01-06 08:00:21.103 I/fota-service( 1723): No File:/data/cache/updatesource.tmp
+01-06 08:00:21.103 I/fota-service( 1723): check_last_ota source 0
+01-06 08:00:21.113 I/fota-service( 1723): No File:/data/cache/otaresult.tmp
+01-06 08:00:21.173 I/fota-service( 1723): requsetkeepPwr PWRMSG_KEEPPOR_OFF success:  0 1
+01-06 08:00:21.193 I/fota-service( 1723): download_error_thread 
+01-06 08:00:21.633 I/fota-service( 1723): processConneted,source:4
+01-06 08:00:22.233 I/fota-service( 1723): processConneted,source:2
+01-06 08:00:22.873 I/fota-service( 1723): wkup_handler->wkup:0x00000001
+11-08 08:19:19.399 I/fota-service( 1723): wkup_handler->wkup:0x00000000
+11-08 08:20:47.489 I/fota-service( 1723): pwrmode_handler->seq:2 mode:2
+11-08 08:20:47.549 I/fota-service( 1723): replyPwrMode success:  0 1
+11-08 08:20:49.859 I/fota-service( 1723): pwrmode_handler->seq:3 mode:3
+11-08 08:20:49.989 I/fota-service( 1723): replyPwrMode success:  0 1
+11-08 08:22:24.843 I/fota-service( 1723): pwrmode_handler->seq:4 mode:1
+11-08 08:22:24.943 I/fota-service( 1723): replyPwrMode success:  0 1
+01-06 08:00:20.371 I/fota-service( 1720): fota-service:Oct 31 2019 14:27:43
+01-06 08:00:20.481 I/fota-service( 1720): init ipc sucess
+01-06 08:00:20.581 I/fota-service( 1720): loop:0
+01-06 08:00:20.681 I/fota-service( 1720): subscribePwrService success:  0 1
+01-06 08:00:20.691 I/fota-service( 1720): getPwrMode success:  0 1 1
+01-06 08:00:20.691 I/fota-service( 1720): pwrmode_handler->seq:1 mode:1
+01-06 08:00:20.811 I/fota-service( 1720): replyPwrMode success:  0 1
+01-06 08:00:20.821 I/fota-service( 1720): getCarMode success:  0 2
+01-06 08:00:20.841 I/fota-service( 1720): init power sucess
+01-06 08:00:20.911 I/fota-service( 1720): ipc ota sucess
+01-06 08:00:20.921 I/fota-service( 1720): start_fota 
+01-06 08:00:20.921 I/fota-service( 1720): No File:/data/cache/updatesource.tmp
+01-06 08:00:20.921 I/fota-service( 1720): check_last_ota source 0
+01-06 08:00:20.941 I/fota-service( 1720): No File:/data/cache/otaresult.tmp
+01-06 08:00:21.001 I/fota-service( 1720): requsetkeepPwr PWRMSG_KEEPPOR_OFF success:  0 1
+01-06 08:00:21.001 I/fota-service( 1720): download_error_thread 
+01-06 08:00:21.551 I/fota-service( 1720): processConneted,source:4
+01-06 08:00:22.141 I/fota-service( 1720): processConneted,source:2
+01-06 08:00:22.721 I/fota-service( 1720): wkup_handler->wkup:0x00000001
+11-08 08:54:55.649 I/fota-service( 1720): wkup_handler->wkup:0x00000000
+01-06 08:00:21.619 I/fota-service( 1738): fota-service:Oct 31 2019 14:27:43
+01-06 08:00:21.639 I/fota-service( 1738): init ipc sucess
+01-06 08:00:21.769 I/fota-service( 1738): loop:0
+01-06 08:00:21.819 I/fota-service( 1738): subscribePwrService success:  0 1
+01-06 08:00:21.849 I/fota-service( 1738): getPwrMode success:  0 1 1
+01-06 08:00:21.849 I/fota-service( 1738): pwrmode_handler->seq:1 mode:1
+01-06 08:00:21.999 I/fota-service( 1738): replyPwrMode success:  0 1
+01-06 08:00:22.009 I/fota-service( 1738): getCarMode success:  0 2
+01-06 08:00:22.019 I/fota-service( 1738): init power sucess
+01-06 08:00:22.069 I/fota-service( 1738): ipc ota sucess
+01-06 08:00:22.069 I/fota-service( 1738): start_fota 
+01-06 08:00:22.079 I/fota-service( 1738): No File:/data/cache/updatesource.tmp
+01-06 08:00:22.079 I/fota-service( 1738): check_last_ota source 0
+01-06 08:00:22.089 I/fota-service( 1738): No File:/data/cache/otaresult.tmp
+01-06 08:00:22.139 I/fota-service( 1738): requsetkeepPwr PWRMSG_KEEPPOR_OFF success:  0 1
+01-06 08:00:22.149 I/fota-service( 1738): download_error_thread 
+01-06 08:00:22.759 I/fota-service( 1738): processConneted,source:4
+01-06 08:00:24.399 I/fota-service( 1738): wkup_handler->wkup:0x00000001
+01-06 08:00:27.799 I/fota-service( 1738): processConneted,source:2
+11-08 08:57:45.339 I/fota-service( 1738): wkup_handler->wkup:0x00000000
+11-08 11:36:02.019 I/fota-service( 1738): wkup_handler->wkup:0x00000002
+11-08 11:39:30.039 I/fota-service( 1738): wkup_handler->wkup:0x00000000
+01-06 08:00:20.505 I/fota-service( 1720): fota-service:Oct 31 2019 14:27:43
+01-06 08:00:20.665 I/fota-service( 1720): init ipc sucess
+01-06 08:00:20.825 I/fota-service( 1720): loop:0
+01-06 08:00:20.905 I/fota-service( 1720): subscribePwrService success:  0 1
+01-06 08:00:20.925 I/fota-service( 1720): getPwrMode success:  0 1 1
+01-06 08:00:20.925 I/fota-service( 1720): pwrmode_handler->seq:1 mode:1
+01-06 08:00:21.025 I/fota-service( 1720): replyPwrMode success:  0 1
+01-06 08:00:21.035 I/fota-service( 1720): getCarMode success:  0 2
+01-06 08:00:21.035 I/fota-service( 1720): init power sucess
+01-06 08:00:21.085 I/fota-service( 1720): ipc ota sucess
+01-06 08:00:21.085 I/fota-service( 1720): start_fota 
+01-06 08:00:21.095 I/fota-service( 1720): No File:/data/cache/updatesource.tmp
+01-06 08:00:21.095 I/fota-service( 1720): check_last_ota source 0
+01-06 08:00:21.105 I/fota-service( 1720): No File:/data/cache/otaresult.tmp
+01-06 08:00:21.185 I/fota-service( 1720): requsetkeepPwr PWRMSG_KEEPPOR_OFF success:  0 1
+01-06 08:00:21.195 I/fota-service( 1720): download_error_thread 
+01-06 08:00:21.585 I/fota-service( 1720): processConneted,source:4
+01-06 08:00:22.175 I/fota-service( 1720): processConneted,source:2
+01-06 08:00:23.865 I/fota-service( 1720): wkup_handler->wkup:0x00000001
+11-08 11:46:06.659 I/fota-service( 1720): wkup_handler->wkup:0x00000000
+11-08 11:46:26.459 I/fota-service( 1720): wkup_handler->wkup:0x00000002
+01-06 08:00:19.930 I/fota-service( 1727): fota-service:Oct 31 2019 14:27:43
+01-06 08:00:20.080 I/fota-service( 1727): init ipc sucess
+01-06 08:00:20.230 I/fota-service( 1727): loop:0
+01-06 08:00:20.350 I/fota-service( 1727): subscribePwrService success:  0 1
+01-06 08:00:20.360 I/fota-service( 1727): getPwrMode success:  0 1 1
+01-06 08:00:20.370 I/fota-service( 1727): pwrmode_handler->seq:1 mode:1
+01-06 08:00:20.500 I/fota-service( 1727): replyPwrMode success:  0 1
+01-06 08:00:20.510 I/fota-service( 1727): getCarMode success:  0 1
+01-06 08:00:20.510 I/fota-service( 1727): init power sucess
+01-06 08:00:20.560 I/fota-service( 1727): ipc ota sucess
+01-06 08:00:20.560 I/fota-service( 1727): start_fota 
+01-06 08:00:20.570 I/fota-service( 1727): No File:/data/cache/updatesource.tmp
+01-06 08:00:20.570 I/fota-service( 1727): check_last_ota source 0
+01-06 08:00:20.580 I/fota-service( 1727): No File:/data/cache/otaresult.tmp
+01-06 08:00:20.630 I/fota-service( 1727): requsetkeepPwr PWRMSG_KEEPPOR_OFF success:  0 1
+01-06 08:00:20.640 I/fota-service( 1727): download_error_thread 
+01-06 08:00:21.080 I/fota-service( 1727): processConneted,source:4
+01-06 08:00:21.710 I/fota-service( 1727): processConneted,source:2
+01-06 08:00:22.130 I/fota-service( 1727): wkup_handler->wkup:0x00000001
+01-06 08:00:29.740 I/fota-service( 1727): carmode_handler->mode:2
+01-06 08:00:29.740 I/fota-service( 1727): acc on car mode
+11-08 11:50:42.459 I/fota-service( 1727): carmode_handler->mode:1
+11-08 11:50:42.459 I/fota-service( 1727): acc off car mode
+11-08 11:50:43.779 I/fota-service( 1727): wkup_handler->wkup:0x00000000
+11-08 11:50:43.779 I/fota-service( 1727): carmode_handler->mode:2
+11-08 11:50:43.779 I/fota-service( 1727): acc on car mode
+11-08 11:59:27.689 I/fota-service( 1727): carmode_handler->mode:1
+11-08 11:59:27.689 I/fota-service( 1727): acc off car mode

@@ -1,0 +1,24 @@
+[1980-01-06 08:00:17]===========================================================
+[1980-01-06 08:00:17]* alarm-service v2.0(20191031 14:28:16).
+[1980-01-06 08:00:17]===========================================================
+[1980-01-06 08:00:17]init config1----rollover:yes, unusual:yes, collision:yes.
+[1980-01-06 08:00:17]init config2----antiTheft:yes, airbag:yes, windows:yes.
+[2019-11-07 14:32:44]statusListener----peps state:3.
+[2019-11-07 14:32:46]statusListener----peps state:1.
+[2019-11-07 14:32:57]statusListener----dataType:26, anti-theft(1:jiefang 2:anti 3:shefang):3.
+[2019-11-07 14:32:57]car windows status----fl:1, fr:4, rl:4, rr:1, sky:3.
+[2019-11-07 14:34:27]car windows status----fl:6, fr:6, rl:6, rr:6, sky:3.
+[2019-11-07 14:38:52]statusListener----dataType:26, anti-theft(1:jiefang 2:anti 3:shefang):1.
+[2019-11-07 14:38:52]sensorListener----gsersor:0, x:-249,y:0,z:-999,g:1843.000000.
+[2019-11-07 14:38:52]statusListener----dataType:11, airBag:false.
+[2019-11-07 14:38:56]statusListener----peps state:3.
+[2019-11-07 14:38:56]statusListener----peps state:4.
+[2019-11-07 14:38:56]statusListener----peps state:3.
+[2019-11-07 14:39:14]statusListener----peps state:1.
+[2019-11-07 14:39:28]statusListener----peps state:2.
+[2019-11-07 14:44:57]sensorListener----gsersor:1, x:-374,y:-874,z:499,g:1332.000000.
+[2019-11-07 14:44:57]getPepsStatus ok----status:2.
+[2019-11-07 14:48:05]sensorListener----gsersor:2, x:-249,y:-499,z:-1249,g:2126.000000.
+[2019-11-07 14:48:05]notifyAlarmType ok..................................type:1
+[2019-11-07 14:48:06]notifyAlarmType ok..................................type:1
+[2019-11-07 14:48:07]notifyAlarmType ok..................................type:1

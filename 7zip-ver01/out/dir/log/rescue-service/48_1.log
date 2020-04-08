@@ -1,0 +1,39 @@
+[1980-01-06 08:00:52]               /\  /\                
+[1980-01-06 08:00:52]***************  \/  *****************
+[1980-01-06 08:00:52]                                      
+[1980-01-06 08:00:52] rescue-service V2.0 start!!!!        
+[1980-01-06 08:00:52] build for auto: Sep 18 2019 09:58:47 
+[1980-01-06 08:00:52] build for hand: 06 13 2019 18:00:00  
+[1980-01-06 08:00:52]                                      
+[1980-01-06 08:00:52]**************************************
+[1980-01-06 08:00:54]init config1----ecall:yes, bcall:yes, icall:yes.
+[1980-01-06 08:00:54]init config2----voice:lineout, volume:20, collision:yes, gsersor:yes, airbag:yes, autoAnswer:no.
+[1980-01-06 08:00:54]msgTimer is running.
+[1980-01-06 08:00:54]rescue service start successfully.
+[1980-01-06 08:00:54]StartCheckCallFlagBackThread
+[1980-01-06 08:00:54]rescue-service start,init callFlag to HU
+[1980-01-06 08:00:54]register telephone event ok.
+[1980-01-06 08:00:54]SMS SERVICE IS VALID
+[1980-01-06 08:00:54]register NotifySMS event ok.
+[1980-01-06 08:00:54]register mcu event ok.
+[1980-01-06 08:00:54]setPhoneVoice failed.
+[1980-01-06 08:00:54]subscribePwrService success:  0 1
+[1980-01-06 08:00:54]getSleepStatus ok, seq:1, mode:1.
+[1980-01-06 08:00:54]getACCStatus ok, ACC:ACC_OFF.
+[1980-01-06 08:00:54][accListener----ACC OFF
+[1980-01-06 08:00:54]ACC OFF, has not calling
+[1980-01-06 08:00:54]register power event ok.
+[1980-01-06 08:01:04]rescue-service start,init callFlag to HU
+[2019-10-30 09:09:54]rescue-service start,init callFlag to HU
+[2019-10-30 09:10:04]rescue-service start,init callFlag to HU
+[2019-10-30 09:10:14]rescue-service start,init callFlag to HU
+[2019-10-30 09:10:24]rescue-service start,init callFlag to HU
+[2019-10-30 09:10:34]rescue-service start,init callFlag to HU
+[2019-10-30 09:10:44]rescue-service start,init callFlag to HU
+[2019-10-30 09:10:54]rescue-service start,init callFlag to HU
+[2019-10-30 09:11:04]rescue-service start,init callFlag to HU
+[2019-10-30 09:11:14]rescue-service start,init callFlag to HU
+[2019-10-30 09:11:24]rescue-service start,init callFlag to HU
+[2019-10-30 09:11:34]rescue-service start,init callFlag to HU
+[2019-10-30 09:11:44]rescue-service start,init callFlag to HU
+[2019-10-30 09:11:54]rescue-service start,init callFlag to HU

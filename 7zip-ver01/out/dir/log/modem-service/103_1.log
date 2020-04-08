@@ -1,0 +1,1232 @@
+[1980-01-06 08:00:16]modem-service:Oct 31 2019 14:37:45
+[1980-01-06 08:00:16]----------------manage_info_t start ------------------
+[1980-01-06 08:00:16]module_device:  1
+[1980-01-06 08:00:16]module_sim:     1
+[1980-01-06 08:00:16]module_voice:   1
+[1980-01-06 08:00:16]module_sms:     1
+[1980-01-06 08:00:16]module_network: 1
+[1980-01-06 08:00:16]module_data:    1
+[1980-01-06 08:00:16]voice_wakeup:   1
+[1980-01-06 08:00:16]sms_wakeup:     1
+[1980-01-06 08:00:16]airplane_mode:  0
+[1980-01-06 08:00:16]dns:  data1 dnsp
+[1980-01-06 08:00:16]dns:  data1 dnss
+[1980-01-06 08:00:16]dns:  data0 dnsp
+[1980-01-06 08:00:16]dns:  data0 dnss
+[1980-01-06 08:00:16]dns:  8.8.8.8
+[1980-01-06 08:00:16]dns:  114.114.114.114
+[1980-01-06 08:00:16]dns:  114.114.115.115
+[1980-01-06 08:00:16]dns:  114.114.114.119
+[1980-01-06 08:00:16]dns:  114.114.115.119
+[1980-01-06 08:00:16]dns:  123.125.81.6
+[1980-01-06 08:00:16]dns:  223.5.5.5
+[1980-01-06 08:00:16]
+
+[1980-01-06 08:00:16]name:        data0
+[1980-01-06 08:00:16]node:        
+[1980-01-06 08:00:16]apn:         CQDFXKQC02.CLFU.GZM2MAPN
+[1980-01-06 08:00:16]describe:    navi
+[1980-01-06 08:00:16]monitor:     1
+[1980-01-06 08:00:16]connect:     0
+[1980-01-06 08:00:16]call_id:     0
+[1980-01-06 08:00:16]call_state:  0
+[1980-01-06 08:00:16]retry_times: 0
+[1980-01-06 08:00:16]if_status:   0
+[1980-01-06 08:00:16]ip0:         default
+[1980-01-06 08:00:16]
+[1980-01-06 08:00:16]name:        data1
+[1980-01-06 08:00:16]node:        
+[1980-01-06 08:00:16]apn:         CQDFXKQC01.CLFU.GZM2MAPN
+[1980-01-06 08:00:16]describe:    tsp-gb,tsp-qb
+[1980-01-06 08:00:16]monitor:     1
+[1980-01-06 08:00:16]connect:     0
+[1980-01-06 08:00:16]call_id:     0
+[1980-01-06 08:00:16]call_state:  0
+[1980-01-06 08:00:16]retry_times: 0
+[1980-01-06 08:00:16]if_status:   0
+[1980-01-06 08:00:16]ip0:         114.113.237.100
+[1980-01-06 08:00:16]ip1:         114.113.237.101
+[1980-01-06 08:00:16]ip2:         114.113.237.102
+[1980-01-06 08:00:16]ip3:         114.113.237.103
+[1980-01-06 08:00:16]ip4:         114.113.237.104
+[1980-01-06 08:00:16]ip5:         114.113.237.105
+[1980-01-06 08:00:16]ip6:         114.113.237.106
+[1980-01-06 08:00:16]ip7:         114.113.237.107
+[1980-01-06 08:00:16]ip8:         114.113.237.108
+[1980-01-06 08:00:16]ip9:         114.113.237.109
+[1980-01-06 08:00:16]ip10:         222.178.193.135
+[1980-01-06 08:00:16]ip11:         222.178.193.136
+[1980-01-06 08:00:16]ip12:         222.178.193.137
+[1980-01-06 08:00:16]ip13:         222.178.193.138
+[1980-01-06 08:00:16]ip14:         222.178.193.115
+[1980-01-06 08:00:16]host0:       auto-link.com.cn
+[1980-01-06 08:00:16]host1:       dfsk-autolink.com
+[1980-01-06 08:00:16]host2:       dfsk-autolink.cn
+[1980-01-06 08:00:16]host3:       prod-xk-machine.dfsk-autolink.com
+[1980-01-06 08:00:16]host4:       prod.auto-link.com.cn
+[1980-01-06 08:00:16]host5:       fgservice.cn
+[1980-01-06 08:00:16]addr0:       persist.sys.gateway_addr
+[1980-01-06 08:00:16]addr1:       persist.sys.vehicle_addr
+[1980-01-06 08:00:16]addr2:       persist.sys.rmt_srv_domain_name
+[1980-01-06 08:00:16]addr3:       persist.sys.pub_srv_domain_name
+[1980-01-06 08:00:16]addr4:       persist.sys.test1_addr
+[1980-01-06 08:00:16]addr5:       persist.sys.test2_addr
+[1980-01-06 08:00:16]
+[1980-01-06 08:00:16]----------------manage_info_t end  ------------------
+[1980-01-06 08:00:16]power loop:0
+[1980-01-06 08:00:16]pwrmode_handler->seq:1 mode:1
+[1980-01-06 08:00:16]modem still init
+[1980-01-06 08:00:16]at_handler at+lctsw /dev/smd11
+[1980-01-06 08:00:16]at+lctsw
+
+
+
+SoftwareVersion: LLA3801.1.4_M005
+
+InnerVersion: LLA3801_0016_0.1.2_L0925_EFS2.9
+
+AP: LLA0040_0016_0.0.1_L1211_M005
+
+
+
+
+
+OK
+
+
+
+[1980-01-06 08:00:16]at_handler at+mododr? /dev/smd11
+[1980-01-06 08:00:16]at+mododr?
+
+
+
++MODODR: 2
+
+
+
+OK
+
+
+
+[1980-01-06 08:00:16]at_handler at^sysinfo /dev/smd11
+[1980-01-06 08:00:17]at^sysinfo
+
+
+
+^SYSINFO: 2,3,0,9,1
+
+
+
+OK
+
+
+
+[1980-01-06 08:00:17]init count:0
+[1980-01-06 08:00:17]LibModem -> lmodem_init start
+[1980-01-06 08:00:17]LibModem -> lmodem_init end
+
+[1980-01-06 08:00:17]modem init sucess
+[1980-01-06 08:00:17]Get KEY_MODEM_INIT 0
+[1980-01-06 08:00:17]Set KEY_MODEM_INIT 0
+[1980-01-06 08:00:17]Device -> init_module_device start
+[1980-01-06 08:00:17]Device -> init_device hndl=1
+[1980-01-06 08:00:17]Device -> device_get_imei sucess:862015037511727
+[1980-01-06 08:00:17]Device -> device_get_imei_version sucess:
+[1980-01-06 08:00:18]Device -> device_get_radio_mode sucess:2
+[1980-01-06 08:00:18]Device -> init_module_device end
+[1980-01-06 08:00:18]Sim -> init_module_sim start
+[1980-01-06 08:00:18]Sim -> init_sim hndl=1
+[1980-01-06 08:00:18]Sim -> sim_get_imsi sucess:460096090722102
+[1980-01-06 08:00:18]Sim -> sim_get_iccid sucess:89860918700009221026
+[1980-01-06 08:00:18]Sim -> sim_get_phone_number failed:
+[1980-01-06 08:00:18]Sim -> init_module_sim end
+[1980-01-06 08:00:18]Sms -> init_module_sms start
+[1980-01-06 08:00:18]Sms -> ipc sms sucess
+[1980-01-06 08:00:18]Sms -> init_sms hndl=1
+[1980-01-06 08:00:18]Sms -> init_module_sms end
+[1980-01-06 08:00:18]Voice -> init_module_voice start
+[1980-01-06 08:00:18]Voice -> ipc voice sucess
+[1980-01-06 08:00:18]Voice -> init_voice hndl=1
+[1980-01-06 08:00:18]Voice -> init_module_voice end
+[1980-01-06 08:00:18]Data -> init_module_data start 
+[1980-01-06 08:00:18]Data -> update_dns
+[1980-01-06 08:00:18]Data -> 
+[1980-01-06 08:00:19]Data -> 
+[1980-01-06 08:00:19]Data -> 
+[1980-01-06 08:00:19]Data -> 
+[1980-01-06 08:00:19]Data -> echo -e "nameserver 8.8.8.8">> /tmp/.resolv.conf
+[1980-01-06 08:00:19]Data -> echo -e "nameserver 114.114.114.114">> /tmp/.resolv.conf
+[1980-01-06 08:00:19]Data -> echo -e "nameserver 114.114.115.115">> /tmp/.resolv.conf
+[1980-01-06 08:00:19]Data -> echo -e "nameserver 114.114.114.119">> /tmp/.resolv.conf
+[1980-01-06 08:00:19]Data -> echo -e "nameserver 114.114.115.119">> /tmp/.resolv.conf
+[1980-01-06 08:00:19]Data -> echo -e "nameserver 123.125.81.6">> /tmp/.resolv.conf
+[1980-01-06 08:00:19]Data -> echo -e "nameserver 223.5.5.5">> /tmp/.resolv.conf
+[1980-01-06 08:00:19]Data -> ipc sucess
+[1980-01-06 08:00:22]Data -> data_set_handler cbk mode
+[1980-01-06 08:00:22]Data -> data_wakeup
+[1980-01-06 08:00:22]Data -> data_set_pm 1 sucess
+[1980-01-06 08:00:22]Data -> init_data hndl=1
+[1980-01-06 08:00:22]Data -> init_module_data end 
+[1980-01-06 08:00:22]Network -> init_module_network start
+[1980-01-06 08:00:22]Data -> daemon mainloop start
+[1980-01-06 08:00:22]Data -> check net start
+[1980-01-06 08:00:22]Data -> check boot start
+[1980-01-06 08:00:22]Network -> ipc network sucess
+[1980-01-06 08:00:22]Network -> init_network hndl=1
+[1980-01-06 08:00:22]Network -> init_module_network end
+[1980-01-06 08:00:23]Data ->  is down,retry to reconnect:1
+[1980-01-06 08:00:23]Data -> data_restart data_sub_stop sucess
+[1980-01-06 08:00:23]Data -> data_sub_start CQDFXKQC02.CLFU.GZM2MAPN:ret:0,id:1,times:1
+[1980-01-06 08:00:23]Data -> device name:rmnet_data0
+[1980-01-06 08:00:23]Data -> data_restart data_sub_start sucess
+[1980-01-06 08:00:23]Data ->  is down,retry to reconnect:1
+[1980-01-06 08:00:23]Data -> data_restart data_sub_stop sucess
+[1980-01-06 08:00:23]Data -> data_sub_start CQDFXKQC01.CLFU.GZM2MAPN:ret:0,id:2,times:1
+[1980-01-06 08:00:23]Data -> device name:rmnet_data1
+[1980-01-06 08:00:23]Data -> data_restart data_sub_start sucess
+[1980-01-06 08:00:24]Data -> check boot end
+[1980-01-06 08:00:24]Data -> update_dns
+[1980-01-06 08:00:24]Data -> echo -e "nameserver 116.116.116.116">> /tmp/.resolv.conf
+[1980-01-06 08:00:24]Data -> echo -e "nameserver 221.5.88.88">> /tmp/.resolv.conf
+[1980-01-06 08:00:24]Data -> echo -e "nameserver 116.116.116.116">> /tmp/.resolv.conf
+[1980-01-06 08:00:24]Data -> echo -e "nameserver 221.5.88.88">> /tmp/.resolv.conf
+[1980-01-06 08:00:24]Data -> echo -e "nameserver 8.8.8.8">> /tmp/.resolv.conf
+[1980-01-06 08:00:24]Data -> echo -e "nameserver 114.114.114.114">> /tmp/.resolv.conf
+[1980-01-06 08:00:24]Data -> echo -e "nameserver 114.114.115.115">> /tmp/.resolv.conf
+[1980-01-06 08:00:24]Data -> echo -e "nameserver 114.114.114.119">> /tmp/.resolv.conf
+[1980-01-06 08:00:24]Data -> echo -e "nameserver 114.114.115.119">> /tmp/.resolv.conf
+[1980-01-06 08:00:24]Data -> echo -e "nameserver 123.125.81.6">> /tmp/.resolv.conf
+[1980-01-06 08:00:24]Data -> echo -e "nameserver 223.5.5.5">> /tmp/.resolv.conf
+[1980-01-06 08:00:24]Data -> node:rmnet_data0,pre ip:,cur ip:default
+[1980-01-06 08:00:25]Data -> system:route | awk '{print $1 " " $8}' | grep -w default | grep -w rmnet_data0, expect:default
+[1980-01-06 08:00:25]Data -> system:route | awk '{print $1 " " $8}' | grep -w default | grep -w rmnet_data0, expect:default failed
+[1980-01-06 08:00:25]Data -> system:ip route del default dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:25]Data -> system:ip route del default dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:25]Data -> system:ip route add default dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:25]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data0, expect:0.0.0.0/0
+[1980-01-06 08:00:25]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data0, expect:0.0.0.0/0 failed
+[1980-01-06 08:00:25]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data0, expect:0.0.0.0/0
+[1980-01-06 08:00:25]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data0, expect:0.0.0.0/0 failed
+[1980-01-06 08:00:25]Data -> system:iptables -t nat -D POSTROUTING -d 0.0.0.0/0 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:25]Data -> system:iptables -t nat -D POSTROUTING -d 0.0.0.0/0 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:25]Data -> system:iptables -t nat -A POSTROUTING -d 0.0.0.0/0 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:25]Data -> node:rmnet_data1,pre ip:,cur ip:114.113.237.100
+[1980-01-06 08:00:25]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.100 | grep -w rmnet_data1, expect:114.113.237.100
+[1980-01-06 08:00:25]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.100 | grep -w rmnet_data1, expect:114.113.237.100 failed
+[1980-01-06 08:00:25]Data -> system:ip route del 114.113.237.100 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:25]Data -> system:ip route del 114.113.237.100 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:25]Data -> system:ip route add 114.113.237.100 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:25]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.100
+[1980-01-06 08:00:25]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.100 failed
+[1980-01-06 08:00:25]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.100 | grep -w rmnet_data1, expect:114.113.237.100
+[1980-01-06 08:00:25]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.100 | grep -w rmnet_data1, expect:114.113.237.100 failed
+[1980-01-06 08:00:25]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.100 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:25]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.100 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:25]Data -> system:iptables -t nat -A POSTROUTING -d 114.113.237.100 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:25]Data -> node:rmnet_data1,pre ip:,cur ip:114.113.237.101
+[1980-01-06 08:00:25]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.101 | grep -w rmnet_data1, expect:114.113.237.101
+[1980-01-06 08:00:25]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.101 | grep -w rmnet_data1, expect:114.113.237.101 failed
+[1980-01-06 08:00:25]Data -> system:ip route del 114.113.237.101 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:25]Data -> system:ip route del 114.113.237.101 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:25]Data -> system:ip route add 114.113.237.101 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:25]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.101
+[1980-01-06 08:00:25]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.101 failed
+[1980-01-06 08:00:25]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.101 | grep -w rmnet_data1, expect:114.113.237.101
+[1980-01-06 08:00:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.101 | grep -w rmnet_data1, expect:114.113.237.101 failed
+[1980-01-06 08:00:26]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.101 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:26]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.101 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:26]Data -> system:iptables -t nat -A POSTROUTING -d 114.113.237.101 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:26]Data -> node:rmnet_data1,pre ip:,cur ip:114.113.237.102
+[1980-01-06 08:00:26]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[1980-01-06 08:00:26]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102 failed
+[1980-01-06 08:00:26]Data -> system:ip route del 114.113.237.102 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:26]Data -> system:ip route del 114.113.237.102 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:26]Data -> system:ip route add 114.113.237.102 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102
+[1980-01-06 08:00:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102 failed
+[1980-01-06 08:00:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[1980-01-06 08:00:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102 failed
+[1980-01-06 08:00:26]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.102 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:26]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.102 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:26]Data -> system:iptables -t nat -A POSTROUTING -d 114.113.237.102 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:26]Data -> node:rmnet_data1,pre ip:,cur ip:114.113.237.103
+[1980-01-06 08:00:26]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.103 | grep -w rmnet_data1, expect:114.113.237.103
+[1980-01-06 08:00:26]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.103 | grep -w rmnet_data1, expect:114.113.237.103 failed
+[1980-01-06 08:00:26]Data -> system:ip route del 114.113.237.103 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:26]Data -> system:ip route del 114.113.237.103 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:26]Data -> system:ip route add 114.113.237.103 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.103
+[1980-01-06 08:00:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.103 failed
+[1980-01-06 08:00:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.103 | grep -w rmnet_data1, expect:114.113.237.103
+[1980-01-06 08:00:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.103 | grep -w rmnet_data1, expect:114.113.237.103 failed
+[1980-01-06 08:00:26]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.103 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:26]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.103 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:26]Data -> system:iptables -t nat -A POSTROUTING -d 114.113.237.103 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:26]Data -> node:rmnet_data1,pre ip:,cur ip:114.113.237.104
+[1980-01-06 08:00:26]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.104 | grep -w rmnet_data1, expect:114.113.237.104
+[1980-01-06 08:00:26]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.104 | grep -w rmnet_data1, expect:114.113.237.104 failed
+[1980-01-06 08:00:26]Data -> system:ip route del 114.113.237.104 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:26]Data -> system:ip route del 114.113.237.104 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:26]Data -> system:ip route add 114.113.237.104 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.104
+[1980-01-06 08:00:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.104 failed
+[1980-01-06 08:00:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.104 | grep -w rmnet_data1, expect:114.113.237.104
+[1980-01-06 08:00:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.104 | grep -w rmnet_data1, expect:114.113.237.104 failed
+[1980-01-06 08:00:26]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.104 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:26]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.104 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:26]Data -> system:iptables -t nat -A POSTROUTING -d 114.113.237.104 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:27]Data -> node:rmnet_data1,pre ip:,cur ip:114.113.237.105
+[1980-01-06 08:00:27]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.105 | grep -w rmnet_data1, expect:114.113.237.105
+[1980-01-06 08:00:27]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.105 | grep -w rmnet_data1, expect:114.113.237.105 failed
+[1980-01-06 08:00:27]Data -> system:ip route del 114.113.237.105 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:27]Data -> system:ip route del 114.113.237.105 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:27]Network -> mode:5,rssi:-52,rsrp:-84,rsrq:-11,rscp:0,ecio:0,sinr:32,io:0
+[1980-01-06 08:00:27]Data -> system:ip route add 114.113.237.105 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:27]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.105
+[1980-01-06 08:00:27]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.105 failed
+[1980-01-06 08:00:27]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.105 | grep -w rmnet_data1, expect:114.113.237.105
+[1980-01-06 08:00:27]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.105 | grep -w rmnet_data1, expect:114.113.237.105 failed
+[1980-01-06 08:00:27]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.105 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:27]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.105 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:27]Data -> system:iptables -t nat -A POSTROUTING -d 114.113.237.105 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:27]Data -> node:rmnet_data1,pre ip:,cur ip:114.113.237.106
+[1980-01-06 08:00:27]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.106 | grep -w rmnet_data1, expect:114.113.237.106
+[1980-01-06 08:00:27]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.106 | grep -w rmnet_data1, expect:114.113.237.106 failed
+[1980-01-06 08:00:27]Data -> system:ip route del 114.113.237.106 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:27]Data -> system:ip route del 114.113.237.106 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:27]Data -> system:ip route add 114.113.237.106 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:27]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.106
+[1980-01-06 08:00:27]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.106 failed
+[1980-01-06 08:00:27]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.106 | grep -w rmnet_data1, expect:114.113.237.106
+[1980-01-06 08:00:27]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.106 | grep -w rmnet_data1, expect:114.113.237.106 failed
+[1980-01-06 08:00:27]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.106 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:27]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.106 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:27]Data -> system:iptables -t nat -A POSTROUTING -d 114.113.237.106 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:27]Data -> node:rmnet_data1,pre ip:,cur ip:114.113.237.107
+[1980-01-06 08:00:27]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.107 | grep -w rmnet_data1, expect:114.113.237.107
+[1980-01-06 08:00:27]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.107 | grep -w rmnet_data1, expect:114.113.237.107 failed
+[1980-01-06 08:00:27]Data -> system:ip route del 114.113.237.107 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:27]Data -> system:ip route del 114.113.237.107 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:27]Data -> system:ip route add 114.113.237.107 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:27]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.107
+[1980-01-06 08:00:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.107 failed
+[1980-01-06 08:00:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.107 | grep -w rmnet_data1, expect:114.113.237.107
+[1980-01-06 08:00:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.107 | grep -w rmnet_data1, expect:114.113.237.107 failed
+[1980-01-06 08:00:28]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.107 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:28]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.107 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:28]Data -> system:iptables -t nat -A POSTROUTING -d 114.113.237.107 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:28]Data -> node:rmnet_data1,pre ip:,cur ip:114.113.237.108
+[1980-01-06 08:00:28]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.108 | grep -w rmnet_data1, expect:114.113.237.108
+[1980-01-06 08:00:28]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.108 | grep -w rmnet_data1, expect:114.113.237.108 failed
+[1980-01-06 08:00:28]Data -> system:ip route del 114.113.237.108 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:28]Data -> system:ip route del 114.113.237.108 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:28]Data -> system:ip route add 114.113.237.108 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.108
+[1980-01-06 08:00:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.108 failed
+[1980-01-06 08:00:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.108 | grep -w rmnet_data1, expect:114.113.237.108
+[1980-01-06 08:00:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.108 | grep -w rmnet_data1, expect:114.113.237.108 failed
+[1980-01-06 08:00:28]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.108 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:28]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.108 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:28]Data -> system:iptables -t nat -A POSTROUTING -d 114.113.237.108 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:28]Data -> node:rmnet_data1,pre ip:,cur ip:114.113.237.109
+[1980-01-06 08:00:28]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.109 | grep -w rmnet_data1, expect:114.113.237.109
+[1980-01-06 08:00:28]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.109 | grep -w rmnet_data1, expect:114.113.237.109 failed
+[1980-01-06 08:00:28]Data -> system:ip route del 114.113.237.109 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:28]Data -> system:ip route del 114.113.237.109 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:28]Data -> system:ip route add 114.113.237.109 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.109
+[1980-01-06 08:00:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.109 failed
+[1980-01-06 08:00:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.109 | grep -w rmnet_data1, expect:114.113.237.109
+[1980-01-06 08:00:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.109 | grep -w rmnet_data1, expect:114.113.237.109 failed
+[1980-01-06 08:00:28]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.109 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:28]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.109 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:28]Data -> system:iptables -t nat -A POSTROUTING -d 114.113.237.109 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:28]Data -> node:rmnet_data1,pre ip:,cur ip:222.178.193.135
+[1980-01-06 08:00:28]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[1980-01-06 08:00:29]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135 failed
+[1980-01-06 08:00:29]Data -> system:ip route del 222.178.193.135 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:29]Data -> system:ip route del 222.178.193.135 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:29]Data -> system:ip route add 222.178.193.135 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135
+[1980-01-06 08:00:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135 failed
+[1980-01-06 08:00:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[1980-01-06 08:00:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135 failed
+[1980-01-06 08:00:29]Data -> system:iptables -t nat -D POSTROUTING -d 222.178.193.135 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:29]Data -> system:iptables -t nat -D POSTROUTING -d 222.178.193.135 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:29]Data -> system:iptables -t nat -A POSTROUTING -d 222.178.193.135 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:29]Data -> node:rmnet_data1,pre ip:,cur ip:222.178.193.136
+[1980-01-06 08:00:29]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.136 | grep -w rmnet_data1, expect:222.178.193.136
+[1980-01-06 08:00:29]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.136 | grep -w rmnet_data1, expect:222.178.193.136 failed
+[1980-01-06 08:00:29]Data -> system:ip route del 222.178.193.136 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:29]Data -> system:ip route del 222.178.193.136 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:29]Data -> system:ip route add 222.178.193.136 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.136
+[1980-01-06 08:00:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.136 failed
+[1980-01-06 08:00:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.136 | grep -w rmnet_data1, expect:222.178.193.136
+[1980-01-06 08:00:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.136 | grep -w rmnet_data1, expect:222.178.193.136 failed
+[1980-01-06 08:00:29]Data -> system:iptables -t nat -D POSTROUTING -d 222.178.193.136 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:29]Data -> system:iptables -t nat -D POSTROUTING -d 222.178.193.136 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:29]Data -> system:iptables -t nat -A POSTROUTING -d 222.178.193.136 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:29]Data -> node:rmnet_data1,pre ip:,cur ip:222.178.193.137
+[1980-01-06 08:00:29]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.137 | grep -w rmnet_data1, expect:222.178.193.137
+[1980-01-06 08:00:29]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.137 | grep -w rmnet_data1, expect:222.178.193.137 failed
+[1980-01-06 08:00:29]Data -> system:ip route del 222.178.193.137 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:29]Data -> system:ip route del 222.178.193.137 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:29]Data -> system:ip route add 222.178.193.137 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.137
+[1980-01-06 08:00:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.137 failed
+[1980-01-06 08:00:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.137 | grep -w rmnet_data1, expect:222.178.193.137
+[1980-01-06 08:00:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.137 | grep -w rmnet_data1, expect:222.178.193.137 failed
+[1980-01-06 08:00:29]Data -> system:iptables -t nat -D POSTROUTING -d 222.178.193.137 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:29]Data -> system:iptables -t nat -D POSTROUTING -d 222.178.193.137 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:29]Data -> system:iptables -t nat -A POSTROUTING -d 222.178.193.137 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:30]Data -> node:rmnet_data1,pre ip:,cur ip:222.178.193.138
+[1980-01-06 08:00:30]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[1980-01-06 08:00:30]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[1980-01-06 08:00:30]Data -> system:ip route del 222.178.193.138 dev rmnet_data0, expect:NULL
+[1980-01-06 08:00:30]Data -> system:ip route del 222.178.193.138 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:30]Data -> system:ip route add 222.178.193.138 dev rmnet_data1, expect:NULL
+[1980-01-06 08:00:30]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[1980-01-06 08:00:30]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[1980-01-06 08:00:30]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[1980-01-06 08:00:30]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[1980-01-06 08:00:30]Data -> system:iptables -t nat -D POSTROUTING -d 222.178.193.138 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:30]Data -> system:iptables -t nat -D POSTROUTING -d 222.178.193.138 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:30]Data -> system:iptables -t nat -A POSTROUTING -d 222.178.193.138 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[1980-01-06 08:00:30]Data -> node:rmnet_data1,pre ip:,cur ip:222.178.193.115
+[1980-01-06 08:00:30]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.115 | grep -w rmnet_data1, expect:222.178.193.115
+[2019-11-08 11:50:42]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.115 | grep -w rmnet_data1, expect:222.178.193.115 failed
+[2019-11-08 11:50:42]Data -> system:ip route del 222.178.193.115 dev rmnet_data0, expect:NULL
+[2019-11-08 11:50:42]Data -> system:ip route del 222.178.193.115 dev rmnet_data1, expect:NULL
+[2019-11-08 11:50:42]Data -> system:ip route add 222.178.193.115 dev rmnet_data1, expect:NULL
+[2019-11-08 11:50:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.115
+[2019-11-08 11:50:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.115 failed
+[2019-11-08 11:50:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.115 | grep -w rmnet_data1, expect:222.178.193.115
+[2019-11-08 11:50:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.115 | grep -w rmnet_data1, expect:222.178.193.115 failed
+[2019-11-08 11:50:42]Data -> system:iptables -t nat -D POSTROUTING -d 222.178.193.115 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[2019-11-08 11:50:42]Data -> system:iptables -t nat -D POSTROUTING -d 222.178.193.115 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[2019-11-08 11:50:42]Data -> system:iptables -t nat -A POSTROUTING -d 222.178.193.115 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[2019-11-08 11:50:42]Data -> node:rmnet_data1,result:0,host:auto-link.com.cn,times:1
+[2019-11-08 11:50:42]Data -> analysed auto-link.com.cn ip:114.113.237.111
+[2019-11-08 11:50:42]Data -> node:rmnet_data1,pre ip:,cur ip:114.113.237.111
+[2019-11-08 11:50:42]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 11:50:42]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111 failed
+[2019-11-08 11:50:42]Data -> system:ip route del 114.113.237.111 dev rmnet_data0, expect:NULL
+[2019-11-08 11:50:42]Data -> system:ip route del 114.113.237.111 dev rmnet_data1, expect:NULL
+[2019-11-08 11:50:42]Data -> system:ip route add 114.113.237.111 dev rmnet_data1, expect:NULL
+[2019-11-08 11:50:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 11:50:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111 failed
+[2019-11-08 11:50:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 11:50:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111 failed
+[2019-11-08 11:50:42]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.111 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[2019-11-08 11:50:42]Data -> system:iptables -t nat -D POSTROUTING -d 114.113.237.111 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[2019-11-08 11:50:43]Data -> system:iptables -t nat -A POSTROUTING -d 114.113.237.111 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[2019-11-08 11:50:43]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:1
+[2019-11-08 11:50:43]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:50:43]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.cn,times:1
+[2019-11-08 11:50:43]Data -> analysed dfsk-autolink.cn ip:103.117.133.220
+[2019-11-08 11:50:43]Data -> node:rmnet_data1,pre ip:,cur ip:103.117.133.220
+[2019-11-08 11:50:43]Data -> system:route | awk '{print $1 " " $8}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 11:50:43]Data -> system:route | awk '{print $1 " " $8}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220 failed
+[2019-11-08 11:50:43]Data -> system:ip route del 103.117.133.220 dev rmnet_data0, expect:NULL
+[2019-11-08 11:50:43]Data -> system:ip route del 103.117.133.220 dev rmnet_data1, expect:NULL
+[2019-11-08 11:50:43]Data -> system:ip route add 103.117.133.220 dev rmnet_data1, expect:NULL
+[2019-11-08 11:50:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 11:50:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220 failed
+[2019-11-08 11:50:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 11:50:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220 failed
+[2019-11-08 11:50:43]Data -> system:iptables -t nat -D POSTROUTING -d 103.117.133.220 -o rmnet_data0 -j MASQUERADE, expect:NULL
+[2019-11-08 11:50:43]Network -> mode:5,rssi:-50,rsrp:-86,rsrq:-14,rscp:0,ecio:0,sinr:-44,io:0
+[2019-11-08 11:50:43]Data -> system:iptables -t nat -D POSTROUTING -d 103.117.133.220 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[2019-11-08 11:50:43]Data -> system:iptables -t nat -A POSTROUTING -d 103.117.133.220 -o rmnet_data1 -j MASQUERADE, expect:NULL
+[2019-11-08 11:50:43]Data -> node:rmnet_data1,result:0,host:prod-xk-machine.dfsk-autolink.com,times:1
+[2019-11-08 11:50:43]Data -> analysed prod-xk-machine.dfsk-autolink.com ip:222.178.193.138
+[2019-11-08 11:50:43]Data -> node:rmnet_data1,pre ip:,cur ip:222.178.193.138
+[2019-11-08 11:50:43]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:50:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:50:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 11:50:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:50:43]Data -> node:rmnet_data1,result:0,host:prod.auto-link.com.cn,times:1
+[2019-11-08 11:50:43]Data -> analysed prod.auto-link.com.cn ip:114.113.237.102
+[2019-11-08 11:50:43]Data -> node:rmnet_data1,pre ip:,cur ip:114.113.237.102
+[2019-11-08 11:50:44]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 11:50:44]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 11:50:44]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102 failed
+[2019-11-08 11:50:44]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 11:50:44]Data -> node:rmnet_data1,result:0,host:fgservice.cn,times:1
+[2019-11-08 11:50:44]Data -> analysed fgservice.cn ip:222.178.193.135
+[2019-11-08 11:50:44]Data -> node:rmnet_data1,pre ip:,cur ip:222.178.193.135
+[2019-11-08 11:50:44]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 11:50:44]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 11:50:44]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135 failed
+[2019-11-08 11:50:44]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 11:50:44]Data -> node:rmnet_data1,result:0,addr:persist.sys.gateway_addr,pre host:,cur host:ssl://prod.fgservice.cn:8888,times:1
+[2019-11-08 11:50:44]Data -> ssl://prod.fgservice.cn:8888
+[2019-11-08 11:50:44]Data -> indirect host domain
+[2019-11-08 11:50:44]Data -> analysed prod.fgservice.cn ip:222.178.193.138
+[2019-11-08 11:50:44]Data -> node:rmnet_data1,pre ip:,cur ip:222.178.193.138
+[2019-11-08 11:50:44]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:50:44]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:50:44]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 11:50:44]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:50:44]Data -> node:rmnet_data1,result:0,addr:persist.sys.vehicle_addr,pre host:,cur host:ssl://222.178.193.138:9994,times:1
+[2019-11-08 11:50:44]Data -> ssl://222.178.193.138:9994
+[2019-11-08 11:50:44]Data -> indirect host ip
+[2019-11-08 11:50:44]Data -> node:rmnet_data1,pre ip:,cur ip:222.178.193.138
+[2019-11-08 11:50:44]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:50:44]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:50:44]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 11:50:44]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:50:48]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:48,io:0
+[2019-11-08 11:50:53]Network -> mode:5,rssi:-52,rsrp:-83,rsrq:-11,rscp:0,ecio:0,sinr:62,io:0
+[2019-11-08 11:50:58]Network -> mode:5,rssi:-52,rsrp:-83,rsrq:-11,rscp:0,ecio:0,sinr:62,io:0
+[2019-11-08 11:51:03]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-12,rscp:0,ecio:0,sinr:54,io:0
+[2019-11-08 11:51:08]Network -> mode:5,rssi:-52,rsrp:-83,rsrq:-10,rscp:0,ecio:0,sinr:108,io:0
+[2019-11-08 11:51:13]Network -> mode:5,rssi:-49,rsrp:-83,rsrq:-10,rscp:0,ecio:0,sinr:74,io:0
+[2019-11-08 11:51:15]Data -> Get time
+[2019-11-08 11:51:16]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:2
+[2019-11-08 11:51:16]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:51:18]Network -> mode:5,rssi:-52,rsrp:-83,rsrq:-10,rscp:0,ecio:0,sinr:36,io:0
+[2019-11-08 11:51:23]Network -> mode:5,rssi:-49,rsrp:-83,rsrq:-13,rscp:0,ecio:0,sinr:40,io:0
+[2019-11-08 11:51:45]Network -> mode:5,rssi:-49,rsrp:-83,rsrq:-14,rscp:0,ecio:0,sinr:-16,io:0
+[2019-11-08 11:51:50]Network -> mode:5,rssi:-49,rsrp:-83,rsrq:-14,rscp:0,ecio:0,sinr:34,io:0
+[2019-11-08 11:51:55]Network -> mode:5,rssi:-49,rsrp:-82,rsrq:-10,rscp:0,ecio:0,sinr:28,io:0
+[2019-11-08 11:52:00]Network -> mode:5,rssi:-51,rsrp:-83,rsrq:-12,rscp:0,ecio:0,sinr:56,io:0
+[2019-11-08 11:52:05]Network -> mode:5,rssi:-51,rsrp:-83,rsrq:-12,rscp:0,ecio:0,sinr:86,io:0
+[2019-11-08 11:52:05]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:3
+[2019-11-08 11:52:05]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:52:10]Network -> mode:5,rssi:-49,rsrp:-83,rsrq:-10,rscp:0,ecio:0,sinr:72,io:0
+[2019-11-08 11:52:15]Network -> mode:5,rssi:-49,rsrp:-83,rsrq:-11,rscp:0,ecio:0,sinr:12,io:0
+[2019-11-08 11:52:20]Network -> mode:5,rssi:-52,rsrp:-83,rsrq:-10,rscp:0,ecio:0,sinr:20,io:0
+[2019-11-08 11:52:25]Network -> mode:5,rssi:-52,rsrp:-83,rsrq:-10,rscp:0,ecio:0,sinr:66,io:0
+[2019-11-08 11:52:30]Network -> mode:5,rssi:-48,rsrp:-83,rsrq:-13,rscp:0,ecio:0,sinr:-6,io:0
+[2019-11-08 11:52:35]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-14,rscp:0,ecio:0,sinr:18,io:0
+[2019-11-08 11:52:38]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:4
+[2019-11-08 11:52:38]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:52:38]Data -> rmnet_data0:pkt rx diff:0 16296
+[2019-11-08 11:52:38]Data -> rmnet_data1:pkt rx diff:0 13
+[2019-11-08 11:52:40]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-14,rscp:0,ecio:0,sinr:-4,io:0
+[2019-11-08 11:52:45]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-14,rscp:0,ecio:0,sinr:-4,io:0
+[2019-11-08 11:52:50]Data -> DNS Ping Delay:rmnet_data0  116.116.116.116 36
+[2019-11-08 11:52:50]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-11,rscp:0,ecio:0,sinr:34,io:0
+[2019-11-08 11:52:55]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-12,rscp:0,ecio:0,sinr:2,io:0
+[2019-11-08 11:53:00]Data -> DNS Ping Delay:rmnet_data1  116.116.116.116 -1000
+[2019-11-08 11:53:00]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-12,rscp:0,ecio:0,sinr:2,io:0
+[2019-11-08 11:53:05]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-15,rscp:0,ecio:0,sinr:-6,io:0
+[2019-11-08 11:53:10]Data -> DNS Ping Delay:rmnet_data1  221.5.88.88 -1000
+[2019-11-08 11:53:10]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:5
+[2019-11-08 11:53:10]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-13,rscp:0,ecio:0,sinr:-2,io:0
+[2019-11-08 11:53:10]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:53:15]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-12,rscp:0,ecio:0,sinr:24,io:0
+[2019-11-08 11:53:20]Data -> DNS Ping Delay:rmnet_data1  8.8.8.8 -1000
+[2019-11-08 11:53:20]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-12,rscp:0,ecio:0,sinr:32,io:0
+[2019-11-08 11:53:25]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-13,rscp:0,ecio:0,sinr:-6,io:0
+[2019-11-08 11:53:30]Data -> DNS Ping Delay:rmnet_data1  114.114.114.114 -1000
+[2019-11-08 11:53:30]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-13,rscp:0,ecio:0,sinr:66,io:0
+[2019-11-08 11:53:35]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-12,rscp:0,ecio:0,sinr:16,io:0
+[2019-11-08 11:53:40]Data -> DNS Ping Delay:rmnet_data1  114.114.115.115 -1000
+[2019-11-08 11:53:40]Network -> mode:5,rssi:-55,rsrp:-85,rsrq:-12,rscp:0,ecio:0,sinr:-26,io:0
+[2019-11-08 11:53:42]Data -> node:rmnet_data1,result:1,host:auto-link.com.cn,times:6
+[2019-11-08 11:53:42]Data -> analysed auto-link.com.cn ip:114.113.237.111
+[2019-11-08 11:53:42]Data -> node:rmnet_data1,pre ip:114.113.237.111,cur ip:114.113.237.111
+[2019-11-08 11:53:42]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 11:53:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 11:53:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111 failed
+[2019-11-08 11:53:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 11:53:42]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:6
+[2019-11-08 11:53:43]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:53:43]Data -> node:rmnet_data1,result:1,host:dfsk-autolink.cn,times:6
+[2019-11-08 11:53:43]Data -> analysed dfsk-autolink.cn ip:103.117.133.220
+[2019-11-08 11:53:43]Data -> node:rmnet_data1,pre ip:103.117.133.220,cur ip:103.117.133.220
+[2019-11-08 11:53:43]Data -> system:route | awk '{print $1 " " $8}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 11:53:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 11:53:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220 failed
+[2019-11-08 11:53:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 11:53:43]Data -> node:rmnet_data1,result:1,host:prod-xk-machine.dfsk-autolink.com,times:6
+[2019-11-08 11:53:43]Data -> analysed prod-xk-machine.dfsk-autolink.com ip:222.178.193.138
+[2019-11-08 11:53:43]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 11:53:43]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:53:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:53:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 11:53:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:53:43]Data -> node:rmnet_data1,result:1,host:prod.auto-link.com.cn,times:6
+[2019-11-08 11:53:43]Data -> analysed prod.auto-link.com.cn ip:114.113.237.102
+[2019-11-08 11:53:43]Data -> node:rmnet_data1,pre ip:114.113.237.102,cur ip:114.113.237.102
+[2019-11-08 11:53:43]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 11:53:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 11:53:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102 failed
+[2019-11-08 11:53:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 11:53:43]Data -> node:rmnet_data1,result:1,host:fgservice.cn,times:6
+[2019-11-08 11:53:43]Data -> analysed fgservice.cn ip:222.178.193.135
+[2019-11-08 11:53:43]Data -> node:rmnet_data1,pre ip:222.178.193.135,cur ip:222.178.193.135
+[2019-11-08 11:53:43]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 11:53:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 11:53:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135 failed
+[2019-11-08 11:53:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 11:53:45]Network -> mode:5,rssi:-60,rsrp:-87,rsrq:-11,rscp:0,ecio:0,sinr:84,io:0
+[2019-11-08 11:53:50]Network -> mode:5,rssi:-60,rsrp:-87,rsrq:-11,rscp:0,ecio:0,sinr:84,io:0
+[2019-11-08 11:53:50]Data -> DNS Ping Delay:rmnet_data1  114.114.114.119 -1000
+[2019-11-08 11:53:55]Network -> mode:5,rssi:-55,rsrp:-86,rsrq:-14,rscp:0,ecio:0,sinr:50,io:0
+[2019-11-08 11:54:00]Network -> mode:5,rssi:-55,rsrp:-87,rsrq:-14,rscp:0,ecio:0,sinr:52,io:0
+[2019-11-08 11:54:00]Data -> DNS Ping Delay:rmnet_data1  114.114.115.119 -1000
+[2019-11-08 11:54:05]Network -> mode:5,rssi:-55,rsrp:-87,rsrq:-14,rscp:0,ecio:0,sinr:62,io:0
+[2019-11-08 11:54:10]Data -> node:rmnet_data1,result:1,addr:persist.sys.gateway_addr,pre host:ssl://prod.fgservice.cn:8888,cur host:ssl://prod.fgservice.cn:8888,times:36
+[2019-11-08 11:54:10]Data -> ssl://prod.fgservice.cn:8888
+[2019-11-08 11:54:10]Data -> indirect host domain
+[2019-11-08 11:54:10]Data -> analysed prod.fgservice.cn ip:222.178.193.138
+[2019-11-08 11:54:10]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 11:54:10]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:54:10]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:54:10]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 11:54:10]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:54:10]Data -> node:rmnet_data1,result:1,addr:persist.sys.vehicle_addr,pre host:ssl://222.178.193.138:9994,cur host:ssl://222.178.193.138:9994,times:36
+[2019-11-08 11:54:10]Data -> ssl://222.178.193.138:9994
+[2019-11-08 11:54:10]Data -> indirect host ip
+[2019-11-08 11:54:10]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 11:54:10]Network -> mode:5,rssi:-60,rsrp:-87,rsrq:-13,rscp:0,ecio:0,sinr:80,io:0
+[2019-11-08 11:54:10]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:54:10]Data -> DNS Ping Delay:rmnet_data1  123.125.81.6 -1000
+[2019-11-08 11:54:10]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:54:10]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 11:54:10]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:54:15]Network -> mode:5,rssi:-56,rsrp:-86,rsrq:-11,rscp:0,ecio:0,sinr:100,io:0
+[2019-11-08 11:54:16]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:7
+[2019-11-08 11:54:16]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:54:20]Network -> mode:5,rssi:-56,rsrp:-87,rsrq:-15,rscp:0,ecio:0,sinr:-32,io:0
+[2019-11-08 11:54:20]Data -> DNS Ping Delay:rmnet_data1  223.5.5.5 -1000
+[2019-11-08 11:54:20]Data -> rmnet_data1: connect dns times:4
+[2019-11-08 11:54:25]Network -> mode:5,rssi:-58,rsrp:-87,rsrq:-12,rscp:0,ecio:0,sinr:88,io:0
+[2019-11-08 11:54:30]Network -> mode:5,rssi:-56,rsrp:-86,rsrq:-12,rscp:0,ecio:0,sinr:22,io:0
+[2019-11-08 11:54:35]Network -> mode:5,rssi:-56,rsrp:-87,rsrq:-13,rscp:0,ecio:0,sinr:76,io:0
+[2019-11-08 11:54:40]Network -> mode:5,rssi:-55,rsrp:-86,rsrq:-14,rscp:0,ecio:0,sinr:34,io:0
+[2019-11-08 11:54:45]Network -> mode:5,rssi:-59,rsrp:-86,rsrq:-11,rscp:0,ecio:0,sinr:32,io:0
+[2019-11-08 11:54:48]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:8
+[2019-11-08 11:54:48]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:54:49]Data -> rmnet_data0:pkt rx diff:16296 78893
+[2019-11-08 11:54:49]Data -> rmnet_data1:pkt rx diff:13 113
+[2019-11-08 11:54:50]Network -> mode:5,rssi:-54,rsrp:-87,rsrq:-14,rscp:0,ecio:0,sinr:-22,io:0
+[2019-11-08 11:54:55]Network -> mode:5,rssi:-53,rsrp:-86,rsrq:-15,rscp:0,ecio:0,sinr:-14,io:0
+[2019-11-08 11:55:00]Network -> mode:5,rssi:-53,rsrp:-86,rsrq:-15,rscp:0,ecio:0,sinr:-22,io:0
+[2019-11-08 11:55:00]Data -> DNS Ping Delay:rmnet_data1  116.116.116.116 -1000
+[2019-11-08 11:55:05]Network -> mode:5,rssi:-60,rsrp:-87,rsrq:-11,rscp:0,ecio:0,sinr:110,io:0
+[2019-11-08 11:55:10]Network -> mode:5,rssi:-55,rsrp:-87,rsrq:-14,rscp:0,ecio:0,sinr:78,io:0
+[2019-11-08 11:55:10]Data -> DNS Ping Delay:rmnet_data1  221.5.88.88 -1000
+[2019-11-08 11:55:15]Network -> mode:5,rssi:-60,rsrp:-87,rsrq:-12,rscp:0,ecio:0,sinr:100,io:0
+[2019-11-08 11:55:20]Network -> mode:5,rssi:-56,rsrp:-86,rsrq:-13,rscp:0,ecio:0,sinr:-22,io:0
+[2019-11-08 11:55:20]Data -> DNS Ping Delay:rmnet_data1  8.8.8.8 -1000
+[2019-11-08 11:55:21]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:9
+[2019-11-08 11:55:21]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:55:25]Network -> mode:5,rssi:-55,rsrp:-86,rsrq:-11,rscp:0,ecio:0,sinr:82,io:0
+[2019-11-08 11:55:30]Network -> mode:5,rssi:-55,rsrp:-86,rsrq:-14,rscp:0,ecio:0,sinr:102,io:0
+[2019-11-08 11:55:30]Data -> DNS Ping Delay:rmnet_data1  114.114.114.114 -1000
+[2019-11-08 11:55:35]Network -> mode:5,rssi:-55,rsrp:-86,rsrq:-14,rscp:0,ecio:0,sinr:102,io:0
+[2019-11-08 11:55:40]Network -> mode:5,rssi:-55,rsrp:-87,rsrq:-14,rscp:0,ecio:0,sinr:-10,io:0
+[2019-11-08 11:55:40]Data -> DNS Ping Delay:rmnet_data1  114.114.115.115 -1000
+[2019-11-08 11:55:45]Network -> mode:5,rssi:-55,rsrp:-86,rsrq:-14,rscp:0,ecio:0,sinr:40,io:0
+[2019-11-08 11:55:50]Network -> mode:5,rssi:-60,rsrp:-87,rsrq:-12,rscp:0,ecio:0,sinr:94,io:0
+[2019-11-08 11:55:50]Data -> DNS Ping Delay:rmnet_data1  114.114.114.119 -1000
+[2019-11-08 11:55:54]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:10
+[2019-11-08 11:55:54]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:55:55]Network -> mode:5,rssi:-60,rsrp:-87,rsrq:-11,rscp:0,ecio:0,sinr:68,io:0
+[2019-11-08 11:56:00]Network -> mode:5,rssi:-60,rsrp:-86,rsrq:-10,rscp:0,ecio:0,sinr:94,io:0
+[2019-11-08 11:56:00]Data -> DNS Ping Delay:rmnet_data1  114.114.115.119 -1000
+[2019-11-08 11:56:05]Network -> mode:5,rssi:-55,rsrp:-86,rsrq:-11,rscp:0,ecio:0,sinr:86,io:0
+[2019-11-08 11:56:10]Network -> mode:5,rssi:-58,rsrp:-86,rsrq:-13,rscp:0,ecio:0,sinr:80,io:0
+[2019-11-08 11:56:10]Data -> DNS Ping Delay:rmnet_data1  123.125.81.6 -1000
+[2019-11-08 11:56:15]Network -> mode:5,rssi:-60,rsrp:-86,rsrq:-11,rscp:0,ecio:0,sinr:104,io:0
+[2019-11-08 11:56:20]Network -> mode:5,rssi:-56,rsrp:-86,rsrq:-14,rscp:0,ecio:0,sinr:92,io:0
+[2019-11-08 11:56:21]Data -> DNS Ping Delay:rmnet_data1  223.5.5.5 -1000
+[2019-11-08 11:56:21]Data -> rmnet_data1: connect dns times:5
+[2019-11-08 11:56:25]Network -> mode:5,rssi:-55,rsrp:-86,rsrq:-12,rscp:0,ecio:0,sinr:48,io:0
+[2019-11-08 11:56:26]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:11
+[2019-11-08 11:56:26]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:56:30]Network -> mode:5,rssi:-55,rsrp:-86,rsrq:-13,rscp:0,ecio:0,sinr:108,io:0
+[2019-11-08 11:56:35]Network -> mode:5,rssi:-55,rsrp:-86,rsrq:-14,rscp:0,ecio:0,sinr:60,io:0
+[2019-11-08 11:56:40]Network -> mode:5,rssi:-60,rsrp:-86,rsrq:-10,rscp:0,ecio:0,sinr:108,io:0
+[2019-11-08 11:56:45]Network -> mode:5,rssi:-56,rsrp:-86,rsrq:-11,rscp:0,ecio:0,sinr:112,io:0
+[2019-11-08 11:56:50]Network -> mode:5,rssi:-56,rsrp:-86,rsrq:-11,rscp:0,ecio:0,sinr:112,io:0
+[2019-11-08 11:56:55]Network -> mode:5,rssi:-56,rsrp:-86,rsrq:-10,rscp:0,ecio:0,sinr:84,io:0
+[2019-11-08 11:56:58]Data -> node:rmnet_data1,result:1,host:auto-link.com.cn,times:12
+[2019-11-08 11:56:58]Data -> analysed auto-link.com.cn ip:114.113.237.111
+[2019-11-08 11:56:58]Data -> node:rmnet_data1,pre ip:114.113.237.111,cur ip:114.113.237.111
+[2019-11-08 11:56:58]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 11:56:58]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 11:56:58]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111 failed
+[2019-11-08 11:56:58]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 11:56:58]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:12
+[2019-11-08 11:56:58]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:56:58]Data -> node:rmnet_data1,result:1,host:dfsk-autolink.cn,times:12
+[2019-11-08 11:56:58]Data -> analysed dfsk-autolink.cn ip:103.117.133.220
+[2019-11-08 11:56:58]Data -> node:rmnet_data1,pre ip:103.117.133.220,cur ip:103.117.133.220
+[2019-11-08 11:56:58]Data -> system:route | awk '{print $1 " " $8}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 11:56:58]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 11:56:59]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220 failed
+[2019-11-08 11:56:59]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 11:56:59]Data -> node:rmnet_data1,result:1,host:prod-xk-machine.dfsk-autolink.com,times:12
+[2019-11-08 11:56:59]Data -> analysed prod-xk-machine.dfsk-autolink.com ip:222.178.193.138
+[2019-11-08 11:56:59]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 11:56:59]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:56:59]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:56:59]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 11:56:59]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:56:59]Data -> node:rmnet_data1,result:1,host:prod.auto-link.com.cn,times:12
+[2019-11-08 11:56:59]Data -> analysed prod.auto-link.com.cn ip:114.113.237.102
+[2019-11-08 11:56:59]Data -> node:rmnet_data1,pre ip:114.113.237.102,cur ip:114.113.237.102
+[2019-11-08 11:56:59]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 11:56:59]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 11:56:59]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102 failed
+[2019-11-08 11:56:59]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 11:56:59]Data -> node:rmnet_data1,result:1,host:fgservice.cn,times:12
+[2019-11-08 11:56:59]Data -> analysed fgservice.cn ip:222.178.193.135
+[2019-11-08 11:56:59]Data -> node:rmnet_data1,pre ip:222.178.193.135,cur ip:222.178.193.135
+[2019-11-08 11:56:59]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 11:56:59]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 11:57:00]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135 failed
+[2019-11-08 11:57:00]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 11:57:00]Data -> rmnet_data0:pkt rx diff:78893 151127
+[2019-11-08 11:57:00]Data -> rmnet_data1:pkt rx diff:113 222
+[2019-11-08 11:57:00]Network -> mode:5,rssi:-54,rsrp:-87,rsrq:-12,rscp:0,ecio:0,sinr:-22,io:0
+[2019-11-08 11:57:01]Data -> DNS Ping Delay:rmnet_data1  116.116.116.116 -1000
+[2019-11-08 11:57:05]Network -> mode:5,rssi:-61,rsrp:-88,rsrq:-12,rscp:0,ecio:0,sinr:70,io:0
+[2019-11-08 11:57:10]Network -> mode:5,rssi:-54,rsrp:-87,rsrq:-12,rscp:0,ecio:0,sinr:-30,io:0
+[2019-11-08 11:57:11]Data -> DNS Ping Delay:rmnet_data1  221.5.88.88 -1000
+[2019-11-08 11:57:15]Network -> mode:5,rssi:-60,rsrp:-86,rsrq:-11,rscp:0,ecio:0,sinr:76,io:0
+[2019-11-08 11:57:20]Network -> mode:5,rssi:-56,rsrp:-86,rsrq:-13,rscp:0,ecio:0,sinr:96,io:0
+[2019-11-08 11:57:21]Data -> DNS Ping Delay:rmnet_data1  8.8.8.8 -1000
+[2019-11-08 11:57:25]Network -> mode:5,rssi:-59,rsrp:-87,rsrq:-11,rscp:0,ecio:0,sinr:52,io:0
+[2019-11-08 11:57:26]Data -> node:rmnet_data1,result:1,addr:persist.sys.gateway_addr,pre host:ssl://prod.fgservice.cn:8888,cur host:ssl://prod.fgservice.cn:8888,times:72
+[2019-11-08 11:57:26]Data -> ssl://prod.fgservice.cn:8888
+[2019-11-08 11:57:26]Data -> indirect host domain
+[2019-11-08 11:57:26]Data -> analysed prod.fgservice.cn ip:222.178.193.138
+[2019-11-08 11:57:26]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 11:57:26]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:57:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:57:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 11:57:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:57:26]Data -> node:rmnet_data1,result:1,addr:persist.sys.vehicle_addr,pre host:ssl://222.178.193.138:9994,cur host:ssl://222.178.193.138:9994,times:72
+[2019-11-08 11:57:26]Data -> ssl://222.178.193.138:9994
+[2019-11-08 11:57:26]Data -> indirect host ip
+[2019-11-08 11:57:26]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 11:57:26]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:57:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:57:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 11:57:26]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 11:57:30]Network -> mode:5,rssi:-56,rsrp:-87,rsrq:-11,rscp:0,ecio:0,sinr:-6,io:0
+[2019-11-08 11:57:31]Data -> DNS Ping Delay:rmnet_data1  114.114.114.114 -1000
+[2019-11-08 11:57:32]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:13
+[2019-11-08 11:57:32]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:57:35]Network -> mode:5,rssi:-61,rsrp:-87,rsrq:-10,rscp:0,ecio:0,sinr:46,io:0
+[2019-11-08 11:57:40]Network -> mode:5,rssi:-59,rsrp:-87,rsrq:-11,rscp:0,ecio:0,sinr:72,io:0
+[2019-11-08 11:57:41]Data -> DNS Ping Delay:rmnet_data1  114.114.115.115 -1000
+[2019-11-08 11:57:45]Network -> mode:5,rssi:-56,rsrp:-86,rsrq:-10,rscp:0,ecio:0,sinr:72,io:0
+[2019-11-08 11:57:50]Network -> mode:5,rssi:-56,rsrp:-86,rsrq:-10,rscp:0,ecio:0,sinr:72,io:0
+[2019-11-08 11:57:51]Data -> DNS Ping Delay:rmnet_data1  114.114.114.119 -1000
+[2019-11-08 11:57:55]Network -> mode:5,rssi:-56,rsrp:-87,rsrq:-12,rscp:0,ecio:0,sinr:56,io:0
+[2019-11-08 11:58:00]Network -> mode:5,rssi:-56,rsrp:-87,rsrq:-12,rscp:0,ecio:0,sinr:56,io:0
+[2019-11-08 11:58:01]Data -> DNS Ping Delay:rmnet_data1  114.114.115.119 -1000
+[2019-11-08 11:58:04]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:14
+[2019-11-08 11:58:05]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:58:05]Network -> mode:5,rssi:-56,rsrp:-88,rsrq:-13,rscp:0,ecio:0,sinr:98,io:0
+[2019-11-08 11:58:10]Network -> mode:5,rssi:-59,rsrp:-88,rsrq:-11,rscp:0,ecio:0,sinr:68,io:0
+[2019-11-08 11:58:11]Data -> DNS Ping Delay:rmnet_data1  123.125.81.6 -1000
+[2019-11-08 11:58:15]Network -> mode:5,rssi:-57,rsrp:-87,rsrq:-13,rscp:0,ecio:0,sinr:98,io:0
+[2019-11-08 11:58:20]Network -> mode:5,rssi:-57,rsrp:-86,rsrq:-12,rscp:0,ecio:0,sinr:80,io:0
+[2019-11-08 11:58:21]Data -> DNS Ping Delay:rmnet_data1  223.5.5.5 -1000
+[2019-11-08 11:58:21]Data -> rmnet_data1: connect dns times:6
+[2019-11-08 11:58:25]Network -> mode:5,rssi:-53,rsrp:-83,rsrq:-13,rscp:0,ecio:0,sinr:-114,io:0
+[2019-11-08 11:58:30]Network -> mode:5,rssi:-57,rsrp:-83,rsrq:-9,rscp:0,ecio:0,sinr:98,io:0
+[2019-11-08 11:58:35]Network -> mode:5,rssi:-52,rsrp:-82,rsrq:-11,rscp:0,ecio:0,sinr:42,io:0
+[2019-11-08 11:58:37]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:15
+[2019-11-08 11:58:37]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:58:40]Network -> mode:5,rssi:-56,rsrp:-83,rsrq:-9,rscp:0,ecio:0,sinr:114,io:0
+[2019-11-08 11:58:45]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-12,rscp:0,ecio:0,sinr:94,io:0
+[2019-11-08 11:58:50]Network -> mode:5,rssi:-58,rsrp:-84,rsrq:-11,rscp:0,ecio:0,sinr:124,io:0
+[2019-11-08 11:58:55]Network -> mode:5,rssi:-58,rsrp:-83,rsrq:-8,rscp:0,ecio:0,sinr:-128,io:0
+[2019-11-08 11:59:00]Network -> mode:5,rssi:-53,rsrp:-84,rsrq:-15,rscp:0,ecio:0,sinr:24,io:0
+[2019-11-08 11:59:01]Data -> DNS Ping Delay:rmnet_data1  116.116.116.116 -1000
+[2019-11-08 11:59:05]Network -> mode:5,rssi:-53,rsrp:-83,rsrq:-10,rscp:0,ecio:0,sinr:126,io:0
+[2019-11-08 11:59:09]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:16
+[2019-11-08 11:59:09]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:59:09]Data -> rmnet_data0:pkt rx diff:151127 214870
+[2019-11-08 11:59:09]Data -> rmnet_data1:pkt rx diff:222 336
+[2019-11-08 11:59:10]Network -> mode:5,rssi:-56,rsrp:-83,rsrq:-9,rscp:0,ecio:0,sinr:78,io:0
+[2019-11-08 11:59:11]Data -> DNS Ping Delay:rmnet_data1  221.5.88.88 -1000
+[2019-11-08 11:59:15]Network -> mode:5,rssi:-53,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:98,io:0
+[2019-11-08 11:59:20]Network -> mode:5,rssi:-53,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:98,io:0
+[2019-11-08 11:59:21]Data -> DNS Ping Delay:rmnet_data1  8.8.8.8 -1000
+[2019-11-08 11:59:25]Network -> mode:5,rssi:-54,rsrp:-83,rsrq:-8,rscp:0,ecio:0,sinr:76,io:0
+[2019-11-08 11:59:30]Network -> mode:5,rssi:-58,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:126,io:0
+[2019-11-08 11:59:31]Data -> DNS Ping Delay:rmnet_data1  114.114.114.114 -1000
+[2019-11-08 11:59:35]Network -> mode:5,rssi:-58,rsrp:-83,rsrq:-10,rscp:0,ecio:0,sinr:98,io:0
+[2019-11-08 11:59:40]Network -> mode:5,rssi:-59,rsrp:-84,rsrq:-10,rscp:0,ecio:0,sinr:124,io:0
+[2019-11-08 11:59:41]Data -> DNS Ping Delay:rmnet_data1  114.114.115.115 -1000
+[2019-11-08 11:59:41]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:17
+[2019-11-08 11:59:41]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 11:59:45]Network -> mode:5,rssi:-58,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:112,io:0
+[2019-11-08 11:59:50]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-13,rscp:0,ecio:0,sinr:110,io:0
+[2019-11-08 11:59:51]Data -> DNS Ping Delay:rmnet_data1  114.114.114.119 -1000
+[2019-11-08 11:59:55]Network -> mode:5,rssi:-57,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:116,io:0
+[2019-11-08 12:00:00]Network -> mode:5,rssi:-59,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:126,io:0
+[2019-11-08 12:00:01]Data -> DNS Ping Delay:rmnet_data1  114.114.115.119 -1000
+[2019-11-08 12:00:05]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-11,rscp:0,ecio:0,sinr:-124,io:0
+[2019-11-08 12:00:10]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-10,rscp:0,ecio:0,sinr:106,io:0
+[2019-11-08 12:00:11]Data -> DNS Ping Delay:rmnet_data1  123.125.81.6 -1000
+[2019-11-08 12:00:14]Data -> node:rmnet_data1,result:1,host:auto-link.com.cn,times:18
+[2019-11-08 12:00:14]Data -> analysed auto-link.com.cn ip:114.113.237.111
+[2019-11-08 12:00:14]Data -> node:rmnet_data1,pre ip:114.113.237.111,cur ip:114.113.237.111
+[2019-11-08 12:00:14]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 12:00:14]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 12:00:14]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111 failed
+[2019-11-08 12:00:14]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 12:00:14]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:18
+[2019-11-08 12:00:14]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:00:14]Data -> node:rmnet_data1,result:1,host:dfsk-autolink.cn,times:18
+[2019-11-08 12:00:14]Data -> analysed dfsk-autolink.cn ip:103.117.133.220
+[2019-11-08 12:00:14]Data -> node:rmnet_data1,pre ip:103.117.133.220,cur ip:103.117.133.220
+[2019-11-08 12:00:14]Data -> system:route | awk '{print $1 " " $8}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 12:00:14]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 12:00:14]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220 failed
+[2019-11-08 12:00:14]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 12:00:14]Data -> node:rmnet_data1,result:1,host:prod-xk-machine.dfsk-autolink.com,times:18
+[2019-11-08 12:00:14]Data -> analysed prod-xk-machine.dfsk-autolink.com ip:222.178.193.138
+[2019-11-08 12:00:14]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 12:00:14]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:00:14]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:00:15]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 12:00:15]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:00:15]Data -> node:rmnet_data1,result:1,host:prod.auto-link.com.cn,times:18
+[2019-11-08 12:00:15]Data -> analysed prod.auto-link.com.cn ip:114.113.237.102
+[2019-11-08 12:00:15]Data -> node:rmnet_data1,pre ip:114.113.237.102,cur ip:114.113.237.102
+[2019-11-08 12:00:15]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 12:00:15]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 12:00:15]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102 failed
+[2019-11-08 12:00:15]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 12:00:15]Data -> node:rmnet_data1,result:1,host:fgservice.cn,times:18
+[2019-11-08 12:00:15]Data -> analysed fgservice.cn ip:222.178.193.135
+[2019-11-08 12:00:15]Data -> node:rmnet_data1,pre ip:222.178.193.135,cur ip:222.178.193.135
+[2019-11-08 12:00:15]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 12:00:15]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 12:00:15]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135 failed
+[2019-11-08 12:00:15]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 12:00:15]Network -> mode:5,rssi:-58,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:92,io:0
+[2019-11-08 12:00:20]Network -> mode:5,rssi:-58,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:92,io:0
+[2019-11-08 12:00:21]Data -> DNS Ping Delay:rmnet_data1  223.5.5.5 -1000
+[2019-11-08 12:00:21]Data -> rmnet_data1: connect dns times:7
+[2019-11-08 12:00:25]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-11,rscp:0,ecio:0,sinr:124,io:0
+[2019-11-08 12:00:30]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-11,rscp:0,ecio:0,sinr:124,io:0
+[2019-11-08 12:00:35]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-10,rscp:0,ecio:0,sinr:92,io:0
+[2019-11-08 12:00:40]Network -> mode:5,rssi:-54,rsrp:-83,rsrq:-10,rscp:0,ecio:0,sinr:108,io:0
+[2019-11-08 12:00:41]Data -> node:rmnet_data1,result:1,addr:persist.sys.gateway_addr,pre host:ssl://prod.fgservice.cn:8888,cur host:ssl://prod.fgservice.cn:8888,times:108
+[2019-11-08 12:00:41]Data -> ssl://prod.fgservice.cn:8888
+[2019-11-08 12:00:41]Data -> indirect host domain
+[2019-11-08 12:00:41]Data -> analysed prod.fgservice.cn ip:222.178.193.138
+[2019-11-08 12:00:41]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 12:00:41]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:00:41]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:00:41]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 12:00:41]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:00:41]Data -> node:rmnet_data1,result:1,addr:persist.sys.vehicle_addr,pre host:ssl://222.178.193.138:9994,cur host:ssl://222.178.193.138:9994,times:108
+[2019-11-08 12:00:41]Data -> ssl://222.178.193.138:9994
+[2019-11-08 12:00:41]Data -> indirect host ip
+[2019-11-08 12:00:41]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 12:00:41]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:00:41]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:00:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 12:00:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:00:45]Network -> mode:5,rssi:-59,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:116,io:0
+[2019-11-08 12:00:48]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:19
+[2019-11-08 12:00:48]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:00:51]Network -> mode:5,rssi:-59,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:-126,io:0
+[2019-11-08 12:00:51]Data -> DNS Ping Delay:rmnet_data0  116.116.116.116 44
+[2019-11-08 12:00:56]Network -> mode:5,rssi:-59,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:-120,io:0
+[2019-11-08 12:01:01]Network -> mode:5,rssi:-59,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:-128,io:0
+[2019-11-08 12:01:01]Data -> DNS Ping Delay:rmnet_data1  116.116.116.116 -1000
+[2019-11-08 12:01:06]Network -> mode:5,rssi:-59,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:-128,io:0
+[2019-11-08 12:01:11]Network -> mode:5,rssi:-59,rsrp:-85,rsrq:-9,rscp:0,ecio:0,sinr:-122,io:0
+[2019-11-08 12:01:11]Data -> DNS Ping Delay:rmnet_data1  221.5.88.88 -1000
+[2019-11-08 12:01:16]Network -> mode:5,rssi:-59,rsrp:-85,rsrq:-8,rscp:0,ecio:0,sinr:126,io:0
+[2019-11-08 12:01:20]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:20
+[2019-11-08 12:01:20]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:01:20]Data -> rmnet_data0:pkt rx diff:214870 268735
+[2019-11-08 12:01:20]Data -> rmnet_data1:pkt rx diff:336 449
+[2019-11-08 12:01:21]Network -> mode:5,rssi:-59,rsrp:-85,rsrq:-10,rscp:0,ecio:0,sinr:122,io:0
+[2019-11-08 12:01:21]Data -> DNS Ping Delay:rmnet_data1  8.8.8.8 -1000
+[2019-11-08 12:01:26]Network -> mode:5,rssi:-56,rsrp:-85,rsrq:-9,rscp:0,ecio:0,sinr:108,io:0
+[2019-11-08 12:01:31]Network -> mode:5,rssi:-57,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:102,io:0
+[2019-11-08 12:01:31]Data -> DNS Ping Delay:rmnet_data1  114.114.114.114 -1000
+[2019-11-08 12:01:36]Network -> mode:5,rssi:-59,rsrp:-85,rsrq:-8,rscp:0,ecio:0,sinr:110,io:0
+[2019-11-08 12:01:41]Network -> mode:5,rssi:-59,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:122,io:0
+[2019-11-08 12:01:41]Data -> DNS Ping Delay:rmnet_data1  114.114.115.115 -1000
+[2019-11-08 12:01:46]Network -> mode:5,rssi:-59,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:-120,io:0
+[2019-11-08 12:01:51]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:114,io:0
+[2019-11-08 12:01:51]Data -> DNS Ping Delay:rmnet_data1  114.114.114.119 -1000
+[2019-11-08 12:01:52]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:21
+[2019-11-08 12:01:52]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:01:56]Network -> mode:5,rssi:-59,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:-128,io:0
+[2019-11-08 12:02:01]Network -> mode:5,rssi:-56,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:42,io:0
+[2019-11-08 12:02:01]Data -> DNS Ping Delay:rmnet_data1  114.114.115.119 -1000
+[2019-11-08 12:02:06]Network -> mode:5,rssi:-56,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:60,io:0
+[2019-11-08 12:02:11]Network -> mode:5,rssi:-59,rsrp:-85,rsrq:-8,rscp:0,ecio:0,sinr:-128,io:0
+[2019-11-08 12:02:11]Data -> DNS Ping Delay:rmnet_data1  123.125.81.6 -1000
+[2019-11-08 12:02:16]Network -> mode:5,rssi:-55,rsrp:-85,rsrq:-8,rscp:0,ecio:0,sinr:80,io:0
+[2019-11-08 12:02:21]Network -> mode:5,rssi:-55,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:68,io:0
+[2019-11-08 12:02:21]Data -> DNS Ping Delay:rmnet_data1  223.5.5.5 -1000
+[2019-11-08 12:02:21]Data -> rmnet_data1: connect dns times:8
+[2019-11-08 12:02:24]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:22
+[2019-11-08 12:02:24]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:02:26]Network -> mode:5,rssi:-57,rsrp:-85,rsrq:-8,rscp:0,ecio:0,sinr:70,io:0
+[2019-11-08 12:02:31]Network -> mode:5,rssi:-57,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:-124,io:0
+[2019-11-08 12:02:36]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-13,rscp:0,ecio:0,sinr:-118,io:0
+[2019-11-08 12:02:41]Network -> mode:5,rssi:-58,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:102,io:0
+[2019-11-08 12:02:46]Network -> mode:5,rssi:-58,rsrp:-84,rsrq:-10,rscp:0,ecio:0,sinr:38,io:0
+[2019-11-08 12:02:51]Network -> mode:5,rssi:-58,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:-106,io:0
+[2019-11-08 12:02:56]Network -> mode:5,rssi:-58,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:-126,io:0
+[2019-11-08 12:02:56]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:23
+[2019-11-08 12:02:56]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:03:01]Network -> mode:5,rssi:-56,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:60,io:0
+[2019-11-08 12:03:02]Data -> DNS Ping Delay:rmnet_data1  116.116.116.116 -1000
+[2019-11-08 12:03:06]Network -> mode:5,rssi:-60,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:-114,io:0
+[2019-11-08 12:03:11]Network -> mode:5,rssi:-57,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:-116,io:0
+[2019-11-08 12:03:12]Data -> DNS Ping Delay:rmnet_data1  221.5.88.88 -1000
+[2019-11-08 12:03:16]Network -> mode:5,rssi:-59,rsrp:-85,rsrq:-8,rscp:0,ecio:0,sinr:32,io:0
+[2019-11-08 12:03:21]Network -> mode:5,rssi:-59,rsrp:-85,rsrq:-8,rscp:0,ecio:0,sinr:-126,io:0
+[2019-11-08 12:03:22]Data -> DNS Ping Delay:rmnet_data1  8.8.8.8 -1000
+[2019-11-08 12:03:26]Network -> mode:5,rssi:-59,rsrp:-85,rsrq:-8,rscp:0,ecio:0,sinr:-126,io:0
+[2019-11-08 12:03:28]Data -> node:rmnet_data1,result:1,host:auto-link.com.cn,times:24
+[2019-11-08 12:03:28]Data -> analysed auto-link.com.cn ip:114.113.237.111
+[2019-11-08 12:03:28]Data -> node:rmnet_data1,pre ip:114.113.237.111,cur ip:114.113.237.111
+[2019-11-08 12:03:28]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 12:03:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 12:03:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111 failed
+[2019-11-08 12:03:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 12:03:28]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:24
+[2019-11-08 12:03:28]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:03:28]Data -> node:rmnet_data1,result:1,host:dfsk-autolink.cn,times:24
+[2019-11-08 12:03:28]Data -> analysed dfsk-autolink.cn ip:103.117.133.220
+[2019-11-08 12:03:28]Data -> node:rmnet_data1,pre ip:103.117.133.220,cur ip:103.117.133.220
+[2019-11-08 12:03:28]Data -> system:route | awk '{print $1 " " $8}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 12:03:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 12:03:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220 failed
+[2019-11-08 12:03:28]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 12:03:28]Data -> node:rmnet_data1,result:1,host:prod-xk-machine.dfsk-autolink.com,times:24
+[2019-11-08 12:03:28]Data -> analysed prod-xk-machine.dfsk-autolink.com ip:222.178.193.138
+[2019-11-08 12:03:28]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 12:03:28]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:03:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:03:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 12:03:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:03:29]Data -> node:rmnet_data1,result:1,host:prod.auto-link.com.cn,times:24
+[2019-11-08 12:03:29]Data -> analysed prod.auto-link.com.cn ip:114.113.237.102
+[2019-11-08 12:03:29]Data -> node:rmnet_data1,pre ip:114.113.237.102,cur ip:114.113.237.102
+[2019-11-08 12:03:29]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 12:03:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 12:03:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102 failed
+[2019-11-08 12:03:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 12:03:29]Data -> node:rmnet_data1,result:1,host:fgservice.cn,times:24
+[2019-11-08 12:03:29]Data -> analysed fgservice.cn ip:222.178.193.135
+[2019-11-08 12:03:29]Data -> node:rmnet_data1,pre ip:222.178.193.135,cur ip:222.178.193.135
+[2019-11-08 12:03:29]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 12:03:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 12:03:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135 failed
+[2019-11-08 12:03:29]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 12:03:29]Data -> rmnet_data0:pkt rx diff:268735 269089
+[2019-11-08 12:03:29]Data -> rmnet_data1:pkt rx diff:449 561
+[2019-11-08 12:03:31]Network -> mode:5,rssi:-59,rsrp:-85,rsrq:-9,rscp:0,ecio:0,sinr:110,io:0
+[2019-11-08 12:03:32]Data -> DNS Ping Delay:rmnet_data1  114.114.114.114 -1000
+[2019-11-08 12:03:36]Network -> mode:5,rssi:-54,rsrp:-85,rsrq:-10,rscp:0,ecio:0,sinr:22,io:0
+[2019-11-08 12:03:41]Network -> mode:5,rssi:-59,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:-110,io:0
+[2019-11-08 12:03:42]Data -> DNS Ping Delay:rmnet_data1  114.114.115.115 -1000
+[2019-11-08 12:03:46]Network -> mode:5,rssi:-53,rsrp:-83,rsrq:-10,rscp:0,ecio:0,sinr:32,io:0
+[2019-11-08 12:03:51]Network -> mode:5,rssi:-56,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:88,io:0
+[2019-11-08 12:03:52]Data -> DNS Ping Delay:rmnet_data1  114.114.114.119 -1000
+[2019-11-08 12:03:55]Data -> node:rmnet_data1,result:1,addr:persist.sys.gateway_addr,pre host:ssl://prod.fgservice.cn:8888,cur host:ssl://prod.fgservice.cn:8888,times:144
+[2019-11-08 12:03:55]Data -> ssl://prod.fgservice.cn:8888
+[2019-11-08 12:03:55]Data -> indirect host domain
+[2019-11-08 12:03:55]Data -> analysed prod.fgservice.cn ip:222.178.193.138
+[2019-11-08 12:03:55]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 12:03:55]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:03:55]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:03:55]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 12:03:55]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:03:55]Data -> node:rmnet_data1,result:1,addr:persist.sys.vehicle_addr,pre host:ssl://222.178.193.138:9994,cur host:ssl://222.178.193.138:9994,times:144
+[2019-11-08 12:03:55]Data -> ssl://222.178.193.138:9994
+[2019-11-08 12:03:55]Data -> indirect host ip
+[2019-11-08 12:03:55]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 12:03:55]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:03:55]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:03:55]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 12:03:55]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:03:56]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:-126,io:0
+[2019-11-08 12:04:01]Network -> mode:5,rssi:-57,rsrp:-83,rsrq:-10,rscp:0,ecio:0,sinr:34,io:0
+[2019-11-08 12:04:01]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:25
+[2019-11-08 12:04:01]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:04:02]Data -> DNS Ping Delay:rmnet_data1  114.114.115.119 -1000
+[2019-11-08 12:04:06]Network -> mode:5,rssi:-59,rsrp:-85,rsrq:-8,rscp:0,ecio:0,sinr:42,io:0
+[2019-11-08 12:04:11]Network -> mode:5,rssi:-56,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:48,io:0
+[2019-11-08 12:04:12]Data -> DNS Ping Delay:rmnet_data1  123.125.81.6 -1000
+[2019-11-08 12:04:16]Network -> mode:5,rssi:-56,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:38,io:0
+[2019-11-08 12:04:21]Network -> mode:5,rssi:-59,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:114,io:0
+[2019-11-08 12:04:22]Data -> DNS Ping Delay:rmnet_data1  223.5.5.5 -1000
+[2019-11-08 12:04:22]Data -> rmnet_data1: connect dns times:9
+[2019-11-08 12:04:26]Network -> mode:5,rssi:-57,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:58,io:0
+[2019-11-08 12:04:31]Network -> mode:5,rssi:-53,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:44,io:0
+[2019-11-08 12:04:33]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:26
+[2019-11-08 12:04:33]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:04:36]Network -> mode:5,rssi:-53,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:44,io:0
+[2019-11-08 12:04:41]Network -> mode:5,rssi:-57,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:24,io:0
+[2019-11-08 12:04:46]Network -> mode:5,rssi:-57,rsrp:-85,rsrq:-10,rscp:0,ecio:0,sinr:-22,io:0
+[2019-11-08 12:04:51]Network -> mode:5,rssi:-57,rsrp:-85,rsrq:-8,rscp:0,ecio:0,sinr:10,io:0
+[2019-11-08 12:04:56]Network -> mode:5,rssi:-57,rsrp:-85,rsrq:-8,rscp:0,ecio:0,sinr:10,io:0
+[2019-11-08 12:05:01]Network -> mode:5,rssi:-59,rsrp:-85,rsrq:-8,rscp:0,ecio:0,sinr:92,io:0
+[2019-11-08 12:05:02]Data -> DNS Ping Delay:rmnet_data1  116.116.116.116 -1000
+[2019-11-08 12:05:05]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:27
+[2019-11-08 12:05:06]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:05:06]Network -> mode:5,rssi:-56,rsrp:-85,rsrq:-8,rscp:0,ecio:0,sinr:88,io:0
+[2019-11-08 12:05:11]Network -> mode:5,rssi:-56,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:36,io:0
+[2019-11-08 12:05:12]Data -> DNS Ping Delay:rmnet_data1  221.5.88.88 -1000
+[2019-11-08 12:05:16]Network -> mode:5,rssi:-58,rsrp:-85,rsrq:-9,rscp:0,ecio:0,sinr:122,io:0
+[2019-11-08 12:05:21]Network -> mode:5,rssi:-56,rsrp:-85,rsrq:-9,rscp:0,ecio:0,sinr:-2,io:0
+[2019-11-08 12:05:22]Data -> DNS Ping Delay:rmnet_data1  8.8.8.8 -1000
+[2019-11-08 12:05:26]Network -> mode:5,rssi:-57,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:42,io:0
+[2019-11-08 12:05:31]Network -> mode:5,rssi:-57,rsrp:-84,rsrq:-9,rscp:0,ecio:0,sinr:48,io:0
+[2019-11-08 12:05:32]Data -> DNS Ping Delay:rmnet_data1  114.114.114.114 -1000
+[2019-11-08 12:05:36]Network -> mode:5,rssi:-57,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:64,io:0
+[2019-11-08 12:05:37]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:28
+[2019-11-08 12:05:37]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:05:38]Data -> rmnet_data0:pkt rx diff:269089 269255
+[2019-11-08 12:05:38]Data -> rmnet_data1:pkt rx diff:561 670
+[2019-11-08 12:05:41]Network -> mode:5,rssi:-56,rsrp:-84,rsrq:-10,rscp:0,ecio:0,sinr:-114,io:0
+[2019-11-08 12:05:42]Data -> DNS Ping Delay:rmnet_data1  114.114.115.115 -1000
+[2019-11-08 12:05:46]Network -> mode:5,rssi:-59,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:-112,io:0
+[2019-11-08 12:05:51]Network -> mode:5,rssi:-57,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:50,io:0
+[2019-11-08 12:05:52]Data -> DNS Ping Delay:rmnet_data1  114.114.114.119 -1000
+[2019-11-08 12:05:56]Network -> mode:5,rssi:-57,rsrp:-84,rsrq:-8,rscp:0,ecio:0,sinr:42,io:0
+[2019-11-08 12:06:01]Network -> mode:5,rssi:-59,rsrp:-85,rsrq:-9,rscp:0,ecio:0,sinr:80,io:0
+[2019-11-08 12:06:02]Data -> DNS Ping Delay:rmnet_data1  114.114.115.119 -1000
+[2019-11-08 12:06:06]Network -> mode:5,rssi:-57,rsrp:-85,rsrq:-9,rscp:0,ecio:0,sinr:16,io:0
+[2019-11-08 12:06:09]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:29
+[2019-11-08 12:06:09]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:06:11]Network -> mode:5,rssi:-55,rsrp:-85,rsrq:-13,rscp:0,ecio:0,sinr:104,io:0
+[2019-11-08 12:06:12]Data -> DNS Ping Delay:rmnet_data1  123.125.81.6 -1000
+[2019-11-08 12:06:16]Network -> mode:5,rssi:-55,rsrp:-85,rsrq:-13,rscp:0,ecio:0,sinr:98,io:0
+[2019-11-08 12:06:21]Network -> mode:5,rssi:-55,rsrp:-85,rsrq:-13,rscp:0,ecio:0,sinr:32,io:0
+[2019-11-08 12:06:22]Data -> DNS Ping Delay:rmnet_data1  223.5.5.5 -1000
+[2019-11-08 12:06:22]Data -> rmnet_data1: connect dns times:10
+[2019-11-08 12:06:26]Network -> mode:5,rssi:-55,rsrp:-85,rsrq:-14,rscp:0,ecio:0,sinr:38,io:0
+[2019-11-08 12:06:31]Network -> mode:5,rssi:-51,rsrp:-85,rsrq:-15,rscp:0,ecio:0,sinr:54,io:0
+[2019-11-08 12:06:36]Network -> mode:5,rssi:-48,rsrp:-84,rsrq:-15,rscp:0,ecio:0,sinr:-32,io:0
+[2019-11-08 12:06:41]Network -> mode:5,rssi:-48,rsrp:-84,rsrq:-15,rscp:0,ecio:0,sinr:-34,io:0
+[2019-11-08 12:06:42]Data -> node:rmnet_data1,result:1,host:auto-link.com.cn,times:30
+[2019-11-08 12:06:42]Data -> analysed auto-link.com.cn ip:114.113.237.111
+[2019-11-08 12:06:42]Data -> node:rmnet_data1,pre ip:114.113.237.111,cur ip:114.113.237.111
+[2019-11-08 12:06:42]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 12:06:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 12:06:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111 failed
+[2019-11-08 12:06:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 12:06:42]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:30
+[2019-11-08 12:06:42]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:06:42]Data -> node:rmnet_data1,result:1,host:dfsk-autolink.cn,times:30
+[2019-11-08 12:06:42]Data -> analysed dfsk-autolink.cn ip:103.117.133.220
+[2019-11-08 12:06:42]Data -> node:rmnet_data1,pre ip:103.117.133.220,cur ip:103.117.133.220
+[2019-11-08 12:06:42]Data -> system:route | awk '{print $1 " " $8}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 12:06:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 12:06:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220 failed
+[2019-11-08 12:06:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 12:06:42]Data -> node:rmnet_data1,result:1,host:prod-xk-machine.dfsk-autolink.com,times:30
+[2019-11-08 12:06:42]Data -> analysed prod-xk-machine.dfsk-autolink.com ip:222.178.193.138
+[2019-11-08 12:06:42]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 12:06:42]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:06:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:06:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 12:06:42]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:06:42]Data -> node:rmnet_data1,result:1,host:prod.auto-link.com.cn,times:30
+[2019-11-08 12:06:43]Data -> analysed prod.auto-link.com.cn ip:114.113.237.102
+[2019-11-08 12:06:43]Data -> node:rmnet_data1,pre ip:114.113.237.102,cur ip:114.113.237.102
+[2019-11-08 12:06:43]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 12:06:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 12:06:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102 failed
+[2019-11-08 12:06:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 12:06:43]Data -> node:rmnet_data1,result:1,host:fgservice.cn,times:30
+[2019-11-08 12:06:43]Data -> analysed fgservice.cn ip:222.178.193.135
+[2019-11-08 12:06:43]Data -> node:rmnet_data1,pre ip:222.178.193.135,cur ip:222.178.193.135
+[2019-11-08 12:06:43]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 12:06:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 12:06:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135 failed
+[2019-11-08 12:06:43]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 12:06:46]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-15,rscp:0,ecio:0,sinr:-22,io:0
+[2019-11-08 12:06:51]Network -> mode:5,rssi:-50,rsrp:-85,rsrq:-14,rscp:0,ecio:0,sinr:14,io:0
+[2019-11-08 12:06:56]Network -> mode:5,rssi:-52,rsrp:-85,rsrq:-14,rscp:0,ecio:0,sinr:24,io:0
+[2019-11-08 12:07:01]Network -> mode:5,rssi:-51,rsrp:-84,rsrq:-15,rscp:0,ecio:0,sinr:-22,io:0
+[2019-11-08 12:07:02]Data -> DNS Ping Delay:rmnet_data1  116.116.116.116 -1000
+[2019-11-08 12:07:06]Network -> mode:5,rssi:-51,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:-24,io:0
+[2019-11-08 12:07:09]Data -> node:rmnet_data1,result:1,addr:persist.sys.gateway_addr,pre host:ssl://prod.fgservice.cn:8888,cur host:ssl://prod.fgservice.cn:8888,times:180
+[2019-11-08 12:07:09]Data -> ssl://prod.fgservice.cn:8888
+[2019-11-08 12:07:09]Data -> indirect host domain
+[2019-11-08 12:07:09]Data -> analysed prod.fgservice.cn ip:222.178.193.138
+[2019-11-08 12:07:09]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 12:07:09]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:07:09]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:07:09]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 12:07:09]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:07:09]Data -> node:rmnet_data1,result:1,addr:persist.sys.vehicle_addr,pre host:ssl://222.178.193.138:9994,cur host:ssl://222.178.193.138:9994,times:180
+[2019-11-08 12:07:09]Data -> ssl://222.178.193.138:9994
+[2019-11-08 12:07:09]Data -> indirect host ip
+[2019-11-08 12:07:09]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 12:07:09]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:07:09]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:07:09]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 12:07:09]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:07:11]Network -> mode:5,rssi:-48,rsrp:-84,rsrq:-15,rscp:0,ecio:0,sinr:-24,io:0
+[2019-11-08 12:07:12]Data -> DNS Ping Delay:rmnet_data1  221.5.88.88 -1000
+[2019-11-08 12:07:15]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:31
+[2019-11-08 12:07:15]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:07:16]Network -> mode:5,rssi:-48,rsrp:-84,rsrq:-15,rscp:0,ecio:0,sinr:-32,io:0
+[2019-11-08 12:07:21]Network -> mode:5,rssi:-50,rsrp:-85,rsrq:-13,rscp:0,ecio:0,sinr:-34,io:0
+[2019-11-08 12:07:22]Data -> DNS Ping Delay:rmnet_data1  8.8.8.8 -1000
+[2019-11-08 12:07:26]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-13,rscp:0,ecio:0,sinr:60,io:0
+[2019-11-08 12:07:31]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:50,io:0
+[2019-11-08 12:07:32]Data -> DNS Ping Delay:rmnet_data1  114.114.114.114 -1000
+[2019-11-08 12:07:36]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-13,rscp:0,ecio:0,sinr:28,io:0
+[2019-11-08 12:07:41]Network -> mode:5,rssi:-54,rsrp:-85,rsrq:-14,rscp:0,ecio:0,sinr:24,io:0
+[2019-11-08 12:07:42]Data -> DNS Ping Delay:rmnet_data1  114.114.115.115 -1000
+[2019-11-08 12:07:46]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-13,rscp:0,ecio:0,sinr:4,io:0
+[2019-11-08 12:07:47]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:32
+[2019-11-08 12:07:47]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:07:48]Data -> rmnet_data0:pkt rx diff:269255 269598
+[2019-11-08 12:07:48]Data -> rmnet_data1:pkt rx diff:670 792
+[2019-11-08 12:07:51]Network -> mode:5,rssi:-51,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:68,io:0
+[2019-11-08 12:07:52]Data -> DNS Ping Delay:rmnet_data1  114.114.114.119 -1000
+[2019-11-08 12:07:56]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-12,rscp:0,ecio:0,sinr:58,io:0
+[2019-11-08 12:08:01]Network -> mode:5,rssi:-54,rsrp:-84,rsrq:-11,rscp:0,ecio:0,sinr:26,io:0
+[2019-11-08 12:08:02]Data -> DNS Ping Delay:rmnet_data1  114.114.115.119 -1000
+[2019-11-08 12:08:06]Network -> mode:5,rssi:-50,rsrp:-85,rsrq:-14,rscp:0,ecio:0,sinr:50,io:0
+[2019-11-08 12:08:11]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-13,rscp:0,ecio:0,sinr:28,io:0
+[2019-11-08 12:08:12]Data -> DNS Ping Delay:rmnet_data1  123.125.81.6 -1000
+[2019-11-08 12:08:16]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-15,rscp:0,ecio:0,sinr:-40,io:0
+[2019-11-08 12:08:19]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:33
+[2019-11-08 12:08:19]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:08:21]Network -> mode:5,rssi:-48,rsrp:-84,rsrq:-16,rscp:0,ecio:0,sinr:-32,io:0
+[2019-11-08 12:08:22]Data -> DNS Ping Delay:rmnet_data1  223.5.5.5 -1000
+[2019-11-08 12:08:22]Data -> rmnet_data1: connect dns times:11
+[2019-11-08 12:08:26]Network -> mode:5,rssi:-55,rsrp:-84,rsrq:-12,rscp:0,ecio:0,sinr:52,io:0
+[2019-11-08 12:08:31]Network -> mode:5,rssi:-55,rsrp:-84,rsrq:-12,rscp:0,ecio:0,sinr:52,io:0
+[2019-11-08 12:08:36]Network -> mode:5,rssi:-55,rsrp:-84,rsrq:-11,rscp:0,ecio:0,sinr:72,io:0
+[2019-11-08 12:08:41]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:-24,io:0
+[2019-11-08 12:08:46]Network -> mode:5,rssi:-47,rsrp:-83,rsrq:-14,rscp:0,ecio:0,sinr:-30,io:0
+[2019-11-08 12:08:51]Network -> mode:5,rssi:-47,rsrp:-83,rsrq:-14,rscp:0,ecio:0,sinr:-30,io:0
+[2019-11-08 12:08:51]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:34
+[2019-11-08 12:08:51]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:08:52]Data -> DNS Ping Delay:rmnet_data0  116.116.116.116 40
+[2019-11-08 12:08:56]Network -> mode:5,rssi:-49,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:-22,io:0
+[2019-11-08 12:09:01]Network -> mode:5,rssi:-50,rsrp:-85,rsrq:-14,rscp:0,ecio:0,sinr:6,io:0
+[2019-11-08 12:09:02]Data -> DNS Ping Delay:rmnet_data1  116.116.116.116 -1000
+[2019-11-08 12:09:06]Network -> mode:5,rssi:-50,rsrp:-85,rsrq:-16,rscp:0,ecio:0,sinr:-36,io:0
+[2019-11-08 12:09:11]Network -> mode:5,rssi:-55,rsrp:-85,rsrq:-13,rscp:0,ecio:0,sinr:30,io:0
+[2019-11-08 12:09:12]Data -> DNS Ping Delay:rmnet_data1  221.5.88.88 -1000
+[2019-11-08 12:09:16]Network -> mode:5,rssi:-55,rsrp:-84,rsrq:-12,rscp:0,ecio:0,sinr:38,io:0
+[2019-11-08 12:09:21]Network -> mode:5,rssi:-51,rsrp:-85,rsrq:-15,rscp:0,ecio:0,sinr:-24,io:0
+[2019-11-08 12:09:22]Data -> DNS Ping Delay:rmnet_data1  8.8.8.8 -1000
+[2019-11-08 12:09:23]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:35
+[2019-11-08 12:09:24]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:09:26]Network -> mode:5,rssi:-54,rsrp:-85,rsrq:-12,rscp:0,ecio:0,sinr:56,io:0
+[2019-11-08 12:09:31]Network -> mode:5,rssi:-48,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:-20,io:0
+[2019-11-08 12:09:33]Data -> DNS Ping Delay:rmnet_data1  114.114.114.114 -1000
+[2019-11-08 12:09:36]Network -> mode:5,rssi:-51,rsrp:-85,rsrq:-14,rscp:0,ecio:0,sinr:-18,io:0
+[2019-11-08 12:09:41]Network -> mode:5,rssi:-54,rsrp:-85,rsrq:-11,rscp:0,ecio:0,sinr:36,io:0
+[2019-11-08 12:09:43]Data -> DNS Ping Delay:rmnet_data1  114.114.115.115 -1000
+[2019-11-08 12:09:46]Network -> mode:5,rssi:-49,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:44,io:0
+[2019-11-08 12:09:51]Network -> mode:5,rssi:-49,rsrp:-85,rsrq:-17,rscp:0,ecio:0,sinr:62,io:0
+[2019-11-08 12:09:53]Data -> DNS Ping Delay:rmnet_data1  114.114.114.119 -1000
+[2019-11-08 12:09:55]Data -> node:rmnet_data1,result:1,host:auto-link.com.cn,times:36
+[2019-11-08 12:09:55]Data -> analysed auto-link.com.cn ip:114.113.237.111
+[2019-11-08 12:09:55]Data -> node:rmnet_data1,pre ip:114.113.237.111,cur ip:114.113.237.111
+[2019-11-08 12:09:55]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 12:09:56]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 12:09:56]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.111 failed
+[2019-11-08 12:09:56]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.111 | grep -w rmnet_data1, expect:114.113.237.111
+[2019-11-08 12:09:56]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:36
+[2019-11-08 12:09:56]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:09:56]Data -> node:rmnet_data1,result:1,host:dfsk-autolink.cn,times:36
+[2019-11-08 12:09:56]Data -> analysed dfsk-autolink.cn ip:103.117.133.220
+[2019-11-08 12:09:56]Data -> node:rmnet_data1,pre ip:103.117.133.220,cur ip:103.117.133.220
+[2019-11-08 12:09:56]Data -> system:route | awk '{print $1 " " $8}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 12:09:56]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 12:09:56]Network -> mode:5,rssi:-52,rsrp:-85,rsrq:-14,rscp:0,ecio:0,sinr:66,io:0
+[2019-11-08 12:09:56]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:103.117.133.220 failed
+[2019-11-08 12:09:56]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 103.117.133.220 | grep -w rmnet_data1, expect:103.117.133.220
+[2019-11-08 12:09:56]Data -> node:rmnet_data1,result:1,host:prod-xk-machine.dfsk-autolink.com,times:36
+[2019-11-08 12:09:56]Data -> analysed prod-xk-machine.dfsk-autolink.com ip:222.178.193.138
+[2019-11-08 12:09:56]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 12:09:56]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:09:56]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:09:56]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 12:09:56]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:09:56]Data -> node:rmnet_data1,result:1,host:prod.auto-link.com.cn,times:36
+[2019-11-08 12:09:56]Data -> analysed prod.auto-link.com.cn ip:114.113.237.102
+[2019-11-08 12:09:56]Data -> node:rmnet_data1,pre ip:114.113.237.102,cur ip:114.113.237.102
+[2019-11-08 12:09:56]Data -> system:route | awk '{print $1 " " $8}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 12:09:56]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 12:09:56]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:114.113.237.102 failed
+[2019-11-08 12:09:56]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 114.113.237.102 | grep -w rmnet_data1, expect:114.113.237.102
+[2019-11-08 12:09:57]Data -> node:rmnet_data1,result:1,host:fgservice.cn,times:36
+[2019-11-08 12:09:57]Data -> analysed fgservice.cn ip:222.178.193.135
+[2019-11-08 12:09:57]Data -> node:rmnet_data1,pre ip:222.178.193.135,cur ip:222.178.193.135
+[2019-11-08 12:09:57]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 12:09:57]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 12:09:57]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.135 failed
+[2019-11-08 12:09:57]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.135 | grep -w rmnet_data1, expect:222.178.193.135
+[2019-11-08 12:09:57]Data -> rmnet_data0:pkt rx diff:269598 269885
+[2019-11-08 12:09:57]Data -> rmnet_data1:pkt rx diff:792 900
+[2019-11-08 12:10:01]Network -> mode:5,rssi:-50,rsrp:-85,rsrq:-15,rscp:0,ecio:0,sinr:38,io:0
+[2019-11-08 12:10:03]Data -> DNS Ping Delay:rmnet_data1  114.114.115.119 -1000
+[2019-11-08 12:10:06]Network -> mode:5,rssi:-50,rsrp:-85,rsrq:-15,rscp:0,ecio:0,sinr:-28,io:0
+[2019-11-08 12:10:11]Network -> mode:5,rssi:-52,rsrp:-84,rsrq:-13,rscp:0,ecio:0,sinr:38,io:0
+[2019-11-08 12:10:13]Data -> DNS Ping Delay:rmnet_data1  123.125.81.6 -1000
+[2019-11-08 12:10:16]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-15,rscp:0,ecio:0,sinr:-26,io:0
+[2019-11-08 12:10:21]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-13,rscp:0,ecio:0,sinr:84,io:0
+[2019-11-08 12:10:23]Data -> DNS Ping Delay:rmnet_data1  223.5.5.5 -1000
+[2019-11-08 12:10:23]Data -> rmnet_data1: connect dns times:12
+[2019-11-08 12:10:23]Data -> node:rmnet_data1,result:1,addr:persist.sys.gateway_addr,pre host:ssl://prod.fgservice.cn:8888,cur host:ssl://prod.fgservice.cn:8888,times:216
+[2019-11-08 12:10:23]Data -> ssl://prod.fgservice.cn:8888
+[2019-11-08 12:10:23]Data -> indirect host domain
+[2019-11-08 12:10:23]Data -> analysed prod.fgservice.cn ip:222.178.193.138
+[2019-11-08 12:10:23]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 12:10:23]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:10:23]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:10:23]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 12:10:23]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:10:23]Data -> node:rmnet_data1,result:1,addr:persist.sys.vehicle_addr,pre host:ssl://222.178.193.138:9994,cur host:ssl://222.178.193.138:9994,times:216
+[2019-11-08 12:10:23]Data -> ssl://222.178.193.138:9994
+[2019-11-08 12:10:23]Data -> indirect host ip
+[2019-11-08 12:10:23]Data -> node:rmnet_data1,pre ip:222.178.193.138,cur ip:222.178.193.138
+[2019-11-08 12:10:23]Data -> system:route | awk '{print $1 " " $8}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:10:23]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:10:23]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 0.0.0.0/0 | grep -w rmnet_data1, expect:222.178.193.138 failed
+[2019-11-08 12:10:23]Data -> system:iptables --list -v -n -t nat | awk '{print $7 " " $9}' | grep -w 222.178.193.138 | grep -w rmnet_data1, expect:222.178.193.138
+[2019-11-08 12:10:26]Network -> mode:5,rssi:-52,rsrp:-85,rsrq:-14,rscp:0,ecio:0,sinr:44,io:0
+[2019-11-08 12:10:29]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:37
+[2019-11-08 12:10:29]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:10:31]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:-22,io:0
+[2019-11-08 12:10:36]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:-22,io:0
+[2019-11-08 12:10:41]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:-22,io:0
+[2019-11-08 12:10:46]Network -> mode:5,rssi:-52,rsrp:-84,rsrq:-13,rscp:0,ecio:0,sinr:18,io:0
+[2019-11-08 12:10:51]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-15,rscp:0,ecio:0,sinr:-24,io:0
+[2019-11-08 12:10:56]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-15,rscp:0,ecio:0,sinr:20,io:0
+[2019-11-08 12:11:01]Network -> mode:5,rssi:-50,rsrp:-85,rsrq:-14,rscp:0,ecio:0,sinr:-32,io:0
+[2019-11-08 12:11:01]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:38
+[2019-11-08 12:11:01]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:11:03]Data -> DNS Ping Delay:rmnet_data1  116.116.116.116 -1000
+[2019-11-08 12:11:06]Network -> mode:5,rssi:-52,rsrp:-84,rsrq:-13,rscp:0,ecio:0,sinr:4,io:0
+[2019-11-08 12:11:11]Network -> mode:5,rssi:-52,rsrp:-84,rsrq:-12,rscp:0,ecio:0,sinr:54,io:0
+[2019-11-08 12:11:13]Data -> DNS Ping Delay:rmnet_data1  221.5.88.88 -1000
+[2019-11-08 12:11:16]Network -> mode:5,rssi:-52,rsrp:-84,rsrq:-13,rscp:0,ecio:0,sinr:-22,io:0
+[2019-11-08 12:11:21]Network -> mode:5,rssi:-52,rsrp:-84,rsrq:-12,rscp:0,ecio:0,sinr:26,io:0
+[2019-11-08 12:11:23]Data -> DNS Ping Delay:rmnet_data1  8.8.8.8 -1000
+[2019-11-08 12:11:26]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-13,rscp:0,ecio:0,sinr:-20,io:0
+[2019-11-08 12:11:31]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-13,rscp:0,ecio:0,sinr:68,io:0
+[2019-11-08 12:11:33]Data -> DNS Ping Delay:rmnet_data1  114.114.114.114 -1000
+[2019-11-08 12:11:34]Data -> node:rmnet_data1,result:0,host:dfsk-autolink.com,times:39
+[2019-11-08 12:11:34]Data -> analysis dfsk-autolink.com ip failed
+[2019-11-08 12:11:36]Network -> mode:5,rssi:-50,rsrp:-84,rsrq:-14,rscp:0,ecio:0,sinr:-18,io:0
+[2019-11-08 12:11:41]Network -> mode:5,rssi:-50,rsrp:-83,rsrq:-13,rscp:0,ecio:0,sinr:0,io:0
+[2019-11-08 12:11:43]Data -> DNS Ping Delay:rmnet_data1  114.114.115.115 -1000

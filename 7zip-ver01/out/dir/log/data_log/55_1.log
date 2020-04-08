@@ -1,0 +1,93 @@
+[1980-01-06 08:00:15]               /\  /\                
+[1980-01-06 08:00:15]***************  \/  *****************
+[1980-01-06 08:00:15]                                      
+[1980-01-06 08:00:15] data-service start!!!!               
+[1980-01-06 08:00:15] build: Oct 13 2019 15:12:36 
+[1980-01-06 08:00:15] build: 05 14 2019 10:50:18           
+[1980-01-06 08:00:15]                                      
+[1980-01-06 08:00:15]**************************************
+[1980-01-06 08:00:15]class VehicleDataServiceStubImpl construction
+[1980-01-06 08:00:15]VehicleDataService registerService Done
+[1980-01-06 08:00:15]new VDDataModel()
+[1980-01-06 08:00:15]VDDataModel is constructed
+[1980-01-06 08:00:15]initACStatus done
+[1980-01-06 08:00:15]initVehicleData done
+[1980-01-06 08:00:15]initCrashData done
+[1980-01-06 08:00:15]initTyrePressData done
+[1980-01-06 08:00:15]initGValData done
+[1980-01-06 08:00:15]initRadarData done
+[1980-01-06 08:00:15]initBigData1 done
+[1980-01-06 08:00:15]initBigData2 done
+[1980-01-06 08:00:15]initNomalFaultData done
+[1980-01-06 08:00:15]initElecChgeData done
+[1980-01-06 08:00:15]initVehicleData1 done
+[1980-01-06 08:00:15]initCarCFGData done
+[1980-01-06 08:00:15]registerVehicleDataChangeCb Done
+[1980-01-06 08:00:15]registerVehicleData1ChangeCb Done
+[1980-01-06 08:00:15]registerHvacDataChangeCb Done
+[1980-01-06 08:00:15]registerCrashChangeCb Done
+[1980-01-06 08:00:15]registerPhoneCallChangeCb Done
+[1980-01-06 08:00:15]registerCtrlResultChangeCb Done
+[1980-01-06 08:00:15]new VDDataModelElec()
+[1980-01-06 08:00:15]VDDataModelElec is constructed
+[1980-01-06 08:00:15]initVcuData done
+[1980-01-06 08:00:15]initMotorData done
+[1980-01-06 08:00:15]initExtremumData done
+[1980-01-06 08:00:15]initFaultData done
+[1980-01-06 08:00:15]initChargeStorData done
+[1980-01-06 08:00:15]initN1DTCData done
+[1980-01-06 08:00:15]initN2DTCData done
+[1980-01-06 08:00:15]initChargeStorTempData done
+[1980-01-06 08:00:15]initCellSysNumData done
+[1980-01-06 08:00:15]initDefineData done
+[1980-01-06 08:00:15]registerVcuChangeCb Done
+[1980-01-06 08:00:15]registerMotorChangeCb Done
+[1980-01-06 08:00:15]registerExtremumChangeCb Done
+[1980-01-06 08:00:15]registerFaultChangeCb Done
+[1980-01-06 08:00:15]registerChargeStorChangeCb Done
+[1980-01-06 08:00:15]registerTyreChangeCb Done
+[1980-01-06 08:00:15]registerDTCChangeCb Done
+[1980-01-06 08:00:15]registerGValChangeCb Done
+[1980-01-06 08:00:15]registerRadarChangeCb Done
+[1980-01-06 08:00:15]registerBigData1Cb Done
+[1980-01-06 08:00:15]registerBigData2Cb Done
+[1980-01-06 08:00:15]registerNomalFaultCb Done
+[1980-01-06 08:00:15]registerCarCfgDataCb Done
+[1980-01-06 08:00:15]autolinkMcuParseDataPThread -> start
+[1980-01-06 08:00:16]MCU SERVICE IS AVAILABLE!
+[1980-01-06 08:00:16]notify mcu service handshake sucessful
+[1980-01-06 08:00:16]G:: D0 01 00 00 00 
+[1980-01-06 08:00:16]G:: D0 02 00 0F FF 00 00 80 00 00 00 
+[1980-01-06 08:00:16]G:: D0 03 FF 64 FF 64 FF 64 FF 64 FF 64 
+[1980-01-06 08:00:16]G:: D0 05 FF FF FF 03 00 
+[1980-01-06 08:00:16]G:: D0 06 02 
+[1980-01-06 08:00:16]G:: D0 07 00 
+[1980-01-06 08:00:16]G:: D0 08 00 00 00 00 00 00 00 00 00 00 
+[1980-01-06 08:00:16]G:: D0 09 FF FF 00 00 00 00 
+[1980-01-06 08:00:16]G:: D0 0A 00 00 00 00 FF FF FF FF 00 FF FF 00 77 
+[1980-01-06 08:00:16]G:: D0 0B FF FF FF FF FF FF 00 00 
+[1980-01-06 08:00:16]G:: D0 0C FF 00 00 
+[1980-01-06 08:00:16]G:: D0 0D 0F 
+[1980-01-06 08:00:16]G:: D0 0E FF 
+[1980-01-06 08:00:16]G:: D0 0F 00 00 
+[1980-01-06 08:00:16]G:: D0 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[1980-01-06 08:00:16]G:: D0 12 00 
+[1980-01-06 08:00:16]G:: 50 1C 44 46 53 4B 30 30 30 31 30 30 30 32 30 30 32 36 31 39 31 30 31 36 30 30 30 31 30 30 30 30 31 30 
+[1980-01-06 08:00:16]G:: D0 14 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[1980-01-06 08:00:16]G:: D0 15 00 
+[1980-01-06 08:00:16]G:: D0 16 00 
+[1980-01-06 08:00:16]G:: D0 1B 00 FF 
+[1980-01-06 08:00:16]G:: 50 06 31 32 33 34 35 54 30 37 30 33 54 30 30 30 31 31 30 
+[1980-01-06 08:00:16]G:: 50 0C 83 E0 E5 E7 FF 00 D3 3D 
+[1980-01-06 08:00:16]G:: D0 19 FF 
+[1980-01-06 08:00:16]G:: D0 1D 00 00 00 4D A4 00 00 4D A4 00 00 4A 39 06 FF 
+[1980-01-06 08:00:16]G:: D0 13 02 
+[1980-01-06 08:00:16]G:: D0 1E 00 
+[1980-01-06 08:00:16]G:: D0 1F 00 
+[1980-01-06 08:00:16]G:: D0 2A 00 00 00 00 00 00 00 00 00 00 
+[1980-01-06 08:00:16]ecall invalid
+[1980-01-06 08:00:16]bcall invalid
+[1980-01-06 08:00:16]icall invalid
+[1980-01-06 08:00:16]return ctrl default
+[1980-01-06 08:00:16]result: default
+[1980-01-06 08:00:16]car cfg CAR_CFG_PEPS

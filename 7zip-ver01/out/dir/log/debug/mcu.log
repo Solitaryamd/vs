@@ -1,0 +1,17 @@
+01-06 08:00:13.020 I/mcu_log ( 1461): Arm has not reboot
+11-08 10:52:42.189 E/mcu_log ( 1461):  AA
+11-08 10:53:33.049 E/mcu_log ( 1461): ERR-->[CreateMessage]-->[Line_14]
+11-08 10:53:33.049 E/mcu_log ( 1461): 
+11-08 10:56:42.749 E/mcu_log ( 1461): 
+11-08 10:56:42.749 E/mcu_log ( 1461): 
+11-08 11:05:33.389 E/mcu_log ( 1461): ERR-->[CreateMessage]-->[Line_14]
+11-08 11:05:33.389 E/mcu_log ( 1461): 
+01-06 08:00:13.149 I/mcu_log ( 1547): Arm has not reboot
+11-08 08:12:16.519 E/mcu_log ( 1547):  4D
+01-06 08:00:13.133 I/mcu_log ( 1528): Arm reboot with no heartbeat
+11-08 08:22:22.523 I/mcu_log ( 1528): Arm has not reboot
+11-08 08:22:25.523 I/mcu_log ( 1528): Arm has not reboot
+01-06 08:00:13.041 I/mcu_log ( 1548): Arm has not reboot
+01-06 08:00:13.179 I/mcu_log ( 1546): Arm has not reboot
+01-06 08:00:13.095 I/mcu_log ( 1549): Arm has not reboot
+01-06 08:00:12.370 I/mcu_log ( 1401): Arm has not reboot

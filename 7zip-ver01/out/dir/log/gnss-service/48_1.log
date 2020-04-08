@@ -1,0 +1,35 @@
+[1980-01-06 08:00:49]gnss-service:Sep 18 2019 09:51:56
+[1980-01-06 08:00:49]----------------ini_info_t start ------------------
+[1980-01-06 08:00:49]start: 1
+[1980-01-06 08:00:49]----------------ini_info_t end  ------------------
+[1980-01-06 08:00:49]init_state:KEY_GNSS_ENABLE: gnss_enable:1
+[1980-01-06 08:00:49]ipc gnss sucess
+[1980-01-06 08:00:49]gps_init start 
+[1980-01-06 08:00:49]gps_init end 
+[1980-01-06 08:00:49]gnss_enable:1
+[1980-01-06 08:00:49]gps_start start 
+[1980-01-06 08:00:49]start_gnss_service start 
+[1980-01-06 08:00:52]start_gnss_service end 
+[1980-01-06 08:00:52]gps_set_indications start 
+[1980-01-06 08:00:52]gps_set_indications end 
+[1980-01-06 08:00:52]set_position_mode start 
+[1980-01-06 08:00:52]set_position_mode end 
+[1980-01-06 08:00:52]start_navigation start 
+[1980-01-06 08:00:52]start_navigation end 
+[1980-01-06 08:00:52]gps_start end 
+[1980-01-06 08:00:52]hw gnss sucess
+[1980-01-06 08:00:52]loop:0
+[1980-01-06 08:00:53]pwrmode_handler->seq:1 mode:1
+[1980-01-06 08:00:53]init power sucess
+[1980-01-06 08:00:53]num:0
+[1980-01-06 08:00:53]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[1980-01-06 08:00:55]wkup_handler->wkup:0x00000001
+[2019-10-30 09:10:01]wkup_handler->wkup:0x00000000
+[2019-10-30 09:10:03]num:0
+[2019-10-30 09:10:03]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[2019-10-30 09:10:33]num:0
+[2019-10-30 09:10:33]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[2019-10-30 09:11:03]num:0
+[2019-10-30 09:11:03]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[2019-10-30 09:11:33]num:0
+[2019-10-30 09:11:33]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0

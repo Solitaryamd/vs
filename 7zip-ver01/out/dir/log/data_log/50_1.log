@@ -1,0 +1,58 @@
+[1980-01-06 08:00:11]               /\  /\                
+[1980-01-06 08:00:11]***************  \/  *****************
+[1980-01-06 08:00:11]                                      
+[1980-01-06 08:00:11] data-service start!!!!               
+[1980-01-06 08:00:11] build: Jul 18 2019 17:53:02 
+[1980-01-06 08:00:11] build: 05 14 2019 10:50:18           
+[1980-01-06 08:00:11]                                      
+[1980-01-06 08:00:11]**************************************
+[1980-01-06 08:00:11]class VehicleDataServiceStubImpl construction
+[1980-01-06 08:00:11]VehicleDataService registerService Done
+[1980-01-06 08:00:11]new VDDataModel()
+[1980-01-06 08:00:11]VDDataModel is constructed
+[1980-01-06 08:00:11]initACStatus done
+[1980-01-06 08:00:11]initVehicleData done
+[1980-01-06 08:00:11]initCrashData done
+[1980-01-06 08:00:11]initTyrePressData done
+[1980-01-06 08:00:11]initGValData done
+[1980-01-06 08:00:11]initRadarData done
+[1980-01-06 08:00:11]initBigData1 done
+[1980-01-06 08:00:11]initBigData2 done
+[1980-01-06 08:00:11]initNomalFaultData done
+[1980-01-06 08:00:11]initElecChgeData done
+[1980-01-06 08:00:11]initVehicleData1 done
+[1980-01-06 08:00:11]initCarCFGData done
+[1980-01-06 08:00:11]registerVehicleDataChangeCb Done
+[1980-01-06 08:00:11]registerVehicleData1ChangeCb Done
+[1980-01-06 08:00:11]registerHvacDataChangeCb Done
+[1980-01-06 08:00:11]registerCrashChangeCb Done
+[1980-01-06 08:00:11]registerPhoneCallChangeCb Done
+[1980-01-06 08:00:11]registerCtrlResultChangeCb Done
+[1980-01-06 08:00:11]new VDDataModelElec()
+[1980-01-06 08:00:11]VDDataModelElec is constructed
+[1980-01-06 08:00:11]initVcuData done
+[1980-01-06 08:00:11]initMotorData done
+[1980-01-06 08:00:11]initExtremumData done
+[1980-01-06 08:00:11]initFaultData done
+[1980-01-06 08:00:11]initChargeStorData done
+[1980-01-06 08:00:11]initN1DTCData done
+[1980-01-06 08:00:11]initN2DTCData done
+[1980-01-06 08:00:11]initChargeStorTempData done
+[1980-01-06 08:00:11]initCellSysNumData done
+[1980-01-06 08:00:11]initDefineData done
+[1980-01-06 08:00:11]registerVcuChangeCb Done
+[1980-01-06 08:00:11]registerMotorChangeCb Done
+[1980-01-06 08:00:11]registerExtremumChangeCb Done
+[1980-01-06 08:00:11]registerFaultChangeCb Done
+[1980-01-06 08:00:11]registerChargeStorChangeCb Done
+[1980-01-06 08:00:11]registerTyreChangeCb Done
+[1980-01-06 08:00:11]registerDTCChangeCb Done
+[1980-01-06 08:00:11]registerGValChangeCb Done
+[1980-01-06 08:00:11]registerRadarChangeCb Done
+[1980-01-06 08:00:11]registerBigData1Cb Done
+[1980-01-06 08:00:11]registerBigData2Cb Done
+[1980-01-06 08:00:11]registerNomalFaultCb Done
+[1980-01-06 08:00:11]registerCarCfgDataCb Done
+[1980-01-06 08:00:11]autolinkMcuParseDataPThread -> start
+[1980-01-06 08:00:11]MCU SERVICE IS AVAILABLE!
+[1980-01-06 08:00:11]notify mcu service handshake sucessful

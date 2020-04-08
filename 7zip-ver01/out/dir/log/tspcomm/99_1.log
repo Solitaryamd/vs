@@ -1,0 +1,237 @@
+[1980-01-06 08:00:21]
+[1980-01-06 08:00:21]*****************************
+[1980-01-06 08:00:21]           startup          
+[1980-01-06 08:00:21] build: Oct 31 2019 14:33:06 
+[1980-01-06 08:00:21]*****************************
+[1980-01-06 08:00:21]
+[1980-01-06 08:00:21]OPEN CONF FILE: /etc/qbtsp.conf 
+[1980-01-06 08:00:21]set file conf gateway server addr!
+[1980-01-06 08:00:21]tbox version: DFSK000100020026000000040000 
+[1980-01-06 08:00:21]Service has registered!
+[1980-01-06 08:00:22]Vin changed, Redo login!
+[1980-01-06 08:00:22]Service is available! power-service
+[1980-01-06 08:00:22]TSPClient::startup is running...
+[1980-01-06 08:00:22]get pdid...
+[1980-01-06 08:00:22]use asys conf pdid: DFSK0001000200261910160001000010
+[1980-01-06 08:00:22]get iccid...
+[1980-01-06 08:00:22]use asys conf iccid: 89860918700009221026
+[1980-01-06 08:00:22]TSPClient::gval_thread is running...
+[1980-01-06 08:00:22]TSPClient::data_upload is running...
+[1980-01-06 08:00:22]TSPClient::waiting is running...
+[1980-01-06 08:00:22]TSPClient::recieve is running...
+[1980-01-06 08:00:22]SEND MSG, MSGID: 1, MSGTYPE: LOGOUT_REQ,
+[1980-01-06 08:00:22]subscribePwrService success:  0 1
+[1980-01-06 08:00:22]getPwrMode success:  0 1 1
+[1980-01-06 08:00:22]BROADCAST RECV: POWER RUNNING
+[1980-01-06 08:00:22]sqlite init fail, ret -1, thread safe 1, db path /data/db/tspcomm.db
+[1980-01-06 08:00:22]start to running...
+[1980-01-06 08:00:22]replyPwrMode success:  0 1
+[1980-01-06 08:00:22]Service is available! fota-service
+[1980-01-06 08:00:22]processConneted success:  0 0
+[1980-01-06 08:00:22]Service is available! rescue-service
+[1980-01-06 08:00:22]Service is available! remote-service
+[1980-01-06 08:00:22]Service is available! data-service
+[1980-01-06 08:00:22]Service is available! alarm-service
+[1980-01-06 08:00:22]CREATE MQTT OBJECT SUCC, ret 0
+[1980-01-06 08:00:22]SERVER URL: ssl://222.178.193.138:9994 
+[1980-01-06 08:00:22]CLIENT ID : DFSK0001000200261910160001000010 
+[1980-01-06 08:00:22]Init level 2 addr, level 1 - gateway addr, level 2 - vehicle addr
+[1980-01-06 08:00:22]connect server, url: ssl://222.178.193.138:9994 
+[1980-01-06 08:00:22]connect server: fail, ret -1
+[1980-01-06 08:00:22]disconnect mqtt server, -3
+[1980-01-06 08:00:23]connect server, url: ssl://222.178.193.138:9994 
+[1980-01-06 08:00:23]connect server: fail, ret -1
+[1980-01-06 08:00:23]disconnect mqtt server, -3
+[1980-01-06 08:00:25]connect server, url: ssl://222.178.193.138:9994 
+[1980-01-06 08:00:25]connect server: fail, ret -1
+[1980-01-06 08:00:25]disconnect mqtt server, -3
+[1980-01-06 08:00:28]connect server, url: ssl://222.178.193.138:9994 
+[1980-01-06 08:00:28]connect server: succ, ret 0
+[1980-01-06 08:00:28]subscribe topic: gate/per/device/DFSK0001000200261910160001000010/order 
+[1980-01-06 08:00:28]subscribe topic: succ, ret 0
+[1980-01-06 08:00:28]get vin...
+[1980-01-06 08:00:28]use asys conf vin: 12345T0703T000110
+[1980-01-06 08:00:28]PDID : DFSK0001000200261910160001000010
+[1980-01-06 08:00:28]ICCID: 89860918700009221026
+[1980-01-06 08:00:28]VIN  : 12345T0703T000110
+[1980-01-06 08:00:28]VERSION: DFSK000100020026000000040000_R
+[1980-01-06 08:00:28]SEND MSG, MSGID: 2, MSGTYPE: LOGIN_REQ,
+[1980-01-06 08:00:28]WAITING FOR LOGIN RESPONSE
+[1980-01-06 08:00:31]RECV MSG: LOGIN_RESP, MSGID: 2
+[1980-01-06 08:00:31]waiting login return timein
+[2019-11-08 08:19:19]setTime success: 0 1
+[2019-11-08 08:19:19]LOGIN SUCCESS! GET TOKEN: 17a6b4c0-f728-4425-a101-b3e02717f7b4
+[2019-11-08 08:19:19]method SetTspLoginSta succ, result true
+[2019-11-08 08:19:19]RECV MSG: LOGIN_RESP, MSGID: 2
+[2019-11-08 08:19:02]setTime success: 0 1
+[2019-11-08 08:19:02]LOGIN SUCCESS! GET TOKEN: c684fb6b-91a6-4356-b603-ff5dec2c28c8
+[2019-11-08 08:19:02]method SetTspLoginSta succ, result true
+[2019-11-08 08:19:44]mqtt recieve failed, rc = -3
+[2019-11-08 08:19:44]disconnect mqtt server, -3
+[2019-11-08 08:19:46]connect server, url: ssl://222.178.193.138:9994 
+[2019-11-08 08:19:46]connect server: succ, ret 0
+[2019-11-08 08:19:46]subscribe topic: gate/per/device/DFSK0001000200261910160001000010/order 
+[2019-11-08 08:19:46]subscribe topic: succ, ret 0
+[2019-11-08 08:19:46]get vin...
+[2019-11-08 08:19:46]use asys conf vin: 12345T0703T000110
+[2019-11-08 08:19:46]PDID : DFSK0001000200261910160001000010
+[2019-11-08 08:19:46]ICCID: 89860918700009221026
+[2019-11-08 08:19:46]VIN  : 12345T0703T000110
+[2019-11-08 08:19:46]VERSION: DFSK000100020026000000040000_R
+[2019-11-08 08:19:46]SEND MSG, MSGID: 3, MSGTYPE: LOGIN_REQ,
+[2019-11-08 08:19:48]RECV MSG: LOGIN_RESP, MSGID: 3
+[2019-11-08 08:20:06]setTime success: 0 1
+[2019-11-08 08:20:06]LOGIN SUCCESS! GET TOKEN: c8c13578-42e5-4f08-8d73-911062cb4858
+[2019-11-08 08:20:06]method SetTspLoginSta succ, result true
+[2019-11-08 08:20:06]RECV MSG: LOGIN_RESP, MSGID: 3
+[2019-11-08 08:19:49]setTime success: 0 1
+[2019-11-08 08:19:49]LOGIN SUCCESS! GET TOKEN: 08434954-dc76-432d-ba7e-c656d83145e7
+[2019-11-08 08:19:49]method SetTspLoginSta succ, result true
+[2019-11-08 08:19:53]method GetVehicleStatus succ
+[2019-11-08 08:19:53]method GetACStatus succ
+[2019-11-08 08:19:53]method GetTyreData succ
+[2019-11-08 08:19:53]method getChargeStorStatus succ
+[2019-11-08 08:19:53]method GetVCUStatus succ
+[2019-11-08 08:19:53]method getChgeData succ
+[2019-11-08 08:19:53]SEND MSG, MSGID: 4, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 08:20:47]replyPwrMode success:  0 1
+[2019-11-08 08:20:49]BROADCAST RECV: POWER STANDBY
+[2019-11-08 08:20:49]method GetVehicleStatus succ
+[2019-11-08 08:20:49]method GetACStatus succ
+[2019-11-08 08:20:49]method GetTyreData succ
+[2019-11-08 08:20:49]method getChargeStorStatus succ
+[2019-11-08 08:20:49]method GetVCUStatus succ
+[2019-11-08 08:20:49]method getChgeData succ
+[2019-11-08 08:20:52]SEND MSG, MSGID: 5, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 08:20:53]SEND MSG, MSGID: 6, MSGTYPE: LOGOUT_REQ,
+[2019-11-08 08:20:53]disconnect mqtt server, 0
+[2019-11-08 08:20:53]sqlite close succ, ret 0
+[2019-11-08 08:20:53]ready to sleep...
+[2019-11-08 08:20:53]replyPwrMode success:  0 1
+[2019-11-08 08:20:54]method GetVehicleStatus succ
+[2019-11-08 08:20:54]method GetACStatus succ
+[2019-11-08 08:20:54]method GetTyreData succ
+[2019-11-08 08:20:54]disconnect mqtt server, -3
+[2019-11-08 08:20:54]method getChargeStorStatus succ
+[2019-11-08 08:20:54]method GetVCUStatus succ
+[2019-11-08 08:20:54]method getChgeData succ
+[2019-11-08 08:22:10]method GetVehicleStatus succ
+[2019-11-08 08:22:10]method GetACStatus succ
+[2019-11-08 08:22:10]method GetTyreData succ
+[2019-11-08 08:22:10]method getChargeStorStatus succ
+[2019-11-08 08:22:10]method GetVCUStatus succ
+[2019-11-08 08:22:10]method getChgeData succ
+[2019-11-08 08:22:22]BROADCAST RECV: motorfire mode 0
+[2019-11-08 08:22:24]BROADCAST RECV: POWER RUNNING
+[2019-11-08 08:22:24]sqlite init succ, ret 0, thread safe 1, db path /data/db/tspcomm.db
+[2019-11-08 08:22:24]start to running...
+[2019-11-08 08:22:24]replyPwrMode success:  0 1
+[2019-11-08 08:22:26]connect server, url: ssl://222.178.193.138:9994 
+[2019-11-08 08:22:26]connect server: succ, ret 0
+[2019-11-08 08:22:26]subscribe topic: gate/per/device/DFSK0001000200261910160001000010/order 
+[2019-11-08 08:22:26]subscribe topic: succ, ret 0
+[2019-11-08 08:22:26]get vin...
+[2019-11-08 08:22:26]use asys conf vin: 12345T0703T000110
+[2019-11-08 08:22:26]PDID : DFSK0001000200261910160001000010
+[2019-11-08 08:22:26]ICCID: 89860918700009221026
+[2019-11-08 08:22:26]VIN  : 12345T0703T000110
+[2019-11-08 08:22:26]VERSION: DFSK000100020026000000040000_R
+[2019-11-08 08:22:26]SEND MSG, MSGID: 9, MSGTYPE: LOGIN_REQ,
+[2019-11-08 08:22:26]CALL METHOD: remoteDiagnosisRequest, callStatus 0, ret 0
+[2019-11-08 08:22:26]IGNITION ID: 16
+[2019-11-08 08:22:26]method GetVehicleStatus succ
+[2019-11-08 08:22:26]method getChgeData succ
+[2019-11-08 08:22:26]RECV MSG: LOGIN_RESP, MSGID: 9
+[2019-11-08 08:22:44]setTime success: 0 1
+[2019-11-08 08:22:44]LOGIN SUCCESS! GET TOKEN: 20e85819-c44e-4c33-8b53-b73e83aafdd9
+[2019-11-08 08:22:44]method SetTspLoginSta succ, result true
+[2019-11-08 08:22:44]RECV MSG: LOGIN_RESP, MSGID: 9
+[2019-11-08 08:22:27]setTime success: 0 1
+[2019-11-08 08:22:27]LOGIN SUCCESS! GET TOKEN: c72b2f7d-a3aa-430e-8572-a3d306f3d452
+[2019-11-08 08:22:27]method SetTspLoginSta succ, result true
+[2019-11-08 08:22:38]GPS longitude: 0, latitude: 0, valid: 0
+[2019-11-08 08:22:38]SEND MSG, MSGID: 10, MSGTYPE: MOTOR_FIRE_REPORT,
+[2019-11-08 08:22:45]BROADCAST RECV: remote diagnosis result, source 0, id: 0 
+[2019-11-08 08:22:45]method GetVehicleStatus succ
+[2019-11-08 08:22:45]method GetTyreData succ
+[2019-11-08 08:22:45]diagnosis result success, buffer len: 176
+[2019-11-08 08:22:45]ECUID: 0x702
+[2019-11-08 08:22:45]DTCS: c1868708
+[2019-11-08 08:22:45]ECUID: 0x702
+[2019-11-08 08:22:45]DTCS: c1648708
+[2019-11-08 08:22:45]ECUID: 0x702
+[2019-11-08 08:22:45]DTCS: c2648709
+[2019-11-08 08:22:45]ECUID: 0x701
+[2019-11-08 08:22:45]DTCS: c135872f
+[2019-11-08 08:22:45]ECUID: 0x701
+[2019-11-08 08:22:45]DTCS: 901e962f
+[2019-11-08 08:22:45]ECUID: 0x701
+[2019-11-08 08:22:45]DTCS: 9310962c
+[2019-11-08 08:22:45]ECUID: 0x701
+[2019-11-08 08:22:45]DTCS: 9410962f
+[2019-11-08 08:22:45]ECUID: 0x701
+[2019-11-08 08:22:45]DTCS: 9510962f
+[2019-11-08 08:22:45]ECUID: 0x726
+[2019-11-08 08:22:45]DTCS: 58731408
+[2019-11-08 08:22:45]ECUID: 0x726
+[2019-11-08 08:22:45]DTCS: c1228708
+[2019-11-08 08:22:45]ECUID: 0x725
+[2019-11-08 08:22:45]DTCS: da308709
+[2019-11-08 08:22:45]ECUID: 0x725
+[2019-11-08 08:22:45]DTCS: c2648709
+[2019-11-08 08:22:45]ECUID: 0x725
+[2019-11-08 08:22:45]DTCS: d1598709
+[2019-11-08 08:22:45]ECUID: 0x725
+[2019-11-08 08:22:45]DTCS: c1228708
+[2019-11-08 08:22:45]ECUID: 0x725
+[2019-11-08 08:22:45]DTCS: c1018708
+[2019-11-08 08:22:45]ECUID: 0x725
+[2019-11-08 08:22:45]DTCS: c1008708
+[2019-11-08 08:22:45]ECUID: 0x725
+[2019-11-08 08:22:45]DTCS: c1408708
+[2019-11-08 08:22:45]ECUID: 0x725
+[2019-11-08 08:22:45]DTCS: c4948709
+[2019-11-08 08:22:45]ECUID: 0x725
+[2019-11-08 08:22:45]DTCS: c0730008
+[2019-11-08 08:22:45]ECUID: 0x728
+[2019-11-08 08:22:45]DTCS: c1038709
+[2019-11-08 08:22:45]ECUID: 0x728
+[2019-11-08 08:22:45]DTCS: d1598709
+[2019-11-08 08:22:45]ECUID: 0x728
+[2019-11-08 08:22:45]DTCS: c2648709
+[2019-11-08 08:22:45]SEND MSG, MSGID: 0, MSGTYPE: DIAGNOSIS_RESPONSE,
+[2019-11-08 08:23:13]method GetVehicleStatus succ
+[2019-11-08 08:23:13]method GetACStatus succ
+[2019-11-08 08:23:13]method GetTyreData succ
+[2019-11-08 08:23:13]method getChargeStorStatus succ
+[2019-11-08 08:23:13]method GetVCUStatus succ
+[2019-11-08 08:23:13]method getChgeData succ
+[2019-11-08 08:23:13]SEND MSG, MSGID: 12, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 08:24:13]method GetVehicleStatus succ
+[2019-11-08 08:24:13]method GetACStatus succ
+[2019-11-08 08:24:13]method GetTyreData succ
+[2019-11-08 08:24:13]method getChargeStorStatus succ
+[2019-11-08 08:24:13]method GetVCUStatus succ
+[2019-11-08 08:24:13]method getChgeData succ
+[2019-11-08 08:24:13]SEND MSG, MSGID: 13, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 08:25:13]method GetVehicleStatus succ
+[2019-11-08 08:25:13]method GetACStatus succ
+[2019-11-08 08:25:13]method GetTyreData succ
+[2019-11-08 08:25:13]method getChargeStorStatus succ
+[2019-11-08 08:25:13]method GetVCUStatus succ
+[2019-11-08 08:25:13]method getChgeData succ
+[2019-11-08 08:25:13]SEND MSG, MSGID: 14, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 08:26:13]method GetVehicleStatus succ
+[2019-11-08 08:26:13]method GetACStatus succ
+[2019-11-08 08:26:14]method GetTyreData succ
+[2019-11-08 08:26:14]method getChargeStorStatus succ
+[2019-11-08 08:26:14]method GetVCUStatus succ
+[2019-11-08 08:26:14]method getChgeData succ
+[2019-11-08 08:26:14]SEND MSG, MSGID: 15, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 08:27:14]method GetVehicleStatus succ
+[2019-11-08 08:27:14]method GetACStatus succ
+[2019-11-08 08:27:14]method GetTyreData succ
+[2019-11-08 08:27:14]method getChargeStorStatus succ
+[2019-11-08 08:27:14]method GetVCUStatus succ
+[2019-11-08 08:27:14]method getChgeData succ
+[2019-11-08 08:27:14]SEND MSG, MSGID: 16, MSGTYPE: VEHICLE_STATUS,

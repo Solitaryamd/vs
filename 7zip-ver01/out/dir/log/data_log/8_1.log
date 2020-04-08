@@ -1,0 +1,75 @@
+[1980-01-06 08:00:44]               /\  /\                
+[1980-01-06 08:00:44]***************  \/  *****************
+[1980-01-06 08:00:44]                                      
+[1980-01-06 08:00:44] data-service V(2.0) start!!!!        
+[1980-01-06 08:00:44] build: Sep 29 2019 02:38:02 
+[1980-01-06 08:00:44] build: 06 17 2019 10:51:18           
+[1980-01-06 08:00:44]                                      
+[1980-01-06 08:00:44]**************************************
+[1980-01-06 08:00:44]class VehicleDataServiceStubImpl construction
+[1980-01-06 08:00:44]VehicleDataService registerService Done
+[1980-01-06 08:00:44]new VDDataModel()
+[1980-01-06 08:00:44]VDDataModel is constructed
+[1980-01-06 08:00:44]initACStatus done
+[1980-01-06 08:00:44]initVehicleData done
+[1980-01-06 08:00:44]initCrashData done
+[1980-01-06 08:00:44]initTyrePressData done
+[1980-01-06 08:00:44]initGValData done
+[1980-01-06 08:00:44]initRadarData done
+[1980-01-06 08:00:44]initNomalFaultData done
+[1980-01-06 08:00:44]initCanFormatData done
+[1980-01-06 08:00:44]initCarTypeData done
+[1980-01-06 08:00:44]initAutoStopData done
+[1980-01-06 08:00:44]initSeatData done
+[1980-01-06 08:00:44]registerVehicleDataChangeCb Done
+[1980-01-06 08:00:44]registerHvacDataChangeCb Done
+[1980-01-06 08:00:44]registerCrashChangeCb Done
+[1980-01-06 08:00:44]registerPhoneCallChangeCb Done
+[1980-01-06 08:00:44]registerCtrlResultChangeCb Done
+[1980-01-06 08:00:44]new VDDataModelElec()
+[1980-01-06 08:00:44]VDDataModelElec is constructed
+[1980-01-06 08:00:44]initVcuData done
+[1980-01-06 08:00:44]initMotorData done
+[1980-01-06 08:00:44]initExtremumData done
+[1980-01-06 08:00:44]initFaultData done
+[1980-01-06 08:00:44]initChargeStorData done
+[1980-01-06 08:00:44]initN1DTCData done
+[1980-01-06 08:00:44]initN2DTCData done
+[1980-01-06 08:00:44]initChargeStorTempData done
+[1980-01-06 08:00:44]initCellSysNumData done
+[1980-01-06 08:00:44]initDefineData done
+[1980-01-06 08:00:44]registerVcuChangeCb Done
+[1980-01-06 08:00:44]registerMotorChangeCb Done
+[1980-01-06 08:00:44]registerExtremumChangeCb Done
+[1980-01-06 08:00:44]registerFaultChangeCb Done
+[1980-01-06 08:00:44]registerChargeStorChangeCb Done
+[1980-01-06 08:00:44]registerTyreChangeCb Done
+[1980-01-06 08:00:44]registerDTCChangeCb Done
+[1980-01-06 08:00:44]registerGValChangeCb Done
+[1980-01-06 08:00:44]registerRadarChangeCb Done
+[1980-01-06 08:00:44]registerNomalFaultCb Done
+[1980-01-06 08:00:44]registerBigDataCb Done
+[1980-01-06 08:00:44]registerAutoStopDataCb Done
+[1980-01-06 08:00:44]registerCarSteChangeCb Done
+[1980-01-06 08:00:44]registerTboxDTCChangeCb Done
+[1980-01-06 08:00:44]autolinkMcuParseDataPThread -> start
+[1980-01-06 08:00:44]MCU SERVICE IS AVAILABLE!
+[1980-01-06 08:00:45]notify mcu service handshake sucessful
+[1980-01-06 08:00:45]SYSTEM SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:46]GPS SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:46]NETWORK SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:46]SYSTEM SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:48]SYSTEM SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:48]GPS SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:48]NETWORK SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:49]SYSTEM SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:49]SYSTEM SERVICE IS AVAILABLE!
+[1980-01-06 08:00:49]new VDDataModelCtrl()
+[1980-01-06 08:00:49]VDDataModelCtrl is constructed
+[1980-01-06 08:00:50]GPS SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:50]GPS SERVICE IS AVAILABLE!
+[1980-01-06 08:00:50]NETWORK SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:52]NETWORK SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:54]NETWORK SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:56]NETWORK SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:56]NETWORK SERVICE IS AVAILABLE!

@@ -1,0 +1,88 @@
+[1980-01-06 08:00:16]gnss-service:Oct 31 2019 14:37:18
+[1980-01-06 08:00:16]----------------ini_info_t start ------------------
+[1980-01-06 08:00:16]start: 1
+[1980-01-06 08:00:16]----------------ini_info_t end  ------------------
+[1980-01-06 08:00:16]init_state:KEY_GNSS_ENABLE: gnss_enable:1
+[1980-01-06 08:00:16]ipc gnss sucess
+[1980-01-06 08:00:16]gps_init start 
+[1980-01-06 08:00:17]gps_init end 
+[1980-01-06 08:00:17]gnss_enable:1
+[1980-01-06 08:00:17]gps_start start 
+[1980-01-06 08:00:17]start_gnss_service start 
+[1980-01-06 08:00:19]start_gnss_service end 
+[1980-01-06 08:00:19]gps_set_indications start 
+[1980-01-06 08:00:19]gps_set_indications end 
+[1980-01-06 08:00:19]set_position_mode start 
+[1980-01-06 08:00:19]set_position_mode end 
+[1980-01-06 08:00:19]start_navigation start 
+[1980-01-06 08:00:19]start_navigation end 
+[1980-01-06 08:00:19]gps_start end 
+[1980-01-06 08:00:19]hw gnss sucess
+[1980-01-06 08:00:19]loop:0
+[1980-01-06 08:00:20]pwrmode_handler->seq:1 mode:1
+[1980-01-06 08:00:20]init power sucess
+[1980-01-06 08:00:20]num:0
+[1980-01-06 08:00:20]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[1980-01-06 08:00:22]wkup_handler->wkup:0x00000001
+[2019-11-08 08:19:19]wkup_handler->wkup:0x00000000
+[2019-11-08 08:19:20]num:0
+[2019-11-08 08:19:20]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[2019-11-08 08:19:51]num:0
+[2019-11-08 08:19:51]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[2019-11-08 08:20:21]num:0
+[2019-11-08 08:20:21]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[2019-11-08 08:20:47]pwrmode_handler->seq:2 mode:2
+[2019-11-08 08:20:49]pwrmode_handler->seq:3 mode:3
+[2019-11-08 08:20:49]goto standby
+[2019-11-08 08:20:49]gnss_enable:0
+[2019-11-08 08:20:49]gps_stop start 
+[2019-11-08 08:20:49]gps_set_indications start 
+[2019-11-08 08:20:49]gps_set_indications end 
+[2019-11-08 08:20:49]stop_navigation start 
+[2019-11-08 08:20:49]stop_navigation end 
+[2019-11-08 08:20:49]stop_gnss_service start 
+[2019-11-08 08:20:51]num:0
+[2019-11-08 08:20:51]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[2019-11-08 08:20:52]stop_gnss_service end 
+[2019-11-08 08:20:52]gps_stop end 
+[2019-11-08 08:21:24]num:0
+[2019-11-08 08:21:24]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[2019-11-08 08:22:04]num:0
+[2019-11-08 08:22:04]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[2019-11-08 08:22:24]pwrmode_handler->seq:4 mode:1
+[2019-11-08 08:22:24]goto running
+[2019-11-08 08:22:24]gnss_enable:1
+[2019-11-08 08:22:24]gps_start start 
+[2019-11-08 08:22:24]start_gnss_service start 
+[2019-11-08 08:22:27]start_gnss_service end 
+[2019-11-08 08:22:27]gps_set_indications start 
+[2019-11-08 08:22:27]gps_set_indications end 
+[2019-11-08 08:22:27]set_position_mode start 
+[2019-11-08 08:22:27]set_position_mode end 
+[2019-11-08 08:22:27]start_navigation start 
+[2019-11-08 08:22:27]start_navigation end 
+[2019-11-08 08:22:27]gps_start end 
+[2019-11-08 08:22:41]num:0
+[2019-11-08 08:22:41]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[2019-11-08 08:23:11]num:0
+[2019-11-08 08:23:11]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[2019-11-08 08:23:41]num:0
+[2019-11-08 08:23:41]valid:0,latitude:0,longitude:0,altitude:0,accuracy:0,bearing:0,speed:0,timestamp:0
+[2019-11-08 08:24:11]num:7
+[2019-11-08 08:24:11]valid:1,latitude:22576707,longitude:113916993,altitude:30000000,accuracy:10000000,bearing:340300000,speed:460977,timestamp:1573183252000
+[2019-11-08 08:24:41]num:6
+[2019-11-08 08:24:41]valid:1,latitude:22576814,longitude:113916904,altitude:30000000,accuracy:10000000,bearing:0,speed:0,timestamp:1573183282000
+[2019-11-08 08:25:11]num:6
+[2019-11-08 08:25:11]valid:1,latitude:22577353,longitude:113915844,altitude:10000000,accuracy:10000000,bearing:317200000,speed:6001008,timestamp:1573183312000
+[2019-11-08 08:25:41]num:6
+[2019-11-08 08:25:41]valid:1,latitude:22578061,longitude:113915576,altitude:14000000,accuracy:9000000,bearing:53100000,speed:2650679,timestamp:1573183342000
+[2019-11-08 08:26:11]num:6
+[2019-11-08 08:26:11]valid:1,latitude:22578394,longitude:113916024,altitude:16000000,accuracy:9000000,bearing:126500000,speed:744647,timestamp:1573183372000
+[2019-11-08 08:26:41]num:6
+[2019-11-08 08:26:41]valid:1,latitude:22577768,longitude:113916650,altitude:19000000,accuracy:9000000,bearing:132399992,speed:3570350,timestamp:1573183402000
+[2019-11-08 08:27:11]num:5
+[2019-11-08 08:27:11]valid:1,latitude:22577152,longitude:113917314,altitude:18000000,accuracy:10000000,bearing:133200000,speed:2100095,timestamp:1573183432000
+[2019-11-08 08:27:41]num:6
+[2019-11-08 08:27:41]valid:1,latitude:22577018,longitude:113916828,altitude:30000000,accuracy:27000000,bearing:297900000,speed:1770706,timestamp:1573183462000
+[2019-11-08 08:28:11]num:6
+[2019-11-08 08:28:11]valid:1,latitude:22576965,longitude:113916701,altitude:35000000,accuracy:28000000,bearing:0,speed:0,timestamp:1573183492000

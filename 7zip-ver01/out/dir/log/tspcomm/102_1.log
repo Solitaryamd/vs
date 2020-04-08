@@ -1,0 +1,1236 @@
+[1980-01-06 08:00:27]
+[1980-01-06 08:00:27]*****************************
+[1980-01-06 08:00:27]           startup          
+[1980-01-06 08:00:27] build: Oct 31 2019 14:33:06 
+[1980-01-06 08:00:27]*****************************
+[1980-01-06 08:00:27]
+[1980-01-06 08:00:27]OPEN CONF FILE: /etc/qbtsp.conf 
+[1980-01-06 08:00:27]set file conf gateway server addr!
+[1980-01-06 08:00:27]tbox version: DFSK000100020026000000040000 
+[1980-01-06 08:00:27]Service has registered!
+[1980-01-06 08:00:27]Service is available! power-service
+[1980-01-06 08:00:27]TSPClient::startup is running...
+[1980-01-06 08:00:27]Vin changed, Redo login!
+[1980-01-06 08:00:27]SEND MSG, MSGID: 1, MSGTYPE: LOGOUT_REQ,
+[1980-01-06 08:00:27]TSPClient::recieve is running...
+[1980-01-06 08:00:27]TSPClient::waiting is running...
+[1980-01-06 08:00:27]TSPClient::data_upload is running...
+[1980-01-06 08:00:27]TSPClient::gval_thread is running...
+[1980-01-06 08:00:27]VEHICLE DATA SERVICE IS NOT AVAILABLE!
+[1980-01-06 08:00:27]get pdid...
+[1980-01-06 08:00:27]use asys conf pdid: DFSK0001000200261910160001000010
+[1980-01-06 08:00:27]get iccid...
+[1980-01-06 08:00:27]use asys conf iccid: 89860918700009221026
+[1980-01-06 08:00:27]subscribePwrService success:  0 1
+[1980-01-06 08:00:27]getPwrMode success:  0 1 1
+[1980-01-06 08:00:27]BROADCAST RECV: POWER RUNNING
+[1980-01-06 08:00:27]sqlite init fail, ret -1, thread safe 1, db path /data/db/tspcomm.db
+[1980-01-06 08:00:27]start to running...
+[1980-01-06 08:00:27]CREATE MQTT OBJECT SUCC, ret 0
+[1980-01-06 08:00:27]SERVER URL: ssl://222.178.193.138:9994 
+[1980-01-06 08:00:27]CLIENT ID : DFSK0001000200261910160001000010 
+[1980-01-06 08:00:27]Init level 2 addr, level 1 - gateway addr, level 2 - vehicle addr
+[1980-01-06 08:00:27]replyPwrMode success:  0 1
+[1980-01-06 08:00:27]Service is available! fota-service
+[1980-01-06 08:00:27]processConneted success:  0 0
+[1980-01-06 08:00:27]Service is available! rescue-service
+[1980-01-06 08:00:27]Service is available! remote-service
+[1980-01-06 08:00:27]Service is available! data-service
+[1980-01-06 08:00:27]Service is available! alarm-service
+[1980-01-06 08:00:28]connect server, url: ssl://222.178.193.138:9994 
+[1980-01-06 08:00:28]connect server: succ, ret 0
+[1980-01-06 08:00:28]subscribe topic: gate/per/device/DFSK0001000200261910160001000010/order 
+[1980-01-06 08:00:28]subscribe topic: succ, ret 0
+[1980-01-06 08:00:28]get vin...
+[1980-01-06 08:00:28]use asys conf vin: 12345T0703T000110
+[1980-01-06 08:00:28]PDID : DFSK0001000200261910160001000010
+[1980-01-06 08:00:28]ICCID: 89860918700009221026
+[1980-01-06 08:00:28]VIN  : 12345T0703T000110
+[1980-01-06 08:00:28]VERSION: DFSK000100020026000000040000_R
+[1980-01-06 08:00:28]SEND MSG, MSGID: 2, MSGTYPE: LOGIN_REQ,
+[1980-01-06 08:00:28]WAITING FOR LOGIN RESPONSE
+[1980-01-06 08:00:30]RECV MSG: LOGIN_RESP, MSGID: 2
+[1980-01-06 08:00:30]waiting login return timein
+[2019-11-08 08:57:27]setTime success: 0 1
+[2019-11-08 08:57:27]LOGIN SUCCESS! GET TOKEN: 2db9b6a2-e7aa-46fa-b22f-5620e0beb20a
+[2019-11-08 08:57:27]method SetTspLoginSta succ, result true
+[2019-11-08 08:57:27]RECV MSG: LOGIN_RESP, MSGID: 2
+[2019-11-08 08:57:44]setTime success: 0 1
+[2019-11-08 08:57:44]LOGIN SUCCESS! GET TOKEN: d7597294-03f5-470b-9872-10bd671ad1f9
+[2019-11-08 08:57:44]method SetTspLoginSta succ, result true
+[2019-11-08 08:57:47]mqtt recieve failed, rc = -1
+[2019-11-08 08:57:47]disconnect mqtt server, -3
+[2019-11-08 08:57:49]connect server, url: ssl://222.178.193.138:9994 
+[2019-11-08 08:57:49]connect server: succ, ret 0
+[2019-11-08 08:57:49]subscribe topic: gate/per/device/DFSK0001000200261910160001000010/order 
+[2019-11-08 08:57:49]subscribe topic: succ, ret 0
+[2019-11-08 08:57:49]get vin...
+[2019-11-08 08:57:49]use asys conf vin: 12345T0703T000110
+[2019-11-08 08:57:49]PDID : DFSK0001000200261910160001000010
+[2019-11-08 08:57:49]ICCID: 89860918700009221026
+[2019-11-08 08:57:49]VIN  : 12345T0703T000110
+[2019-11-08 08:57:49]VERSION: DFSK000100020026000000040000_R
+[2019-11-08 08:57:49]SEND MSG, MSGID: 3, MSGTYPE: LOGIN_REQ,
+[2019-11-08 08:57:51]RECV MSG: LOGIN_RESP, MSGID: 3
+[2019-11-08 08:57:52]setTime success: 0 1
+[2019-11-08 08:57:52]LOGIN SUCCESS! GET TOKEN: 0ed84d9e-5771-44e6-9635-e49549a703c7
+[2019-11-08 08:57:52]method SetTspLoginSta succ, result true
+[2019-11-08 08:57:52]RECV MSG: LOGIN_RESP, MSGID: 3
+[2019-11-08 08:57:35]setTime success: 0 1
+[2019-11-08 08:57:35]LOGIN SUCCESS! GET TOKEN: bcde0219-7814-4661-ac98-d5a453e9fd82
+[2019-11-08 08:57:35]method SetTspLoginSta succ, result true
+[2019-11-08 08:58:24]method GetVehicleStatus succ
+[2019-11-08 08:58:24]method GetACStatus succ
+[2019-11-08 08:58:24]method GetTyreData succ
+[2019-11-08 08:58:24]method getChargeStorStatus succ
+[2019-11-08 08:58:24]method GetVCUStatus succ
+[2019-11-08 08:58:24]method getChgeData succ
+[2019-11-08 08:58:24]SEND MSG, MSGID: 4, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 08:59:24]method GetVehicleStatus succ
+[2019-11-08 08:59:24]method GetACStatus succ
+[2019-11-08 08:59:24]method GetTyreData succ
+[2019-11-08 08:59:24]method getChargeStorStatus succ
+[2019-11-08 08:59:24]method GetVCUStatus succ
+[2019-11-08 08:59:24]method getChgeData succ
+[2019-11-08 08:59:24]SEND MSG, MSGID: 5, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:00:24]method GetVehicleStatus succ
+[2019-11-08 09:00:24]method GetACStatus succ
+[2019-11-08 09:00:24]method GetTyreData succ
+[2019-11-08 09:00:24]method getChargeStorStatus succ
+[2019-11-08 09:00:24]method GetVCUStatus succ
+[2019-11-08 09:00:24]method getChgeData succ
+[2019-11-08 09:00:24]SEND MSG, MSGID: 6, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:01:24]method GetVehicleStatus succ
+[2019-11-08 09:01:24]method GetACStatus succ
+[2019-11-08 09:01:24]method GetTyreData succ
+[2019-11-08 09:01:24]method getChargeStorStatus succ
+[2019-11-08 09:01:24]method GetVCUStatus succ
+[2019-11-08 09:01:24]method getChgeData succ
+[2019-11-08 09:01:24]SEND MSG, MSGID: 7, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:02:24]method GetVehicleStatus succ
+[2019-11-08 09:02:24]method GetACStatus succ
+[2019-11-08 09:02:24]method GetTyreData succ
+[2019-11-08 09:02:24]method getChargeStorStatus succ
+[2019-11-08 09:02:24]method GetVCUStatus succ
+[2019-11-08 09:02:24]method getChgeData succ
+[2019-11-08 09:02:24]SEND MSG, MSGID: 8, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:03:25]method GetVehicleStatus succ
+[2019-11-08 09:03:25]method GetACStatus succ
+[2019-11-08 09:03:25]method GetTyreData succ
+[2019-11-08 09:03:25]method getChargeStorStatus succ
+[2019-11-08 09:03:25]method GetVCUStatus succ
+[2019-11-08 09:03:25]method getChgeData succ
+[2019-11-08 09:03:25]SEND MSG, MSGID: 9, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:04:25]method GetVehicleStatus succ
+[2019-11-08 09:04:25]method GetACStatus succ
+[2019-11-08 09:04:25]method GetTyreData succ
+[2019-11-08 09:04:25]method getChargeStorStatus succ
+[2019-11-08 09:04:25]method GetVCUStatus succ
+[2019-11-08 09:04:25]method getChgeData succ
+[2019-11-08 09:04:25]SEND MSG, MSGID: 10, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:05:25]method GetVehicleStatus succ
+[2019-11-08 09:05:25]method GetACStatus succ
+[2019-11-08 09:05:25]method GetTyreData succ
+[2019-11-08 09:05:25]method getChargeStorStatus succ
+[2019-11-08 09:05:25]method GetVCUStatus succ
+[2019-11-08 09:05:25]method getChgeData succ
+[2019-11-08 09:05:25]SEND MSG, MSGID: 11, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:06:25]method GetVehicleStatus succ
+[2019-11-08 09:06:25]method GetACStatus succ
+[2019-11-08 09:06:25]method GetTyreData succ
+[2019-11-08 09:06:25]method getChargeStorStatus succ
+[2019-11-08 09:06:25]method GetVCUStatus succ
+[2019-11-08 09:06:25]method getChgeData succ
+[2019-11-08 09:06:25]SEND MSG, MSGID: 12, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:07:25]method GetVehicleStatus succ
+[2019-11-08 09:07:25]method GetACStatus succ
+[2019-11-08 09:07:25]method GetTyreData succ
+[2019-11-08 09:07:25]method getChargeStorStatus succ
+[2019-11-08 09:07:25]method GetVCUStatus succ
+[2019-11-08 09:07:25]method getChgeData succ
+[2019-11-08 09:07:25]SEND MSG, MSGID: 13, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:08:25]method GetVehicleStatus succ
+[2019-11-08 09:08:25]method GetACStatus succ
+[2019-11-08 09:08:25]method GetTyreData succ
+[2019-11-08 09:08:25]method getChargeStorStatus succ
+[2019-11-08 09:08:25]method GetVCUStatus succ
+[2019-11-08 09:08:25]method getChgeData succ
+[2019-11-08 09:08:25]SEND MSG, MSGID: 14, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:09:25]method GetVehicleStatus succ
+[2019-11-08 09:09:25]method GetACStatus succ
+[2019-11-08 09:09:25]method GetTyreData succ
+[2019-11-08 09:09:25]method getChargeStorStatus succ
+[2019-11-08 09:09:25]method GetVCUStatus succ
+[2019-11-08 09:09:25]method getChgeData succ
+[2019-11-08 09:09:25]SEND MSG, MSGID: 15, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:10:26]method GetVehicleStatus succ
+[2019-11-08 09:10:26]method GetACStatus succ
+[2019-11-08 09:10:26]method GetTyreData succ
+[2019-11-08 09:10:26]method getChargeStorStatus succ
+[2019-11-08 09:10:26]method GetVCUStatus succ
+[2019-11-08 09:10:26]method getChgeData succ
+[2019-11-08 09:10:26]SEND MSG, MSGID: 16, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:11:26]method GetVehicleStatus succ
+[2019-11-08 09:11:26]method GetACStatus succ
+[2019-11-08 09:11:26]method GetTyreData succ
+[2019-11-08 09:11:26]method getChargeStorStatus succ
+[2019-11-08 09:11:26]method GetVCUStatus succ
+[2019-11-08 09:11:26]method getChgeData succ
+[2019-11-08 09:11:26]SEND MSG, MSGID: 17, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:12:26]method GetVehicleStatus succ
+[2019-11-08 09:12:26]method GetACStatus succ
+[2019-11-08 09:12:26]method GetTyreData succ
+[2019-11-08 09:12:26]method getChargeStorStatus succ
+[2019-11-08 09:12:26]method GetVCUStatus succ
+[2019-11-08 09:12:26]method getChgeData succ
+[2019-11-08 09:12:26]SEND MSG, MSGID: 18, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:13:26]method GetVehicleStatus succ
+[2019-11-08 09:13:26]method GetACStatus succ
+[2019-11-08 09:13:26]method GetTyreData succ
+[2019-11-08 09:13:26]method getChargeStorStatus succ
+[2019-11-08 09:13:26]method GetVCUStatus succ
+[2019-11-08 09:13:26]method getChgeData succ
+[2019-11-08 09:13:26]SEND MSG, MSGID: 19, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:14:26]method GetVehicleStatus succ
+[2019-11-08 09:14:26]method GetACStatus succ
+[2019-11-08 09:14:26]method GetTyreData succ
+[2019-11-08 09:14:26]method getChargeStorStatus succ
+[2019-11-08 09:14:26]method GetVCUStatus succ
+[2019-11-08 09:14:26]method getChgeData succ
+[2019-11-08 09:14:26]SEND MSG, MSGID: 20, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:15:26]method GetVehicleStatus succ
+[2019-11-08 09:15:26]method GetACStatus succ
+[2019-11-08 09:15:26]method GetTyreData succ
+[2019-11-08 09:15:26]method getChargeStorStatus succ
+[2019-11-08 09:15:26]method GetVCUStatus succ
+[2019-11-08 09:15:26]method getChgeData succ
+[2019-11-08 09:15:26]SEND MSG, MSGID: 21, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:16:26]method GetVehicleStatus succ
+[2019-11-08 09:16:26]method GetACStatus succ
+[2019-11-08 09:16:26]method GetTyreData succ
+[2019-11-08 09:16:26]method getChargeStorStatus succ
+[2019-11-08 09:16:26]method GetVCUStatus succ
+[2019-11-08 09:16:26]method getChgeData succ
+[2019-11-08 09:16:26]SEND MSG, MSGID: 22, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:17:27]method GetVehicleStatus succ
+[2019-11-08 09:17:27]method GetACStatus succ
+[2019-11-08 09:17:27]method GetTyreData succ
+[2019-11-08 09:17:27]method getChargeStorStatus succ
+[2019-11-08 09:17:27]method GetVCUStatus succ
+[2019-11-08 09:17:27]method getChgeData succ
+[2019-11-08 09:17:27]SEND MSG, MSGID: 23, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:18:27]method GetVehicleStatus succ
+[2019-11-08 09:18:27]method GetACStatus succ
+[2019-11-08 09:18:27]method GetTyreData succ
+[2019-11-08 09:18:27]method getChargeStorStatus succ
+[2019-11-08 09:18:27]method GetVCUStatus succ
+[2019-11-08 09:18:27]method getChgeData succ
+[2019-11-08 09:18:27]SEND MSG, MSGID: 24, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:19:27]method GetVehicleStatus succ
+[2019-11-08 09:19:27]method GetACStatus succ
+[2019-11-08 09:19:27]method GetTyreData succ
+[2019-11-08 09:19:27]method getChargeStorStatus succ
+[2019-11-08 09:19:27]method GetVCUStatus succ
+[2019-11-08 09:19:27]method getChgeData succ
+[2019-11-08 09:19:27]SEND MSG, MSGID: 25, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:20:27]method GetVehicleStatus succ
+[2019-11-08 09:20:27]method GetACStatus succ
+[2019-11-08 09:20:27]method GetTyreData succ
+[2019-11-08 09:20:27]method getChargeStorStatus succ
+[2019-11-08 09:20:27]method GetVCUStatus succ
+[2019-11-08 09:20:27]method getChgeData succ
+[2019-11-08 09:20:27]SEND MSG, MSGID: 26, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:21:27]method GetVehicleStatus succ
+[2019-11-08 09:21:27]method GetACStatus succ
+[2019-11-08 09:21:27]method GetTyreData succ
+[2019-11-08 09:21:27]method getChargeStorStatus succ
+[2019-11-08 09:21:27]method GetVCUStatus succ
+[2019-11-08 09:21:27]method getChgeData succ
+[2019-11-08 09:21:27]SEND MSG, MSGID: 27, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:22:27]method GetVehicleStatus succ
+[2019-11-08 09:22:27]method GetACStatus succ
+[2019-11-08 09:22:27]method GetTyreData succ
+[2019-11-08 09:22:27]method getChargeStorStatus succ
+[2019-11-08 09:22:27]method GetVCUStatus succ
+[2019-11-08 09:22:27]method getChgeData succ
+[2019-11-08 09:22:27]SEND MSG, MSGID: 28, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:23:27]method GetVehicleStatus succ
+[2019-11-08 09:23:27]method GetACStatus succ
+[2019-11-08 09:23:27]method GetTyreData succ
+[2019-11-08 09:23:27]method getChargeStorStatus succ
+[2019-11-08 09:23:27]method GetVCUStatus succ
+[2019-11-08 09:23:27]method getChgeData succ
+[2019-11-08 09:23:27]SEND MSG, MSGID: 29, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:24:27]method GetVehicleStatus succ
+[2019-11-08 09:24:27]method GetACStatus succ
+[2019-11-08 09:24:27]method GetTyreData succ
+[2019-11-08 09:24:27]method getChargeStorStatus succ
+[2019-11-08 09:24:27]method GetVCUStatus succ
+[2019-11-08 09:24:27]method getChgeData succ
+[2019-11-08 09:24:28]SEND MSG, MSGID: 30, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:25:28]method GetVehicleStatus succ
+[2019-11-08 09:25:28]method GetACStatus succ
+[2019-11-08 09:25:28]method GetTyreData succ
+[2019-11-08 09:25:28]method getChargeStorStatus succ
+[2019-11-08 09:25:28]method GetVCUStatus succ
+[2019-11-08 09:25:28]method getChgeData succ
+[2019-11-08 09:25:28]SEND MSG, MSGID: 31, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:26:28]method GetVehicleStatus succ
+[2019-11-08 09:26:28]method GetACStatus succ
+[2019-11-08 09:26:28]method GetTyreData succ
+[2019-11-08 09:26:28]method getChargeStorStatus succ
+[2019-11-08 09:26:28]method GetVCUStatus succ
+[2019-11-08 09:26:28]method getChgeData succ
+[2019-11-08 09:26:28]SEND MSG, MSGID: 32, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:27:28]method GetVehicleStatus succ
+[2019-11-08 09:27:28]method GetACStatus succ
+[2019-11-08 09:27:28]method GetTyreData succ
+[2019-11-08 09:27:28]method getChargeStorStatus succ
+[2019-11-08 09:27:28]method GetVCUStatus succ
+[2019-11-08 09:27:28]method getChgeData succ
+[2019-11-08 09:27:28]SEND MSG, MSGID: 33, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:28:28]method GetVehicleStatus succ
+[2019-11-08 09:28:28]method GetACStatus succ
+[2019-11-08 09:28:28]method GetTyreData succ
+[2019-11-08 09:28:28]method getChargeStorStatus succ
+[2019-11-08 09:28:28]method GetVCUStatus succ
+[2019-11-08 09:28:28]method getChgeData succ
+[2019-11-08 09:28:28]SEND MSG, MSGID: 34, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:29:28]method GetVehicleStatus succ
+[2019-11-08 09:29:28]method GetACStatus succ
+[2019-11-08 09:29:28]method GetTyreData succ
+[2019-11-08 09:29:28]method getChargeStorStatus succ
+[2019-11-08 09:29:28]method GetVCUStatus succ
+[2019-11-08 09:29:28]method getChgeData succ
+[2019-11-08 09:29:28]SEND MSG, MSGID: 35, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:30:28]method GetVehicleStatus succ
+[2019-11-08 09:30:28]method GetACStatus succ
+[2019-11-08 09:30:28]method GetTyreData succ
+[2019-11-08 09:30:28]method getChargeStorStatus succ
+[2019-11-08 09:30:28]method GetVCUStatus succ
+[2019-11-08 09:30:28]method getChgeData succ
+[2019-11-08 09:30:28]SEND MSG, MSGID: 36, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:31:28]method GetVehicleStatus succ
+[2019-11-08 09:31:28]method GetACStatus succ
+[2019-11-08 09:31:28]method GetTyreData succ
+[2019-11-08 09:31:28]method getChargeStorStatus succ
+[2019-11-08 09:31:28]method GetVCUStatus succ
+[2019-11-08 09:31:28]method getChgeData succ
+[2019-11-08 09:31:28]SEND MSG, MSGID: 37, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:32:29]method GetVehicleStatus succ
+[2019-11-08 09:32:29]method GetACStatus succ
+[2019-11-08 09:32:29]method GetTyreData succ
+[2019-11-08 09:32:29]method getChargeStorStatus succ
+[2019-11-08 09:32:29]method GetVCUStatus succ
+[2019-11-08 09:32:29]method getChgeData succ
+[2019-11-08 09:32:29]SEND MSG, MSGID: 38, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:33:29]method GetVehicleStatus succ
+[2019-11-08 09:33:29]method GetACStatus succ
+[2019-11-08 09:33:29]method GetTyreData succ
+[2019-11-08 09:33:29]method getChargeStorStatus succ
+[2019-11-08 09:33:29]method GetVCUStatus succ
+[2019-11-08 09:33:29]method getChgeData succ
+[2019-11-08 09:33:29]SEND MSG, MSGID: 39, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:34:29]method GetVehicleStatus succ
+[2019-11-08 09:34:29]method GetACStatus succ
+[2019-11-08 09:34:29]method GetTyreData succ
+[2019-11-08 09:34:29]method getChargeStorStatus succ
+[2019-11-08 09:34:29]method GetVCUStatus succ
+[2019-11-08 09:34:29]method getChgeData succ
+[2019-11-08 09:34:29]SEND MSG, MSGID: 40, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:35:29]method GetVehicleStatus succ
+[2019-11-08 09:35:29]method GetACStatus succ
+[2019-11-08 09:35:29]method GetTyreData succ
+[2019-11-08 09:35:29]method getChargeStorStatus succ
+[2019-11-08 09:35:29]method GetVCUStatus succ
+[2019-11-08 09:35:29]method getChgeData succ
+[2019-11-08 09:35:29]SEND MSG, MSGID: 41, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:36:29]method GetVehicleStatus succ
+[2019-11-08 09:36:29]method GetACStatus succ
+[2019-11-08 09:36:29]method GetTyreData succ
+[2019-11-08 09:36:29]method getChargeStorStatus succ
+[2019-11-08 09:36:29]method GetVCUStatus succ
+[2019-11-08 09:36:29]method getChgeData succ
+[2019-11-08 09:36:29]SEND MSG, MSGID: 42, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:37:29]method GetVehicleStatus succ
+[2019-11-08 09:37:29]method GetACStatus succ
+[2019-11-08 09:37:29]method GetTyreData succ
+[2019-11-08 09:37:29]method getChargeStorStatus succ
+[2019-11-08 09:37:29]method GetVCUStatus succ
+[2019-11-08 09:37:29]method getChgeData succ
+[2019-11-08 09:37:29]SEND MSG, MSGID: 43, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:38:29]method GetVehicleStatus succ
+[2019-11-08 09:38:29]method GetACStatus succ
+[2019-11-08 09:38:29]method GetTyreData succ
+[2019-11-08 09:38:29]method getChargeStorStatus succ
+[2019-11-08 09:38:29]method GetVCUStatus succ
+[2019-11-08 09:38:29]method getChgeData succ
+[2019-11-08 09:38:29]SEND MSG, MSGID: 44, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:39:29]method GetVehicleStatus succ
+[2019-11-08 09:39:29]method GetACStatus succ
+[2019-11-08 09:39:29]method GetTyreData succ
+[2019-11-08 09:39:29]method getChargeStorStatus succ
+[2019-11-08 09:39:29]method GetVCUStatus succ
+[2019-11-08 09:39:29]method getChgeData succ
+[2019-11-08 09:39:30]SEND MSG, MSGID: 45, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:40:30]method GetVehicleStatus succ
+[2019-11-08 09:40:30]method GetACStatus succ
+[2019-11-08 09:40:30]method GetTyreData succ
+[2019-11-08 09:40:30]method getChargeStorStatus succ
+[2019-11-08 09:40:30]method GetVCUStatus succ
+[2019-11-08 09:40:30]method getChgeData succ
+[2019-11-08 09:40:30]SEND MSG, MSGID: 46, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:41:30]method GetVehicleStatus succ
+[2019-11-08 09:41:30]method GetACStatus succ
+[2019-11-08 09:41:30]method GetTyreData succ
+[2019-11-08 09:41:30]method getChargeStorStatus succ
+[2019-11-08 09:41:30]method GetVCUStatus succ
+[2019-11-08 09:41:30]method getChgeData succ
+[2019-11-08 09:41:30]SEND MSG, MSGID: 47, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:42:30]method GetVehicleStatus succ
+[2019-11-08 09:42:30]method GetACStatus succ
+[2019-11-08 09:42:30]method GetTyreData succ
+[2019-11-08 09:42:30]method getChargeStorStatus succ
+[2019-11-08 09:42:30]method GetVCUStatus succ
+[2019-11-08 09:42:30]method getChgeData succ
+[2019-11-08 09:42:30]SEND MSG, MSGID: 48, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:43:30]method GetVehicleStatus succ
+[2019-11-08 09:43:30]method GetACStatus succ
+[2019-11-08 09:43:30]method GetTyreData succ
+[2019-11-08 09:43:30]method getChargeStorStatus succ
+[2019-11-08 09:43:30]method GetVCUStatus succ
+[2019-11-08 09:43:30]method getChgeData succ
+[2019-11-08 09:43:30]SEND MSG, MSGID: 49, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:44:30]method GetVehicleStatus succ
+[2019-11-08 09:44:30]method GetACStatus succ
+[2019-11-08 09:44:30]method GetTyreData succ
+[2019-11-08 09:44:30]method getChargeStorStatus succ
+[2019-11-08 09:44:30]method GetVCUStatus succ
+[2019-11-08 09:44:30]method getChgeData succ
+[2019-11-08 09:44:30]SEND MSG, MSGID: 50, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:45:30]method GetVehicleStatus succ
+[2019-11-08 09:45:30]method GetACStatus succ
+[2019-11-08 09:45:30]method GetTyreData succ
+[2019-11-08 09:45:30]method getChargeStorStatus succ
+[2019-11-08 09:45:30]method GetVCUStatus succ
+[2019-11-08 09:45:30]method getChgeData succ
+[2019-11-08 09:45:30]SEND MSG, MSGID: 51, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:46:30]method GetVehicleStatus succ
+[2019-11-08 09:46:30]method GetACStatus succ
+[2019-11-08 09:46:30]method GetTyreData succ
+[2019-11-08 09:46:30]method getChargeStorStatus succ
+[2019-11-08 09:46:30]method GetVCUStatus succ
+[2019-11-08 09:46:30]method getChgeData succ
+[2019-11-08 09:46:30]SEND MSG, MSGID: 52, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:47:31]method GetVehicleStatus succ
+[2019-11-08 09:47:31]method GetACStatus succ
+[2019-11-08 09:47:31]method GetTyreData succ
+[2019-11-08 09:47:31]method getChargeStorStatus succ
+[2019-11-08 09:47:31]method GetVCUStatus succ
+[2019-11-08 09:47:31]method getChgeData succ
+[2019-11-08 09:47:31]SEND MSG, MSGID: 53, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:48:31]method GetVehicleStatus succ
+[2019-11-08 09:48:31]method GetACStatus succ
+[2019-11-08 09:48:31]method GetTyreData succ
+[2019-11-08 09:48:31]method getChargeStorStatus succ
+[2019-11-08 09:48:31]method GetVCUStatus succ
+[2019-11-08 09:48:31]method getChgeData succ
+[2019-11-08 09:48:31]SEND MSG, MSGID: 54, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:49:31]method GetVehicleStatus succ
+[2019-11-08 09:49:31]method GetACStatus succ
+[2019-11-08 09:49:31]method GetTyreData succ
+[2019-11-08 09:49:31]method getChargeStorStatus succ
+[2019-11-08 09:49:31]method GetVCUStatus succ
+[2019-11-08 09:49:31]method getChgeData succ
+[2019-11-08 09:49:31]SEND MSG, MSGID: 55, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:50:31]method GetVehicleStatus succ
+[2019-11-08 09:50:31]method GetACStatus succ
+[2019-11-08 09:50:31]method GetTyreData succ
+[2019-11-08 09:50:31]method getChargeStorStatus succ
+[2019-11-08 09:50:31]method GetVCUStatus succ
+[2019-11-08 09:50:31]method getChgeData succ
+[2019-11-08 09:50:31]SEND MSG, MSGID: 56, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:51:31]method GetVehicleStatus succ
+[2019-11-08 09:51:31]method GetACStatus succ
+[2019-11-08 09:51:31]method GetTyreData succ
+[2019-11-08 09:51:31]method getChargeStorStatus succ
+[2019-11-08 09:51:31]method GetVCUStatus succ
+[2019-11-08 09:51:31]method getChgeData succ
+[2019-11-08 09:51:31]SEND MSG, MSGID: 57, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:52:31]method GetVehicleStatus succ
+[2019-11-08 09:52:31]method GetACStatus succ
+[2019-11-08 09:52:31]method GetTyreData succ
+[2019-11-08 09:52:31]method getChargeStorStatus succ
+[2019-11-08 09:52:31]method GetVCUStatus succ
+[2019-11-08 09:52:31]method getChgeData succ
+[2019-11-08 09:52:31]SEND MSG, MSGID: 58, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:53:31]method GetVehicleStatus succ
+[2019-11-08 09:53:31]method GetACStatus succ
+[2019-11-08 09:53:31]method GetTyreData succ
+[2019-11-08 09:53:31]method getChargeStorStatus succ
+[2019-11-08 09:53:31]method GetVCUStatus succ
+[2019-11-08 09:53:31]method getChgeData succ
+[2019-11-08 09:53:31]SEND MSG, MSGID: 59, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:54:31]method GetVehicleStatus succ
+[2019-11-08 09:54:31]method GetACStatus succ
+[2019-11-08 09:54:31]method GetTyreData succ
+[2019-11-08 09:54:31]method getChargeStorStatus succ
+[2019-11-08 09:54:31]method GetVCUStatus succ
+[2019-11-08 09:54:31]method getChgeData succ
+[2019-11-08 09:54:31]SEND MSG, MSGID: 60, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:55:32]method GetVehicleStatus succ
+[2019-11-08 09:55:32]method GetACStatus succ
+[2019-11-08 09:55:32]method GetTyreData succ
+[2019-11-08 09:55:32]method getChargeStorStatus succ
+[2019-11-08 09:55:32]method GetVCUStatus succ
+[2019-11-08 09:55:32]method getChgeData succ
+[2019-11-08 09:55:32]SEND MSG, MSGID: 61, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:56:32]method GetVehicleStatus succ
+[2019-11-08 09:56:32]method GetACStatus succ
+[2019-11-08 09:56:32]method GetTyreData succ
+[2019-11-08 09:56:32]method getChargeStorStatus succ
+[2019-11-08 09:56:32]method GetVCUStatus succ
+[2019-11-08 09:56:32]method getChgeData succ
+[2019-11-08 09:56:32]SEND MSG, MSGID: 62, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:57:32]method GetVehicleStatus succ
+[2019-11-08 09:57:32]method GetACStatus succ
+[2019-11-08 09:57:32]method GetTyreData succ
+[2019-11-08 09:57:32]method getChargeStorStatus succ
+[2019-11-08 09:57:32]method GetVCUStatus succ
+[2019-11-08 09:57:32]method getChgeData succ
+[2019-11-08 09:57:32]SEND MSG, MSGID: 63, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:58:32]method GetVehicleStatus succ
+[2019-11-08 09:58:32]method GetACStatus succ
+[2019-11-08 09:58:32]method GetTyreData succ
+[2019-11-08 09:58:32]method getChargeStorStatus succ
+[2019-11-08 09:58:32]method GetVCUStatus succ
+[2019-11-08 09:58:32]method getChgeData succ
+[2019-11-08 09:58:32]SEND MSG, MSGID: 64, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 09:59:32]method GetVehicleStatus succ
+[2019-11-08 09:59:32]method GetACStatus succ
+[2019-11-08 09:59:32]method GetTyreData succ
+[2019-11-08 09:59:32]method getChargeStorStatus succ
+[2019-11-08 09:59:32]method GetVCUStatus succ
+[2019-11-08 09:59:32]method getChgeData succ
+[2019-11-08 09:59:32]SEND MSG, MSGID: 65, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:00:32]method GetVehicleStatus succ
+[2019-11-08 10:00:32]method GetACStatus succ
+[2019-11-08 10:00:32]method GetTyreData succ
+[2019-11-08 10:00:32]method getChargeStorStatus succ
+[2019-11-08 10:00:32]method GetVCUStatus succ
+[2019-11-08 10:00:32]method getChgeData succ
+[2019-11-08 10:00:32]SEND MSG, MSGID: 66, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:01:32]method GetVehicleStatus succ
+[2019-11-08 10:01:32]method GetACStatus succ
+[2019-11-08 10:01:32]method GetTyreData succ
+[2019-11-08 10:01:32]method getChargeStorStatus succ
+[2019-11-08 10:01:32]method GetVCUStatus succ
+[2019-11-08 10:01:32]method getChgeData succ
+[2019-11-08 10:01:33]SEND MSG, MSGID: 67, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:02:33]method GetVehicleStatus succ
+[2019-11-08 10:02:33]method GetACStatus succ
+[2019-11-08 10:02:33]method GetTyreData succ
+[2019-11-08 10:02:33]method getChargeStorStatus succ
+[2019-11-08 10:02:33]method GetVCUStatus succ
+[2019-11-08 10:02:33]method getChgeData succ
+[2019-11-08 10:02:33]SEND MSG, MSGID: 68, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:03:33]method GetVehicleStatus succ
+[2019-11-08 10:03:33]method GetACStatus succ
+[2019-11-08 10:03:33]method GetTyreData succ
+[2019-11-08 10:03:33]method getChargeStorStatus succ
+[2019-11-08 10:03:33]method GetVCUStatus succ
+[2019-11-08 10:03:33]method getChgeData succ
+[2019-11-08 10:03:33]SEND MSG, MSGID: 69, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:04:33]method GetVehicleStatus succ
+[2019-11-08 10:04:33]method GetACStatus succ
+[2019-11-08 10:04:33]method GetTyreData succ
+[2019-11-08 10:04:33]method getChargeStorStatus succ
+[2019-11-08 10:04:33]method GetVCUStatus succ
+[2019-11-08 10:04:33]method getChgeData succ
+[2019-11-08 10:04:33]SEND MSG, MSGID: 70, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:05:33]method GetVehicleStatus succ
+[2019-11-08 10:05:33]method GetACStatus succ
+[2019-11-08 10:05:33]method GetTyreData succ
+[2019-11-08 10:05:33]method getChargeStorStatus succ
+[2019-11-08 10:05:33]method GetVCUStatus succ
+[2019-11-08 10:05:33]method getChgeData succ
+[2019-11-08 10:05:33]SEND MSG, MSGID: 71, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:06:33]method GetVehicleStatus succ
+[2019-11-08 10:06:33]method GetACStatus succ
+[2019-11-08 10:06:33]method GetTyreData succ
+[2019-11-08 10:06:33]method getChargeStorStatus succ
+[2019-11-08 10:06:33]method GetVCUStatus succ
+[2019-11-08 10:06:33]method getChgeData succ
+[2019-11-08 10:06:33]SEND MSG, MSGID: 72, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:07:33]method GetVehicleStatus succ
+[2019-11-08 10:07:33]method GetACStatus succ
+[2019-11-08 10:07:33]method GetTyreData succ
+[2019-11-08 10:07:33]method getChargeStorStatus succ
+[2019-11-08 10:07:33]method GetVCUStatus succ
+[2019-11-08 10:07:33]method getChgeData succ
+[2019-11-08 10:07:33]SEND MSG, MSGID: 73, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:08:33]method GetVehicleStatus succ
+[2019-11-08 10:08:33]method GetACStatus succ
+[2019-11-08 10:08:33]method GetTyreData succ
+[2019-11-08 10:08:33]method getChargeStorStatus succ
+[2019-11-08 10:08:33]method GetVCUStatus succ
+[2019-11-08 10:08:33]method getChgeData succ
+[2019-11-08 10:08:34]SEND MSG, MSGID: 74, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:09:34]method GetVehicleStatus succ
+[2019-11-08 10:09:34]method GetACStatus succ
+[2019-11-08 10:09:34]method GetTyreData succ
+[2019-11-08 10:09:34]method getChargeStorStatus succ
+[2019-11-08 10:09:34]method GetVCUStatus succ
+[2019-11-08 10:09:34]method getChgeData succ
+[2019-11-08 10:09:34]SEND MSG, MSGID: 75, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:10:34]method GetVehicleStatus succ
+[2019-11-08 10:10:34]method GetACStatus succ
+[2019-11-08 10:10:34]method GetTyreData succ
+[2019-11-08 10:10:34]method getChargeStorStatus succ
+[2019-11-08 10:10:34]method GetVCUStatus succ
+[2019-11-08 10:10:34]method getChgeData succ
+[2019-11-08 10:10:34]SEND MSG, MSGID: 76, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:11:34]method GetVehicleStatus succ
+[2019-11-08 10:11:34]method GetACStatus succ
+[2019-11-08 10:11:34]method GetTyreData succ
+[2019-11-08 10:11:34]method getChargeStorStatus succ
+[2019-11-08 10:11:34]method GetVCUStatus succ
+[2019-11-08 10:11:34]method getChgeData succ
+[2019-11-08 10:11:34]SEND MSG, MSGID: 77, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:12:34]method GetVehicleStatus succ
+[2019-11-08 10:12:34]method GetACStatus succ
+[2019-11-08 10:12:34]method GetTyreData succ
+[2019-11-08 10:12:34]method getChargeStorStatus succ
+[2019-11-08 10:12:34]method GetVCUStatus succ
+[2019-11-08 10:12:34]method getChgeData succ
+[2019-11-08 10:12:34]SEND MSG, MSGID: 78, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:13:34]method GetVehicleStatus succ
+[2019-11-08 10:13:34]method GetACStatus succ
+[2019-11-08 10:13:34]method GetTyreData succ
+[2019-11-08 10:13:34]method getChargeStorStatus succ
+[2019-11-08 10:13:34]method GetVCUStatus succ
+[2019-11-08 10:13:34]method getChgeData succ
+[2019-11-08 10:13:34]SEND MSG, MSGID: 79, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:14:34]method GetVehicleStatus succ
+[2019-11-08 10:14:34]method GetACStatus succ
+[2019-11-08 10:14:34]method GetTyreData succ
+[2019-11-08 10:14:34]method getChargeStorStatus succ
+[2019-11-08 10:14:34]method GetVCUStatus succ
+[2019-11-08 10:14:34]method getChgeData succ
+[2019-11-08 10:14:34]SEND MSG, MSGID: 80, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:15:34]method GetVehicleStatus succ
+[2019-11-08 10:15:34]method GetACStatus succ
+[2019-11-08 10:15:34]method GetTyreData succ
+[2019-11-08 10:15:34]method getChargeStorStatus succ
+[2019-11-08 10:15:34]method GetVCUStatus succ
+[2019-11-08 10:15:34]method getChgeData succ
+[2019-11-08 10:15:34]SEND MSG, MSGID: 81, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:16:35]method GetVehicleStatus succ
+[2019-11-08 10:16:35]method GetACStatus succ
+[2019-11-08 10:16:35]method GetTyreData succ
+[2019-11-08 10:16:35]method getChargeStorStatus succ
+[2019-11-08 10:16:35]method GetVCUStatus succ
+[2019-11-08 10:16:35]method getChgeData succ
+[2019-11-08 10:16:35]SEND MSG, MSGID: 82, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:17:35]method GetVehicleStatus succ
+[2019-11-08 10:17:35]method GetACStatus succ
+[2019-11-08 10:17:35]method GetTyreData succ
+[2019-11-08 10:17:35]method getChargeStorStatus succ
+[2019-11-08 10:17:35]method GetVCUStatus succ
+[2019-11-08 10:17:35]method getChgeData succ
+[2019-11-08 10:17:35]SEND MSG, MSGID: 83, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:18:35]method GetVehicleStatus succ
+[2019-11-08 10:18:35]method GetACStatus succ
+[2019-11-08 10:18:35]method GetTyreData succ
+[2019-11-08 10:18:35]method getChargeStorStatus succ
+[2019-11-08 10:18:35]method GetVCUStatus succ
+[2019-11-08 10:18:35]method getChgeData succ
+[2019-11-08 10:18:35]SEND MSG, MSGID: 84, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:19:35]method GetVehicleStatus succ
+[2019-11-08 10:19:35]method GetACStatus succ
+[2019-11-08 10:19:35]method GetTyreData succ
+[2019-11-08 10:19:35]method getChargeStorStatus succ
+[2019-11-08 10:19:35]method GetVCUStatus succ
+[2019-11-08 10:19:35]method getChgeData succ
+[2019-11-08 10:19:35]SEND MSG, MSGID: 85, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:20:35]method GetVehicleStatus succ
+[2019-11-08 10:20:35]method GetACStatus succ
+[2019-11-08 10:20:35]method GetTyreData succ
+[2019-11-08 10:20:35]method getChargeStorStatus succ
+[2019-11-08 10:20:35]method GetVCUStatus succ
+[2019-11-08 10:20:35]method getChgeData succ
+[2019-11-08 10:20:35]SEND MSG, MSGID: 86, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:21:35]method GetVehicleStatus succ
+[2019-11-08 10:21:35]method GetACStatus succ
+[2019-11-08 10:21:35]method GetTyreData succ
+[2019-11-08 10:21:35]method getChargeStorStatus succ
+[2019-11-08 10:21:35]method GetVCUStatus succ
+[2019-11-08 10:21:35]method getChgeData succ
+[2019-11-08 10:21:35]SEND MSG, MSGID: 87, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:22:35]method GetVehicleStatus succ
+[2019-11-08 10:22:35]method GetACStatus succ
+[2019-11-08 10:22:35]method GetTyreData succ
+[2019-11-08 10:22:35]method getChargeStorStatus succ
+[2019-11-08 10:22:35]method GetVCUStatus succ
+[2019-11-08 10:22:35]method getChgeData succ
+[2019-11-08 10:22:35]SEND MSG, MSGID: 88, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:23:36]method GetVehicleStatus succ
+[2019-11-08 10:23:36]method GetACStatus succ
+[2019-11-08 10:23:36]method GetTyreData succ
+[2019-11-08 10:23:36]method getChargeStorStatus succ
+[2019-11-08 10:23:36]method GetVCUStatus succ
+[2019-11-08 10:23:36]method getChgeData succ
+[2019-11-08 10:23:36]SEND MSG, MSGID: 89, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:24:36]method GetVehicleStatus succ
+[2019-11-08 10:24:36]method GetACStatus succ
+[2019-11-08 10:24:36]method GetTyreData succ
+[2019-11-08 10:24:36]method getChargeStorStatus succ
+[2019-11-08 10:24:36]method GetVCUStatus succ
+[2019-11-08 10:24:36]method getChgeData succ
+[2019-11-08 10:24:36]SEND MSG, MSGID: 90, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:25:36]method GetVehicleStatus succ
+[2019-11-08 10:25:36]method GetACStatus succ
+[2019-11-08 10:25:36]method GetTyreData succ
+[2019-11-08 10:25:36]method getChargeStorStatus succ
+[2019-11-08 10:25:36]method GetVCUStatus succ
+[2019-11-08 10:25:36]method getChgeData succ
+[2019-11-08 10:25:36]SEND MSG, MSGID: 91, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:26:36]method GetVehicleStatus succ
+[2019-11-08 10:26:36]method GetACStatus succ
+[2019-11-08 10:26:36]method GetTyreData succ
+[2019-11-08 10:26:36]method getChargeStorStatus succ
+[2019-11-08 10:26:36]method GetVCUStatus succ
+[2019-11-08 10:26:36]method getChgeData succ
+[2019-11-08 10:26:36]SEND MSG, MSGID: 92, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:27:36]method GetVehicleStatus succ
+[2019-11-08 10:27:36]method GetACStatus succ
+[2019-11-08 10:27:36]method GetTyreData succ
+[2019-11-08 10:27:36]method getChargeStorStatus succ
+[2019-11-08 10:27:36]method GetVCUStatus succ
+[2019-11-08 10:27:36]method getChgeData succ
+[2019-11-08 10:27:36]SEND MSG, MSGID: 93, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:28:36]method GetVehicleStatus succ
+[2019-11-08 10:28:36]method GetACStatus succ
+[2019-11-08 10:28:36]method GetTyreData succ
+[2019-11-08 10:28:36]method getChargeStorStatus succ
+[2019-11-08 10:28:36]method GetVCUStatus succ
+[2019-11-08 10:28:36]method getChgeData succ
+[2019-11-08 10:28:36]SEND MSG, MSGID: 94, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:29:36]method GetVehicleStatus succ
+[2019-11-08 10:29:36]method GetACStatus succ
+[2019-11-08 10:29:36]method GetTyreData succ
+[2019-11-08 10:29:36]method getChargeStorStatus succ
+[2019-11-08 10:29:36]method GetVCUStatus succ
+[2019-11-08 10:29:36]method getChgeData succ
+[2019-11-08 10:29:36]SEND MSG, MSGID: 95, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:30:36]method GetVehicleStatus succ
+[2019-11-08 10:30:36]method GetACStatus succ
+[2019-11-08 10:30:36]method GetTyreData succ
+[2019-11-08 10:30:36]method getChargeStorStatus succ
+[2019-11-08 10:30:36]method GetVCUStatus succ
+[2019-11-08 10:30:36]method getChgeData succ
+[2019-11-08 10:30:36]SEND MSG, MSGID: 96, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:31:37]method GetVehicleStatus succ
+[2019-11-08 10:31:37]method GetACStatus succ
+[2019-11-08 10:31:37]method GetTyreData succ
+[2019-11-08 10:31:37]method getChargeStorStatus succ
+[2019-11-08 10:31:37]method GetVCUStatus succ
+[2019-11-08 10:31:37]method getChgeData succ
+[2019-11-08 10:31:37]SEND MSG, MSGID: 97, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:32:37]method GetVehicleStatus succ
+[2019-11-08 10:32:37]method GetACStatus succ
+[2019-11-08 10:32:37]method GetTyreData succ
+[2019-11-08 10:32:37]method getChargeStorStatus succ
+[2019-11-08 10:32:37]method GetVCUStatus succ
+[2019-11-08 10:32:37]method getChgeData succ
+[2019-11-08 10:32:37]SEND MSG, MSGID: 98, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:33:37]method GetVehicleStatus succ
+[2019-11-08 10:33:37]method GetACStatus succ
+[2019-11-08 10:33:37]method GetTyreData succ
+[2019-11-08 10:33:37]method getChargeStorStatus succ
+[2019-11-08 10:33:37]method GetVCUStatus succ
+[2019-11-08 10:33:37]method getChgeData succ
+[2019-11-08 10:33:37]SEND MSG, MSGID: 99, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:34:37]method GetVehicleStatus succ
+[2019-11-08 10:34:37]method GetACStatus succ
+[2019-11-08 10:34:37]method GetTyreData succ
+[2019-11-08 10:34:37]method getChargeStorStatus succ
+[2019-11-08 10:34:37]method GetVCUStatus succ
+[2019-11-08 10:34:37]method getChgeData succ
+[2019-11-08 10:34:37]SEND MSG, MSGID: 100, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:35:37]method GetVehicleStatus succ
+[2019-11-08 10:35:37]method GetACStatus succ
+[2019-11-08 10:35:37]method GetTyreData succ
+[2019-11-08 10:35:37]method getChargeStorStatus succ
+[2019-11-08 10:35:37]method GetVCUStatus succ
+[2019-11-08 10:35:37]method getChgeData succ
+[2019-11-08 10:35:37]SEND MSG, MSGID: 101, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:36:37]method GetVehicleStatus succ
+[2019-11-08 10:36:37]method GetACStatus succ
+[2019-11-08 10:36:37]method GetTyreData succ
+[2019-11-08 10:36:37]method getChargeStorStatus succ
+[2019-11-08 10:36:37]method GetVCUStatus succ
+[2019-11-08 10:36:37]method getChgeData succ
+[2019-11-08 10:36:37]SEND MSG, MSGID: 102, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:37:37]method GetVehicleStatus succ
+[2019-11-08 10:37:37]method GetACStatus succ
+[2019-11-08 10:37:37]method GetTyreData succ
+[2019-11-08 10:37:37]method getChargeStorStatus succ
+[2019-11-08 10:37:37]method GetVCUStatus succ
+[2019-11-08 10:37:37]method getChgeData succ
+[2019-11-08 10:37:37]SEND MSG, MSGID: 103, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:38:38]method GetVehicleStatus succ
+[2019-11-08 10:38:38]method GetACStatus succ
+[2019-11-08 10:38:38]method GetTyreData succ
+[2019-11-08 10:38:38]method getChargeStorStatus succ
+[2019-11-08 10:38:38]method GetVCUStatus succ
+[2019-11-08 10:38:38]method getChgeData succ
+[2019-11-08 10:38:38]SEND MSG, MSGID: 104, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:39:38]method GetVehicleStatus succ
+[2019-11-08 10:39:38]method GetACStatus succ
+[2019-11-08 10:39:38]method GetTyreData succ
+[2019-11-08 10:39:38]method getChargeStorStatus succ
+[2019-11-08 10:39:38]method GetVCUStatus succ
+[2019-11-08 10:39:38]method getChgeData succ
+[2019-11-08 10:39:38]SEND MSG, MSGID: 105, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:40:38]method GetVehicleStatus succ
+[2019-11-08 10:40:38]method GetACStatus succ
+[2019-11-08 10:40:38]method GetTyreData succ
+[2019-11-08 10:40:38]method getChargeStorStatus succ
+[2019-11-08 10:40:38]method GetVCUStatus succ
+[2019-11-08 10:40:38]method getChgeData succ
+[2019-11-08 10:40:38]SEND MSG, MSGID: 106, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:41:38]method GetVehicleStatus succ
+[2019-11-08 10:41:38]method GetACStatus succ
+[2019-11-08 10:41:38]method GetTyreData succ
+[2019-11-08 10:41:38]method getChargeStorStatus succ
+[2019-11-08 10:41:38]method GetVCUStatus succ
+[2019-11-08 10:41:38]method getChgeData succ
+[2019-11-08 10:41:38]SEND MSG, MSGID: 107, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:42:38]method GetVehicleStatus succ
+[2019-11-08 10:42:38]method GetACStatus succ
+[2019-11-08 10:42:38]method GetTyreData succ
+[2019-11-08 10:42:38]method getChargeStorStatus succ
+[2019-11-08 10:42:38]method GetVCUStatus succ
+[2019-11-08 10:42:38]method getChgeData succ
+[2019-11-08 10:42:38]SEND MSG, MSGID: 108, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:43:38]method GetVehicleStatus succ
+[2019-11-08 10:43:38]method GetACStatus succ
+[2019-11-08 10:43:38]method GetTyreData succ
+[2019-11-08 10:43:38]method getChargeStorStatus succ
+[2019-11-08 10:43:38]method GetVCUStatus succ
+[2019-11-08 10:43:38]method getChgeData succ
+[2019-11-08 10:43:38]SEND MSG, MSGID: 109, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:44:38]method GetVehicleStatus succ
+[2019-11-08 10:44:38]method GetACStatus succ
+[2019-11-08 10:44:38]method GetTyreData succ
+[2019-11-08 10:44:38]method getChargeStorStatus succ
+[2019-11-08 10:44:38]method GetVCUStatus succ
+[2019-11-08 10:44:38]method getChgeData succ
+[2019-11-08 10:44:38]SEND MSG, MSGID: 110, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:45:38]method GetVehicleStatus succ
+[2019-11-08 10:45:38]method GetACStatus succ
+[2019-11-08 10:45:38]method GetTyreData succ
+[2019-11-08 10:45:38]method getChargeStorStatus succ
+[2019-11-08 10:45:38]method GetVCUStatus succ
+[2019-11-08 10:45:38]method getChgeData succ
+[2019-11-08 10:45:38]SEND MSG, MSGID: 111, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:46:39]method GetVehicleStatus succ
+[2019-11-08 10:46:39]method GetACStatus succ
+[2019-11-08 10:46:39]method GetTyreData succ
+[2019-11-08 10:46:39]method getChargeStorStatus succ
+[2019-11-08 10:46:39]method GetVCUStatus succ
+[2019-11-08 10:46:39]method getChgeData succ
+[2019-11-08 10:46:39]SEND MSG, MSGID: 112, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:47:39]method GetVehicleStatus succ
+[2019-11-08 10:47:39]method GetACStatus succ
+[2019-11-08 10:47:39]method GetTyreData succ
+[2019-11-08 10:47:39]method getChargeStorStatus succ
+[2019-11-08 10:47:39]method GetVCUStatus succ
+[2019-11-08 10:47:39]method getChgeData succ
+[2019-11-08 10:47:39]SEND MSG, MSGID: 113, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:48:39]method GetVehicleStatus succ
+[2019-11-08 10:48:39]method GetACStatus succ
+[2019-11-08 10:48:39]method GetTyreData succ
+[2019-11-08 10:48:39]method getChargeStorStatus succ
+[2019-11-08 10:48:39]method GetVCUStatus succ
+[2019-11-08 10:48:39]method getChgeData succ
+[2019-11-08 10:48:39]SEND MSG, MSGID: 114, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:49:39]method GetVehicleStatus succ
+[2019-11-08 10:49:39]method GetACStatus succ
+[2019-11-08 10:49:39]method GetTyreData succ
+[2019-11-08 10:49:39]method getChargeStorStatus succ
+[2019-11-08 10:49:39]method GetVCUStatus succ
+[2019-11-08 10:49:39]method getChgeData succ
+[2019-11-08 10:49:39]SEND MSG, MSGID: 115, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:50:39]method GetVehicleStatus succ
+[2019-11-08 10:50:39]method GetACStatus succ
+[2019-11-08 10:50:39]method GetTyreData succ
+[2019-11-08 10:50:39]method getChargeStorStatus succ
+[2019-11-08 10:50:39]method GetVCUStatus succ
+[2019-11-08 10:50:39]method getChgeData succ
+[2019-11-08 10:50:39]SEND MSG, MSGID: 116, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:51:39]method GetVehicleStatus succ
+[2019-11-08 10:51:39]method GetACStatus succ
+[2019-11-08 10:51:39]method GetTyreData succ
+[2019-11-08 10:51:39]method getChargeStorStatus succ
+[2019-11-08 10:51:39]method GetVCUStatus succ
+[2019-11-08 10:51:39]method getChgeData succ
+[2019-11-08 10:51:39]SEND MSG, MSGID: 117, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:52:39]method GetVehicleStatus succ
+[2019-11-08 10:52:39]method GetACStatus succ
+[2019-11-08 10:52:39]method GetTyreData succ
+[2019-11-08 10:52:39]method getChargeStorStatus succ
+[2019-11-08 10:52:39]method GetVCUStatus succ
+[2019-11-08 10:52:39]method getChgeData succ
+[2019-11-08 10:52:39]SEND MSG, MSGID: 118, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:53:40]method GetVehicleStatus succ
+[2019-11-08 10:53:40]method GetACStatus succ
+[2019-11-08 10:53:40]method GetTyreData succ
+[2019-11-08 10:53:40]method getChargeStorStatus succ
+[2019-11-08 10:53:40]method GetVCUStatus succ
+[2019-11-08 10:53:40]method getChgeData succ
+[2019-11-08 10:53:40]SEND MSG, MSGID: 119, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:54:40]method GetVehicleStatus succ
+[2019-11-08 10:54:40]method GetACStatus succ
+[2019-11-08 10:54:40]method GetTyreData succ
+[2019-11-08 10:54:40]method getChargeStorStatus succ
+[2019-11-08 10:54:40]method GetVCUStatus succ
+[2019-11-08 10:54:40]method getChgeData succ
+[2019-11-08 10:54:40]SEND MSG, MSGID: 120, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:55:40]method GetVehicleStatus succ
+[2019-11-08 10:55:40]method GetACStatus succ
+[2019-11-08 10:55:40]method GetTyreData succ
+[2019-11-08 10:55:40]method getChargeStorStatus succ
+[2019-11-08 10:55:40]method GetVCUStatus succ
+[2019-11-08 10:55:40]method getChgeData succ
+[2019-11-08 10:55:40]SEND MSG, MSGID: 121, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:56:40]method GetVehicleStatus succ
+[2019-11-08 10:56:40]method GetACStatus succ
+[2019-11-08 10:56:40]method GetTyreData succ
+[2019-11-08 10:56:40]method getChargeStorStatus succ
+[2019-11-08 10:56:40]method GetVCUStatus succ
+[2019-11-08 10:56:40]method getChgeData succ
+[2019-11-08 10:56:40]SEND MSG, MSGID: 122, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:57:40]method GetVehicleStatus succ
+[2019-11-08 10:57:40]method GetACStatus succ
+[2019-11-08 10:57:40]method GetTyreData succ
+[2019-11-08 10:57:40]method getChargeStorStatus succ
+[2019-11-08 10:57:40]method GetVCUStatus succ
+[2019-11-08 10:57:40]method getChgeData succ
+[2019-11-08 10:57:40]SEND MSG, MSGID: 123, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:58:40]method GetVehicleStatus succ
+[2019-11-08 10:58:40]method GetACStatus succ
+[2019-11-08 10:58:40]method GetTyreData succ
+[2019-11-08 10:58:40]method getChargeStorStatus succ
+[2019-11-08 10:58:40]method GetVCUStatus succ
+[2019-11-08 10:58:40]method getChgeData succ
+[2019-11-08 10:58:40]SEND MSG, MSGID: 124, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 10:59:40]method GetVehicleStatus succ
+[2019-11-08 10:59:40]method GetACStatus succ
+[2019-11-08 10:59:40]method GetTyreData succ
+[2019-11-08 10:59:40]method getChargeStorStatus succ
+[2019-11-08 10:59:40]method GetVCUStatus succ
+[2019-11-08 10:59:40]method getChgeData succ
+[2019-11-08 10:59:40]SEND MSG, MSGID: 125, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:00:40]method GetVehicleStatus succ
+[2019-11-08 11:00:40]method GetACStatus succ
+[2019-11-08 11:00:40]method GetTyreData succ
+[2019-11-08 11:00:40]method getChargeStorStatus succ
+[2019-11-08 11:00:41]method GetVCUStatus succ
+[2019-11-08 11:00:41]method getChgeData succ
+[2019-11-08 11:00:41]SEND MSG, MSGID: 126, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:01:41]method GetVehicleStatus succ
+[2019-11-08 11:01:41]method GetACStatus succ
+[2019-11-08 11:01:41]method GetTyreData succ
+[2019-11-08 11:01:41]method getChargeStorStatus succ
+[2019-11-08 11:01:41]method GetVCUStatus succ
+[2019-11-08 11:01:41]method getChgeData succ
+[2019-11-08 11:01:41]SEND MSG, MSGID: 127, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:02:41]method GetVehicleStatus succ
+[2019-11-08 11:02:41]method GetACStatus succ
+[2019-11-08 11:02:41]method GetTyreData succ
+[2019-11-08 11:02:41]method getChargeStorStatus succ
+[2019-11-08 11:02:41]method GetVCUStatus succ
+[2019-11-08 11:02:41]method getChgeData succ
+[2019-11-08 11:02:41]SEND MSG, MSGID: 128, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:03:41]method GetVehicleStatus succ
+[2019-11-08 11:03:41]method GetACStatus succ
+[2019-11-08 11:03:41]method GetTyreData succ
+[2019-11-08 11:03:41]method getChargeStorStatus succ
+[2019-11-08 11:03:41]method GetVCUStatus succ
+[2019-11-08 11:03:41]method getChgeData succ
+[2019-11-08 11:03:41]SEND MSG, MSGID: 129, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:04:41]method GetVehicleStatus succ
+[2019-11-08 11:04:41]method GetACStatus succ
+[2019-11-08 11:04:41]method GetTyreData succ
+[2019-11-08 11:04:41]method getChargeStorStatus succ
+[2019-11-08 11:04:41]method GetVCUStatus succ
+[2019-11-08 11:04:41]method getChgeData succ
+[2019-11-08 11:04:41]SEND MSG, MSGID: 130, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:05:41]method GetVehicleStatus succ
+[2019-11-08 11:05:41]method GetACStatus succ
+[2019-11-08 11:05:41]method GetTyreData succ
+[2019-11-08 11:05:41]method getChargeStorStatus succ
+[2019-11-08 11:05:41]method GetVCUStatus succ
+[2019-11-08 11:05:41]method getChgeData succ
+[2019-11-08 11:05:41]SEND MSG, MSGID: 131, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:06:41]method GetVehicleStatus succ
+[2019-11-08 11:06:41]method GetACStatus succ
+[2019-11-08 11:06:41]method GetTyreData succ
+[2019-11-08 11:06:41]method getChargeStorStatus succ
+[2019-11-08 11:06:41]method GetVCUStatus succ
+[2019-11-08 11:06:41]method getChgeData succ
+[2019-11-08 11:06:41]SEND MSG, MSGID: 132, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:07:41]method GetVehicleStatus succ
+[2019-11-08 11:07:41]method GetACStatus succ
+[2019-11-08 11:07:41]method GetTyreData succ
+[2019-11-08 11:07:41]method getChargeStorStatus succ
+[2019-11-08 11:07:41]method GetVCUStatus succ
+[2019-11-08 11:07:41]method getChgeData succ
+[2019-11-08 11:07:41]SEND MSG, MSGID: 133, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:08:42]method GetVehicleStatus succ
+[2019-11-08 11:08:42]method GetACStatus succ
+[2019-11-08 11:08:42]method GetTyreData succ
+[2019-11-08 11:08:42]method getChargeStorStatus succ
+[2019-11-08 11:08:42]method GetVCUStatus succ
+[2019-11-08 11:08:42]method getChgeData succ
+[2019-11-08 11:08:42]SEND MSG, MSGID: 134, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:09:42]method GetVehicleStatus succ
+[2019-11-08 11:09:42]method GetACStatus succ
+[2019-11-08 11:09:42]method GetTyreData succ
+[2019-11-08 11:09:42]method getChargeStorStatus succ
+[2019-11-08 11:09:42]method GetVCUStatus succ
+[2019-11-08 11:09:42]method getChgeData succ
+[2019-11-08 11:09:42]SEND MSG, MSGID: 135, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:10:42]method GetVehicleStatus succ
+[2019-11-08 11:10:42]method GetACStatus succ
+[2019-11-08 11:10:42]method GetTyreData succ
+[2019-11-08 11:10:42]method getChargeStorStatus succ
+[2019-11-08 11:10:42]method GetVCUStatus succ
+[2019-11-08 11:10:42]method getChgeData succ
+[2019-11-08 11:10:42]SEND MSG, MSGID: 136, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:11:42]method GetVehicleStatus succ
+[2019-11-08 11:11:42]method GetACStatus succ
+[2019-11-08 11:11:42]method GetTyreData succ
+[2019-11-08 11:11:42]method getChargeStorStatus succ
+[2019-11-08 11:11:42]method GetVCUStatus succ
+[2019-11-08 11:11:42]method getChgeData succ
+[2019-11-08 11:11:42]SEND MSG, MSGID: 137, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:12:42]method GetVehicleStatus succ
+[2019-11-08 11:12:42]method GetACStatus succ
+[2019-11-08 11:12:42]method GetTyreData succ
+[2019-11-08 11:12:42]method getChargeStorStatus succ
+[2019-11-08 11:12:42]method GetVCUStatus succ
+[2019-11-08 11:12:42]method getChgeData succ
+[2019-11-08 11:12:42]SEND MSG, MSGID: 138, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:13:42]method GetVehicleStatus succ
+[2019-11-08 11:13:42]method GetACStatus succ
+[2019-11-08 11:13:42]method GetTyreData succ
+[2019-11-08 11:13:42]method getChargeStorStatus succ
+[2019-11-08 11:13:42]method GetVCUStatus succ
+[2019-11-08 11:13:42]method getChgeData succ
+[2019-11-08 11:13:42]SEND MSG, MSGID: 139, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:14:42]method GetVehicleStatus succ
+[2019-11-08 11:14:42]method GetACStatus succ
+[2019-11-08 11:14:42]method GetTyreData succ
+[2019-11-08 11:14:42]method getChargeStorStatus succ
+[2019-11-08 11:14:42]method GetVCUStatus succ
+[2019-11-08 11:14:42]method getChgeData succ
+[2019-11-08 11:14:42]SEND MSG, MSGID: 140, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:15:43]method GetVehicleStatus succ
+[2019-11-08 11:15:43]method GetACStatus succ
+[2019-11-08 11:15:43]method GetTyreData succ
+[2019-11-08 11:15:43]method getChargeStorStatus succ
+[2019-11-08 11:15:43]method GetVCUStatus succ
+[2019-11-08 11:15:43]method getChgeData succ
+[2019-11-08 11:15:43]SEND MSG, MSGID: 141, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:16:43]method GetVehicleStatus succ
+[2019-11-08 11:16:43]method GetACStatus succ
+[2019-11-08 11:16:43]method GetTyreData succ
+[2019-11-08 11:16:43]method getChargeStorStatus succ
+[2019-11-08 11:16:43]method GetVCUStatus succ
+[2019-11-08 11:16:43]method getChgeData succ
+[2019-11-08 11:16:43]SEND MSG, MSGID: 142, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:17:43]method GetVehicleStatus succ
+[2019-11-08 11:17:43]method GetACStatus succ
+[2019-11-08 11:17:43]method GetTyreData succ
+[2019-11-08 11:17:43]method getChargeStorStatus succ
+[2019-11-08 11:17:43]method GetVCUStatus succ
+[2019-11-08 11:17:43]method getChgeData succ
+[2019-11-08 11:17:43]SEND MSG, MSGID: 143, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:18:43]method GetVehicleStatus succ
+[2019-11-08 11:18:43]method GetACStatus succ
+[2019-11-08 11:18:43]method GetTyreData succ
+[2019-11-08 11:18:43]method getChargeStorStatus succ
+[2019-11-08 11:18:43]method GetVCUStatus succ
+[2019-11-08 11:18:43]method getChgeData succ
+[2019-11-08 11:18:43]SEND MSG, MSGID: 144, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:19:43]method GetVehicleStatus succ
+[2019-11-08 11:19:43]method GetACStatus succ
+[2019-11-08 11:19:43]method GetTyreData succ
+[2019-11-08 11:19:43]method getChargeStorStatus succ
+[2019-11-08 11:19:43]method GetVCUStatus succ
+[2019-11-08 11:19:43]method getChgeData succ
+[2019-11-08 11:19:43]SEND MSG, MSGID: 145, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:20:43]method GetVehicleStatus succ
+[2019-11-08 11:20:43]method GetACStatus succ
+[2019-11-08 11:20:43]method GetTyreData succ
+[2019-11-08 11:20:43]method getChargeStorStatus succ
+[2019-11-08 11:20:43]method GetVCUStatus succ
+[2019-11-08 11:20:43]method getChgeData succ
+[2019-11-08 11:20:43]SEND MSG, MSGID: 146, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:21:43]method GetVehicleStatus succ
+[2019-11-08 11:21:43]method GetACStatus succ
+[2019-11-08 11:21:43]method GetTyreData succ
+[2019-11-08 11:21:43]method getChargeStorStatus succ
+[2019-11-08 11:21:43]method GetVCUStatus succ
+[2019-11-08 11:21:43]method getChgeData succ
+[2019-11-08 11:21:43]SEND MSG, MSGID: 147, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:22:44]method GetVehicleStatus succ
+[2019-11-08 11:22:44]method GetACStatus succ
+[2019-11-08 11:22:44]method GetTyreData succ
+[2019-11-08 11:22:44]method getChargeStorStatus succ
+[2019-11-08 11:22:44]method GetVCUStatus succ
+[2019-11-08 11:22:44]method getChgeData succ
+[2019-11-08 11:22:44]SEND MSG, MSGID: 148, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:23:44]method GetVehicleStatus succ
+[2019-11-08 11:23:44]method GetACStatus succ
+[2019-11-08 11:23:44]method GetTyreData succ
+[2019-11-08 11:23:44]method getChargeStorStatus succ
+[2019-11-08 11:23:44]method GetVCUStatus succ
+[2019-11-08 11:23:44]method getChgeData succ
+[2019-11-08 11:23:44]SEND MSG, MSGID: 149, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:24:44]method GetVehicleStatus succ
+[2019-11-08 11:24:44]method GetACStatus succ
+[2019-11-08 11:24:44]method GetTyreData succ
+[2019-11-08 11:24:44]method getChargeStorStatus succ
+[2019-11-08 11:24:44]method GetVCUStatus succ
+[2019-11-08 11:24:44]method getChgeData succ
+[2019-11-08 11:24:44]SEND MSG, MSGID: 150, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:25:44]method GetVehicleStatus succ
+[2019-11-08 11:25:44]method GetACStatus succ
+[2019-11-08 11:25:44]method GetTyreData succ
+[2019-11-08 11:25:44]method getChargeStorStatus succ
+[2019-11-08 11:25:44]method GetVCUStatus succ
+[2019-11-08 11:25:44]method getChgeData succ
+[2019-11-08 11:25:44]SEND MSG, MSGID: 151, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:26:44]method GetVehicleStatus succ
+[2019-11-08 11:26:44]method GetACStatus succ
+[2019-11-08 11:26:44]method GetTyreData succ
+[2019-11-08 11:26:44]method getChargeStorStatus succ
+[2019-11-08 11:26:44]method GetVCUStatus succ
+[2019-11-08 11:26:44]method getChgeData succ
+[2019-11-08 11:26:44]SEND MSG, MSGID: 152, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:27:44]method GetVehicleStatus succ
+[2019-11-08 11:27:44]method GetACStatus succ
+[2019-11-08 11:27:44]method GetTyreData succ
+[2019-11-08 11:27:44]method getChargeStorStatus succ
+[2019-11-08 11:27:44]method GetVCUStatus succ
+[2019-11-08 11:27:44]method getChgeData succ
+[2019-11-08 11:27:44]SEND MSG, MSGID: 153, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:28:44]method GetVehicleStatus succ
+[2019-11-08 11:28:44]method GetACStatus succ
+[2019-11-08 11:28:44]method GetTyreData succ
+[2019-11-08 11:28:44]method getChargeStorStatus succ
+[2019-11-08 11:28:44]method GetVCUStatus succ
+[2019-11-08 11:28:44]method getChgeData succ
+[2019-11-08 11:28:44]SEND MSG, MSGID: 154, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:29:44]method GetVehicleStatus succ
+[2019-11-08 11:29:44]method GetACStatus succ
+[2019-11-08 11:29:44]method GetTyreData succ
+[2019-11-08 11:29:44]method getChargeStorStatus succ
+[2019-11-08 11:29:44]method GetVCUStatus succ
+[2019-11-08 11:29:44]method getChgeData succ
+[2019-11-08 11:29:44]SEND MSG, MSGID: 155, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:30:45]method GetVehicleStatus succ
+[2019-11-08 11:30:45]method GetACStatus succ
+[2019-11-08 11:30:45]method GetTyreData succ
+[2019-11-08 11:30:45]method getChargeStorStatus succ
+[2019-11-08 11:30:45]method GetVCUStatus succ
+[2019-11-08 11:30:45]method getChgeData succ
+[2019-11-08 11:30:45]SEND MSG, MSGID: 156, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:31:45]method GetVehicleStatus succ
+[2019-11-08 11:31:45]method GetACStatus succ
+[2019-11-08 11:31:45]method GetTyreData succ
+[2019-11-08 11:31:45]method getChargeStorStatus succ
+[2019-11-08 11:31:45]method GetVCUStatus succ
+[2019-11-08 11:31:45]method getChgeData succ
+[2019-11-08 11:31:45]SEND MSG, MSGID: 157, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:32:45]method GetVehicleStatus succ
+[2019-11-08 11:32:45]method GetACStatus succ
+[2019-11-08 11:32:45]method GetTyreData succ
+[2019-11-08 11:32:45]method getChargeStorStatus succ
+[2019-11-08 11:32:45]method GetVCUStatus succ
+[2019-11-08 11:32:45]method getChgeData succ
+[2019-11-08 11:32:45]SEND MSG, MSGID: 158, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:33:45]method GetVehicleStatus succ
+[2019-11-08 11:33:45]method GetACStatus succ
+[2019-11-08 11:33:45]method GetTyreData succ
+[2019-11-08 11:33:45]method getChargeStorStatus succ
+[2019-11-08 11:33:45]method GetVCUStatus succ
+[2019-11-08 11:33:45]method getChgeData succ
+[2019-11-08 11:33:45]SEND MSG, MSGID: 159, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:34:45]method GetVehicleStatus succ
+[2019-11-08 11:34:45]method GetACStatus succ
+[2019-11-08 11:34:45]method GetTyreData succ
+[2019-11-08 11:34:45]method getChargeStorStatus succ
+[2019-11-08 11:34:45]method GetVCUStatus succ
+[2019-11-08 11:34:45]method getChgeData succ
+[2019-11-08 11:34:45]SEND MSG, MSGID: 160, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:35:45]method GetVehicleStatus succ
+[2019-11-08 11:35:45]method GetACStatus succ
+[2019-11-08 11:35:45]method GetTyreData succ
+[2019-11-08 11:35:45]method getChargeStorStatus succ
+[2019-11-08 11:35:45]method GetVCUStatus succ
+[2019-11-08 11:35:45]method getChgeData succ
+[2019-11-08 11:35:45]SEND MSG, MSGID: 161, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:36:45]method GetVehicleStatus succ
+[2019-11-08 11:36:45]method GetACStatus succ
+[2019-11-08 11:36:45]method GetTyreData succ
+[2019-11-08 11:36:45]method getChargeStorStatus succ
+[2019-11-08 11:36:45]method GetVCUStatus succ
+[2019-11-08 11:36:45]method getChgeData succ
+[2019-11-08 11:36:45]SEND MSG, MSGID: 162, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:37:46]method GetVehicleStatus succ
+[2019-11-08 11:37:46]method GetACStatus succ
+[2019-11-08 11:37:46]method GetTyreData succ
+[2019-11-08 11:37:46]method getChargeStorStatus succ
+[2019-11-08 11:37:46]method GetVCUStatus succ
+[2019-11-08 11:37:46]method getChgeData succ
+[2019-11-08 11:37:46]SEND MSG, MSGID: 163, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:38:46]method GetVehicleStatus succ
+[2019-11-08 11:38:46]method GetACStatus succ
+[2019-11-08 11:38:46]method GetTyreData succ
+[2019-11-08 11:38:46]method getChargeStorStatus succ
+[2019-11-08 11:38:46]method GetVCUStatus succ
+[2019-11-08 11:38:46]method getChgeData succ
+[2019-11-08 11:38:46]SEND MSG, MSGID: 164, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:39:46]method GetVehicleStatus succ
+[2019-11-08 11:39:46]method GetACStatus succ
+[2019-11-08 11:39:46]method GetTyreData succ
+[2019-11-08 11:39:46]method getChargeStorStatus succ
+[2019-11-08 11:39:46]method GetVCUStatus succ
+[2019-11-08 11:39:46]method getChgeData succ
+[2019-11-08 11:39:46]SEND MSG, MSGID: 165, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:40:46]method GetVehicleStatus succ
+[2019-11-08 11:40:46]method GetACStatus succ
+[2019-11-08 11:40:46]method GetTyreData succ
+[2019-11-08 11:40:46]method getChargeStorStatus succ
+[2019-11-08 11:40:46]method GetVCUStatus succ
+[2019-11-08 11:40:46]method getChgeData succ
+[2019-11-08 11:40:46]SEND MSG, MSGID: 166, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:41:46]method GetVehicleStatus succ
+[2019-11-08 11:41:46]method GetACStatus succ
+[2019-11-08 11:41:46]method GetTyreData succ
+[2019-11-08 11:41:46]method getChargeStorStatus succ
+[2019-11-08 11:41:46]method GetVCUStatus succ
+[2019-11-08 11:41:46]method getChgeData succ
+[2019-11-08 11:41:46]SEND MSG, MSGID: 167, MSGTYPE: VEHICLE_STATUS,
+[2019-11-08 11:42:46]method GetVehicleStatus succ
+[2019-11-08 11:42:46]method GetACStatus succ
+[2019-11-08 11:42:46]method GetTyreData succ
+[2019-11-08 11:42:46]method getChargeStorStatus succ
+[2019-11-08 11:42:46]method GetVCUStatus succ
+[2019-11-08 11:42:46]method getChgeData succ
+[2019-11-08 11:42:46]SEND MSG, MSGID: 168, MSGTYPE: VEHICLE_STATUS,

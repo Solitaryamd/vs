@@ -1,0 +1,3 @@
+﻿  7zip-ver01.cpp
+f:\app_data\vs2017_data\project\7zip-ver01\7zip-ver01\7zip-ver01.cpp(75): warning C4101: “ex”: 未引用的局部变量
+  7zip-ver01.vcxproj -> F:\APP_DATA\VS2017_data\project\7zip-ver01\Debug\7zip-ver01.exe

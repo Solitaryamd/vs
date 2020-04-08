@@ -1,0 +1,121 @@
+01-06 08:00:20.960 I/rescue-service( 2087): ===========================================================
+01-06 08:00:21.100 I/rescue-service( 2087): * rescue-service V2.0(20191031 14:27:09).
+01-06 08:00:21.110 D/rescue-service( 2087): * add multiple call interfaces(20180105).
+01-06 08:00:21.110 D/rescue-service( 2087): * add transfer number and modify telephone fidl(20180226).
+01-06 08:00:21.110 D/rescue-service( 2087): * add configure file(20180322).
+01-06 08:00:21.110 D/rescue-service( 2087): * add configure autoAnswer phone(20180521).
+01-06 08:00:21.110 I/rescue-service( 2087): ===========================================================
+01-06 08:00:21.140 I/rescue-service( 2087): init config1----ecall:yes, bcall:yes, icall:yes.
+01-06 08:00:21.150 I/rescue-service( 2087): init config2----voice:lineout, volume:55, collision:yes, gsersor:yes, airbag:yes, autoAnswer:no.
+01-06 08:00:22.000 D/rescue-service( 2087): msgTimer is running.
+01-06 08:00:22.050 D/rescue-service( 2087): rescue service start successfully.
+01-06 08:00:22.100 D/rescue-service( 2087): register telephone event ok.
+01-06 08:00:22.170 D/rescue-service( 2087): register mcu event ok.
+01-06 08:00:22.200 D/rescue-service( 2087): setPhoneVoice close ok.
+01-06 08:00:22.230 D/rescue-service( 2087): register power event ok.
+01-06 08:00:22.240 D/rescue-service( 2087): getSleepStatus ok, seq:1, mode:1.
+01-06 08:00:20.619 I/rescue-service( 1725): ===========================================================
+01-06 08:00:20.819 I/rescue-service( 1725): * rescue-service V2.0(20191031 14:27:09).
+01-06 08:00:20.819 D/rescue-service( 1725): * add multiple call interfaces(20180105).
+01-06 08:00:20.819 D/rescue-service( 1725): * add transfer number and modify telephone fidl(20180226).
+01-06 08:00:20.819 D/rescue-service( 1725): * add configure file(20180322).
+01-06 08:00:20.819 D/rescue-service( 1725): * add configure autoAnswer phone(20180521).
+01-06 08:00:20.819 I/rescue-service( 1725): ===========================================================
+01-06 08:00:20.859 I/rescue-service( 1725): init config1----ecall:yes, bcall:yes, icall:yes.
+01-06 08:00:20.859 I/rescue-service( 1725): init config2----voice:lineout, volume:55, collision:yes, gsersor:yes, airbag:yes, autoAnswer:no.
+01-06 08:00:21.709 D/rescue-service( 1725): msgTimer is running.
+01-06 08:00:21.759 D/rescue-service( 1725): rescue service start successfully.
+01-06 08:00:21.809 D/rescue-service( 1725): register telephone event ok.
+01-06 08:00:21.859 D/rescue-service( 1725): register mcu event ok.
+01-06 08:00:21.889 D/rescue-service( 1725): setPhoneVoice close ok.
+01-06 08:00:21.919 D/rescue-service( 1725): register power event ok.
+01-06 08:00:21.919 D/rescue-service( 1725): getSleepStatus ok, seq:1, mode:1.
+01-06 08:00:20.653 I/rescue-service( 1728): ===========================================================
+01-06 08:00:20.923 I/rescue-service( 1728): * rescue-service V2.0(20191031 14:27:09).
+01-06 08:00:20.923 D/rescue-service( 1728): * add multiple call interfaces(20180105).
+01-06 08:00:20.923 D/rescue-service( 1728): * add transfer number and modify telephone fidl(20180226).
+01-06 08:00:20.933 D/rescue-service( 1728): * add configure file(20180322).
+01-06 08:00:20.933 D/rescue-service( 1728): * add configure autoAnswer phone(20180521).
+01-06 08:00:20.933 I/rescue-service( 1728): ===========================================================
+01-06 08:00:20.983 I/rescue-service( 1728): init config1----ecall:yes, bcall:yes, icall:yes.
+01-06 08:00:20.983 I/rescue-service( 1728): init config2----voice:lineout, volume:55, collision:yes, gsersor:yes, airbag:yes, autoAnswer:no.
+01-06 08:00:21.703 D/rescue-service( 1728): msgTimer is running.
+01-06 08:00:21.753 D/rescue-service( 1728): rescue service start successfully.
+01-06 08:00:21.813 D/rescue-service( 1728): register telephone event ok.
+01-06 08:00:21.873 D/rescue-service( 1728): register mcu event ok.
+01-06 08:00:21.903 D/rescue-service( 1728): setPhoneVoice close ok.
+01-06 08:00:21.933 D/rescue-service( 1728): register power event ok.
+01-06 08:00:21.933 D/rescue-service( 1728): getSleepStatus ok, seq:1, mode:1.
+11-08 08:20:47.509 D/rescue-service( 1728): [sleepListener----seq:2, mode:2]
+11-08 08:20:49.859 D/rescue-service( 1728): [sleepListener----seq:3, mode:3]
+11-08 08:22:22.693 D/rescue-service( 1728): sensorListener----collision:0.
+11-08 08:22:22.733 D/rescue-service( 1728): sensorListener----gsersor:0.
+11-08 08:22:22.763 I/rescue-service( 1728): dataListener----dataType:11, airBag:false.
+11-08 08:22:24.843 D/rescue-service( 1728): [sleepListener----seq:4, mode:1]
+11-08 08:22:25.663 D/rescue-service( 1728): sensorListener----collision:0.
+11-08 08:22:25.713 D/rescue-service( 1728): sensorListener----gsersor:0.
+11-08 08:22:25.743 I/rescue-service( 1728): dataListener----dataType:11, airBag:false.
+01-06 08:00:20.591 I/rescue-service( 1724): ===========================================================
+01-06 08:00:20.891 I/rescue-service( 1724): * rescue-service V2.0(20191031 14:27:09).
+01-06 08:00:20.891 D/rescue-service( 1724): * add multiple call interfaces(20180105).
+01-06 08:00:20.891 D/rescue-service( 1724): * add transfer number and modify telephone fidl(20180226).
+01-06 08:00:20.891 D/rescue-service( 1724): * add configure file(20180322).
+01-06 08:00:20.891 D/rescue-service( 1724): * add configure autoAnswer phone(20180521).
+01-06 08:00:20.891 I/rescue-service( 1724): ===========================================================
+01-06 08:00:20.961 I/rescue-service( 1724): init config1----ecall:yes, bcall:yes, icall:yes.
+01-06 08:00:20.961 I/rescue-service( 1724): init config2----voice:lineout, volume:55, collision:yes, gsersor:yes, airbag:yes, autoAnswer:no.
+01-06 08:00:21.621 D/rescue-service( 1724): msgTimer is running.
+01-06 08:00:21.661 D/rescue-service( 1724): rescue service start successfully.
+01-06 08:00:21.721 D/rescue-service( 1724): register telephone event ok.
+01-06 08:00:21.771 D/rescue-service( 1724): register mcu event ok.
+01-06 08:00:21.801 D/rescue-service( 1724): setPhoneVoice close ok.
+01-06 08:00:21.821 D/rescue-service( 1724): register power event ok.
+01-06 08:00:21.831 D/rescue-service( 1724): getSleepStatus ok, seq:1, mode:1.
+01-06 08:00:21.719 I/rescue-service( 1740): ===========================================================
+01-06 08:00:21.749 I/rescue-service( 1740): * rescue-service V2.0(20191031 14:27:09).
+01-06 08:00:21.749 D/rescue-service( 1740): * add multiple call interfaces(20180105).
+01-06 08:00:21.749 D/rescue-service( 1740): * add transfer number and modify telephone fidl(20180226).
+01-06 08:00:21.749 D/rescue-service( 1740): * add configure file(20180322).
+01-06 08:00:21.749 D/rescue-service( 1740): * add configure autoAnswer phone(20180521).
+01-06 08:00:21.759 I/rescue-service( 1740): ===========================================================
+01-06 08:00:21.829 I/rescue-service( 1740): init config1----ecall:yes, bcall:yes, icall:yes.
+01-06 08:00:21.829 I/rescue-service( 1740): init config2----voice:lineout, volume:55, collision:yes, gsersor:yes, airbag:yes, autoAnswer:no.
+01-06 08:00:22.899 D/rescue-service( 1740): msgTimer is running.
+01-06 08:00:22.989 D/rescue-service( 1740): rescue service start successfully.
+01-06 08:00:23.109 D/rescue-service( 1740): register telephone event ok.
+01-06 08:00:24.309 D/rescue-service( 1740): register mcu event ok.
+01-06 08:00:24.349 D/rescue-service( 1740): setPhoneVoice close ok.
+01-06 08:00:24.389 D/rescue-service( 1740): register power event ok.
+01-06 08:00:24.419 D/rescue-service( 1740): getSleepStatus ok, seq:1, mode:1.
+01-06 08:00:20.575 I/rescue-service( 1725): ===========================================================
+01-06 08:00:20.775 I/rescue-service( 1725): * rescue-service V2.0(20191031 14:27:09).
+01-06 08:00:20.785 D/rescue-service( 1725): * add multiple call interfaces(20180105).
+01-06 08:00:20.785 D/rescue-service( 1725): * add transfer number and modify telephone fidl(20180226).
+01-06 08:00:20.785 D/rescue-service( 1725): * add configure file(20180322).
+01-06 08:00:20.785 D/rescue-service( 1725): * add configure autoAnswer phone(20180521).
+01-06 08:00:20.785 I/rescue-service( 1725): ===========================================================
+01-06 08:00:20.845 I/rescue-service( 1725): init config1----ecall:yes, bcall:yes, icall:yes.
+01-06 08:00:20.855 I/rescue-service( 1725): init config2----voice:lineout, volume:55, collision:yes, gsersor:yes, airbag:yes, autoAnswer:no.
+01-06 08:00:21.645 D/rescue-service( 1725): msgTimer is running.
+01-06 08:00:21.705 D/rescue-service( 1725): rescue service start successfully.
+01-06 08:00:21.765 D/rescue-service( 1725): register telephone event ok.
+01-06 08:00:21.815 D/rescue-service( 1725): register mcu event ok.
+01-06 08:00:21.845 D/rescue-service( 1725): setPhoneVoice close ok.
+01-06 08:00:21.875 D/rescue-service( 1725): register power event ok.
+01-06 08:00:21.885 D/rescue-service( 1725): getSleepStatus ok, seq:1, mode:1.
+01-06 08:00:19.900 I/rescue-service( 1733): ===========================================================
+01-06 08:00:20.080 I/rescue-service( 1733): * rescue-service V2.0(20191031 14:27:09).
+01-06 08:00:20.090 D/rescue-service( 1733): * add multiple call interfaces(20180105).
+01-06 08:00:20.090 D/rescue-service( 1733): * add transfer number and modify telephone fidl(20180226).
+01-06 08:00:20.090 D/rescue-service( 1733): * add configure file(20180322).
+01-06 08:00:20.090 D/rescue-service( 1733): * add configure autoAnswer phone(20180521).
+01-06 08:00:20.100 I/rescue-service( 1733): ===========================================================
+01-06 08:00:20.150 I/rescue-service( 1733): init config1----ecall:yes, bcall:yes, icall:yes.
+01-06 08:00:20.170 I/rescue-service( 1733): init config2----voice:lineout, volume:55, collision:yes, gsersor:yes, airbag:yes, autoAnswer:no.
+01-06 08:00:21.140 D/rescue-service( 1733): msgTimer is running.
+01-06 08:00:21.190 D/rescue-service( 1733): rescue service start successfully.
+01-06 08:00:21.250 D/rescue-service( 1733): register telephone event ok.
+01-06 08:00:21.300 D/rescue-service( 1733): register mcu event ok.
+01-06 08:00:21.330 D/rescue-service( 1733): setPhoneVoice close ok.
+01-06 08:00:21.360 D/rescue-service( 1733): register power event ok.
+01-06 08:00:21.370 D/rescue-service( 1733): getSleepStatus ok, seq:1, mode:1.

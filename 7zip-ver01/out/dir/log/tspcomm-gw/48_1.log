@@ -1,0 +1,18 @@
+[1980-01-06 08:00:54]
+[1980-01-06 08:00:54]*****************************
+[1980-01-06 08:00:54]           startup          
+[1980-01-06 08:00:54] build: Sep 18 2019 10:01:45 
+[1980-01-06 08:00:54]*****************************
+[1980-01-06 08:00:54]
+[1980-01-06 08:00:55]-[main]- main thread. tid: 1673
+[1980-01-06 08:00:55]-[TimerImpl]- start tid: 1731
+[1980-01-06 08:00:55]-[PoolImpl]- start tid: 1729
+[1980-01-06 08:00:55]-[PoolImpl]- start tid: 1728
+[1980-01-06 08:00:55]-[PoolImpl]- start tid: 1727
+[1980-01-06 08:00:55]-[PoolImpl]- start tid: 1730
+[1980-01-06 08:00:55]-[RecvThreadImpl]- create the recv thread. tid: 1733
+[1980-01-06 08:00:55]-[SendThreadImpl]- create the send thread. tid: 1734
+[1980-01-06 08:00:55]-[WorkThreadImpl]- udp client thread. tid: 1732
+[1980-01-06 08:00:55]-[BuildProxy]- subscriber start. buildProxy success.
+[2019-10-30 09:10:35]-[StartSubscribe]- !ota_ ->isAvailable() is true.
+[2019-10-30 09:11:35]-[StartSubscribe]- !ota_ ->isAvailable() is true.

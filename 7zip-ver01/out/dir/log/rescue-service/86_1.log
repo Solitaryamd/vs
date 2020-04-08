@@ -1,0 +1,26 @@
+[1980-01-06 08:00:20]===========================================================
+[1980-01-06 08:00:20]* rescue-service V2.0(20191031 14:27:09).
+[1980-01-06 08:00:20]===========================================================
+[1980-01-06 08:00:20]init config1----ecall:yes, bcall:yes, icall:yes.
+[1980-01-06 08:00:20]init config2----voice:lineout, volume:55, collision:yes, gsersor:yes, airbag:yes, autoAnswer:no.
+[2019-11-07 16:30:21]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:30:24]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:30:45]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:30:54]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:31:06]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:31:18]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:31:27]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:31:39]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:31:51]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:32:00]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:32:12]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:32:24]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:32:33]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:32:45]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:32:57]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:33:06]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:33:18]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:33:30]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:33:42]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:33:51]dataListener----dataType:11, airBag:false.
+[2019-11-07 16:34:03]dataListener----dataType:11, airBag:false.

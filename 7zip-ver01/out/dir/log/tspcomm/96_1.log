@@ -1,0 +1,28 @@
+[1980-01-06 08:00:22]
+[1980-01-06 08:00:22]*****************************
+[1980-01-06 08:00:22]           startup          
+[1980-01-06 08:00:22] build: Oct 31 2019 14:33:06 
+[1980-01-06 08:00:22]*****************************
+[1980-01-06 08:00:22]
+[1980-01-06 08:00:22]OPEN CONF FILE: /etc/qbtsp.conf 
+[1980-01-06 08:00:22]set file conf gateway server addr!
+[1980-01-06 08:00:22]tbox version: DFSK000100020026000000040000 
+[1980-01-06 08:00:22]Service has registered!
+[1980-01-06 08:00:22]Service is available! power-service
+[1980-01-06 08:00:22]Vin changed, Redo login!
+[1980-01-06 08:00:22]TSPClient::startup is running...
+[1980-01-06 08:00:22]get pdid...
+[1980-01-06 08:00:22]use asys conf pdid: DFSK0001000200261910160001000010
+[1980-01-06 08:00:22]get iccid...
+[1980-01-06 08:00:22]use asys conf iccid: 89860918700009221026
+[1980-01-06 08:00:22]subscribePwrService success:  0 1
+[1980-01-06 08:00:22]TSPClient::gval_thread is running...
+[1980-01-06 08:00:22]TSPClient::data_upload is running...
+[1980-01-06 08:00:22]TSPClient::waiting is running...
+[1980-01-06 08:00:22]TSPClient::recieve is running...
+[1980-01-06 08:00:22]SEND MSG, MSGID: 1, MSGTYPE: LOGOUT_REQ,
+[1980-01-06 08:00:22]getPwrMode success:  0 1 1
+[1980-01-06 08:00:22]BROADCAST RECV: POWER RUNNING
+[1980-01-06 08:00:22]sqlite init fail, ret -1, thread safe 1, db path /data/db/tspcomm.db
+[1980-01-06 08:00:22]start to running...
+[1980-01-06 08:00:22]replyPwrMode success:  0 1
